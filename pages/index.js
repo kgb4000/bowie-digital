@@ -265,11 +265,10 @@ export default function Home() {
               <div className="solution-box">
                 <h3>FREE SEO Audit</h3>
                 <p>
-                  Rank higher in the Google Map Pack and increase your online
-                  presence to get in front of more consumers actively searching
-                  for your products or services. Rank higher in the Google Map
-                  Pack and increase your online presence to get in front of more
-                  consumers actively searching for your products or services.
+                  An SEO Audit will let you know what is stopping your website
+                  from ranking higher and appearing on the first page os the
+                  search. It will also make your page better for search engines
+                  and for people seaching for your services.
                 </p>
                 <Link href="/free-seo-audit">
                   <a className="solution-link">Learn more &rsaquo;</a>
