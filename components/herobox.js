@@ -1,0 +1,68 @@
+import styled from 'styled-components'
+import Button from '../components/button'
+
+export default function HeroBox({
+  backgroundHeight,
+  heroText,
+  subText,
+  backgroundImage,
+  buttonText,
+  buttonLink,
+  children,
+}) {
+  return (
+    <Hero backgroundImage={backgroundImage} backgroundHeight={backgroundHeight}>
+      <div className="content">
+        <h2>{heroText}</h2>
+        <p>{subText}</p>
+        {buttonText && (
+          <Button as="a" href={buttonLink}>
+            {buttonText} &#8594;
+          </Button>
+        )}
+        {children}
+      </div>
+    </Hero>
+  )
+}
+
+const Hero = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: ${(props) => props.backgroundImage};
+  background-size: cover;
+  height: ${(props) => props.backgroundHeight};
+  margin-top: -70px;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .content {
+    max-width: 1140px;
+    text-align: center;
+    padding: 0 1rem;
+
+    p {
+      max-width: 50rem;
+      margin: 2rem auto 3rem auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.4rem;
+      margin: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 6rem;
+    }
+  }
+`
