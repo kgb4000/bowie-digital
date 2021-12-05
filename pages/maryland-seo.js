@@ -1125,7 +1125,18 @@ export default function MarylandSEO() {
             <p>
               Cheap SEO prices usually mean cheap SEO services. For those
               prices, your SEO strategy may take years for you to see any
-              results.
+              results or you may not see any results at all.
+            </p>
+            <p>
+              Here are some other reasons why you should avoid{' '}
+              <a
+                href="https://www.searchenginejournal.com/avoid-cheap-seo-packages/245687/#close"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Cheap SEO services
+              </a>
+              .{' '}
             </p>
             <p>Some cheap SEO companies are known to use Black Hat SEO.</p>
             <p>
