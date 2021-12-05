@@ -11,122 +11,204 @@ import { NextSeo } from 'next-seo'
 
 import Link from 'next/link'
 
-
-export default function About () {
+export default function About() {
   const SEO = {
-    title: "About us",
-    titleTemplate: "%s | Bowie Digital Marketing",
-    description: "Want More Customers For Your Local Business? We Specialize In Local SEO, PCC Ads, Web Design And Social Media Ads. Call Us Today.",
+    title: 'About us',
+    titleTemplate: '%s | We Help You Get More Customers',
+    description:
+      'Want More Customers For Your Business? We Specialize in SEO Local SEO and get more customers to your website. Call us today.',
     openGraph: {
-      title: "About us | Bowie Digital Marketing",
-      description: "Want More Customers For Your Local Business? We Specialize In Local SEO, Paid Ads, Web Design And Social Media Ads. Call Us Today."
-    }
+      title: 'About us | We Help You Get More Customers',
+      description:
+        'Want More Customers For Your Local Business? We Specialize In Local SEO, Paid Ads, Web Design And Social Media Ads. Call Us Today.',
+    },
   }
   return (
     <>
-      <NextSeo {... SEO}
-      robotsProps={{
-        nosnippet: true,
-        notranslate: true,
-        noimageindex: true,
-        noarchive: true,
-        maxSnippet: -1,
-        maxImagePreview: 'none',
-        maxVideoPreview: -1,
-      }} />
-      <Header 
-        buttontext="Talk To Us"
-        buttonLink="/contact" 
+      <NextSeo
+        {...SEO}
+        robotsProps={{
+          nosnippet: true,
+          notranslate: true,
+          noimageindex: true,
+          noarchive: true,
+          maxSnippet: -1,
+          maxImagePreview: 'none',
+          maxVideoPreview: -1,
+        }}
       />
-      <HeroBox 
-        backgroundHeight="60vh"
+      <Header buttontext="Talk To Kes" buttonLink="/contact" />
+      <HeroBox
+        backgroundHeight="100vh"
         heroText="About Us"
-        subText="A Digital Marketing Agency in Bowie"
+        subText="All We Do is Search Engine Marketing for Small Businesses in Maryland"
         buttonText="Book a Call"
         buttonLink="/contact"
       />
       <Main>
         <section className="about">
           <div className="container">
-            <h2>A Digital Marketing Agency</h2>
-           
-            <div className="video-container">
-              <div className='player-wrapper'>
+            {/* <div className="video-container">
+              <div className="player-wrapper">
                 <ReactPlayer
-                  className='react-player'
-                  url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-                  width='100%'
-                  height='100%'
+                  className="react-player"
+                  url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                  width="100%"
+                  height="100%"
                 />
               </div>
+            </div> */}
+
+            <h2>Our Vision</h2>
+            <p>
+              Our vision is to help small businesses use search engine
+              optimization to make more money in their business..
+            </p>
+
+            <h2>Our Mission</h2>
+            <p>
+              Our mission is to help one hundred small businesses in Maryland
+              use search engine optimization to make more money. We will do this
+              by:
+            </p>
+            <ol>
+              <li>Teaching small businesses about SEO</li>
+              <li>Showing them how to incorporate it into their marketing</li>
+              <li>Running successful SEO campaigns for our clients</li>
+            </ol>
+
+            <h2>About us</h2>
+            <p>
+              Bowie SEO is a search engine optimization company located in
+              Bowie, Maryland specializing in search engine optimization, local
+              search engine optimization, and SEO Audits.{' '}
+            </p>
+
+            <p>
+              We help Maryland businesses improve their organic rankings by
+              auditing and correcting harmful technical, on-page, and off-page
+              issues on their website.
+            </p>
+            <p>
+              This means we do all of the hard work for you. We create an action
+              plan to fix these errors and fix them.
+            </p>
+            <p>Our second service is Local SEO.</p>
+
+            <p>
+              This involves taking over your Google Business Profile page (or
+              creating one if it doesn't exist) and managing all location
+              related content like Geo-tags, Categories, Hours of operation,
+              address, phone number etc.{' '}
+            </p>
+
+            <p>
+              Put simply, this makes sure that Google has all of the necessary
+              information to correctly place your business in results for
+              searchers close to you. Like many other cities across the country,
+              Bowie is constantly growing, which means many locals are looking
+              for the best place to eat, shop or have their car repaired.
+            </p>
+
+            <p>
+              Making sure that you rank high for local keywords will allow you
+              to capture customers who are within 5-10 miles of your business.
+            </p>
+
+            <p>The final service we offer is organic SEO.</p>
+
+            <p>
+              This involves creating a plan including an onsite audit and
+              competitive analysis to determine what steps need to be taken in
+              order to improve your ranking.
+            </p>
+
+            <p>
+              Once this has been done changes are implemented onto the website
+              so it better follows Google guidelines. We can also help you build
+              links which will play a big part in improving your rankings over
+              time.
+            </p>
+            <p>
+              Our company prides itself on being able to deliver real results
+              with tangible improvements in organic traffic for our clients. If
+              you want to outrank your competitors without overspending on
+              social media ads, then contact us today.
+            </p>
+            <div className="btn">
+              <Link href="/free-seo-audit">
+                <a>
+                  <Button>Free SEO Audit &#8594;</Button>
+                </a>
+              </Link>
             </div>
+            <h2>Why Work With Bowie SEO</h2>
+            <p>
+              We are a local business and an active part of the local business
+              community. We want to help small business owners in our community
+              grow with search engine optimization.
+            </p>
+            <p>
+              We're not an out of town SEO agency or super large SEO company
+              pretending to care about your business. Because when your business
+              grows, the entire community grows, and that's want we want.
+            </p>
+            <p>
+              We belive in doing search engine optimization the right way, so
+              that we get our customers the best results.
+            </p>
 
-            <p>We are Bowie Digital Marketing. We serve local business owners that want to see more traffic coming from their website, and also want to rank higher on Google Maps.</p>
-            
-            <p>Have you ever searched for a product or service, let's say a plumber, on your smartphone.</p>
-
-            <p>The search comes up.</p>
-
-            <p>First are the paid ads on the top, the local listings second, which is called the Map Pack, and the organic search on the bottom.</p>
-
-            <p>You look at the first 3 lisitings at the top of the Map Pack. They all have great reviews.</p>
-
-            <p>You want to see more so you click on the see-more-results button to see more local business.</p>
-
-
-            <p>At Bowie Digital Marketing, we help local business get to the first page of the Map Pack.</p>
-
-          
-
-            <p><b>How many customers are finding your business on Google?</b></p>
-           
+            <p>When you work with Bowie SEO, you get:</p>
+            <ul>
+              <li>A FREE SEO Audit</li>
+              <li>No monthly contacts.</li>
+              <li>Cancel anytime.</li>
+              <li>
+                To work with a local Maryland SEO company doing business with
+                other local businesses, not an SEO company in another state.
+              </li>
+              <li>
+                Only White Hat SEO practices that won&apos;t get you website
+                banned.
+              </li>
+              <li>
+                A company that works with one business per industry in our area.
+                Example. If we work with a roofer in Bowie, we will not work
+                with another roofer in Bowie, or within 30 miles of your
+                teritory.
+              </li>
+              <li>Weekly updates and monthly reports.</li>
+              <li>An SEO company that really cares about your business.</li>
+            </ul>
+            <p>
+              We don't offer packages, because every businnes will need
+              different SEO services. We create a custom strategy for each
+              business we work work and save them money by not paying for
+              services they don't need.
+            </p>
+            <h2>Small Businesses We are Proud to Work With</h2>
+            <ul>
+              <li>Septic Contractors</li>
+              <li>General Contractors</li>
+              <li>Plumbers</li>
+              <li>HVAC Contractors</li>
+              <li>Pool Builders</li>
+              <li>Roofers</li>
+              <li>Concrete specialists</li>
+              <li>Asphalt pavers</li>
+              <li>and more</li>
+            </ul>
+            <p>
+              If you have a small business in Maryland, and want to see how SEO
+              can help your business, fill out the form, or give us a call.
+            </p>
+          </div>
           <div className="btn">
-            <Link href="/services/free-website-and-seo-audit">
+            <Link href="/free-seo-audit">
               <a>
-                <Button>Free Site Analysis & SEO Report &#8594;</Button>
+                <Button>Free SEO Audit &#8594;</Button>
               </a>
             </Link>
-          </div>
-          </div>
-        </section>
-        <section className="our-mission">
-          <div className="container">
-            <h2>Our Mission</h2>
-
-            <p>We understand how hard and frustrating it can be to run your business and figure out digital marketing. Digital marketing takes a lot of time, is an ongoing process, and the rules are constantly changing.</p>
-
-            <p>Start with our <Link href="/services/free-website-and-seo-audit"><a>Free Website and SEO audit</a></Link> to show you what your website has going right, and what we need to improve to get your website ranking higher and getting more traffic.</p>
-            <div className="btn">
-              <Link href="/services/free-website-and-seo-audit">
-                <a>
-                  <Button>Book a 15 min call &#8594;</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
-        <section className="why-us">
-          <div className="container">
-            <h2>Why choose us</h2>
-
-            <p>We understand how hard and frustrating it can be to run your business and figure out digital marketing. Digital marketing takes a lot of time, is an ongoing process, and the rules are constantly changing.</p>
-
-            <p>These are the reasons we started our digital marketing agency. We want to partner with business owners and help them succeed with online marketing.</p>
-
-            <p>You have a long list of things to worry about running your business, and you don't need to add digital marketing to that list.</p>
-
-            <p>We've seen business owners try online marketing themselves, only to waste time, waste money, and resources trying to figure things out their own. Most of the time, they waste money trying different things hoping they work.</p>
-
-            <p>We are here to help. We work directly with business owners and show them exactly what they need to do to rank their website on the first page and get more customers.</p>
-
-            <p>Start with our <Link href="/services/free-website-and-seo-audit"><a>Free Website and SEO audit</a></Link> to show you what your website has going right, and what we need to improve to get your website ranking higher and getting more traffic.</p>
-            <div className="btn">
-              <Link href="/services/free-website-and-seo-audit">
-                <a>
-                  <Button>Free Site Analysis & SEO Report &#8594;</Button>
-                </a>
-              </Link>
-            </div>
           </div>
         </section>
         <Ready />

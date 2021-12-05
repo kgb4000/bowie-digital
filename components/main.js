@@ -7,6 +7,10 @@ const Main = styled.div`
     background-color: #dfe6e9;
   }
 
+  .whoisbowie {
+    background-color: #dfe6e9;
+  }
+
   .no-marketing {
     color: #fff;
     background-color: #101010;

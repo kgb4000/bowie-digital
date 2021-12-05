@@ -1,15 +1,18 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
-import Footer from '../components/footer'
-import Ready from '../components/ready-section'
 import Button from '../components/button'
+import Ready from '../components/ready-section'
+import Footer from '../components/footer'
+import Modal from '../components/modal'
 
 import { NextSeo } from 'next-seo'
 
 export default function MarylandSEO() {
+  const [showModal, setShowModal] = useState(false)
   const SEO = {
     title: 'Maryland SEO',
     titleTemplate: '%s | Get More Customers',
@@ -35,132 +38,336 @@ export default function MarylandSEO() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Talk To Us" buttonLink="/contact" />
-      <HeroBox backgroundHeight="60vh" heroText="Maryland SEO" />
+      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <HeroBox
+        backgroundHeight="100vh"
+        heroText="Maryland SEO"
+        subText="Professional Search Engine Optimization for Small Businesses in Maryland."
+      />
       <Main>
         <div className="content">
           <div className="container">
-            <h1> A Maryland SEO Company</h1>
+            <h1>Grow Your Small Business with a Maryland SEO Company</h1>
             <p>
-              Bowie Digital Marketing is a Maryland SEO company offering SEO to
-              small businesses in Maryland. We offer this service because we
-              want our small business community in Maryland to be successful.
+              Bowie SEO is a Maryland SEO company located in Bowie Maryland.
             </p>
             <p>
-              Have you ever wondered how to get your business ranked on the
-              first page of Google? Or how to get it ranked in the Map Pack?
+              As SEO consultants in Maryland, we offer SEO services and search
+              marketing services because we want our Maryland business to:
             </p>
-            <p>Well, that&apos; s what we do.</p>
+            <ul>
+              <li>Increase your website presence and online visibility</li>
+              <li>Do more business online</li>
+              <li>Increase web traffic and organic traffic</li>
+              <li>Get more quality traffic coming to your website</li>
+              <li>
+                Spend less money on social media ads to reach your ideal
+                customers
+              </li>
+              <li>Rank higher in organic search engine results</li>
+              <li>Build trust and authority with new and existing customers</li>
+              <li>Let more shoppers find you online</li>
+              <li>Make more money</li>
+            </ul>
             <p>
-              We help companies throughout Maryland increase traffic to their
-              websites and rank higher in Google. We get you more website
-              traffic and ranking higher by using SEO.
+              Maryland small business owners can accomplish all of this with Seo
+              services from <b>Bowie SEO</b>.
             </p>
+            <p>
+              We help companies throughout Maryland increase website traffic and
+              rank higher in Google. We get you more website traffic and ranking
+              higher by using SEO.
+            </p>
+            <p>
+              As a Maryland SEO company, we are committed to helping Maryland
+              small businesses succeed with search engine optimization and
+              search marketing.
+            </p>
+            <p>But first, what is search engine optimization?</p>
             <h2>What is SEO</h2>
             <p>
               SEO (search engine optimization) is the process of improving your
-              website for users and search engines. When someone searches for
-              your product or service, you want the search engines to display
-              your company.{' '}
+              website for users and search engines.
+            </p>
+            <p>
+              With the search algorithm always changing, you need to constantly
+              monitor and update your website to keep up with these changes.
             </p>
             <Quotebox>
               SEO is the process of improving your website for users and search
               engines.
               <p>
                 <Link href="/">
-                  <a>Bowie Digital Marketing</a>
+                  <a>Bowie SEO</a>
                 </Link>
               </p>
             </Quotebox>
             <p>
-              You don&apos;t want your company showing up on the second or third
-              page of the search results. You want your business showing up on
-              the first page.
+              According to Moz, Google reported over 3,000 improvements to
+              search in 2018. This was more than eight times the amount in 2009,
+              (
+              <a
+                href="https://moz.com/blog/how-often-does-google-update-its-algorithm"
+                target="_blank"
+              >
+                Moz
+              </a>
+              ).
+            </p>
+            <p>
+              When someone searches for your products or services, you want the
+              search engines to display your business website and webpages.
+            </p>
+            <p>
+              You also want your company website showing up on the first page of
+              the search engine results and not the second or third page.
             </p>
             <p>Why?</p>
+            <p>Because the first page of Google gets most of the clicks.</p>
             <p>
-              According to Moz, the first page of Google gets{' '}
-              <b>
-                <a
-                  href="https://moz.com/blog/google-organic-click-through-rates-in-2014"
+              Websites on the first page get {''}
+              <a
+                href="https://moz.com/blog/google-organic-click-through-rates-in-2014"
+                target="_blank"
+                rel="noreferrer"
+              >
+                71% to 92% of the clicks
+              </a>
+            </p>
+            <p>Websites on the second page gets less than 6% of all clicks.</p>
+            <p>That's low.</p>
+            <p>
+              Also, according to SEO Expert Brad, 92% of searchers will pick
+              businesses on the first page of local search results.
+            </p>
+            <Quotebox>
+              92% of searchers will pick businesses on the first page of local
+              search results.
+              <p>
+                <Link
+                  href="https://seoexpertbrad.com/local-seo-stats/"
                   target="_blank"
-                  rel="noreferrer"
                 >
-                  71% to 92% of the clicks
-                </a>
-              </b>
-              , and the second page gets below 6% of all clicks.
-            </p>
+                  <a>SEO Expert Brad</a>
+                </Link>
+              </p>
+            </Quotebox>
             <p>
-              Also, according to Brad,{' '}
-              <b>
-                92% of searchers will pick businesses on the first page of local
-                search results.
-              </b>
-            </p>
-            <p>
-              Even though your website reaches the first page of Google, your
-              business needs to be near the top. The first five search results
-              receive <b>67.6%</b> of clicks, and the second five receive only{' '}
-              <b>3.73%</b>.
-            </p>
-            <p>
-              Although there are many different search engines like Bing, Apple
-              Maps, Yahoo, and DuckDuckGo, we use Google when talking about SEO
-              and ranking. We use Google because it is the most used search
-              engine in the US and has around <b>88%</b> of the search engine
-              market.
-            </p>
-            <p>
-              Bing has 5% of the market, Yahoo has almost 3%, and DuckDuckGo has
-              nearly 3%.
-            </p>
-            <h2>The Benefits of SEO for Maryland Businesses</h2>
-            <Quotebox>Watch Video!</Quotebox>
-            <ul>
-              <li>Increase the number of people coming to your website.</li>
-              <li>Increase the number of leads your business gets.</li>
-              <li>Replace expensive pay-per-click ads and social media ads.</li>
-            </ul>
-            <h2>Why is SEO Important for Businesses in Maryland?</h2>
-            <p>
-              SEO is essential for businesses in Maryland because this process
-              can push your business website ahead of your competition. Your
-              business website will rank higher in the search engines and the
-              Map Pack, and your website will get more traffic.
-            </p>
-            <Quotebox>Watch Video!</Quotebox>
-            <p>
-              More website traffic will put you in front of more customers
-              searching for your products or services. It will also lead to more
-              people knowing about your business, more sales, and more revenue
+              That's big, and that could be a big difference in leads and sales
               for your business.
             </p>
             <p>
-              Adding an SEO strategy is one of the best investments you can ever
-              make for your business.
+              But even if your website reaches the first page of Google, you'll
+              still want your business to be near the top.
+            </p>
+            <p>At least the top five.</p>
+            <div className="blog-image">
+              <img
+                src="/images/google-organic-ctr-breakdown-by-position.webp"
+                className="blog-img"
+                alt="Google organic CTR breakdown by position"
+                loading="lazy"
+              />
+              <em>
+                <small>
+                  Source:{' '}
+                  <a
+                    href="https://backlinko.com/google-ctr-stats"
+                    target="_blank"
+                  >
+                    Backlinko
+                  </a>
+                </small>
+              </em>
+            </div>
+            <p>
+              The graph above from{' '}
+              <a href="https://backlinko.com/google-ctr-stats" target="_blank">
+                Backlinko
+              </a>{' '}
+              shows that the first five search results receive 75.1% clicks, and
+              the second five receive only 19.56%.
+            </p>
+            <p>So you want to have your website in the first five results.</p>
+            <h2>Search Engines</h2>
+            <p>
+              As internet technology continues to evolve, search engines also
+              continue to advance and get better and better.
+            </p>
+            <p>Some of the major search engines are:</p>
+            <ul>
+              <li>Google</li>
+              <li>
+                <a href="https://youtube.com" target="_blank">
+                  YouTube
+                </a>
+              </li>
+              <li>Amazon</li>
+              <li>Facebook</li>
+              <li>
+                <a href="https://bing.com" target="_blank">
+                  Bing
+                </a>
+              </li>
+              <li>Safari</li>
+              <li>Yahoo</li>
+              <li>
+                <a href="https://duckduckgo.com" target="_blank">
+                  DuckDuckGo
+                </a>
+              </li>
+            </ul>
+            <p>Other lesser known search engines include:</p>
+            <ul>
+              <li>Yandex</li>
+              <li>Start Page</li>
+              <li>
+                <a href="https://searchencrypt.com" target="_blank">
+                  Search Encrypt
+                </a>
+              </li>
+              <li>OneSearch</li>
+              <li>GiveWater</li>
+            </ul>
+            <p>
+              Although there are many search engines to choose from, Google is
+              the search engine marketers use when talking about search engine
+              optimization, search rankings, and digital marketing.{' '}
+            </p>
+            <p>Why?</p>
+            <p>
+              Because Google is the most used search engine in the US. It has
+              more than 88% of the search engine market, and it is used more
+              than any other search engine.
             </p>
             <p>
-              Here are a few statistics on why SEO can help businesses in
-              Maryland.
+              The reason Google is the most popular is because of its simple
+              interface, and because it is the best at returning the right
+              search results.
             </p>
             <p>
-              Imagine you&apos;re a pool builder, an eye doctor, a plumber, a
-              certified professional accountant, a lawyer, or you own a nail
-              salon.{' '}
-              <b>
-                Instead of getting fifty calls a month to your business, you got
-                one hundred and forty-five calls per month or more?
-              </b>
+              Bing, the search engine from software giant Microsoft, has only 5%
+              of the market, and Yahoo and DuckDuckGo have nearly 3% of the
+              market share each.
+            </p>
+            <p>More people used Google more than any other search engine.</p>
+            <h2>
+              Why Is Search Engine Optimization Important for Maryland Business?
+            </h2>
+            <p>
+              Search engine optimization is important for businesses in Maryland
+              because:
+            </p>
+            <ul>
+              <li>
+                It can push your business higher than your competitors in the
+                organic search results.
+              </li>
+              <li>
+                It finds weaknesses in your website to help you rank higher
+              </li>
+              <li>
+                It makes you create quality content that is better for your
+                business, and it's what your customers want.
+              </li>
+              <li>
+                Organic search engine results are FREE and don't cost you any
+                money
+              </li>
+              <li>You can spend less money on social media ads</li>
+              <li>
+                You will get more website traffic and more eyes on your
+                business.{' '}
+              </li>
+              <li>
+                More people searching for your products or services will know
+                about your business.
+              </li>
+              <li>
+                More people will trust your business because they will see it as
+                an authority
+              </li>
+              <li>
+                More web traffic will lead to more sales and more money for your
+                business.
+              </li>
+            </ul>
+            <p>
+              Starting an SEO campaign is one of the best investments you can
+              ever make for your small business.
+            </p>
+            <p>
+              More people find out about a business online more than any other
+              medium. Search marketing beats every other type of digital
+              marketing including television ads, print ads, social media ads,
+              pay-per-click ads, and billboards.
+            </p>
+            <p>Start your SEO strategy with a Maryland SEO company.</p>
+            {/* <Quotebox>Watch Video!</Quotebox> */}
+            <h2>The Benefits of Working With a Maryland SEO Company</h2>
+            <p>The benefits of working with a Maryland SEO company are:</p>
+            <ul>
+              <li>
+                We are determined boost your web presence and get you more
+                website traffic.
+              </li>
+              <li>
+                We care about your business and we want you to succeed and make
+                more money.
+              </li>
+              <li>
+                We want to increase the number of local customers coming to your
+                website.
+              </li>
+              <li>
+                We want to increase the number of leads your business gets.
+              </li>
+              <li>
+                We want to help you save money and replace expensive social
+                media ads with organic search.
+              </li>
+              <li>
+                We want to help you create valuable content to attract more of
+                your ideal customers.
+              </li>
+              <li>
+                You are a Maryland small business and we want small businesses
+                to win.
+              </li>
+            </ul>
+            <Quotebox>Watch Video!</Quotebox>
+            <p>Imagine you&apos;re a pool builder.</p>
+            <p>
+              Instead of getting twenty calls a month to your business, you got
+              one hundred and forty-five calls per month?
             </p>
             <p>What would that mean for your business?</p>
             <p>Would an increase in sales help your bottom line?</p>
             <p>Yes, it would. </p>
             <p>That is what an SEO strategy can do for your business.</p>
-            <h2>Twenty Six (26) Ways To Know If Your Business Needs SEO?</h2>
-            <p>You know if your business needs SEO if:</p>
+            <h2>
+              27 Ways To Know If Your Business Needs Search Engine Optimization
+            </h2>
+            <p>
+              You know if your business needs search engine optimization if:
+            </p>
             <ol>
-              <li className="ways">You don&apos;t have a website.</li>
+              <li className="ways">Your competitors rank higher than you.</li>
+              <li className="ways">You get zero or little website traffic.</li>
+              <div className="blog-image">
+                <img
+                  src="/images/small-amount-of-backlinks.webp"
+                  className="blog-img"
+                  alt="Website with low traffic"
+                  loading="lazy"
+                />
+                <em>
+                  <small>
+                    Source: <a href="/">Bowie Digital marketing</a>
+                  </small>
+                </em>
+              </div>
+              <li className="ways">Your website traffic is not increasing.</li>
               <li className="ways">Your website is not mobile-friendly.</li>
               <div className="blog-image">
                 <img
@@ -178,28 +385,16 @@ export default function MarylandSEO() {
                   </small>
                 </em>
               </div>
-              <li className="ways">You get zero traffic on your website.</li>
-              <li className="ways">Your website gets a little traffic.</li>
-              <div className="blog-image">
-                <img
-                  src="/images/small-amount-of-backlinks.webp"
-                  className="blog-img"
-                  alt="Website with low traffic"
-                  loading="lazy"
-                />
-                <em>
-                  <small>
-                    Source: <a href="/">Bowie Digital marketing</a>
-                  </small>
-                </em>
-              </div>
+              <li className="ways">
+                You rely on Google ads and social media ads to get leads and
+                customers.
+              </li>
+              <li className="ways">You have no web presence.</li>
+
               <li className="ways">Your web traffic is not increasing.</li>
               <li className="ways">
                 You rely mostly on paid ads, social media advertising, and
                 referals to get leads and customers.
-              </li>
-              <li className="ways">
-                You get little or no leads from your website.
               </li>
               <li className="ways">You are not on the first page of Google.</li>
               <Quotebox>
@@ -214,12 +409,22 @@ export default function MarylandSEO() {
               <li className="ways">
                 You don&apos;t rank for any of your keywords.
               </li>
-              <li className="ways">You are targeting hard to rank keywords.</li>
               <li className="ways">
-                You don&apos;t have a Google My Business page.
+                You’re trying to rank for keywords you can't rank for.
               </li>
               <li className="ways">
-                You are not on the first page of the Google Map Pack.
+                You didn't do any keyword research, you just guessed.
+              </li>
+
+              <li className="ways">
+                Your{' '}
+                <a href="https://www.google.com/business/" target="_blank">
+                  Google Business Profile
+                </a>{' '}
+                page is not complete.
+              </li>
+              <li className="ways">
+                You don&apos;t update your Google Business Profile regularly.
               </li>
               <div className="blog-image">
                 <img
@@ -233,10 +438,7 @@ export default function MarylandSEO() {
                 </em>
               </div>
               <li className="ways">
-                Your Google My Business page is not complete.
-              </li>
-              <li className="ways">
-                You don&apos;t update your Google My Business Page regularly.
+                You are not on the first page of the Google Map Pack.
               </li>
               <li className="ways">Your website is slow.</li>
               <div className="blog-image">
@@ -247,58 +449,82 @@ export default function MarylandSEO() {
                   loading="lazy"
                 />
                 <em>
-                  <small>Source: Bowie Digital Marketing</small>
+                  <small>Source: Bowie SEO</small>
                 </em>
               </div>
               <li className="ways">You have broken links on your website.</li>
-              <li className="ways">You have duplicate content on your site.</li>
+              <li className="ways">You don’t have any or enough backlinks.</li>
               <li className="ways">
-                Your meta description uses more than the 160 character limit.
+                Your competitors have more backlinks than you.
+              </li>
+              <li className="ways">Your website is not secure.</li>
+              <li className="ways">You don't have a sitemap.</li>
+              <li className="ways">Your website has thin content.</li>
+              <li className="ways">You have inconsistent citations.</li>
+              <li className="ways">
+                You don't have Google Analytics or Google Search Console
+                connected to your website to track anything.
+              </li>
+              <li className="ways">You have less than 10 Google reviews.</li>
+              <li className="ways">
+                You don’t track any key performance indicators (KPIs).
               </li>
               <li className="ways">
-                You don&apos;t have an SSL certificate, and your site is not
-                secure.
-              </li>
-              <li className="ways">You less than 10 Google reviews.</li>
-              <li className="ways">
-                You don&apos;t have Google Analytics or Google Console connected
-                to your website.
-              </li>
-              <li className="ways">You don&apos;t have a sitemap.</li>
-              <li className="ways">
-                You don&apos;t have enough content on your website.
+                Your title and meta description are not the best.
               </li>
               <li className="ways">
-                You have incorrect and inconsistent citations.
+                You're not working with a Maryland SEO company
               </li>
-              <li className="ways">
-                You have fewer backlinks than your competitors.
-              </li>
-              <li className="ways">Your competitors rank higher than you.</li>
             </ol>
             <h2>Our Maryland SEO Process</h2>
             <p>
-              Our goal is to improve your website. The ultimate goal is to get
-              it ranking higher than your competition to increase your website
-              traffic so you can make more money for your business.
+              Our goal at Bowie SEO is to improve your website for search
+              engines and users.
             </p>
             <p>
-              SEO is not a one-day or one-month process. It is a process that
-              will take some time. It can take six to twelve months to start
-              seeing results from SEO. Sometimes you can see results within
-              three months, but it depends on your competition in your area.
+              The ultimate goal is to rank your website higher than your
+              competition, to get you more website traffic, and for you to make
+              more money.
+            </p>
+            <p>However, you must understand that:</p>
+            <ol>
+              <li>
+                SEO is not a one-day or one-month fix and forget it process.
+              </li>
+              <li>
+                It can take six to twelve months for you to see results from
+                your SEO campaign. Sometimes you can see results within as
+                little as three months, but it depends on the competition in
+                your area and the amount of work your website needs.
+              </li>
+            </ol>
+            <p>
+              We cannot and do not control what the search engines do. We can
+              only follow and adhere to the best SEO practices.
             </p>
             <p>
-              We at Bowie Digital Marketing have a system that will create
-              results for Maryland businesses.
+              <b>
+                At Bowie SEO we have a system that creates results for Maryland
+                businesses.
+              </b>
             </p>
             <p>This system includes:</p>
             <ul>
-              <li>Technical SEO Analysis </li>
-              <li>Competitor Analysis</li>
-              <li>Local SEO </li>
-              <li>On-Page SEO checks</li>
-              <li>Off-Page SEO checks</li>
+              <li>
+                <b>Technical SEO Analysis</b>
+              </li>
+              <li>
+                <b>Competitor Analysis</b>
+              </li>
+              <li>
+                <b>Local SEO</b>
+              </li>
+              <li>
+                <b>On-Page SEO checks</b>
+              </li>
+              <li>
+                <b>Off-Page SEO checks</b>
+              </li>
             </ul>
             <h3>Technical SEO Analysis</h3>
             <p>
@@ -321,14 +547,30 @@ export default function MarylandSEO() {
               Other factors that are part of our technical analysis include:
             </p>
             <ul>
-              <li>Website design</li>
-              <li>Website organization</li>
-              <li>404 errors and broken links</li>
-              <li>Site speed</li>
-              <li>Mobile and responsive website</li>
-              <li>Sitemaps</li>
-              <li>SSL and Security</li>
-              <li>Google tools - Google Analytics and Google Console</li>
+              <li>
+                <b>Website design</b>
+              </li>
+              <li>
+                <b>Website organization</b>
+              </li>
+              <li>
+                <b>404 errors and broken links</b>
+              </li>
+              <li>
+                <b>Site speed</b>
+              </li>
+              <li>
+                <b>Mobile and responsive website</b>
+              </li>
+              <li>
+                <b>Sitemaps</b>
+              </li>
+              <li>
+                <b>SSL and Security</b>
+              </li>
+              <li>
+                <b>Google tools - Google Analytics and Google Console</b>
+              </li>
             </ul>
             <h4>Web Design</h4>
             <p>
@@ -362,7 +604,7 @@ export default function MarylandSEO() {
               </em>
             </div>
             <p>
-              If your website is not mobiel or responsive, we can help you with
+              If your website is not mobile or responsive, we can help you with
               that. Depending on the size of your website, we can redesign it to
               make it more appealing to your visitors.
             </p>
@@ -603,7 +845,7 @@ export default function MarylandSEO() {
               that you will want to use. We use these keywords on our website to
               rank higher and get more traffic.
             </p>
-            <h4>Content Reasearch</h4>
+            <h4>Content Research</h4>
             <p>
               Content is king, and it is invaluable when doing your competitor
               analysis.{' '}
@@ -626,7 +868,7 @@ export default function MarylandSEO() {
               You should answer the user&apos;ss questions and seek to become
               the authority on the subject.
             </p>
-            <h4>Technical SEO Reseach</h4>
+            <h4>Technical SEO Research</h4>
             <p>We do technical analysis on your competitor&apos;s websites.</p>
             <p>
               Besides doing technical analysis on your website, we do it on your
@@ -777,7 +1019,7 @@ export default function MarylandSEO() {
               <li>Angie&apos;s List</li>
               <li>Google My Business</li>
             </ul>
-            <h5>Google My Business</h5>
+            <h5>Google Business Profile</h5>
             <p>
               Today, a{' '}
               <a
@@ -785,12 +1027,12 @@ export default function MarylandSEO() {
                 rel="noreferrer"
                 target="_blank"
               >
-                Google My Business
+                Google Business Profile
               </a>{' '}
-              (GMB) page is not an option. You must have one if you want
-              customers to find you on Google. As more people use search engines
-              to discover new services, it is a no-brainer that you have a
-              Google My Business page.
+              page is not an option. You must have one if you want customers to
+              find you on Google. As more people use search engines to discover
+              new services, it is a no-brainer that you have a Google My
+              Business page.
             </p>
             <p>
               <b>Plus, it&apos;s free!</b>
@@ -809,21 +1051,18 @@ export default function MarylandSEO() {
             <h5>Local Link Building</h5>
             <p>
               Local link building is one way to help build your website&apos;s
-              authority. Getting backlinks from sites like the Maryland Chamber
-              of Commerce and the Better Business Bureau can help your site rank
-              higher than your competition.
+              authority. Getting backlinks from sites like the{' '}
+              <a href="https://mdchamber.org/" rel="noreferrer" target="_blank">
+                Maryland Chamber of Commerce
+              </a>{' '}
+              and the{' '}
+              <a href="https://www.bbb.org/" rel="noreferrer" target="_blank">
+                Better Business Bureau
+              </a>{' '}
+              can help your site rank higher than your competition.
             </p>
             <p>Other ways to get valuable backlinks in your area are:</p>
             <ul>
-              <li>
-                <a
-                  href="https://mdchamber.org/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Maryland Chamber of Commerce
-                </a>
-              </li>
               <li>local newspapers and media outlets</li>
               <li>other local businesses</li>
               <li>local blogs</li>
@@ -874,41 +1113,66 @@ export default function MarylandSEO() {
             </ul>
             <h2>The Cost Of SEO</h2>
             <p>
+              The cost of SEO should differ according to each company's specific
+              needs.
+            </p>
+            <p>
               Some companies offer SEO services starting as low as $199.00 a
               month, and other companies advertise services starting at $249.00
-              a month. Although these prices may seem like a deal, please be
-              aware. Cheap SEO prices usually mean cheap SEO services. For those
+              a month.
+            </p>
+            <p>Although these prices may seem like a deal, please be aware.</p>
+            <p>
+              Cheap SEO prices usually mean cheap SEO services. For those
               prices, your SEO strategy may take years for you to see any
               results.
             </p>
             <p>Some cheap SEO companies are known to use Black Hat SEO.</p>
             <p>
-              Black Hat SEO goes against the search engine&apos;s terms of
-              service, and although it can get you ranked, there is an excellent
-              chance that your website can get banned from the search engine.
+              <b>Black Hat SEO</b> goes against the search engine&apos;s terms
+              of service, and although it can get you ranked, there is an
+              excellent chance that your website can get banned from search
+              engines.
             </p>
-            <p>Don&apos;t take that chance.</p>
+            <p>Please don't take that chance.</p>
             <p>
-              For our Maryland business community, we offer our White Hat SEO
-              services according to your business needs. White Hat SEO{' '}
+              As a professional Maryland SEO company and SEO experts, we only
+              practice White Hat SEO.
             </p>
             <p>
-              We first perform our FREE SEO Audit to determine what needs
-              improving. It may be anything from improving your title tags,
-              adding meta-descriptions, or fixing your page speed.{' '}
+              <a
+                href="https://www.wordstream.com/white-hat-seo"
+                rel="noreferrer"
+                target="_blank"
+              >
+                White Hat SEO
+              </a>{' '}
+              is the practice that improves your search rankings on a search
+              engines while maintaining the integrity of your website and
+              staying within the search engines' terms of service.{' '}
+            </p>
+            <p>
+              First we perform an SEO Audit to identify any problems with your
+              website. These problems can be anything from improving your title
+              tags, fixing your website structure, or fixing your page speed.{' '}
             </p>
             <p>
               Only after we identify any problems and opportunities we find,
               then we give you a price.
             </p>
+            <p>Please remember.</p>
             <p>
-              Higher rankings in Google and the Local Map Pack can get you more
-              leads, more customers, and more revenue for your business.
+              SEO is a long-term process that can take six to twelve months to
+              see results.{' '}
+            </p>
+            <p>
+              If you're serious about your business and understand the benefits
+              of an effective SEO strategy, you know it is worth the investment.
             </p>
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Get Your Free SEO Audit &#8594;</Button>
+                  <Button>Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -922,12 +1186,30 @@ export default function MarylandSEO() {
               Higher rankings in Google and the Local Map Pack can get you more
               leads, more customers, and more revenue for your business.
             </p>
+            <h2>Cities We Offer Maryland SEO Services</h2>
+            <p>We provide our Maryland SEO services in the following cities:</p>
+            <ul>
+              <li>Annapolis MD</li>
+              <li>Baltimore MD</li>
+              <li>Bowie MD</li>
+              <li>Columbia MD</li>
+              <li>Dundalk MD</li>
+              <li>Ellicott City MD</li>
+              <li>Frederick MD</li>
+              <li>Gaithersburg MD</li>
+              <li>Germantown MD</li>
+              <li>Hagerstown MD</li>
+              <li>Towson MD</li>
+            </ul>
+            <p>
+              We are one of the best Maryland SEO companies offering search
+              engine optimization to Maryland small businesses.
+            </p>
             <h2>Why Work With Us</h2>
             <p>
-              Bowie Digital Marketing is a professional SEO company, and we want
-              our customers to succeed. We want our customers to realize the
-              benefits of starting an SEO strategy and what it can do for their
-              business.
+              Bowie SEO is a Maryland SEO company, and we want our customers to
+              succeed. We want our customers to realize the benefits of starting
+              an SEO strategy and what it can do for their business.
             </p>
             <p>
               We do whatever it takes to ensure our customers enjoy SEO
@@ -946,7 +1228,7 @@ export default function MarylandSEO() {
               If you&apos;re not satisfied, we promise to do whatever it takes
               to make it right.
             </p>
-            <p>When you work with Bowie Digital marketing:</p>
+            <p>When you work with Bowie SEO:</p>
             <ul>
               <li>A FREE SEO Audit</li>
               <li>You get no monthly contacts.</li>
@@ -963,14 +1245,48 @@ export default function MarylandSEO() {
             </ul>
             <h2>Conclusion</h2>
             <p>
-              Businesses in Maryland should consider starting an SEO strategy.
-              An SEO strategy gets you on the first page of Google, bringing you
-              more leads, more customers and helps make more money for your
-              business.
+              Bowie SEO is a Maryland SEO company helping small businesses in
+              Maryland make more money using search engine optimization.
             </p>
             <p>
-              Please get in touch with us if you want to learn more or see how
-              an SEO strategy can help your business.
+              We are focused on getting our small business customers more
+              customers and making more money with SEO.
+            </p>
+            <p>
+              Search engine optimization is important for small businesses in
+              Maryland.
+            </p>
+            <p>
+              Search engine optimization is important for small businesses in
+              Maryland.
+            </p>
+            <p>Starting and SEO strategy will enable Maryland businesses to:</p>
+            <ul>
+              <li>Get more website traffic</li>
+              <li>Get more quality traffic from local customers</li>
+              <li>Get more online business from your target market</li>
+              <li>Build a bigger web presence</li>
+              <li>Get higher SEO rankings that their competitors</li>
+              <li>Targeting relevant keywords</li>
+              <li>Have a faster website</li>
+              <li>
+                Have more content and better content than their competitors
+              </li>
+              <li>Spend less on social media ads and Google ads</li>
+              <li>
+                Track and measure your success with key performance indicators
+              </li>
+              <li>Build trust within your community</li>
+              <li>Get more leads, more sales, and make more money</li>
+            </ul>
+            <p>
+              If you have any questions about starting a Maryland SEO campaign
+              for your small business, or have questions about the Maryland SEO
+              process, please{' '}
+              <Link href="/contact">
+                <a>get in touch with us</a>
+              </Link>{' '}
+              and see how an SEO strategy can help your business.
             </p>
           </div>
         </div>

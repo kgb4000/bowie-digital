@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Button from '../components/button'
+import Button from './button'
 
 export default function HeroBox({
   backgroundHeight,
@@ -33,10 +33,10 @@ const Hero = styled.div`
   background-image: ${(props) => props.backgroundImage};
   background-size: cover;
   height: ${(props) => props.backgroundHeight};
-  margin-top: -70px;
+  margin-top: -100px;
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .content {
@@ -45,7 +45,7 @@ const Hero = styled.div`
     padding: 0 1rem;
 
     p {
-      max-width: 50rem;
+      max-width: 40rem;
       margin: 2rem auto 3rem auto;
     }
   }

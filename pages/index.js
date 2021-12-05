@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-import { DefaultSeo } from 'next-seo'
-import SEO from '../next-seo.config'
 import ModalVideo from 'react-modal-video'
 import Header from '../components/header'
 import Main from '../components/main'
@@ -10,21 +8,24 @@ import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
 import Footer from '../components/footer'
+import Modal from '../components/modal'
 
 import { NextSeo } from 'next-seo'
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
+  const [showModal, setShowModal] = useState(false)
+
   const SEO = {
-    title: 'Digital Marketing Agency',
-    titleTemplate: '%s | Get More Customers',
+    title: 'Maryland Search Engine Optimization Services',
+    titleTemplate: '%s | Bowie SEO',
     description:
-      'Bowie Digital Marketing is dedicated to helping small businesses make more money using SEO.',
-    canonical: 'https://bowiedigitalmarketing.com',
+      'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
+    canonical: 'https://bowieseo.com',
     openGraph: {
-      title: 'Digital Marketing Agency | Get More Customers',
+      title: 'Helping Small Businesses Make More Money with SEO',
       description:
-        'Bowie Digital Marketing is dedicated to helping small businesses make more money using SEO.',
+        'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
     },
   }
   return (
@@ -41,29 +42,40 @@ export default function Home() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Talk To Us" buttonLink="/contact" />
+      <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
         heroText="Small Business SEO ...Simplified" //Business Marketing ...Simplified
-        subText="We help your business make more money with Search Engine Optimization"
-        buttonText="Get Your Free SEO Audit"
+        subText="We Help Small Businesses in Maryland Make More Money With Search Engine Optimization"
+        buttonText="Free SEO Audit"
         buttonLink="/free-seo-audit"
       />
       <Main>
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
-              If Your Not Doing Digital Marketing The Right Way, You're Wasting
-              Money.
+              If People Can't See Your Website When They Search For Your Product
+              or Service, You're Loosing Money.
             </h2>
             <p className="subtext">
-              If your digital marketing is not making money for your business,
-              you are wasting money. Stop wasting money on marketing that
-              doesn't work.{' '}
+              When consumers search for your product or service and your website
+              doesn't come up in the search results, what are you doing?
+            </p>
+            <p className="subtext">You're loosing money.</p>
+            <p className="subtext">How?</p>
+            <p className="subtext">
+              Because when they don't find you, they find your competitors, and
+              they spend money with your competitors.
             </p>
             <p className="subtext">
-              Not understanding how to do online marketing can can get expensive
-              and cost you more than it has to. Doing it wrong will result in:
+              If you're spending money on social media ads and online ads, you
+              may be wasting money if you website is not coming up in the search
+              results.
+            </p>
+            <p className="subtext">
+              Not understanding online marketing can can get expensive and cost
+              you more than it has to. Doing online marketing wrong will result
+              in:
             </p>
             <NoSEO>
               <li>Overspending and wasting money on online advertizing</li>
@@ -92,7 +104,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Get Your Free SEO Audit &#8594;</Button>
+                  <Button>Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -101,11 +113,12 @@ export default function Home() {
         <section className="help-section">
           <div className="container">
             <h2 className="title">
-              The Right Digital Marketing Plan Can 5X - 10X Your Business
+              Search Engine Optimization Can 5X - 10X Your Business
             </h2>
             <p className="subtext">
-              With the right marketing plan, your online marketing can generate
-              more traffic, more leads, and more sales for your business.
+              By starting a search engine optimization strategy, your website
+              can generate more traffic, more leads, and more sales for your
+              business for <b>FREE</b>.
             </p>
             <HelpHow>
               <li>Get more local traffic to your website.</li>
@@ -115,16 +128,13 @@ export default function Home() {
               </li>
               <li>
                 Attract your target audience with quality content that helps
-                them and gives them the information they want.
+                your consumers, and give them the information they want.
               </li>
               <li>
-                Get more 5 star reviews and build your brand, online reputation
-                and credibility in your community and field of business.
+                Get more 5 star reviews, build your brand, online reputation and
+                credibility in your community.
               </li>
-              <li>
-                Make more money for you and your business and become the
-                authority in your community.
-              </li>
+              <li>Spend less on social media ads and pay-per-click ads.</li>
             </HelpHow>
             <div className="btn">
               <Button>Book A 15 min Call &#8594;</Button>
@@ -156,10 +166,38 @@ export default function Home() {
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Free Website & SEO Audit &#8594;</Button>
+                  <Button>Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>
+          </div>
+        </section>
+        <section className="whoisbowie">
+          <div className="container">
+            <h2 className="title">Who is Bowie SEO?</h2>
+            <p className="subtext">
+              Bowie SEO is a local SEO company in Maryland , serving small
+              businesses in Bowie and the surrounding areas.
+            </p>
+            <p className="subtext">
+              We are located in Maryalnd so you'll always have an SEO company
+              near you. We will go out of our way to give your business the best
+              services and the attention it deserves!
+            </p>
+            <h3>All we do is SEO.</h3>
+            <p className="subtext">
+              We're here to help you achieve your desired results with{' '}
+              <b>search engine optimization</b>. Whether you're looking to
+              increase traffic to your website, improve your online presence, or
+              simply make more money. We can help.
+            </p>
+          </div>
+          <div className="btn">
+            <Link href="/about">
+              <a>
+                <Button>Learn More About Us</Button>
+              </a>
+            </Link>
           </div>
         </section>
 
@@ -169,8 +207,7 @@ export default function Home() {
               How We Can Help You Can Fix Your Website So You Get Traffic
             </h2>
             <p className="subtext">
-              And don't ever miss business opportunities because of bad online
-              marketing!
+              Stop losing money because your website is not performing!
             </p>
             <Plan>
               <li>
@@ -178,8 +215,8 @@ export default function Home() {
                   <h3>Schedule A Call</h3>
                   <p>
                     Call us for your{' '}
-                    <Link href="/services/free-seo-audit">
-                      <a>FREE Website Analysis and SEO report</a>
+                    <Link href="/seo-audit">
+                      <a>FREE SEO Audit</a>
                     </Link>
                     , and see what your business is doing right and what you can
                     improve to help your business rank higher.
@@ -206,6 +243,7 @@ export default function Home() {
                 </div>
               </li>
             </Plan>
+            <p>See how we can help you get more traffic to your website.</p>
             <div className="btn">
               <Button>Book A 15 min Call &#8594;</Button>
             </div>
@@ -235,14 +273,14 @@ export default function Home() {
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Get Your Free SEO Audit &#8594;</Button>
+                  <Button>Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>
           </div>
         </section>
         <section className="solution-section">
-          <div className="container">
+          <div className="solution-container">
             <h2 className="title">Our SEO Services</h2>
             <p className="subtext">
               Our SEO services are designed to to rank higher your business
@@ -250,6 +288,18 @@ export default function Home() {
               and more money.
             </p>
             <Solutions>
+              <div className="solution-box">
+                <h3>SEO</h3>
+                <p>
+                  SEO is about your business being found when it counts. When
+                  local customers are looking for your services on desktop,
+                  mobile, and voice searches, you need to show up in the search
+                  above your competitors.
+                </p>
+                <Link href="/maryland-seo">
+                  <a className="solution-link">Learn more &rsaquo;</a>
+                </Link>
+              </div>
               <div className="solution-box">
                 <h3>Local SEO</h3>
                 <p>
@@ -263,14 +313,13 @@ export default function Home() {
                 </Link>
               </div>
               <div className="solution-box">
-                <h3>FREE SEO Audit</h3>
+                <h3>SEO Audit</h3>
                 <p>
-                  An SEO Audit will let you know what is stopping your website
-                  from ranking higher and appearing on the first page os the
-                  search. It will also make your page better for search engines
-                  and for people seaching for your services.
+                  An SEO Audit will let you know what is stopping you from
+                  ranking higher in the search engines. It will help you boost
+                  your rankings to get more leads and customers.
                 </p>
-                <Link href="/free-seo-audit">
+                <Link href="/seo-audit">
                   <a className="solution-link">Learn more &rsaquo;</a>
                 </Link>
               </div>
@@ -280,46 +329,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section className="our-work">
-          <div className="container">
-            <h2 className="title">Recent Work</h2>
-            <Work>
-              <div>
-                <h3>Monica Browne Weddings</h3>
-                <p>A Wedding Planning Company</p>
-              </div>
-              <div>
-                <h3>Max Life Barbershop</h3>
-                <p>A Barbershop and Salon</p>
-              </div>
-              <div>
-                <h3>Stanton Pools</h3>
-                <p>A Pool Building Company</p>
-              </div>
-            </Work>
-            <div className="btn">
-              <Link href="/our-work">
-                <a>
-                  <Button>See more Work &#8594;</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section> */}
-        {/* <section>
-          <div className="container">
-            <h2 className="title">What Our Clients Are Saying</h2>
-            <p className="subtext">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Molestias culpa dignissimos et illo dolor cupiditate dicta libero
-              quasi, ut aperiam quod odit at accusantium, minus soluta
-              perspiciatis! Velit, fugiat voluptas.
-            </p>
-            <div className="btn">
-              <Button>More testimonials &#8594;</Button>
-            </div>
-          </div>
-        </section> */}
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
@@ -346,7 +355,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Get Your Free SEO Audit &#8594;</Button>
+                  <Button>Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -380,6 +389,10 @@ const Solutions = styled.div`
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+
+    h3 {
+      font-size: 2rem;
+    }
 
     :hover {
       top: -10px;
@@ -415,18 +428,19 @@ const Solutions = styled.div`
     }
   }
 
-  @media (min-width: 600px) {
-    
+  @media (min-width: 1440px) {
+
     display: grid;
-    max-width: 1140px;
-    grid-template-columns: 1fr 1fr;
+    max-width: 1500px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    margin: 0 auto;
 
     .solution-box {
       margin: 4rem 0;
       justify-items: center;
       max-width: 100%;
-      height: 400px;
+      height: 600px;
       
       p {
         font-size: 1rem;
@@ -461,7 +475,7 @@ const Plan = styled.ol`
       counter-increment: li;
       content: counter(li) '';
       color: #fff;
-      font-size: 1rem;
+      font-size: 1.2rem;
       background: #000;
       line-height: 45px;
       width: 45px;
@@ -470,7 +484,7 @@ const Plan = styled.ol`
       display: inline-block;
       text-align: center;
       position: absolute;
-      top: 1.5rem;
+      top: 38px;
     }
   }
 `
@@ -500,7 +514,7 @@ const NoSEO = styled.ol`
       text-align: center;
       left: 0px;
       position: absolute;
-      top: -0.5rem;
+      top: 3px;
     }
   }
 `
@@ -530,50 +544,8 @@ const HelpHow = styled.ol`
       text-align: center;
       left: 0px;
       position: absolute;
-      top: -0.5rem;
+      top: 3px;
       letter-spacing: 1px;
-    }
-  }
-`
-
-const Work = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    width: 300px;
-    height: 300px;
-    padding: 1.5rem;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-      0 100px 80px rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
-
-    h3 {
-      font-size: 1.8rem;
-      text-align: center;
-      margin-bottom: 0.5rem;
-    }
-  }
-
-  @media (min-width: 720px) {
-    display: grid;
-    max-width: 1140px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-
-    div {
-      width: 100%;
     }
   }
 `

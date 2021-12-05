@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Button = styled.button`
+  font-size: 1rem;
   border: 2px solid #d35400;
   padding: 1.2rem 1.4rem;
   cursor: pointer;
@@ -18,7 +19,7 @@ const Button = styled.button`
 
   @media (min-width: 768px) {
     font-size: 1.2rem;
-    padding: 1.8rem 1.8rem;
+    padding: 1rem 1.8rem;
   }
 `
 

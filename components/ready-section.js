@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Button from '../components/button'
+import Button from './button'
 
 const Ready = () => {
   return (
@@ -31,7 +31,7 @@ const Ready = () => {
             <input type="text" name="website" id="website" />
           </div>
           <div className="form-data">
-            <label htmlFor="message">Your message (optional)</label>
+            <label htmlFor="message">Your message</label>
             <textarea name="message" id="message"></textarea>
           </div>
           <SubmitButton>I Want More Website Traffic!</SubmitButton>

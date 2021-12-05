@@ -7,12 +7,12 @@ export default function Footer() {
       <footer>
         <FooterMain>
           <div className="about-BDM">
-            <h3>Bowie Digital Marketing</h3>
+            <h3>Bowie SEO</h3>
             <p>
-              Bowie Digital Marketing is an SEO agency in Maryland specializing
-              in SEO and Local SEO. We help your local business rank higher in
-              the Google Map Pack to get more website traffic, more leads, build
-              your brand, and make more money.
+              Bowie SEO is an SEO company in Maryland specializing in SEO Local
+              SEO, and doing SEO Audits. We help your local business rank higher
+              in the search engines to help you get more website traffic, more
+              leads, more sales, and make more money.
             </p>
           </div>
           <div className="menu">
@@ -91,9 +91,7 @@ export default function Footer() {
           <div className="contact">
             <h3>Contact</h3>
             <p>
-              <a href="mailto:kester@bowiedigitalmarketing.com">
-                Email Us Today
-              </a>{' '}
+              Email us: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
             </p>
             <p>
               Call us: <a href="tel:1-240-226-0588">(240) 226-0588</a>
@@ -109,9 +107,7 @@ export default function Footer() {
           </div>
         </FooterMain>
       </footer>
-      <LastFooter>
-        Bowie Digital Marketing &copy;{new Date().getFullYear()}
-      </LastFooter>
+      <LastFooter>Bowie SEO &copy;{new Date().getFullYear()}</LastFooter>
     </>
   )
 }
@@ -205,7 +201,7 @@ const FooterMain = styled.div`
   }
 
   .hours {
-    width: 280px;
+    width: 300px;
     p {
       display: flex;
       justify-content: space-between;
@@ -216,4 +212,5 @@ const FooterMain = styled.div`
 const LastFooter = styled.div`
   text-align: center;
   padding: 1.5rem 0;
+  font-weight: 900;
 `

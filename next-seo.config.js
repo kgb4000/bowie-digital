@@ -1,15 +1,16 @@
 export default {
-  title: "Bowie Digital Marketing",
-  description: "We help local businesses rank higher in the Google Map Pack and make more money.",
+  title: 'Bowie SEO',
+  description:
+    'Get a FREE SEO Audit and see how you can rank higher in Google. We look at your website and tellyou what you need to do to get more customers.',
   openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://bowiedigitalmarketing",
-    site_name: "Bowie Digital Marketing"
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://bowieseo.com',
+    site_name: 'Bowie SEO',
   },
   twitter: {
-    handle: '@bowiedigitalmarketing',
-    site: '@bowiedigitalmarketing',
+    handle: '@bowieseo',
+    site: '@bowieseo',
     cardType: 'summary_large_image',
   },
 }

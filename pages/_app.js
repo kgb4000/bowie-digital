@@ -4,9 +4,8 @@ import 'react-modal-video/scss/modal-video.scss'
 
 import TagManager from 'react-gtm-module'
 
-
 const tagManagerArgs = {
-  id: "GTM-XXXX",
+  id: 'GTM-K5LS529',
 }
 
 const MyApp = ({ Component, pageProps }) => {

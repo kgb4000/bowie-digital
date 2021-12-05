@@ -15,7 +15,7 @@ export default function LocalSEO() {
     titleTemplate: '%s | Get More Customers',
     description:
       'Local SEO Agency in Bowie. SEO Friendly Websites That Work. We Build Websites So Thatt Customers Find Your Business. Contact Us Today!',
-    canonical: 'https://bowiedigitalmarketing.com/local-seo-services',
+    canonical: 'https://bowiedigitalmarketing.com/local-seo',
     openGraph: {
       title: 'Local SEO - Bowie',
       description:
@@ -36,11 +36,11 @@ export default function LocalSEO() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Talk To Us" buttonLink="/contact" />
+      <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
-        heroText="Local Seo For Maryland Businesses"
-        subText="Get more website traffic, more leads, and make more money with a Local SEO Strategy."
+        heroText="Local SEO"
+        subText="Get more website traffic, more leads, and make more money with a Maryland Local SEO Strategy."
       />
       <Main>
         <section className="article-section">
@@ -97,9 +97,8 @@ export default function LocalSEO() {
           <div className="container">
             <h2>What is Local SEO</h2>
             <p>
-              Local SEO is the process of optimizing your website to increase
-              traffic and leads from local search engines including Google,
-              Google Maps, Bing, Apple, and others.
+              Local SEO is the process of optimizing your website for your
+              location and your local audience.
             </p>
           </div>
         </section>
@@ -195,20 +194,19 @@ export default function LocalSEO() {
               a successful SEO strategy, you have to do it continuously.
             </p>
             <p>
-              To get your business website ranked, there are certain things you
-              need to do. These things include:
+              To get your business website ranked, there are a few steps you
+              need to perform. These steps include:
             </p>
             <MustHave>
+              <li>Doing keyword research and selecting the right keywords</li>
               <li>
                 Claiming your Google My Business Page and continuously updating
                 it with new information.
               </li>
-              <li>Adding a map on your website</li>
               <li>
                 Getting testimonials and 5 star reviews on your Google My
                 Business Page
               </li>
-              <li>Adding any social profile links</li>
               <li>Having a website that is mobile friendly and loads fast</li>
               <li>
                 Having a blog with quality content and updating it as much as
@@ -217,11 +215,7 @@ export default function LocalSEO() {
               <li>Adding and building backlinks</li>
               <li>
                 Building citations and matching NAP (name, address and phone
-                number) across all other listing sites
-              </li>
-              <li>
-                Doing keyword research and having the right keywords on your
-                site
+                number) across all listing sites
               </li>
             </MustHave>
           </div>
@@ -289,24 +283,6 @@ export default function LocalSEO() {
               </li>
               <li>
                 <h3>Mobile</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae qui cumque illo ipsa eius dolorum deleniti iusto iure
-                  minus laboriosam at in, culpa sequi, maxime reprehenderit quas
-                  molestiae nesciunt repellat?
-                </p>
-              </li>
-              <li>
-                <h3>It Can Reduce Your Ad Cost</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae qui cumque illo ipsa eius dolorum deleniti iusto iure
-                  minus laboriosam at in, culpa sequi, maxime reprehenderit quas
-                  molestiae nesciunt repellat?
-                </p>
-              </li>
-              <li>
-                <h3>It Can Reduce Your Ad Cost</h3>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Beatae qui cumque illo ipsa eius dolorum deleniti iusto iure
