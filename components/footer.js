@@ -148,7 +148,7 @@ const FooterMain = styled.div`
   }
 
   .about-BDM {
-    grid-column: 1 / 3;
+    grid-column: 1 / 6;
   }
 
   .hours {
@@ -160,7 +160,7 @@ const FooterMain = styled.div`
   }
 
   .contact {
-    grid-column: 3 / 5;
+    grid-column: 4 / 6;
   }
 
   @media (min-width: 736px) {

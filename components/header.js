@@ -17,7 +17,7 @@ export default function Header({ buttontext, buttonLink }) {
   }
 
   const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 460) {
       setDropdown(false)
     } else {
       setDropdown(true)
@@ -25,7 +25,7 @@ export default function Header({ buttontext, buttonLink }) {
   }
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 460) {
       setDropdown(false)
     } else {
       setDropdown(false)
@@ -120,7 +120,6 @@ const Head = styled.header`
       a.textnav{
       padding: 1rem 0;
     }
-  }
   }
 `
 

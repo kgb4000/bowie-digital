@@ -64,7 +64,10 @@ export default function About() {
               Our vision is to help small businesses use search engine
               optimization to make more money in their business..
             </p>
-
+          </div>
+        </section>
+        <section className="about">
+          <div className="container">
             <h2>Our Mission</h2>
             <p>
               Our mission is to help one hundred small businesses in Maryland
@@ -76,7 +79,10 @@ export default function About() {
               <li>Showing them how to incorporate it into their marketing</li>
               <li>Running successful SEO campaigns for our clients</li>
             </ol>
-
+          </div>
+        </section>
+        <section className="about">
+          <div className="container">
             <h2>About us</h2>
             <p>
               Bowie SEO is a search engine optimization company located in
@@ -142,6 +148,10 @@ export default function About() {
                 </a>
               </Link>
             </div>
+          </div>
+        </section>
+        <section className="about">
+          <div className="container">
             <h2>Why Work With Bowie SEO</h2>
             <p>
               We are a local business and an active part of the local business
@@ -181,7 +191,7 @@ export default function About() {
               <li>An SEO company that really cares about your business.</li>
             </ul>
             <p>
-              We don't offer packages, because every businnes will need
+              We don't offer packages, because every business will need
               different SEO services. We create a custom strategy for each
               business we work work and save them money by not paying for
               services they don't need.
@@ -204,9 +214,9 @@ export default function About() {
             </p>
           </div>
           <div className="btn">
-            <Link href="/free-seo-audit">
+            <Link href="/contact">
               <a>
-                <Button>Free SEO Audit &#8594;</Button>
+                <Button>Contatc us &#8594;</Button>
               </a>
             </Link>
           </div>

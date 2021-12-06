@@ -15,13 +15,14 @@ export default function MarylandSEO() {
   const [showModal, setShowModal] = useState(false)
   const SEO = {
     title: 'Maryland SEO',
-    titleTemplate: '%s | Get More Customers',
+    titleTemplate: '%s | Get More Customers and Sales',
     description:
-      'We use Maryland SEO to help businesses in Maryland rank higher on Google and get more customers. Call us today.',
+      'We use Maryland SEO to help small businesses rank higher on Google, get more leads, more customers, and more sales, and make more money. Call (240) 266-0588 today!',
+    canonical: 'https://bowieseo.com/maryland-seo',
     openGraph: {
       title: 'Maryland SEO | Get More Customers',
       description:
-        'We use Maryland SEO to help businesses in Maryland rank higher on Google and get more customers. Call us today.',
+        'We use Maryland SEO to help small businesses rank higher on Google, get more leads, more customers, and more sales, and make more money. Call (240) 266-0588 today!',
     },
   }
   return (
@@ -70,7 +71,7 @@ export default function MarylandSEO() {
               <li>Make more money</li>
             </ul>
             <p>
-              Maryland small business owners can accomplish all of this with Seo
+              Maryland small business owners can accomplish all of this with SEO
               services from <b>Bowie SEO</b>.
             </p>
             <p>
@@ -109,6 +110,7 @@ export default function MarylandSEO() {
               <a
                 href="https://moz.com/blog/how-often-does-google-update-its-algorithm"
                 target="_blank"
+                rel="noreferrer"
               >
                 Moz
               </a>
@@ -147,6 +149,7 @@ export default function MarylandSEO() {
                 <Link
                   href="https://seoexpertbrad.com/local-seo-stats/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <a>SEO Expert Brad</a>
                 </Link>
@@ -363,7 +366,7 @@ export default function MarylandSEO() {
                 />
                 <em>
                   <small>
-                    Source: <a href="/">Bowie Digital marketing</a>
+                    Source: <a href="/">Bowie SEO</a>
                   </small>
                 </em>
               </div>
@@ -397,15 +400,6 @@ export default function MarylandSEO() {
                 referals to get leads and customers.
               </li>
               <li className="ways">You are not on the first page of Google.</li>
-              <Quotebox>
-                92% of searchers will pick businesses on the first page of local
-                search results.
-                <p>
-                  <a href="https://moz.com/blog/google-organic-click-through-rates-in-2014">
-                    SEO Expert Brad
-                  </a>
-                </p>
-              </Quotebox>
               <li className="ways">
                 You don&apos;t rank for any of your keywords.
               </li>
@@ -551,7 +545,7 @@ export default function MarylandSEO() {
                 <b>Website design</b>
               </li>
               <li>
-                <b>Website organization</b>
+                <b>Website architecture</b>
               </li>
               <li>
                 <b>404 errors and broken links</b>
@@ -695,7 +689,13 @@ export default function MarylandSEO() {
                 loading="lazy"
               />
               <em>
-                Source: <a>Think With Google</a>
+                Source:{' '}
+                <a
+                  href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/"
+                  target="_blank"
+                >
+                  Think With Google
+                </a>
               </em>
             </div>
             <p>Every second your website takes to load means users bounce.</p>
@@ -721,8 +721,14 @@ export default function MarylandSEO() {
               in the search.
             </p>
             <p>
-              Use <a href="#">this tool</a> to test if your website is
-              mobile-friendly. Think with Google tool.
+              Use{' '}
+              <a
+                href="https://www.thinkwithgoogle.com/feature/testmysite/"
+                target="_blank"
+              >
+                this tool
+              </a>{' '}
+              to test if your website is mobile-friendly.
             </p>
             <h4>Website Security</h4>
             <p>
@@ -761,20 +767,45 @@ export default function MarylandSEO() {
             <p>
               Without a sitemap, Google will use backlinks and external links.
               If you don&apos;t have any backlinks or other websites linking to
-              your website, Google will have a hard time finding your web pages.
+              your website, Google will have a hard time finding your website.
             </p>
             <h4>Google Tools</h4>
             <p>
-              The tools that Google has can help you rank higher in the search
-              engines. These tools are Google Analytics and Google Console.
+              Google has two tools that can help you rank higher in the search
+              engines.
+            </p>
+            <p>These tools are:</p>
+            <ul>
+              <li>Google Analytics</li>
+              <li>Google Search Console</li>
+            </ul>
+            <p>Google Console is a tool that you can use to see such things </p>
+            <p>
+              Google Analytics allows you to analyze the traffic that comes to
+              your site.
             </p>
             <p>
-              Having Google Analytics on your website allows you to analyze the
-              traffic that comes to your site. It lets you see how many visitors
-              came to your website, where they came from, what day, what pages
-              they visited, and even the device they used.
+              It lets you see how many visitors came to your website, where they
+              came from, what day they visited, what pages they visited, and
+              even what kind of device they used.
             </p>
-            <p>Google Console is a tool that you can use to see such things </p>
+            <p>
+              Google Search Console is another tool from Google, that lets you
+              monitor your website, and also troubleshoot your website's
+              presence in the search results. (
+              <a
+                href="https://support.google.com/webmasters/answer/9128668?hl=en"
+                target="_blank"
+              >
+                Google Developer
+              </a>
+              ).
+            </p>
+            <p>
+              With this tool, you can check to verify that your website is
+              indexed in Google, and you can also see the search terms people
+              used, that brought up your website in the search results.
+            </p>
             <h3>Competitor Analysis</h3>
             <img src="/images/competition.jpg" loading="lazy" />
             <p>

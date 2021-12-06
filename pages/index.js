@@ -291,10 +291,11 @@ export default function Home() {
               <div className="solution-box">
                 <h3>SEO</h3>
                 <p>
-                  SEO is about your business being found when it counts. When
-                  local customers are looking for your services on desktop,
-                  mobile, and voice searches, you need to show up in the search
-                  above your competitors.
+                  SEO is about laying down the foundation for your website and
+                  making it better for search engines and for users. When you
+                  have a good foundation, your website will rank higher
+                  organically, and you will attract more leads, get more sales,
+                  and make more money.
                 </p>
                 <Link href="/maryland-seo">
                   <a className="solution-link">Learn more &rsaquo;</a>

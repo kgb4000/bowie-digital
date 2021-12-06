@@ -94,7 +94,7 @@ const SEOAudit = () => {
     titleTemplate: '%s | Bowie SEO',
     description:
       'Get your Free Website And SEO Audit and see what you can do to get more traffic to your website. A $999 value. Click here to get started.',
-    canonical: 'https://bowieseo.com/free-seo-audit',
+    canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
       title: 'Free Website And SEO Audit',
       description:
@@ -309,18 +309,20 @@ const SEOAudit = () => {
             </p>
             <p>Our SEO audit process involves doing:</p>
             <ol>
+              <li>Technical audit</li>
               <li>A content audit</li>
-              <li>A site Architecture audit</li>
+              <li>A site architecture audit</li>
               <li>A website speed audit</li>
               <li>A website security audit</li>
               <li>A check on your url structure</li>
               <li>Checking redirects</li>
+              <li>Keyword research</li>
               <li>Making sure search engines can crawl and index your site</li>
               <li>An audit all your images</li>
-              <li>
-                A check to see if your website’s user experience is good, or if
-                it needs improving
-              </li>
+              <li>User experience check</li>
+              <li>On page audit</li>
+              <li>Off page audit</li>
+              <li>Schema markup</li>
               <li>Plus more</li>
             </ol>
             <h2>
