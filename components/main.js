@@ -21,6 +21,11 @@ const Main = styled.div`
   li {
     margin-left: 1.2rem;
   }
+
+  ul,
+  ol {
+    margin-left: 2rem;
+  }
 `
 
 export default Main

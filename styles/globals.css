@@ -15,7 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizespeed;
-  line-height: 1.8;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
 }
@@ -217,6 +216,10 @@ textarea {
 
   section {
     padding: 4rem 0;
+  }
+
+  .section {
+    padding: 1rem 0;
   }
 
   .blog-img {

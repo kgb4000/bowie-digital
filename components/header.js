@@ -54,14 +54,17 @@ export default function Header({ buttontext, buttonLink }) {
               {dropdown && <Dropdown />}
             </li>
             <li className="nav-item">
-              <HeaderButton
-                as="a"
-                className="header-btn nav-links"
-                href={buttonLink}
-                onClick={closeMobileMenu}
-              >
-                {buttontext}
-              </HeaderButton>
+              <Link href={buttonLink}>
+                <a>
+                  {' '}
+                  <HeaderButton
+                    className="header-btn nav-links"
+                    onClick={closeMobileMenu}
+                  >
+                    {buttontext}
+                  </HeaderButton>
+                </a>
+              </Link>
             </li>
           </ul>
         </nav>

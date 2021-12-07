@@ -135,12 +135,22 @@ export default function MarylandSEO() {
               >
                 71% to 92% of the clicks
               </a>
+              .
             </p>
-            <p>Websites on the second page gets less than 6% of all clicks.</p>
+            <p>That's most of the clicks.</p>
+            <p>Websites on the second page get less than 6% of all clicks.</p>
             <p>That's low.</p>
             <p>
-              Also, according to SEO Expert Brad, 92% of searchers will pick
-              businesses on the first page of local search results.
+              Also, according to{' '}
+              <a
+                href="https://seoexpertbrad.com/local-seo-stats/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SEO Expert Brad
+              </a>
+              , 92% of searchers will pick businesses on the first page of local
+              search results.
             </p>
             <Quotebox>
               92% of searchers will pick businesses on the first page of local

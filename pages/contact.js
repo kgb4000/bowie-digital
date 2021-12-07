@@ -12,29 +12,30 @@ export default function Contact() {
     <>
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="60vh"
-        heroText="Contact us"
-        subText="We want to hear from you"
+        backgroundHeight="100vh"
+        heroText="Contact Me"
+        subText="I want to hear from you."
       />
 
       <Main>
         <section className="contact">
           <div className="container">
             <p>
-              If you would like to get in touch with us, please feel free to
+              If you would like to get in touch with me and learn how search
+              engine optimization can help your business, please feel free to
               reach out.
             </p>
             <p>
-              We are happy to answer any questions you have about our SEO
-              services and how it can help your business.
+              I am happy to answer any questions you have about my SEO services
+              and how it can help your business.
             </p>
-            <p>You can reach us in the following ways: </p>
+            <p>You can reach me in the following ways: </p>
             <ul>
               <li>By phone: (240) 266-0588</li>
               <li>By email: info@bowieseo.com </li>
             </ul>
             <p>
-              Or fill out the form below and we’ll get back to you as soon as
+              Or fill out the form below and I'll get back to you as soon as
               possible!
             </p>
 

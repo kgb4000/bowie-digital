@@ -14,7 +14,6 @@ import { NextSeo } from 'next-seo'
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
-  const [showModal, setShowModal] = useState(false)
 
   const SEO = {
     title: 'Maryland Search Engine Optimization Services',
@@ -23,7 +22,7 @@ export default function Home() {
       'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
     canonical: 'https://bowieseo.com',
     openGraph: {
-      title: 'Helping Small Businesses Make More Money with SEO',
+      title: 'Maryland Search Engine Optimization Services',
       description:
         'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
     },
@@ -45,7 +44,7 @@ export default function Home() {
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
-        heroText="Small Business SEO ...Simplified" //Business Marketing ...Simplified
+        heroText="Small Business SEO ...Simplified"
         subText="We Help Small Businesses in Maryland Make More Money With Search Engine Optimization"
         buttonText="Free SEO Audit"
         buttonLink="/free-seo-audit"
@@ -137,7 +136,11 @@ export default function Home() {
               <li>Spend less on social media ads and pay-per-click ads.</li>
             </HelpHow>
             <div className="btn">
-              <Button>Book A 15 min Call &#8594;</Button>
+              <Link href="/contact">
+                <a>
+                  <Button>Book A 15 min Call &#8594;</Button>
+                </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -291,11 +294,11 @@ export default function Home() {
               <div className="solution-box">
                 <h3>SEO</h3>
                 <p>
-                  SEO is about laying down the foundation for your website and
-                  making it better for search engines and for users. When you
-                  have a good foundation, your website will rank higher
-                  organically, and you will attract more leads, get more sales,
-                  and make more money.
+                  SEO is laying down the foundation for your website and making
+                  it better for search engines and for users. When you have a
+                  solid foundation, your website will rank higher organically,
+                  and you will attract more leads, get more sales, and make more
+                  money.
                 </p>
                 <Link href="/maryland-seo">
                   <a className="solution-link">Learn more &rsaquo;</a>
@@ -316,9 +319,11 @@ export default function Home() {
               <div className="solution-box">
                 <h3>SEO Audit</h3>
                 <p>
-                  An SEO Audit will let you know what is stopping you from
-                  ranking higher in the search engines. It will help you boost
-                  your rankings to get more leads and customers.
+                  An SEO Audit will let you know what's stopping your website
+                  from ranking higher in the search engines. It will help you
+                  identify the elements that are holding your website back, and
+                  it will show you what elements you need to fix to make your
+                  site better for search engines and consumers.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">Learn more &rsaquo;</a>

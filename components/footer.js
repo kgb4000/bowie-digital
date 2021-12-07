@@ -57,6 +57,23 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          <div className="contact">
+            <h3>Contact</h3>
+            <p>
+              Email us: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
+            </p>
+            <p>
+              Call us: <a href="tel:1-240-226-0588">(240) 226-0588</a>
+            </p>
+            <p>Bowie, Md 20720</p>
+            <div className="social">
+              <span>
+                <a href="#">
+                  <i className="im im-instagram"></i>
+                </a>
+              </span>
+            </div>
+          </div>
           <div className="hours">
             <h3>Hours</h3>
             <p>
@@ -87,23 +104,6 @@ export default function Footer() {
               <span className="day">Sunday: </span>
               <span className="time">Closed</span>
             </p>
-          </div>
-          <div className="contact">
-            <h3>Contact</h3>
-            <p>
-              Email us: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
-            </p>
-            <p>
-              Call us: <a href="tel:1-240-226-0588">(240) 226-0588</a>
-            </p>
-            <p>Bowie, Md 20720</p>
-            <div className="social">
-              <span>
-                <a href="#">
-                  <i className="im im-instagram"></i>
-                </a>
-              </span>
-            </div>
           </div>
         </FooterMain>
       </footer>
@@ -151,16 +151,23 @@ const FooterMain = styled.div`
     grid-column: 1 / 6;
   }
 
-  .hours {
-    grid-column: 1 / 3;
+  .menu {
+    grid-column: 1 / 2;
+    grid-row: 2;
   }
 
   .services {
-    grid-column: 4 / 6;
+    grid-column: 2 / 4;
+    grid-row: 2;
   }
 
   .contact {
     grid-column: 4 / 6;
+    grid-row: 3;
+  }
+
+  .hours {
+    grid-column: 1 / 3;
   }
 
   @media (min-width: 736px) {

@@ -40,13 +40,13 @@ export default function About() {
       <Header buttontext="Talk To Kes" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
-        heroText="About Us"
-        subText="All We Do is Search Engine Marketing for Small Businesses in Maryland"
+        heroText="About Me"
+        subText="All I Do is Search Engine Optimization for Small Businesses in Maryland"
         buttonText="Book a Call"
         buttonLink="/contact"
       />
       <Main>
-        <section className="about">
+        <section className="section">
           <div className="container">
             {/* <div className="video-container">
               <div className="player-wrapper">
@@ -59,116 +59,93 @@ export default function About() {
               </div>
             </div> */}
 
-            <h2>Our Vision</h2>
+            <h2>My Vision</h2>
             <p>
-              Our vision is to help small businesses use search engine
-              optimization to make more money in their business..
+              My vision is to help small businesses use search engine
+              optimization to make more money in their business.
             </p>
           </div>
         </section>
-        <section className="about">
+        <section className="section">
           <div className="container">
-            <h2>Our Mission</h2>
+            <h2>My Mission</h2>
             <p>
-              Our mission is to help one hundred small businesses in Maryland
-              use search engine optimization to make more money. We will do this
-              by:
+              My mission is to help one hundred small businesses in Maryland use
+              search engine optimization. I will do this by:
             </p>
             <ol>
-              <li>Teaching small businesses about SEO</li>
-              <li>Showing them how to incorporate it into their marketing</li>
-              <li>Running successful SEO campaigns for our clients</li>
+              <li>Teaching small businesses about SEO.</li>
+              <li>Showing them how to incorporate it into their marketing.</li>
+              <li>
+                Running successful SEO campaigns for small businesses in
+                Maryland.
+              </li>
             </ol>
           </div>
         </section>
-        <section className="about">
+        <section className="section">
           <div className="container">
-            <h2>About us</h2>
+            <h2>About me</h2>
+            <p>Hello, my name is Kes.</p>
+            <p>I am an SEO expert and the founder of Bowie SEO.</p>
             <p>
-              Bowie SEO is a search engine optimization company located in
-              Bowie, Maryland specializing in search engine optimization, local
-              search engine optimization, and SEO Audits.{' '}
+              If you were expecting a big SEO firm or agency, I'm sorry, it's
+              just me.
             </p>
-
             <p>
-              We help Maryland businesses improve their organic rankings by
+              I'm the one actually doing all the hard work behind the scenes
+              helping business rank higher in the search engines.
+            </p>
+            <p>
+              I am located in Bowie, Maryland and I specialize in search engine
+              optimization.
+            </p>
+            <p>
+              I help Maryland businesses improve their organic rankings by
               auditing and correcting harmful technical, on-page, and off-page
               issues on their website.
             </p>
+            <p>I not only find them, I fix them.</p>
             <p>
-              This means we do all of the hard work for you. We create an action
-              plan to fix these errors and fix them.
-            </p>
-            <p>Our second service is Local SEO.</p>
-
-            <p>
-              This involves taking over your Google Business Profile page (or
-              creating one if it doesn't exist) and managing all location
-              related content like Geo-tags, Categories, Hours of operation,
-              address, phone number etc.{' '}
-            </p>
-
-            <p>
-              Put simply, this makes sure that Google has all of the necessary
-              information to correctly place your business in results for
-              searchers close to you. Like many other cities across the country,
-              Bowie is constantly growing, which means many locals are looking
-              for the best place to eat, shop or have their car repaired.
-            </p>
-
-            <p>
-              Making sure that you rank high for local keywords will allow you
-              to capture customers who are within 5-10 miles of your business.
-            </p>
-
-            <p>The final service we offer is organic SEO.</p>
-
-            <p>
-              This involves creating a plan including an onsite audit and
-              competitive analysis to determine what steps need to be taken in
-              order to improve your ranking.
-            </p>
-
-            <p>
-              Once this has been done changes are implemented onto the website
-              so it better follows Google guidelines. We can also help you build
-              links which will play a big part in improving your rankings over
-              time.
+              I create an action plan for us to fix the problems that are
+              stopping your website from performing better in the search
+              results.
             </p>
             <p>
-              Our company prides itself on being able to deliver real results
-              with tangible improvements in organic traffic for our clients. If
-              you want to outrank your competitors without overspending on
-              social media ads, then contact us today.
+              I prides myself on being able to deliver real results with
+              tangible improvements in organic traffic for my clients. If you
+              want to outrank your competitors without overspending on social
+              media ads, then contact me today.
             </p>
             <div className="btn">
-              <Link href="/free-seo-audit">
+              <Link href="/contact">
                 <a>
-                  <Button>Free SEO Audit &#8594;</Button>
+                  <Button>Contact me &#8594;</Button>
                 </a>
               </Link>
             </div>
           </div>
         </section>
-        <section className="about">
+        <section className="section">
           <div className="container">
             <h2>Why Work With Bowie SEO</h2>
+
             <p>
               We are a local business and an active part of the local business
-              community. We want to help small business owners in our community
+              community. I want to help small business owners in our community
               grow with search engine optimization.
             </p>
             <p>
               We're not an out of town SEO agency or super large SEO company
               pretending to care about your business. Because when your business
-              grows, the entire community grows, and that's want we want.
+              grows, the entire community grows, and that's want I want.
             </p>
             <p>
-              We belive in doing search engine optimization the right way, so
-              that we get our customers the best results.
+              I believe in doing search engine optimization the right way, so
+              that I get our customers the best results.
             </p>
 
-            <p>When you work with Bowie SEO, you get:</p>
+            <p>When you work with me and Bowie SEO, you get:</p>
             <ul>
               <li>A FREE SEO Audit</li>
               <li>No monthly contacts.</li>
@@ -216,7 +193,7 @@ export default function About() {
           <div className="btn">
             <Link href="/contact">
               <a>
-                <Button>Contatc us &#8594;</Button>
+                <Button>Contatc me &#8594;</Button>
               </a>
             </Link>
           </div>
