@@ -41,7 +41,7 @@ export default function Home() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
       <HeroBox
         backgroundHeight="100vh"
         heroText="Small Business SEO ...Simplified"
@@ -68,32 +68,32 @@ export default function Home() {
             </p>
             <p className="subtext">
               If you're spending money on social media ads and online ads, you
-              may be wasting money if you website is not coming up in the search
-              results.
+              may be wasting money if you website does not even come up in the
+              organic search results.
             </p>
             <p className="subtext">
-              Not understanding online marketing can can get expensive and cost
-              you more than it has to. Doing online marketing wrong will result
-              in:
+              Not understanding digital marketing can can get expensive and cost
+              you more than it has to. Doing online marketing the wrong way will
+              result in:
             </p>
             <NoSEO>
-              <li>Overspending and wasting money on online advertizing</li>
+              <li>Overspending and wasting money on online advertizing.</li>
               <li>
-                Low online visibility, low credability and not enough reviews
+                Low online visibility, low credability and not enough reviews.
               </li>
               <li>
                 No brand recognition because consumers can't see or find your
-                business when they search for your products or services
+                business when they search for your products or services.
               </li>
               <li>
                 A website that doesn't get any traffic, doesn't convert, or
-                bring any business
+                bring any business.
               </li>
               <li>
                 A stress filled work environment trying everything to get new
-                leads and sales
+                leads and sales.
               </li>
-              <li>Eventually having to closing your business</li>
+              <li>Eventually having to closing your business.</li>
             </NoSEO>
             <p className="subtext">
               Don't let this happen trying online marketing yourself. Click the
@@ -367,7 +367,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Ready />
+        <section>
+          <div className="container">
+            <Ready
+              h2="Ready To Get More Website Traffic and Make More Money?"
+              p="We look foward to meeting with you and showing you how Bowie SEO can help your business get more traffic and make more money."
+            />
+          </div>
+        </section>
       </Main>
       <Footer />
     </>

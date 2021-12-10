@@ -42,6 +42,8 @@ export default function LocalSEO() {
         backgroundHeight="100vh"
         heroText="Get Found with Local SEO"
         subText="Get more website traffic, more leads, and make more money with a Local SEO Strategy."
+        buttonText="Contact me"
+        buttonLink="/contact"
       />
       <Main>
         <section className="article-section">

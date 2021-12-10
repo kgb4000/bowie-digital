@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import Button from './button'
 
@@ -16,9 +17,11 @@ export default function HeroBox({
         <h2>{heroText}</h2>
         <p>{subText}</p>
         {buttonText && (
-          <Button as="a" href={buttonLink}>
-            {buttonText} &#8594;
-          </Button>
+          <Link href={buttonLink}>
+            <a>
+              <Button>{buttonText} &#8594;</Button>
+            </a>
+          </Link>
         )}
         {children}
       </div>
@@ -40,7 +43,7 @@ const Hero = styled.div`
   }
 
   .content {
-    max-width: 1140px;
+    max-width: 1000px;
     text-align: center;
     padding: 0 1rem;
 
@@ -48,6 +51,11 @@ const Hero = styled.div`
       max-width: 40rem;
       margin: 2rem auto 3rem auto;
     }
+  }
+
+  @media (orientation: landscape) {
+    margin-top: 4rem;
+    padding-bottom: 100px;
   }
 
   @media (min-width: 768px) {

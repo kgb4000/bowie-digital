@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="about-BDM">
             <h3>Bowie SEO</h3>
             <p>
-              Bowie SEO is an SEO company in Maryland specializing in SEO Local
-              SEO, and doing SEO Audits. We help your local business rank higher
-              in the search engines to help you get more website traffic, more
-              leads, more sales, and make more money.
+              Bowie SEO is an Maryland SEO company in specializing in SEO, Local
+              SEO, and doing SEO Audits. We help local businesses in Maryland
+              rank higher in the search engines to help get more website
+              traffic, more leads, more sales, and make more money.
             </p>
           </div>
           <div className="menu">
@@ -51,8 +51,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/free-seo-audit">
-                  <a>FREE SEO Audit</a>
+                <Link href="/seo-audit">
+                  <a>SEO Audit</a>
                 </Link>
               </li>
             </ul>
@@ -63,7 +63,7 @@ export default function Footer() {
               Email us: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
             </p>
             <p>
-              Call us: <a href="tel:1-240-226-0588">(240) 226-0588</a>
+              Call us: <a href="tel:1-240-266-0588">(240) 266-0588</a>
             </p>
             <p>Bowie, Md 20720</p>
             <div className="social">
@@ -172,7 +172,7 @@ const FooterMain = styled.div`
 
   @media (min-width: 736px) {
     display: grid;
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
@@ -191,10 +191,10 @@ const FooterMain = styled.div`
 
   @media (min-width: 768px) {
     display: grid;
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 20px;
     justify-content: space-around;
     justify-items: start;
 

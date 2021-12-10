@@ -44,6 +44,8 @@ export default function MarylandSEO() {
         backgroundHeight="100vh"
         heroText="Maryland SEO"
         subText="Professional Search Engine Optimization for Small Businesses in Maryland."
+        buttonText="Contact me"
+        buttonLink="/contact"
       />
       <Main>
         <div className="content">
@@ -53,39 +55,35 @@ export default function MarylandSEO() {
               Bowie SEO is a Maryland SEO company located in Bowie Maryland.
             </p>
             <p>
-              As SEO consultants in Maryland, we offer SEO services and search
-              marketing services because we want our Maryland business to:
+              As a Maryland SEO company, we offer SEO and search marketing
+              services to small businesses in Maryland.
+            </p>
+            <p>
+              We offer these services because we want you and other Maryland
+              businesses to:
             </p>
             <ul>
-              <li>Increase your website presence and online visibility</li>
-              <li>Do more business online</li>
-              <li>Increase web traffic and organic traffic</li>
-              <li>Get more quality traffic coming to your website</li>
-              <li>
-                Spend less money on social media ads to reach your ideal
-                customers
-              </li>
-              <li>Rank higher in organic search engine results</li>
-              <li>Build trust and authority with new and existing customers</li>
-              <li>Let more shoppers find you online</li>
-              <li>Make more money</li>
+              <li>Increase your website presence.</li>
+              <li>Do more business online.</li>
+              <li>Increase website traffic.</li>
+              <li>Get quality traffic.</li>
+              <li>Spend less money on social media ads.</li>
+              <li>Rank higher in organic search engine results.</li>
+              <li>Build trust with new and existing customers.</li>
+              <li>Let more shoppers find you online.</li>
+              <li>Make more money.</li>
             </ul>
             <p>
-              Maryland small business owners can accomplish all of this with SEO
+              Maryland business owners can accomplish all of this with SEO
               services from <b>Bowie SEO</b>.
             </p>
             <p>
-              We help companies throughout Maryland increase website traffic and
-              rank higher in Google. We get you more website traffic and ranking
-              higher by using SEO.
-            </p>
-            <p>
-              As a Maryland SEO company, we are committed to helping Maryland
-              small businesses succeed with search engine optimization and
-              search marketing.
+              We help companies throughout Maryland increase website traffic,
+              reach more potential customers, and rank higher in Google. We do
+              this for you by using search engine optimization.
             </p>
             <p>But first, what is search engine optimization?</p>
-            <h2>What is SEO</h2>
+            <h2>What is SEO?</h2>
             <p>
               SEO (search engine optimization) is the process of improving your
               website for users and search engines.
@@ -140,8 +138,10 @@ export default function MarylandSEO() {
             <p>That's most of the clicks.</p>
             <p>Websites on the second page get less than 6% of all clicks.</p>
             <p>That's low.</p>
+            <p>Also.</p>
             <p>
-              Also, according to{' '}
+              {' '}
+              According to{' '}
               <a
                 href="https://seoexpertbrad.com/local-seo-stats/"
                 target="_blank"
@@ -306,46 +306,60 @@ export default function MarylandSEO() {
               </li>
             </ul>
             <p>
-              Starting an SEO campaign is one of the best investments you can
-              ever make for your small business.
+              Let's say you are looking to sell Maryland crabs online. You
+              finally get the website up and running, but no matter how many
+              times you visit the website yourself, it doesn't show in the top
+              ten results when someone searches for "Maryland Crabs" on Google.
+            </p>
+            <p>So who will find your site?</p>
+            <p>The answer is, no one.</p>
+            <p>
+              Maryland SEO is important for Maryland small businesses because it
+              can help them to get in front of their potential customers and
+              increase their website traffic.{' '}
             </p>
             <p>
-              More people find out about a business online more than any other
-              medium. Search marketing beats every other type of digital
-              marketing including television ads, print ads, social media ads,
-              pay-per-click ads, and billboards.
+              With higher website traffic, businesses can convert more visitors
+              into paying customers, which can result in increased profits.
+              Implementing a Maryland SEO strategy is a cost-effective way to
+              reach out to new customers and generate more revenue for Maryland
+              small businesses.
             </p>
             <p>Start your SEO strategy with a Maryland SEO company.</p>
             {/* <Quotebox>Watch Video!</Quotebox> */}
-            <h2>The Benefits of Working With a Maryland SEO Company</h2>
+            <h2>
+              What are the Benefits of Working With a Maryland SEO Company?
+            </h2>
             <p>The benefits of working with a Maryland SEO company are:</p>
             <ul>
               <li>
-                We are determined boost your web presence and get you more
-                website traffic.
+                We are a Maryland SEO company with a deep understanding of the
+                Maryland market and can help your business target local
+                customers.
               </li>
               <li>
-                We care about your business and we want you to succeed and make
-                more money.
+                Our SEO company is determined boost your online visibility and
+                get you more website traffic.
               </li>
               <li>
-                We want to increase the number of local customers coming to your
-                website.
+                As a local SEO company, we care about your business and we want
+                you to succeed.
               </li>
               <li>
-                We want to increase the number of leads your business gets.
+                We're not a digital marketing agency that does website design,
+                web development, etc, all we do is <b>SEO</b>.
               </li>
               <li>
                 We want to help you save money and replace expensive social
                 media ads with organic search.
               </li>
               <li>
-                We want to help you create valuable content to attract more of
-                your ideal customers.
+                Our SEO company wants to help you create valuable content for
+                your website to attract more of your ideal customers.
               </li>
               <li>
-                You are a Maryland small business and we want small businesses
-                to win.
+                Our Maryland SEO company is the best fit for Maryland small
+                businesses.
               </li>
             </ul>
             <Quotebox>Watch Video!</Quotebox>
@@ -359,14 +373,22 @@ export default function MarylandSEO() {
             <p>Yes, it would. </p>
             <p>That is what an SEO strategy can do for your business.</p>
             <h2>
-              27 Ways To Know If Your Business Needs Search Engine Optimization
+              31 Ways To Know If Your Business Needs Search Engine Optimization
             </h2>
             <p>
               You know if your business needs search engine optimization if:
             </p>
             <ol>
-              <li className="ways">Your competitors rank higher than you.</li>
-              <li className="ways">You get zero or little website traffic.</li>
+              <li className="ways">
+                Your customers can’t find you when they search for your industry
+                keywords.
+              </li>
+              <li className="ways">
+                You’re not ranking for your top keywords.
+              </li>
+              <li className="ways">
+                Your website traffic is low, and you’re not sure why.
+              </li>
               <div className="blog-image">
                 <img
                   src="/images/small-amount-of-backlinks.webp"
@@ -374,13 +396,10 @@ export default function MarylandSEO() {
                   alt="Website with low traffic"
                   loading="lazy"
                 />
-                <em>
-                  <small>
-                    Source: <a href="/">Bowie SEO</a>
-                  </small>
-                </em>
               </div>
-              <li className="ways">Your website traffic is not increasing.</li>
+              <li className="ways">
+                You’re not getting any leads from your website.
+              </li>
               <li className="ways">Your website is not mobile-friendly.</li>
               <div className="blog-image">
                 <img
@@ -402,24 +421,19 @@ export default function MarylandSEO() {
                 You rely on Google ads and social media ads to get leads and
                 customers.
               </li>
-              <li className="ways">You have no web presence.</li>
-
-              <li className="ways">Your web traffic is not increasing.</li>
-              <li className="ways">
-                You rely mostly on paid ads, social media advertising, and
-                referals to get leads and customers.
-              </li>
-              <li className="ways">You are not on the first page of Google.</li>
-              <li className="ways">
-                You don&apos;t rank for any of your keywords.
-              </li>
+              <li className="ways">You have a weak online presence.</li>
+              <li className="ways">You’re not using Google Analytics.</li>
+              <li className="ways">You’re not targeting the right audience.</li>
+              <li className="ways">Your competitors are getting ahead.</li>
               <li className="ways">
                 You’re trying to rank for keywords you can't rank for.
               </li>
               <li className="ways">
-                You didn't do any keyword research, you just guessed.
+                You’re not using enough keywords in your content.
               </li>
-
+              <li className="ways">
+                You just generally aren’t sure what you’re doing.
+              </li>
               <li className="ways">
                 Your{' '}
                 <a href="https://www.google.com/business/" target="_blank">
@@ -437,12 +451,10 @@ export default function MarylandSEO() {
                   alt="Google search for bakery in Bowie Maryland"
                   loading="lazy"
                 />
-                <em>
-                  <small>Source: Bowie Digital Marketing</small>
-                </em>
               </div>
               <li className="ways">
-                You are not on the first page of the Google Map Pack.
+                You’ve put time and money into your site, but nothing is
+                working!
               </li>
               <li className="ways">Your website is slow.</li>
               <div className="blog-image">
@@ -452,9 +464,6 @@ export default function MarylandSEO() {
                   alt="Website with low traffic"
                   loading="lazy"
                 />
-                <em>
-                  <small>Source: Bowie SEO</small>
-                </em>
               </div>
               <li className="ways">You have broken links on your website.</li>
               <li className="ways">You don’t have any or enough backlinks.</li>
@@ -466,18 +475,22 @@ export default function MarylandSEO() {
               <li className="ways">Your website has thin content.</li>
               <li className="ways">You have inconsistent citations.</li>
               <li className="ways">
-                You don't have Google Analytics or Google Search Console
-                connected to your website to track anything.
+                You don't have Google Search Console connected to your website.
               </li>
               <li className="ways">You have less than 10 Google reviews.</li>
               <li className="ways">
                 You don’t track any key performance indicators (KPIs).
               </li>
               <li className="ways">
-                Your title and meta description are not the best.
+                You just launched your website and you want it to rank higher.
+              </li>
+              <li className="ways">Google hasn’t indexed your website yet.</li>
+              <li className="ways">
+                Your meta-descriptions are low-quality, incomplete, or
+                nonexistent!
               </li>
               <li className="ways">
-                You're not working with a Maryland SEO company
+                You're not working with a Maryland SEO company.
               </li>
             </ol>
             <h2>Our Maryland SEO Process</h2>
@@ -990,6 +1003,99 @@ export default function MarylandSEO() {
                 business if they have a mobile website.
               </li>
             </ol>
+            <h5>Google Business Profile</h5>
+            <p>
+              When it comes to promoting your small business, a{' '}
+              <a
+                href="https://www.google.com/business/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Google Business Profile
+              </a>{' '}
+              is an important tool to have in your arsenal.
+            </p>
+            <p>
+              A profile page allows customers to find your business on Google
+              Maps and learn more about your company.
+            </p>
+            <p>
+              A report from Google found that 60% of smartphone users contacted
+              businesses directly through search results.
+            </p>
+            <p>
+              Without a Google Business Profile page, you miss consumers
+              searching for your products and services.
+            </p>
+            <p>
+              Here are some other reasons why you should create a Google
+              Business profile for your small business:
+            </p>
+            <ol>
+              <li>A profile can help you get found online.</li>
+              <li>A profile can help you connect with customers.</li>
+              <li>
+                A profile is a useful starting point for customer service
+                efforts.
+              </li>
+              <li>
+                A profile is a way to share company news and updates with
+                customers.
+              </li>
+              <li>A profile helps build trust with customers.</li>
+            </ol>
+            <p>
+              When people want to learn more about your business, they can check
+              out your Google Business profile page. This makes it easy for them
+              to see information that might help them decide if you're the right
+              business to hire or do business with.
+            </p>
+            <p>
+              Your Google Business listing is one of your most powerful tools in
+              connecting with customers online. Your profile includes plenty of
+              ways to connect with customers and build trust. Take advantage of
+              all that a Google Business profile has to offer to help promote
+              your small business.
+            </p>
+            <p>
+              If you don&apos;t have a Google My Business page, you are missing
+              consumers searching for your products and services.
+            </p>
+            <p>
+              If you don&apos;t have a Google Business profile,{' '}
+              <Link href="/contact">
+                <a>contact me</a>
+              </Link>{' '}
+              to help set it up for you.
+            </p>
+            <h5>Local Link Building</h5>
+            <p>
+              Local link building is one way to help build your website&apos;s
+              authority. Getting backlinks from sites like the{' '}
+              <a href="https://mdchamber.org/" rel="noreferrer" target="_blank">
+                Maryland Chamber of Commerce
+              </a>{' '}
+              and the{' '}
+              <a href="https://www.bbb.org/" rel="noreferrer" target="_blank">
+                Better Business Bureau
+              </a>{' '}
+              can help your site rank higher than your competition.
+            </p>
+            <p>Other ways to get valuable backlinks in your area are:</p>
+            <ul>
+              <li>local newspapers and media outlets</li>
+              <li>other local businesses</li>
+              <li>local blogs</li>
+              <li>local bloggers</li>
+              <li>local charities</li>
+              <li>sponsoring events</li>
+              <li>volunteering your services to worthy causes</li>
+            </ul>
+            <p>
+              Backlinks from local businesses and organizations will also signal
+              to Google that you are an authority in your local community and,
+              therefore boost your website authority.
+            </p>
             <h5>NAP</h5>
             <p>
               We check citations for your NAP consistency. Nap stands for name,
@@ -1060,63 +1166,6 @@ export default function MarylandSEO() {
               <li>Angie&apos;s List</li>
               <li>Google My Business</li>
             </ul>
-            <h5>Google Business Profile</h5>
-            <p>
-              Today, a{' '}
-              <a
-                href="https://www.google.com/business/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Google Business Profile
-              </a>{' '}
-              page is not an option. You must have one if you want customers to
-              find you on Google. As more people use search engines to discover
-              new services, it is a no-brainer that you have a Google My
-              Business page.
-            </p>
-            <p>
-              <b>Plus, it&apos;s free!</b>
-            </p>
-            <p>
-              A report from Google found that 60% of smartphone users contacted
-              businesses directly through search results.
-            </p>
-            <p>
-              If you don&apos;t have a Google My Business page, you are missing
-              consumers searching for your products and services.
-            </p>
-            <p>
-              If you don&apos;t have a GMB page, we can help set it up for you.
-            </p>
-            <h5>Local Link Building</h5>
-            <p>
-              Local link building is one way to help build your website&apos;s
-              authority. Getting backlinks from sites like the{' '}
-              <a href="https://mdchamber.org/" rel="noreferrer" target="_blank">
-                Maryland Chamber of Commerce
-              </a>{' '}
-              and the{' '}
-              <a href="https://www.bbb.org/" rel="noreferrer" target="_blank">
-                Better Business Bureau
-              </a>{' '}
-              can help your site rank higher than your competition.
-            </p>
-            <p>Other ways to get valuable backlinks in your area are:</p>
-            <ul>
-              <li>local newspapers and media outlets</li>
-              <li>other local businesses</li>
-              <li>local blogs</li>
-              <li>local bloggers</li>
-              <li>local charities</li>
-              <li>sponsoring events</li>
-              <li>volunteering your services to worthy causes</li>
-            </ul>
-            <p>
-              Backlinks from local businesses and organizations will also signal
-              to Google that you are an authority in your local community and,
-              therefore boost your website authority.
-            </p>
             <h5>On-Page SEO</h5>
             <p>
               On-page SEO is the practice of improving your <b>website pages</b>{' '}
@@ -1222,9 +1271,9 @@ export default function MarylandSEO() {
               of an effective SEO strategy, you know it is worth the investment.
             </p>
             <div className="btn">
-              <Link href="/free-seo-audit">
+              <Link href="/contact">
                 <a>
-                  <Button>Free SEO Audit &#8594;</Button>
+                  <Button>Contatc me &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -1241,17 +1290,17 @@ export default function MarylandSEO() {
             <h2>Cities We Offer Maryland SEO Services</h2>
             <p>We provide our Maryland SEO services in the following cities:</p>
             <ul>
-              <li>Annapolis MD</li>
-              <li>Baltimore MD</li>
-              <li>Bowie MD</li>
-              <li>Columbia MD</li>
-              <li>Dundalk MD</li>
-              <li>Ellicott City MD</li>
-              <li>Frederick MD</li>
-              <li>Gaithersburg MD</li>
-              <li>Germantown MD</li>
-              <li>Hagerstown MD</li>
-              <li>Towson MD</li>
+              <li>Annapolis, MD</li>
+              <li>Baltimore, MD</li>
+              <li>Bowie, MD</li>
+              <li>Columbia, MD</li>
+              <li>Dundalk, MD</li>
+              <li>Ellicott, City MD</li>
+              <li>Frederick, MD</li>
+              <li>Gaithersburg, MD</li>
+              <li>Germantown, MD</li>
+              <li>Hagerstown, MD</li>
+              <li>Towson, MD</li>
             </ul>
             <p>
               We are one of the best Maryland SEO companies offering search
@@ -1342,7 +1391,12 @@ export default function MarylandSEO() {
             </p>
           </div>
         </div>
-        <Ready />
+        <div className="container">
+          <Ready
+            h2="Ready to Get More Traffic and Rank Higher in the Search Engines?"
+            p="Fill out the form below to get started."
+          />
+        </div>
       </Main>
       <Footer />
     </>

@@ -4,13 +4,14 @@ import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Footer from '../components/footer'
+import Ready from '../components/ready-section'
 
 import { NextSeo } from 'next-seo'
 
 export default function FreeAudit() {
   const SEO = {
     title: 'Free SEO Audit',
-    titleTemplate: "%s | Identify Why You're Not Ranking Higher",
+    titleTemplate: "%s | Figure Out Why You're Not Ranking Higher",
     description:
       "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Call (240) 266-0588 today!",
     canonical: 'https://bowieseo.com/free-seo-audit',
@@ -20,6 +21,7 @@ export default function FreeAudit() {
         "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Call (240) 266-0588 today!",
     },
   }
+
   return (
     <>
       <NextSeo
@@ -40,6 +42,8 @@ export default function FreeAudit() {
         heroText="Free SEO Audit"
         subText="Find out what's holding your website back from ranking higher and
               getting more traffic."
+        buttonText="Call me"
+        buttonLink="tel:1-240-266-0588"
       />
 
       <Main>
@@ -51,39 +55,16 @@ export default function FreeAudit() {
               traffic, and why you're not ranking higher in the search engines.
             </p>
             <p>An SEO audit can tell you why.</p>
-            <p>An SEO audit will reveal:</p>
-            <ul>
-              <li></li>
-            </ul>
+
             <p>
-              This Free audit will uncover some of the elements that are keeping
-              your website from ranking higher, and uncover the problems that
-              you must fix to get the results you need.
+              This Free audit will uncover the elements that are keeping your
+              website from ranking higher, and uncover the problems that you
+              must fix to get the results you want.
             </p>
-            <p>Fill out the form below and let's get started.</p>
-            <form>
-              <div className="form-input">
-                <label htmlFor="name">Name</label>
-                <input type="text" name="name" />
-              </div>
-              <div className="form-input">
-                <label htmlFor="email">Email</label>
-                <input type="text" name="email" />
-              </div>
-              <div className="form-input">
-                <label htmlFor="phone">Phone</label>
-                <input type="text" name="phone" />
-              </div>
-              <div className="form-input">
-                <label htmlFor="website">Website</label>
-                <input type="text" name="website" />
-              </div>
-              <div className="form-input">
-                <label htmlFor="name">Message</label>
-                <textarea></textarea>
-              </div>
-              <SubmitButton>Audit My Website!</SubmitButton>
-            </form>
+            <Ready
+              h2="Ready to Find Out What is Holding Your Website Back Form Ranking Higher and Getting More Traffic?"
+              p="Fill out the form below to for your Free SEO Audit."
+            />
           </div>
         </section>
       </Main>
@@ -91,10 +72,3 @@ export default function FreeAudit() {
     </>
   )
 }
-
-const SubmitButton = styled(Button)`
-  width: 100%;
-  margin: 1rem 0;
-  color: #fff;
-  background: rgb(240, 78, 74);
-`
