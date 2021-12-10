@@ -53,8 +53,8 @@ export default function Home() {
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
-              If People Can't See Your Website When They Search For Your Product
-              or Service, You're Loosing Money.
+              If People Can't Find Your Website When They Search For Your
+              Products or Services, You're Loosing Money.
             </h2>
             <p className="subtext">
               When consumers search for your product or service and your website
