@@ -20,14 +20,14 @@ export default function Blog({ data }) {
   return (
     <>
       <Header buttontext="Talk To Me" buttonLink="/contact" />
-      <HeroBox backgroundHeight="60vh" heroText="SEO Blog" />
+      <HeroBox backgroundHeight="10vh" />
       <BlogMain>
         <div className="container">
           <h1>Free Advice</h1>
           {data.posts.map((post) => (
             <div key={post.slug}>
               <div className="blog-posts">
-                <img src={post.coverImage.url} />
+                <img src={post.coverImage.url} alt={post.title} />
                 <div className="blog-info">
                   <p>{post.date}</p>
                   <Link href={`/blog/${post.slug}`}>
@@ -42,6 +42,7 @@ export default function Blog({ data }) {
                       width={post.author.photo.width}
                       height={post.author.photo.height}
                       src={post.author.photo.url}
+                      alt={post.title}
                     />
                     <p>{post.author.name}</p>
                   </div>
