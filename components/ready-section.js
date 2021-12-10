@@ -17,7 +17,6 @@ export default function Contact({ h2, p }) {
     name: '',
     email: '',
     phone: '',
-    phone: '',
     message: '',
   })
 
@@ -61,7 +60,7 @@ export default function Contact({ h2, p }) {
     handleResponse(res.status, text)
   }
 
-  const isEnabled = inputs.email.length && inputs.firstName > 0
+  const isEnabled = inputs.email.length && inputs.name > 0
 
   const handleResponse = (status, msg) => {
     if (status === 200) {
