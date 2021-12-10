@@ -7,7 +7,6 @@ import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
 import Footer from '../components/footer'
-import Modal from '../components/modal'
 
 import { NextSeo } from 'next-seo'
 
@@ -135,9 +134,9 @@ export default function MarylandSEO() {
               </a>
               .
             </p>
-            <p>That's most of the clicks.</p>
+            <p>That&apos;s most of the clicks.</p>
             <p>Websites on the second page get less than 6% of all clicks.</p>
-            <p>That's low.</p>
+            <p>That&apos;s low.</p>
             <p>Also.</p>
             <p>
               {' '}
@@ -166,12 +165,12 @@ export default function MarylandSEO() {
               </p>
             </Quotebox>
             <p>
-              That's big, and that could be a big difference in leads and sales
-              for your business.
+              That&apos;s big, and that could be a big difference in leads and
+              sales for your business.
             </p>
             <p>
-              But even if your website reaches the first page of Google, you'll
-              still want your business to be near the top.
+              But even if your website reaches the first page of Google,
+              you&apos;ll still want your business to be near the top.
             </p>
             <p>At least the top five.</p>
             <div className="blog-image">
@@ -187,6 +186,7 @@ export default function MarylandSEO() {
                   <a
                     href="https://backlinko.com/google-ctr-stats"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Backlinko
                   </a>
@@ -195,7 +195,11 @@ export default function MarylandSEO() {
             </div>
             <p>
               The graph above from{' '}
-              <a href="https://backlinko.com/google-ctr-stats" target="_blank">
+              <a
+                href="https://backlinko.com/google-ctr-stats"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Backlinko
               </a>{' '}
               shows that the first five search results receive 75.1% clicks, and
@@ -211,21 +215,25 @@ export default function MarylandSEO() {
             <ul>
               <li>Google</li>
               <li>
-                <a href="https://youtube.com" target="_blank">
+                <a href="https://youtube.com" target="_blank" rel="noreferrer">
                   YouTube
                 </a>
               </li>
               <li>Amazon</li>
               <li>Facebook</li>
               <li>
-                <a href="https://bing.com" target="_blank">
+                <a href="https://bing.com" target="_blank" rel="noreferrer">
                   Bing
                 </a>
               </li>
               <li>Safari</li>
               <li>Yahoo</li>
               <li>
-                <a href="https://duckduckgo.com" target="_blank">
+                <a
+                  href="https://duckduckgo.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   DuckDuckGo
                 </a>
               </li>
@@ -235,7 +243,11 @@ export default function MarylandSEO() {
               <li>Yandex</li>
               <li>Start Page</li>
               <li>
-                <a href="https://searchencrypt.com" target="_blank">
+                <a
+                  href="https://searchencrypt.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Search Encrypt
                 </a>
               </li>
@@ -281,11 +293,11 @@ export default function MarylandSEO() {
               </li>
               <li>
                 It makes you create quality content that is better for your
-                business, and it's what your customers want.
+                business, and it&apos;s what your customers want.
               </li>
               <li>
-                Organic search engine results are FREE and don't cost you any
-                money
+                Organic search engine results are FREE and don&apos;t cost you
+                any money
               </li>
               <li>You can spend less money on social media ads</li>
               <li>
@@ -306,10 +318,11 @@ export default function MarylandSEO() {
               </li>
             </ul>
             <p>
-              Let's say you are looking to sell Maryland crabs online. You
+              Let&apos;s say you are looking to sell Maryland crabs online. You
               finally get the website up and running, but no matter how many
-              times you visit the website yourself, it doesn't show in the top
-              ten results when someone searches for "Maryland Crabs" on Google.
+              times you visit the website yourself, it doesn&apos;t show in the
+              top ten results when someone searches for &quot;Maryland
+              Crabs&quot; on Google.
             </p>
             <p>So who will find your site?</p>
             <p>The answer is, no one.</p>
@@ -346,8 +359,8 @@ export default function MarylandSEO() {
                 you to succeed.
               </li>
               <li>
-                We're not a digital marketing agency that does website design,
-                web development, etc, all we do is <b>SEO</b>.
+                We&apos;re not a digital marketing agency that does website
+                design, web development, etc, all we do is <b>SEO</b>.
               </li>
               <li>
                 We want to help you save money and replace expensive social
@@ -426,7 +439,7 @@ export default function MarylandSEO() {
               <li className="ways">You’re not targeting the right audience.</li>
               <li className="ways">Your competitors are getting ahead.</li>
               <li className="ways">
-                You’re trying to rank for keywords you can't rank for.
+                You’re trying to rank for keywords you can&apos;t rank for.
               </li>
               <li className="ways">
                 You’re not using enough keywords in your content.
@@ -436,7 +449,11 @@ export default function MarylandSEO() {
               </li>
               <li className="ways">
                 Your{' '}
-                <a href="https://www.google.com/business/" target="_blank">
+                <a
+                  href="https://www.google.com/business/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Google Business Profile
                 </a>{' '}
                 page is not complete.
@@ -471,11 +488,12 @@ export default function MarylandSEO() {
                 Your competitors have more backlinks than you.
               </li>
               <li className="ways">Your website is not secure.</li>
-              <li className="ways">You don't have a sitemap.</li>
+              <li className="ways">You don&apos;t have a sitemap.</li>
               <li className="ways">Your website has thin content.</li>
               <li className="ways">You have inconsistent citations.</li>
               <li className="ways">
-                You don't have Google Search Console connected to your website.
+                You don&apos;t have Google Search Console connected to your
+                website.
               </li>
               <li className="ways">You have less than 10 Google reviews.</li>
               <li className="ways">
@@ -490,7 +508,7 @@ export default function MarylandSEO() {
                 nonexistent!
               </li>
               <li className="ways">
-                You're not working with a Maryland SEO company.
+                You&apos;re not working with a Maryland SEO company.
               </li>
             </ol>
             <h2>Our Maryland SEO Process</h2>
@@ -716,6 +734,7 @@ export default function MarylandSEO() {
                 <a
                   href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Think With Google
                 </a>
@@ -748,6 +767,7 @@ export default function MarylandSEO() {
               <a
                 href="https://www.thinkwithgoogle.com/feature/testmysite/"
                 target="_blank"
+                rel="noreferrer"
               >
                 this tool
               </a>{' '}
@@ -764,6 +784,7 @@ export default function MarylandSEO() {
                 src="/images/NotSecure.png"
                 className="blog-img"
                 loading="lazy"
+                alt="Website not secure"
               />
               <em>
                 Source: <a>Think With Google</a>
@@ -814,11 +835,12 @@ export default function MarylandSEO() {
             </p>
             <p>
               Google Search Console is another tool from Google, that lets you
-              monitor your website, and also troubleshoot your website's
+              monitor your website, and also troubleshoot your website&apos;s
               presence in the search results. (
               <a
                 href="https://support.google.com/webmasters/answer/9128668?hl=en"
                 target="_blank"
+                rel="noreferrer"
               >
                 Google Developer
               </a>
@@ -830,7 +852,11 @@ export default function MarylandSEO() {
               used, that brought up your website in the search results.
             </p>
             <h3>Competitor Analysis</h3>
-            <img src="/images/competition.jpg" loading="lazy" />
+            <img
+              src="/images/competition.jpg"
+              loading="lazy"
+              alt="Competitor Analysis"
+            />
             <p>
               If you have a businees in Maryland, chances are someone else is
               selling the same products or services as you.
@@ -1047,8 +1073,8 @@ export default function MarylandSEO() {
             <p>
               When people want to learn more about your business, they can check
               out your Google Business profile page. This makes it easy for them
-              to see information that might help them decide if you're the right
-              business to hire or do business with.
+              to see information that might help them decide if you&apos;re the
+              right business to hire or do business with.
             </p>
             <p>
               Your Google Business listing is one of your most powerful tools in
@@ -1203,8 +1229,8 @@ export default function MarylandSEO() {
             </ul>
             <h2>The Cost Of SEO</h2>
             <p>
-              The cost of SEO should differ according to each company's specific
-              needs.
+              The cost of SEO should differ according to each company&apos;s
+              specific needs.
             </p>
             <p>
               Some companies offer SEO services starting as low as $199.00 a
@@ -1235,7 +1261,7 @@ export default function MarylandSEO() {
               excellent chance that your website can get banned from search
               engines.
             </p>
-            <p>Please don't take that chance.</p>
+            <p>Please don&apos;t take that chance.</p>
             <p>
               As a professional Maryland SEO company and SEO experts, we only
               practice White Hat SEO.
@@ -1250,7 +1276,7 @@ export default function MarylandSEO() {
               </a>{' '}
               is the practice that improves your search rankings on a search
               engines while maintaining the integrity of your website and
-              staying within the search engines' terms of service.{' '}
+              staying within the search engines&apos; terms of service.{' '}
             </p>
             <p>
               First we perform an SEO Audit to identify any problems with your
@@ -1267,8 +1293,9 @@ export default function MarylandSEO() {
               see results.{' '}
             </p>
             <p>
-              If you're serious about your business and understand the benefits
-              of an effective SEO strategy, you know it is worth the investment.
+              If you&apos;re serious about your business and understand the
+              benefits of an effective SEO strategy, you know it is worth the
+              investment.
             </p>
             <div className="btn">
               <Link href="/contact">

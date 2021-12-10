@@ -8,7 +8,6 @@ import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
 import Footer from '../components/footer'
-import Modal from '../components/modal'
 
 import { NextSeo } from 'next-seo'
 

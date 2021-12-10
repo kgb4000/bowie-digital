@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
-import Button from '../components/button'
 import Footer from '../components/footer'
 import Ready from '../components/ready-section'
 
@@ -52,7 +51,8 @@ export default function FreeAudit() {
             <h2>Bowie SEO FREE SEO Audit</h2>
             <p>
               There are a host of reasons why your website is not getting any
-              traffic, and why you're not ranking higher in the search engines.
+              traffic, and why you&apos;re not ranking higher in the search
+              engines.
             </p>
             <p>An SEO audit can tell you why.</p>
 

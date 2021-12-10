@@ -193,9 +193,10 @@ const SEOAudit = () => {
               on the best practices for SEO.
             </p>
             <p>
-              Using best practices is key to Google's algorithm, which means
-              that the more sites that do things incorrectly (or don't do
-              anything at all), the better your chances of ranking higher.{' '}
+              Using best practices is key to Google&apos;s algorithm, which
+              means that the more sites that do things incorrectly (or
+              don&apos;t do anything at all), the better your chances of ranking
+              higher.{' '}
             </p>
             <p>
               You should always be thinking about ways to improve your content
@@ -210,22 +211,23 @@ const SEOAudit = () => {
             <ol>
               <li>
                 It can help you determine what keywords to rank for and why. If
-                you're going to expand into new markets, focusing on ranking for
-                specific keywords is essential and will produce better results.
-                Choosing random keywords without knowing what people are using
-                or if the keywords are related to your goals is a recipe for
-                wasting money.
+                you&apos;re going to expand into new markets, focusing on
+                ranking for specific keywords is essential and will produce
+                better results. Choosing random keywords without knowing what
+                people are using or if the keywords are related to your goals is
+                a recipe for wasting money.
               </li>
               <li>
-                You'll know where your weaknesses lie so that you can improve
-                them! Having an ineffective link building campaign can be
-                disastrous for businesses who rely on SEO, as this process
+                You&apos;ll know where your weaknesses lie so that you can
+                improve them! Having an ineffective link building campaign can
+                be disastrous for businesses who rely on SEO, as this process
                 typically takes longer than many other aspects of running a
-                website that aren't dependent on inbound traffic. By checking
-                your standings against competitors' when looking at keywords
-                related to your industry, you'll be able to figure out if
-                there's any way you can work it into future plans or whether or
-                not it would just be a waste of time and energy.{' '}
+                website that aren&apos;t dependent on inbound traffic. By
+                checking your standings against competitors&apos; when looking
+                at keywords related to your industry, you&apos;ll be able to
+                figure out if there&apos;s any way you can work it into future
+                plans or whether or not it would just be a waste of time and
+                energy.{' '}
               </li>
               <li>
                 SEO audits help with the process of content optimization! If you
@@ -237,9 +239,9 @@ const SEOAudit = () => {
               </li>
               <li>
                 An SEO audit helps save money! If there are no keywords to
-                target that could generate additional traffic, then there's no
-                need to be devoting all of your marketing budget into areas that
-                won't benefit the company.
+                target that could generate additional traffic, then there&apos;s
+                no need to be devoting all of your marketing budget into areas
+                that won&apos;t benefit the company.
               </li>
               <li>
                 Brand awareness! When it comes down to it, one of the biggest
@@ -248,28 +250,28 @@ const SEOAudit = () => {
                 consumers, which makes doing an SEO audit ideal because you get
                 a general idea of what sort of keywords are being typed into
                 search engines on a regular basis. This data can certainly come
-                in handy when trying to figure out how well you're doing
+                in handy when trying to figure out how well you&apos;re doing
                 compared to others who also sell similar products/services.
               </li>
               <li>
                 It helps you understand what your competitors are doing! As
-                mentioned before, it's important to know how well you're doing
-                compared to others and whether or not there is any room for
-                improvement on certain aspects of your website that will help
-                move things along in the right direction so why not look at how
-                they rank on Google? By having this information available, you
-                can more easily assess where they're earning their profits from
-                and use that as a way of figuring out how much potential traffic
-                is available on your end.
+                mentioned before, it&apos;s important to know how well
+                you&apos;re doing compared to others and whether or not there is
+                any room for improvement on certain aspects of your website that
+                will help move things along in the right direction so why not
+                look at how they rank on Google? By having this information
+                available, you can more easily assess where they&apos;re earning
+                their profits from and use that as a way of figuring out how
+                much potential traffic is available on your end.
               </li>
               <li>
                 It helps identify opportunities! One of the biggest benefits of
                 doing an SEO audit is that it can open your eyes to various
                 opportunities that you might not have considered before. From an
                 equally important standpoint, it also helps control your costs
-                by eliminating everything that's unnecessary or isn't yielding
-                any results making sure you only pay for things that are
-                actually producing tangible results.
+                by eliminating everything that&apos;s unnecessary or isn&apos;t
+                yielding any results making sure you only pay for things that
+                are actually producing tangible results.
               </li>
             </ol>
             <h2>What is the SEO Audit Process?</h2>
@@ -334,8 +336,8 @@ const SEOAudit = () => {
             </p>
             <p>
               Tracking the success of those changes over time will be a great
-              indicator of whether you've gone far enough or if there are still
-              opportunities for improvement.
+              indicator of whether you&apos;ve gone far enough or if there are
+              still opportunities for improvement.
             </p>
             <p>
               Use this information to continue developing an ongoing checklist
@@ -345,56 +347,13 @@ const SEOAudit = () => {
             </p>
             <p>
               The more detail that goes into this checklist up front, the easier
-              it'll be to use effectively going forward.
+              it&apos;ll be to use effectively going forward.
             </p>
             <p>
-              And don't hesitate to reach out for expert help if you need it.
+              And don&apos;t hesitate to reach out for expert help if you need
+              it.
             </p>
-            <h2>Fill Out the Form Below to Start Your SEO Audit</h2>
-            <Form onSubmit={handleOnSubmit}>
-              <label htmlFor="firstName">First name*</label>
-              <input
-                id="firstName"
-                type="firstName"
-                onChange={handleOnChange}
-                required
-                value={inputs.firstName}
-              />
-              <label htmlFor="email">Email *</label>
-              <input
-                id="email"
-                type="email"
-                onChange={handleOnChange}
-                required
-                value={inputs.email}
-              />
-              <label htmlFor="phone">Phone *</label>
-              <input
-                id="phone"
-                type="phone"
-                onChange={handleOnChange}
-                required
-                value={inputs.phone}
-              />
-              <label htmlFor="website">Website *</label>
-              <input
-                id="website"
-                type="website"
-                onChange={handleOnChange}
-                required
-                value={inputs.website}
-              />
-              <SubmitButton
-                type="submit"
-                disabled={status.submitting || isEnabled}
-              >
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'I Want More Website Traffic'
-                    : 'Submitted'
-                  : 'Submitting...'}
-              </SubmitButton>
-            </Form>
+            <Ready />
           </div>
         </section>
       </Main>
