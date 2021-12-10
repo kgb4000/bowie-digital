@@ -1354,12 +1354,8 @@ export default function MarylandSEO() {
               customers and making more money with SEO.
             </p>
             <p>
-              Search engine optimization is important for small businesses in
-              Maryland.
-            </p>
-            <p>
-              Search engine optimization is important for small businesses in
-              Maryland.
+              Search engine optimization is an important process for small
+              businesses in Maryland to follow.
             </p>
             <p>Starting and SEO strategy will enable Maryland businesses to:</p>
             <ul>

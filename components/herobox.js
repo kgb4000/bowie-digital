@@ -54,7 +54,7 @@ const Hero = styled.div`
   }
 
   @media (orientation: landscape) {
-    margin-top: 4rem;
+    margin-top: 50px;
     padding-bottom: 100px;
   }
 
