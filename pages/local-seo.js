@@ -392,7 +392,9 @@ export default function LocalSEO() {
             website ranking.
           </p>
         </div>
-        <Ready />
+        <div className="container">
+          <Ready />
+        </div>
       </Main>
       <Footer />
     </>

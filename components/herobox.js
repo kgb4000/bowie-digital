@@ -53,11 +53,6 @@ const Hero = styled.div`
     }
   }
 
-  @media (orientation: landscape) {
-    margin-top: 50px;
-    padding-bottom: 100px;
-  }
-
   @media (min-width: 768px) {
     h2 {
       font-size: 4rem;
