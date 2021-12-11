@@ -67,9 +67,9 @@ export default function Contact() {
                 <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
               </li>
             </ul>
-            <Ready h2="Fill out the form and I will get back to you ASAP!" />
           </div>
         </section>
+        <Ready h2="Fill out the form and I will get back to you ASAP!" />
       </Main>
       <Footer />
     </>

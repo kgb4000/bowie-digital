@@ -353,9 +353,12 @@ const SEOAudit = () => {
               And don&apos;t hesitate to reach out for expert help if you need
               it.
             </p>
-            <Ready />
           </div>
         </section>
+        <Ready
+          h2="Ready to Get More Traffic and Rank Higher in the Search Engines?"
+          p="Fill out the form below to get your SEO Audit."
+        />
       </Main>
       <Footer />
     </>

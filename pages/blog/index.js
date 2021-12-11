@@ -29,25 +29,14 @@ export default function Blog({ data }) {
               <div className="blog-posts">
                 <img src={post.coverImage.url} alt={post.title} />
                 <div className="blog-info">
-                  <p>{post.date}</p>
                   <Link href={`/blog/${post.slug}`}>
                     <a>
                       <h3>{post.title}</h3>
                     </a>
                   </Link>
-                  <div className="author-info">
-                    <img
-                      className="avatar"
-                      loading="lazy"
-                      width={post.author.photo.width}
-                      height={post.author.photo.height}
-                      src={post.author.photo.url}
-                      alt={post.title}
-                    />
-                    <p>{post.author.name}</p>
-                  </div>
+
                   <Link href={`/blog/${post.slug}`}>
-                    <a>Read more &#8594;</a>
+                    <a className="read-more">Read more &#8594;</a>
                   </Link>
                 </div>
               </div>
@@ -80,11 +69,16 @@ const BlogMain = styled(Main)`
       h3 {
         margin: 0.5rem 0;
       }
+
+      .read-more {
+        color: #111;
+      }
     }
 
     .author-info {
       display: flex;
       align-items: center;
+      margin-bottom: 1rem;
 
       img {
         max-width: 2.5rem;
@@ -104,6 +98,7 @@ const BlogMain = styled(Main)`
       .blog-info {
         h3 {
           margin: 0.5rem 0;
+          color: #111;
         }
       }
     }

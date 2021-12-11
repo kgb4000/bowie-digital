@@ -1414,12 +1414,10 @@ export default function MarylandSEO() {
             </p>
           </div>
         </div>
-        <div className="container">
-          <Ready
-            h2="Ready to Get More Traffic and Rank Higher in the Search Engines?"
-            p="Fill out the form below to get started."
-          />
-        </div>
+        <Ready
+          h2="Ready to Get More Traffic and Rank Higher in the Search Engines?"
+          p="Fill out the form below to get started."
+        />
       </Main>
       <Footer />
     </>

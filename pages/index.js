@@ -366,14 +366,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <Ready
-              h2="Ready To Get More Website Traffic and Make More Money?"
-              p="We look foward to meeting with you and showing you how Bowie SEO can help your business get more traffic and make more money."
-            />
-          </div>
-        </section>
+        <Ready
+          h2="Ready To Get More Website Traffic and Make More Money?"
+          p="We look foward to meeting with you and showing you how Bowie SEO can help your business get more traffic and make more money."
+        />
       </Main>
       <Footer />
     </>
