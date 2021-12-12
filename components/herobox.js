@@ -57,15 +57,15 @@ const Hero = styled.div`
     h2 {
       font-size: 4rem;
     }
-    p {
-      font-size: 1.4rem;
-      margin: 2rem;
-    }
   }
 
   @media (min-width: 1024px) {
     h2 {
-      font-size: 6rem;
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.4rem;
+      margin: 2rem;
     }
   }
 `

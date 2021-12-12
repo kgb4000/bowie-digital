@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import '../styles/globals.css'
-import 'react-modal-video/scss/modal-video.scss'
 
 import TagManager from 'react-gtm-module'
 
