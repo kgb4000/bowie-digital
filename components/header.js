@@ -110,7 +110,6 @@ const Head = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
   }
 
   .logo {
@@ -146,7 +145,6 @@ const Head = styled.header`
       width: 500px;
 
     li {
-      margin: 0 1rem;
 
       a.textnav{
       padding: 16px 10px;
@@ -161,6 +159,7 @@ const HeaderButton = styled(Button)`
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   font-size: 0.6rem;
+  margin: 0;
 
   @media (min-width: 500px) {
     font-size: 1rem;
