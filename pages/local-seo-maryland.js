@@ -631,6 +631,19 @@ export default function LocalSEO() {
               <li>Weekly updates and monthly reports.</li>
               <li>Open communication. Call us anytime.</li>
             </ul>
+            <p>
+              If you want to see how a local search engine optimization strategy
+              can help your business get more traffic and make more money,
+              please don't hesitate to contact us. We are here to help your
+              small business grow.
+            </p>
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us &#8594;</Button>
+                </a>
+              </Link>
+            </div>
           </div>
         </section>
 
