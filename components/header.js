@@ -8,6 +8,28 @@ export default function Header({ buttontext, buttonLink }) {
   const [click, setClick] = useState(false)
   const [dropdown, setDropdown] = useState(false)
 
+  const Bar = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+    </svg>
+  )
+
+  const noBar = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+    </svg>
+  )
+
   const closeMobileMenu = () => {
     setClick(false)
   }
@@ -34,13 +56,14 @@ export default function Header({ buttontext, buttonLink }) {
 
   return (
     <Head>
-      <div className="container">
+      <div className="header-container">
         <Link href="/">
           <a className="logo">Bowie SEO</a>
         </Link>
         <div className="menu-btn" onClick={handleClick}>
-          {click ? 'bar' : 'noBar'}
+          {click ? noBar : Bar}
         </div>
+
         <nav className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav">
             <li
@@ -52,6 +75,11 @@ export default function Header({ buttontext, buttonLink }) {
                 <a className="textnav">Services</a>
               </Link>
               {dropdown && <Dropdown />}
+            </li>
+            <li className="nav-item">
+              <Link href="/contact">
+                <a className="textnav">Contact</a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href={buttonLink}>
@@ -75,14 +103,13 @@ export default function Header({ buttontext, buttonLink }) {
 
 const Head = styled.header`
   z-index: 1000;
-  height: 100px;
+  height: 70px;
 
-  .container {
+  .header-container {
+    padding: 1rem 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100rem;
-    line-height: 100px;
     position: relative;
   }
 
@@ -103,6 +130,7 @@ const Head = styled.header`
     }
   }
 
+
   @media (min-width: 768px) {
 
     div.menu-btn {
@@ -115,13 +143,13 @@ const Head = styled.header`
     ul.nav {
       display: flex;
       justify-content: space-between;
-      width: 300px;
+      width: 500px;
 
     li {
-      margin: 0;
+      margin: 0 1rem;
 
       a.textnav{
-      padding: 1rem 0;
+      padding: 16px 10px;
     }
   }
 `

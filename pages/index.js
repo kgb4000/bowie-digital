@@ -137,7 +137,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Book A 15 min Call &#8594;</Button>
+                  <Button>Book A Call &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -330,7 +330,11 @@ export default function Home() {
               </div>
             </Solutions>
             <div className="btn">
-              <Button>Book A 15 min Call &#8594;</Button>
+              <Link href="/contact">
+                <a>
+                  <Button>Book A Call &#8594;</Button>
+                </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -367,7 +371,7 @@ export default function Home() {
           </div>
         </section>
         <Ready
-          h2="Ready To Get More Website Traffic and Make More Money?"
+          h2="Ready To Get More Website Traffic and Make More Money For Your Business?"
           p="We look foward to meeting with you and showing you how Bowie SEO can help your business get more traffic and make more money."
         />
       </Main>

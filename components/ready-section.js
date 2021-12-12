@@ -92,69 +92,73 @@ export default function Contact({ h2, p }) {
       <Main>
         <section className="ready-section">
           <div className="container">
-            <h2>{h2}</h2>
-            <p>{p}</p>
-            <form onSubmit={handleOnSubmit}>
-              <div className="form-input">
-                <label htmlFor="name">Name *</label>
-                <input
-                  id="name"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.name}
-                />
+            <Conversion>
+              <div className="ready-text">
+                <h2>{h2}</h2>
+                <p>{p}</p>
               </div>
-              <div className="form-input">
-                <label htmlFor="email">Email *</label>
-                <input
-                  id="email"
-                  type="email"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.email}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="phone">Phone *</label>
-                <input
-                  id="phone"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.phone}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="message">Message</label>
-                <textarea
-                  id="message"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.message}
-                  placeholder="Please enter your website domain name and any other details you want us to know."
-                ></textarea>
-              </div>
-              <SubmitButton
-                type="submit"
-                disabled={status.submitting || isEnabled}
-              >
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'I want more Traffic!!!'
-                    : 'Got it!'
-                  : 'Submitting...'}
-              </SubmitButton>
-              {status.info.error && (
-                <div className="error">Error: {status.info.msg}</div>
-              )}
-              {!status.info.error && status.info.msg && (
-                <div className="success">
-                  Your message has been sent to Kester at Bowie SEO
+              <form onSubmit={handleOnSubmit}>
+                <div className="form-input">
+                  <label htmlFor="name">Name *</label>
+                  <input
+                    id="name"
+                    type="text"
+                    onChange={handleOnChange}
+                    required
+                    value={inputs.name}
+                  />
                 </div>
-              )}
-            </form>
+                <div className="form-input">
+                  <label htmlFor="email">Email *</label>
+                  <input
+                    id="email"
+                    type="email"
+                    onChange={handleOnChange}
+                    required
+                    value={inputs.email}
+                  />
+                </div>
+                <div className="form-input">
+                  <label htmlFor="phone">Phone *</label>
+                  <input
+                    id="phone"
+                    type="text"
+                    onChange={handleOnChange}
+                    required
+                    value={inputs.phone}
+                  />
+                </div>
+                <div className="form-input">
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    id="message"
+                    type="text"
+                    onChange={handleOnChange}
+                    required
+                    value={inputs.message}
+                    placeholder="Please enter your website domain name and any other details you want us to know."
+                  ></textarea>
+                </div>
+                <SubmitButton
+                  type="submit"
+                  disabled={status.submitting || isEnabled}
+                >
+                  {!status.submitting
+                    ? !status.submitted
+                      ? 'I want more Traffic!!!'
+                      : 'Got it!'
+                    : 'Submitting...'}
+                </SubmitButton>
+                {status.info.error && (
+                  <div className="error">Error: {status.info.msg}</div>
+                )}
+                {!status.info.error && status.info.msg && (
+                  <div className="success">
+                    Your message has been sent to Kester at Bowie SEO
+                  </div>
+                )}
+              </form>
+            </Conversion>
           </div>
         </section>
       </Main>
@@ -169,10 +173,22 @@ const SubmitButton = styled(Button)`
   background: #d35400;
 `
 
-// const SubmitButton = styled(Button)`
-//   width: 100%;
-//   margin: 1rem 0;
-//   color: #fff;
-//   background: #d35400;
-//   border: 1px solid #d35400;
-// `
+const Conversion = styled.div`
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+
+    .ready-text {
+      max-width: 50%;
+      margin-right: 1rem;
+    }
+
+    .form {
+      max-width: 400px;
+    }
+
+    .success {
+      max-width: 400px;
+    }
+  }
+`

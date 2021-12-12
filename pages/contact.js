@@ -6,7 +6,7 @@ import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Footer from '../components/footer'
 import { NextSeo } from 'next-seo'
-import Ready from '../components/ready-section'
+import ContactForm from '../components/contact-form'
 
 export default function Contact() {
   const SEO = {
@@ -41,7 +41,7 @@ export default function Contact() {
         backgroundHeight="100vh"
         heroText="Contact Me"
         subText="I want to hear from you."
-        buttonText="Call me"
+        buttonText="(240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />
 
@@ -69,7 +69,7 @@ export default function Contact() {
             </ul>
           </div>
         </section>
-        <Ready h2="Fill out the form and I will get back to you ASAP!" />
+        <ContactForm h2="Fill out the form and I will get back to you ASAP!" />
       </Main>
       <Footer />
     </>

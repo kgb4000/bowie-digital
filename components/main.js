@@ -18,8 +18,11 @@ const Main = styled.div`
     margin: 0 auto;
   }
 
-  li {
-    margin-left: 1.2rem;
+  @media (min-width: 768px) {
+    li,
+    ol {
+      margin-left: 1.2rem;
+    }
   }
 `
 

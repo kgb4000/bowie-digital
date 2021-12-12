@@ -16,12 +16,12 @@ export default function MarylandSEO() {
     title: 'Maryland SEO',
     titleTemplate: '%s | Get More Customers and Sales',
     description:
-      'We use Maryland SEO to help small businesses rank higher on Google, get more leads, more customers, and more sales, and make more money. Call (240) 266-0588 today!',
+      "We're a Maryland SEO company helping small businesses rank higher on Google. Get more leads, more customers more sales, and make more money. Call (240) 266-0588 today!",
     canonical: 'https://bowieseo.com/maryland-seo',
     openGraph: {
       title: 'Maryland SEO | Get More Customers',
       description:
-        'We use Maryland SEO to help small businesses rank higher on Google, get more leads, more customers, and more sales, and make more money. Call (240) 266-0588 today!',
+        "We're a Maryland SEO company helping small businesses rank higher on Google. Get more leads, more customers more sales, and make more money. Call (240) 266-0588 today!",
     },
   }
   return (
@@ -43,8 +43,8 @@ export default function MarylandSEO() {
         backgroundHeight="100vh"
         heroText="Maryland SEO"
         subText="Professional Search Engine Optimization for Small Businesses in Maryland."
-        buttonText="Contact me"
-        buttonLink="/contact"
+        buttonText="Call (240) 266-0588"
+        buttonLink="tel:2402660588"
       />
       <Main>
         <div className="content">
@@ -1340,10 +1340,6 @@ export default function MarylandSEO() {
               an SEO strategy and what it can do for their business.
             </p>
             <p>
-              We do whatever it takes to ensure our customers enjoy SEO
-              benefits, including going the extra mile.
-            </p>
-            <p>
               We want our customers to realize the benefits of starting an SEO
               strategy and what it can do for their business.
             </p>
@@ -1415,8 +1411,8 @@ export default function MarylandSEO() {
           </div>
         </div>
         <Ready
-          h2="Ready to Get More Traffic and Rank Higher in the Search Engines?"
-          p="Fill out the form below to get started."
+          h2="Ready to Get More Traffic, Rank Higher in the Search Engines, and Make More Money For Your Business?"
+          p="We look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
         />
       </Main>
       <Footer />

@@ -19,7 +19,7 @@ export default function Dropdown() {
         </Link>
       </li>
       <li>
-        <Link href="/local-seo">
+        <Link href="/local-seo-maryland">
           <a>Local SEO</a>
         </Link>
       </li>
