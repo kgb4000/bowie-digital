@@ -53,8 +53,15 @@ img {
 
 ul,
 ol {
-  margin: 0;
+  margin-left: 0.5rem;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  ul,
+  ol {
+    margin-left: 1.2rem;
+  }
 }
 
 h1,
