@@ -104,21 +104,10 @@ const SEOAudit = () => {
 
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk to us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="80vh"
+        backgroundHeight="35rem"
         heroText="SEO Audit"
         subText="Discover What's Why Your Competitors Rank Higher Than You, and What's Stopping You From Getting More Traffic on Your Website!"
       />

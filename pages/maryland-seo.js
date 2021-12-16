@@ -29,7 +29,7 @@ export default function MarylandSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="100vh"
+        backgroundHeight="45rem"
         heroText="Maryland SEO"
         subText="Professional Search Engine Optimization for Small Businesses in Maryland."
         buttonText="Call (240) 266-0588"

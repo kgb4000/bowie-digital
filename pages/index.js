@@ -18,12 +18,12 @@ export default function Home() {
     title: 'Maryland Search Engine Optimization Services',
     titleTemplate: '%s | Bowie SEO',
     description:
-      'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
+      'Bowie SEO is a search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 266-0588 today to get started!',
     canonical: 'https://bowieseo.com',
     openGraph: {
       title: 'Maryland Search Engine Optimization Services',
       description:
-        'Bowie SEO is a full service search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 495-9012 today to get started!',
+        'Bowie SEO is a search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 266-0588 today to get started!',
     },
   }
   return (
@@ -31,7 +31,7 @@ export default function Home() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
       <HeroBox
-        backgroundHeight="100vh"
+        backgroundHeight="45rem"
         heroText="Small Business SEO ...Simplified"
         subText="We Help Small Businesses in Maryland Make More Money With Search Engine Optimization"
         buttonText="Free SEO Audit"

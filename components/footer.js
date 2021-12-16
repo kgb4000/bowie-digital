@@ -208,7 +208,7 @@ const FooterMain = styled.div`
   }
 
   .hours {
-    width: 300px;
+    max-width: 300px;
     p {
       display: flex;
       justify-content: space-between;

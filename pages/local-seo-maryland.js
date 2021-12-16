@@ -28,7 +28,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="100vh"
+        backgroundHeight="45rem"
         heroText="Local SEO Maryland"
         subText="Get more website traffic and make more money with Maryland Local Search Engine Optimization."
         buttonText="Call (240) 266-0588"

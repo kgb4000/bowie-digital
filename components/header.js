@@ -102,8 +102,11 @@ export default function Header({ buttontext, buttonLink }) {
 }
 
 const Head = styled.header`
+  position: fixed;
+  top: 0px;
+  background: #fff;
+  width: 100%;
   z-index: 1000;
-  height: 70px;
 
   .header-container {
     padding: 1rem 1.4rem;
@@ -145,9 +148,9 @@ const Head = styled.header`
       width: 500px;
 
     li {
-
       a.textnav{
       padding: 16px 10px;
+      margin-bottom: 0;
     }
   }
 `
@@ -161,7 +164,7 @@ const HeaderButton = styled(Button)`
   font-size: 0.6rem;
   margin: 0;
 
-  @media (min-width: 500px) {
+  @media (min-width: 400px) {
     font-size: 1rem;
   }
 `
