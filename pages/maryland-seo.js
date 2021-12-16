@@ -26,18 +26,7 @@ export default function MarylandSEO() {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
@@ -54,8 +43,8 @@ export default function MarylandSEO() {
               Bowie SEO is a Maryland SEO company located in Bowie Maryland.
             </p>
             <p>
-              As a Maryland SEO company, we offer SEO and search marketing
-              services to small businesses in Maryland.
+              As a Maryland SEO company, we offer search engine optimization to
+              small businesses in Maryland.
             </p>
             <p>
               We offer these services because we want you and other Maryland
@@ -985,8 +974,11 @@ export default function MarylandSEO() {
             </p>
             <h4>Local SEO</h4>
             <p>
-              Local SEO is the process of improving your website for your
-              location and your local audience. Although similar to SEO, local
+              <Link href="/local-seo-maryland">
+                <a>Local SEO</a>
+              </Link>{' '}
+              is the process of improving your website for search engines, your
+              location, and your local audience. Although similar to SEO, local
               SEO focuses on improving your website to attract customers in your
               local area.
             </p>
@@ -1300,7 +1292,7 @@ export default function MarylandSEO() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contatc me &#8594;</Button>
+                  <Button>Contact me &#8594;</Button>
                 </a>
               </Link>
             </div>

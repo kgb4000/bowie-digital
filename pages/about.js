@@ -25,18 +25,7 @@ export default function About() {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Kes" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"

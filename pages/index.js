@@ -28,18 +28,7 @@ export default function Home() {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
       <HeroBox
         backgroundHeight="100vh"
@@ -217,7 +206,7 @@ export default function Home() {
                   <h3>Schedule A Call</h3>
                   <p>
                     Call us for your{' '}
-                    <Link href="/seo-audit">
+                    <Link href="/free-seo-audit">
                       <a>FREE SEO Audit</a>
                     </Link>
                     , and see what your business is doing right and what you can
@@ -311,7 +300,7 @@ export default function Home() {
                   mobile, and voice searches, you need to show up in the search
                   above your competitors.
                 </p>
-                <Link href="/local-seo">
+                <Link href="/local-seo-maryland">
                   <a className="solution-link">Learn more &rsaquo;</a>
                 </Link>
               </div>

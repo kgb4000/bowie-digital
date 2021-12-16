@@ -25,18 +25,7 @@ export default function LocalSEO() {
   }
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
@@ -50,7 +39,13 @@ export default function LocalSEO() {
           <div className="container">
             <h1>Bowie SEO</h1>
             <p>Hello, we're Bowie SEO.</p>
-            <p>Bowie SEO is a Maryland SEO company in Bowie, Maryland.</p>
+            <p>
+              Bowie SEO is a{' '}
+              <Link href="/maryland-seo">
+                <a>Maryland SEO company</a>
+              </Link>{' '}
+              in Bowie, Maryland.
+            </p>
             <p>
               We focus on helping small businesses make more money with search
               engine optimization.

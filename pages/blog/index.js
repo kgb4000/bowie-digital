@@ -29,7 +29,7 @@ export default function Blog({ data }) {
               <div className="blog-posts">
                 <img src={post.coverImage.url} alt={post.title} />
                 <div className="blog-info">
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link href={`/${post.slug}`}>
                     <a>
                       <h3>{post.title}</h3>
                     </a>

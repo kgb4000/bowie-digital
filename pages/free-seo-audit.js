@@ -23,18 +23,7 @@ export default function FreeAudit() {
 
   return (
     <>
-      <NextSeo
-        {...SEO}
-        robotsProps={{
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
-        }}
-      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
