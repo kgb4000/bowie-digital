@@ -34,12 +34,15 @@ export default function Dropdown() {
 
 const Ul = styled.ul`
   position: absolute;
-  margin-top: 10px;
+  margin-top: 1.1rem;
+  margin-left: 0;
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 160px;
+  border-top: 5px solid #d35400;
 
   .dropdown-menu {
-    width: 200px;
     position: absolute;
-    top: 100px;
     list-style: none;
   }
 

@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
 import '../styles/globals.css'
 
+import { DefaultSeo } from 'next-seo'
+import SEO from '../next-seo.config'
+
 import TagManager from 'react-gtm-module'
 
 const MyApp = ({ Component, pageProps }) => {
@@ -8,7 +11,12 @@ const MyApp = ({ Component, pageProps }) => {
     TagManager.initialize({ gtmId: 'GTM-K5LS529' })
   }, [])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <DefaultSeo {...SEO} />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp

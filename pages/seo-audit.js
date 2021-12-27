@@ -90,15 +90,16 @@ const SEOAudit = () => {
   }
 
   const SEO = {
-    title: 'Free Website And SEO Audit',
+    title: 'SEO Audit',
     titleTemplate: '%s | Bowie SEO',
     description:
-      'Get your Free Website And SEO Audit and see what you can do to get more traffic to your website. A $999 value. Click here to get started.',
+      "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Call us (240) 266-0588!",
     canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
       title: 'Free Website And SEO Audit',
       description:
         'Get your Free Website And SEO Audit and see what you can do to get more traffic to your website. A $999 value. Click here to get started.',
+      type: 'website',
     },
   }
 
@@ -109,7 +110,7 @@ const SEOAudit = () => {
       <HeroBox
         backgroundHeight="35rem"
         heroText="SEO Audit"
-        subText="Discover What's Why Your Competitors Rank Higher Than You, and What's Stopping You From Getting More Traffic on Your Website!"
+        subText="Discover What's Stopping You From Getting Web Traffic and How to Fix The Problems!"
       />
       <Main>
         <section>
@@ -148,14 +149,7 @@ const SEOAudit = () => {
               The goal is to help you get more leads, more customers, and make
               more money for your business.
             </p>
-            <h2>We Get Personal with Bowie SEO Audits</h2>
-            <p>Why?</p>
-            <p>Because we appreciate you.</p>
-            <p>We appreciate you for choosing us for your SEO audit.</p>
-            <p>
-              We want your business to prosper, and as SEO specialists, we’ll do
-              whatever we can do to help you be successful.
-            </p>
+
             <h2>What is an SEO Audit?</h2>
             <p>
               An SEO audit is an evaluation of your entire website to see if it
@@ -341,6 +335,14 @@ const SEOAudit = () => {
             <p>
               And don&apos;t hesitate to reach out for expert help if you need
               it.
+            </p>
+            <h2>We Get Personal with Bowie SEO Audits</h2>
+            <p>Why?</p>
+            <p>Because I appreciate you.</p>
+            <p>I appreciate you for choosing me to do your SEO audit.</p>
+            <p>
+              I want your business to prosper, and as SEO specialists, I’ll do
+              whatever I can do to help you be successful.
             </p>
           </div>
         </section>

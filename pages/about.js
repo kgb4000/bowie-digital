@@ -28,10 +28,10 @@ export default function About() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk To Kes" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="100vh"
+        backgroundHeight="40rem"
         heroText="About Me"
         subText="All I Do is Search Engine Optimization for Small Businesses in Maryland"
-        buttonText="Book a Call"
+        buttonText="Contact me"
         buttonLink="/contact"
       />
       <Main>
@@ -101,10 +101,10 @@ export default function About() {
               results.
             </p>
             <p>
-              I prides myself on being able to deliver real results with
-              tangible improvements in organic traffic for my clients. If you
-              want to outrank your competitors without overspending on social
-              media ads, then contact me today.
+              I pride myself on being able to deliver real results with tangible
+              improvements in organic traffic for my clients. If you want to
+              outrank your competitors without overspending on social media ads,
+              then contact me today.
             </p>
             <div className="btn">
               <Link href="/contact">
@@ -117,7 +117,7 @@ export default function About() {
         </section>
         <section className="section">
           <div className="container">
-            <h2>Why Work With Bowie SEO</h2>
+            <h2>Why Work With Me and Bowie SEO</h2>
 
             <p>
               We are a local business and an active part of the local business
@@ -136,7 +136,9 @@ export default function About() {
 
             <p>When you work with me and Bowie SEO, you get:</p>
             <ul>
-              <li>A FREE SEO Audit</li>
+              <li>An SEO Audit</li>
+              <li>Real keyword research</li>
+              <li>Measurable results</li>
               <li>No monthly contacts.</li>
               <li>Cancel anytime.</li>
               <li>
@@ -164,7 +166,10 @@ export default function About() {
             </p>
             <h2>Small Businesses We are Proud to Work With</h2>
             <ul>
-              <li>Septic Contractors</li>
+              <li>Chiropractors</li>
+              <li>Interior designers</li>
+              <li>Construction companies</li>
+              <li>Pain Management companies</li>
               <li>General Contractors</li>
               <li>Plumbers</li>
               <li>HVAC Contractors</li>
@@ -172,6 +177,7 @@ export default function About() {
               <li>Roofers</li>
               <li>Concrete specialists</li>
               <li>Asphalt pavers</li>
+              <li>Septic Contractors</li>
               <li>and more</li>
             </ul>
             <p>
@@ -187,7 +193,10 @@ export default function About() {
             </Link>
           </div>
         </section>
-        <Ready />
+        <Ready
+          h2="Let Me Help You, Get More Traffic, Rank Higher in the Search Engines, and Increase Revenue For Your Business?"
+          p="I look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
+        />
       </Main>
       <Footer />
     </>

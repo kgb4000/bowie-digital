@@ -1,20 +1,19 @@
-import Link from 'next/link'
 import styled from 'styled-components'
-import Button from './button'
+import { ShareBtn } from './share-btn'
 
-export default function HeroBox({
+export default function BlogHeroBox({
   backgroundHeight,
   heroText,
-  subText,
-  backgroundImage,
-  buttonText,
-  buttonLink,
+  author,
+  coverImage,
   headerImgText,
   headerImg,
+  date,
+  shareLink,
 }) {
   return (
     <Hero
-      backgroundImage={backgroundImage}
+      coverImage={coverImage}
       backgroundHeight={backgroundHeight}
       headerImg={headerImg}
       headerImgText={headerImgText}
@@ -22,16 +21,12 @@ export default function HeroBox({
       <div className="content">
         <div>
           <h1>{heroText}</h1>
-          <p>{subText}</p>
-          {buttonText && (
-            <Link href={buttonLink}>
-              <a>
-                <Button>{buttonText} &#8594;</Button>
-              </a>
-            </Link>
-          )}
+          <img src={coverImage} />
+          <p>
+            <span>{date}</span>, <span>by {author}</span>
+          </p>
         </div>
-        {headerImgText && <img src={headerImg} />}
+        <ShareBtn shareLink={shareLink} />
       </div>
     </Hero>
   )
@@ -46,33 +41,18 @@ const Hero = styled.div`
   height: ${(props) => props.backgroundHeight};
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 
   .content {
-    max-width: 1000px;
+    max-width: 800px;
     text-align: center;
     padding: 0 1rem;
-
-    p {
-      max-width: 40rem;
-      margin: 2rem auto 3rem auto;
-    }
   }
 
   @media (min-width: 768px) {
-    h1 {
-      font-size: 3rem;
-    }
   }
 
   @media (min-width: 1024px) {
-    h1 {
-      font-size: 4rem;
-    }
-    p {
-      font-size: 1.4rem;
-      margin: 2rem;
-    }
   }
 `

@@ -24,13 +24,13 @@ export default function FreeAudit() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="40rem"
         heroText="Free SEO Audit"
         subText="Find out what's holding your website back from ranking higher and
               getting more traffic."
-        buttonText="Call me"
+        buttonText="Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />
 
@@ -50,12 +50,12 @@ export default function FreeAudit() {
               website from ranking higher, and uncover the problems that you
               must fix to get the results you want.
             </p>
-            <Ready
-              h2="Ready to Find Out What is Holding Your Website Back Form Ranking Higher and Getting More Traffic?"
-              p="Fill out the form below to for your Free SEO Audit."
-            />
           </div>
         </section>
+        <Ready
+          h2="Ready to Find Out What is Holding Your Website Back Form Ranking Higher and Getting More Traffic?"
+          p="Fill out the form below to for your Free SEO Audit."
+        />
       </Main>
       <Footer />
     </>

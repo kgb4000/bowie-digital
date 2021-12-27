@@ -91,7 +91,7 @@ export default function Contact({ h2, p }) {
     <>
       <Main>
         <section className="ready-section">
-          <div className="container">
+          <div className="ready-container">
             <Conversion>
               <div className="ready-text">
                 <h2>{h2}</h2>

@@ -77,11 +77,6 @@ export default function Header({ buttontext, buttonLink }) {
               {dropdown && <Dropdown />}
             </li>
             <li className="nav-item">
-              <Link href="/contact">
-                <a className="textnav">Contact</a>
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href={buttonLink}>
                 <a>
                   {' '}
@@ -109,7 +104,7 @@ const Head = styled.header`
   z-index: 1000;
 
   .header-container {
-    padding: 1rem 1.4rem;
+    padding: 0.8rem 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +124,7 @@ const Head = styled.header`
 
     li {
       list-style-type: none;
+      margin-bottom: 0;
     }
   }
 
@@ -143,14 +139,18 @@ const Head = styled.header`
       display: block;
     } 
     ul.nav {
+      padding: 0;
+      margin: 0;
       display: flex;
       justify-content: space-between;
-      width: 500px;
+      width: 360px;
+      align-items: center;
 
     li {
-      a.textnav{
-      padding: 16px 10px;
+      a.textnav {
+      padding: 30px 10px;
       margin-bottom: 0;
+      font-weight: 700;
     }
   }
 `

@@ -20,10 +20,9 @@ export default function Blog({ data }) {
   return (
     <>
       <Header buttontext="Talk To Me" buttonLink="/contact" />
-      <HeroBox backgroundHeight="10vh" />
+      <BlogHeroBox backgroundHeight="6rem" heroText="Advice" />
       <BlogMain>
-        <div className="container">
-          <h1>Free Advice</h1>
+        <div className="blog-container">
           {data.posts.map((post) => (
             <div key={post.slug}>
               <div className="blog-posts">
@@ -31,12 +30,11 @@ export default function Blog({ data }) {
                 <div className="blog-info">
                   <Link href={`/${post.slug}`}>
                     <a>
-                      <h3>{post.title}</h3>
+                      <h2>{post.title}</h2>
                     </a>
                   </Link>
-
-                  <Link href={`/blog/${post.slug}`}>
-                    <a className="read-more">Read more &#8594;</a>
+                  <Link href={`/${post.slug}`}>
+                    <a>Read more</a>
                   </Link>
                 </div>
               </div>
@@ -49,45 +47,37 @@ export default function Blog({ data }) {
   )
 }
 
+const BlogHeroBox = styled(HeroBox)`
+  margin-top: 6rem;
+`
+
 const BlogMain = styled(Main)`
-  .blog-posts {
-    max-width: 100%;
+  .blog-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
     margin-bottom: 4rem;
-    img {
-      width: 100%;
-      height: auto;
-      margin-right: 5%;
-    }
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
 
-    p {
-      margin: 0;
-    }
 
-    .blog-info {
-      color: #000;
-
-      h3 {
-        margin: 0.5rem 0;
-      }
-
-      .read-more {
-        color: #111;
-      }
-    }
-
-    .author-info {
+  @media (min-width: 768px) {
+    .blog-posts {
       display: flex;
+      margin-bottom: 4rem;
       align-items: center;
-      margin-bottom: 1rem;
-
       img {
-        max-width: 2.5rem;
-        height: auto;
+        max-width: 30rem;
+        margin-right: 5%;
       }
-    }
 
-    @media (min-width: 768px) {
-      display: flex;
+      p {
+        margin: 0;
+      }
 
       img {
         max-width: 45%;
@@ -95,12 +85,28 @@ const BlogMain = styled(Main)`
         margin-right: 5%;
       }
 
-      .blog-info {
-        h3 {
-          margin: 0.5rem 0;
-          color: #111;
-        }
+      
+    }
+    @media (min-width: 1024px) {
+    .blog-posts {
+      display: flex;
+      margin-bottom: 4rem;
+      align-items: center;
+      img {
+        max-width: 30rem;
+        margin-right: 5%;
       }
+
+      p {
+        margin: 0;
+      }
+
+      img {
+        max-width: 45%;
+        margin: 0;
+        margin-right: 5%;
+      }
+
     }
   }
 `

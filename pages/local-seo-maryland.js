@@ -12,32 +12,35 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Local SEO',
-    titleTemplate: '%s | Get More Customers and Make More Sales',
+    title: 'Maryland Local SEO',
+    titleTemplate: '%s | Get More Leads for You Local Business',
     description:
-      "We're a Maryland SEO company and all we do is SEO. We use the best SEO practices to get you more customers, more website traffic, and grow your business. Contact us today (240)266-0588.",
-    canonical: 'https://bowieseo.com/local-seo',
+      'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today (240)266-0588.',
+    type: 'website',
+    canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Local SEO',
+      title: 'Maryland Local SEO | Get More Leads for You Local Business',
       description:
-        "We're a Maryland SEO company and all we do is SEO. We use the best SEO practices to get you more customers, more website traffic, and grow your business. Contact us today (240)266-0588.",
+        'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today (240)266-0588.',
+      type: 'website',
+      image: [{}],
     },
   }
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="45rem"
-        heroText="Local SEO Maryland"
-        subText="Get more website traffic and make more money with Maryland Local Search Engine Optimization."
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:2402660588"
+        heroText="Local SEO for Maryland"
+        subText="Get more website traffic and make more money with Local Search Engine Optimization."
+        buttonText="Contact me"
+        buttonLink="/contact"
       />
       <Main>
         <section className="article-section">
           <div className="container">
-            <h1>Bowie SEO</h1>
+            <h2>Bowie SEO</h2>
             <p>Hello, we're Bowie SEO.</p>
             <p>
               Bowie SEO is a{' '}
@@ -47,8 +50,8 @@ export default function LocalSEO() {
               in Bowie, Maryland.
             </p>
             <p>
-              We focus on helping small businesses make more money with search
-              engine optimization.
+              We focus on helping small businesses make more money with local
+              SEO in Maryland.
             </p>
             <p>
               If you did not know, the best way for a local business in Maryland
@@ -81,16 +84,13 @@ export default function LocalSEO() {
                 </a>
               </Link>
             </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>What is Local SEO?</h2>
             <p>
-              Local SEO is the process of improving your website for your
-              location and your local audience. It is a type of digital
-              marketing that relies on your business' location to bring in
-              customers.
+              Local SEO is the process of improving your website for users,
+              search engines, your location and your local audience. It is a
+              type of digital marketing that relies on your business' location
+              to bring in customers.
             </p>
             <p>Example.</p>
             <p>
@@ -109,10 +109,7 @@ export default function LocalSEO() {
               show up in the search engine results when people search for
               products and services you offer.
             </p>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>What is the Difference Between Local SEO and SEO?</h2>
             <p>
               You've heard the terms SEO and Local SEO, but what is the
@@ -130,10 +127,7 @@ export default function LocalSEO() {
               restaurants, mechanics, plumbers, dentists, and lawyers in your
               local area are more likely to use Local SEO.
             </p>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>
               Why is Local Search Engine Optimization Important For Maryland
               Small Businesses?
@@ -286,10 +280,8 @@ export default function LocalSEO() {
               the search results when people search for your products and
               services.
             </p>
-          </div>
-        </section>
 
-        {/* <section className="article-section">
+            {/* <section className="article-section">
           <div className="container">
             <div className="player-wrapper">
               <ReactPlayer
@@ -301,8 +293,7 @@ export default function LocalSEO() {
             </div>
           </div>
         </section> */}
-        <section>
-          <div className="container">
+
             <h2>What are the Benefits of Being on the First Page of Google?</h2>
             <p>
               The goal of our Bowie SEO is to use search engine optimization and
@@ -399,14 +390,11 @@ export default function LocalSEO() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Talk to me &#8594;</Button>
+                  <Button>Contact me &#8594;</Button>
                 </a>
               </Link>
             </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>How Does Local SEO Work?</h2>
             <p>Local search engine optimization is a process. </p>
             <p>This process includes:</p>
@@ -415,7 +403,12 @@ export default function LocalSEO() {
               <li>Getting backlinks to your website</li>
               <li>Having Consistent NAP</li>
               <li>Updating Online directories</li>
-              <li>Doing an SEO Audit</li>
+              <li>
+                Doing an{' '}
+                <Link href="/seo-audit">
+                  <a>SEO Audit</a>
+                </Link>
+              </li>
               <li>Creating Local Content</li>
               <li>Participating in your local community</li>
             </Stats>
@@ -457,8 +450,15 @@ export default function LocalSEO() {
               <li>Other local businesses</li>
             </ul>
             <p>
-              Here in Bowie, Maryland, small businesses should join the Maryland
-              Chamber of Commerce and the{' '}
+              Here in Bowie, Maryland, small businesses should join the{' '}
+              <a
+                href="https://bowiechamber.org/"
+                target="_blank"
+                rel="noreffer"
+              >
+                Maryland Chamber of Commerce
+              </a>
+              , the{' '}
               <a
                 href="https://bowiechamber.org/"
                 target="_blank"
@@ -472,6 +472,62 @@ export default function LocalSEO() {
               </a>
               .
             </p>
+            <p>
+              Other local area chamber of commerce organizations In Maryland
+              include:
+            </p>
+            <ul>
+              <li>
+                {' '}
+                <a
+                  href="https://www.annearundelchamber.org/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  Anne Arundel Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a
+                  href="https://smcchamber.com/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  St. Mary's County Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a
+                  href="https://www.mcccmd.com/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  Montgomery County Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a
+                  href="https://www.frederickchamber.org/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  Fredrick County Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a
+                  href="https://www.howardchamber.com/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  Howard County Chamber of Commerce
+                </a>
+              </li>
+            </ul>
             <h3>Have consistent NAP</h3>
             <p>NAP stands for name, address, and phone number.</p>
             <p>
@@ -553,10 +609,7 @@ export default function LocalSEO() {
             </p>
             <h3>Community Participation</h3>
             <p>You must be a part of your community.</p>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>How Long Does Local SEO Take to Work?</h2>
             <p>
               Local SEO can take anywhere from three to six months before you
@@ -577,10 +630,7 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
-          </div>
-        </section>
-        <section>
-          <div className="container">
+
             <h2>Why Work With Bowie SEO?</h2>
             <p>Bowie SEO is a local SEO company in Maryland.</p>
             <p>We are SEO experts, and all we do is SEO.</p>
@@ -594,7 +644,7 @@ export default function LocalSEO() {
             </p>
             <p>
               We are a digital marketing company focused on delivering the best
-              search engine optimization services.
+              search engine optimization services to small businesses.
             </p>
             <p>
               We do whatever it takes to ensure our customers enjoy SEO
@@ -635,13 +685,12 @@ export default function LocalSEO() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact us &#8594;</Button>
+                  <Button>Contact me &#8594;</Button>
                 </a>
               </Link>
             </div>
           </div>
         </section>
-
         <Ready
           h2="Ready to Get More Traffic, Rank Higher in the Search Engines, and Make More Money For Your Business?"
           p="We look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."

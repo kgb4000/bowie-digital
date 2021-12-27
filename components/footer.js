@@ -1,10 +1,58 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import { NextSeo, LocalBusinessJsonLd } from 'next-seo'
 
 export default function Footer() {
   return (
     <>
       <footer>
+        <LocalBusinessJsonLd
+          type="LocalBusiness"
+          name="Bowie SEO"
+          description="Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!."
+          url="http://bowieseo.com"
+          telephone="+12402660588"
+          address={{
+            streetAddress: '4710 Silverbrook Way',
+            addressLocality: 'Bowie',
+            addressRegion: 'MD',
+            postalCode: '20720',
+            addressCountry: 'US',
+          }}
+          geo={{
+            latitude: '39.013313',
+            longitude: '-76.776924',
+          }}
+          // images={[
+          //   'https://example.com/photos/1x1/photo.jpg',
+          //   'https://example.com/photos/4x3/photo.jpg',
+          //   'https://example.com/photos/16x9/photo.jpg',
+          // ]}
+          openingHours={[
+            {
+              opens: '09:00',
+              closes: '18:00',
+              dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+              ],
+            },
+          ]}
+          areaServed={[
+            {
+              geoMidpoint: {
+                latitude: '39.013313',
+                longitude: '-76.776924',
+              },
+              geoRadius: '5000',
+            },
+          ]}
+        />
+        <NextSeo />
         <FooterMain>
           <div className="about-BDM">
             <h3>Bowie SEO</h3>
@@ -60,10 +108,10 @@ export default function Footer() {
           <div className="contact">
             <h3>Contact</h3>
             <p>
-              Email us: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
+              Email me: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>{' '}
             </p>
             <p>
-              Call us: <a href="tel:1-240-266-0588">(240) 266-0588</a>
+              Call me: <a href="tel:1-240-266-0588">(240) 266-0588</a>
             </p>
             <p>Bowie, Md 20720</p>
             <div className="social">
@@ -208,7 +256,7 @@ const FooterMain = styled.div`
   }
 
   .hours {
-    max-width: 300px;
+    width: 320px;
     p {
       display: flex;
       justify-content: space-between;

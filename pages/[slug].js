@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import Header from '../components/header'
-import HeroBox from '../components/herobox'
+import BlogHeroBox from '../components/blog-header'
 import Main from '../components/main'
 import styled from 'styled-components'
 import Footer from '../components/footer'
 import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
+import { NextSeo, ArticleJsonLd } from 'next-seo'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -15,10 +16,6 @@ export const getStaticProps = async ({ params }) => {
       post: post.posts[0],
       data,
     },
-    // Next.js will attempt to re-generate the page:
-    // - When a request comes in
-    // - At most once every 10 seconds
-    // revalidate: 30, // In seconds
   }
 }
 
@@ -33,14 +30,64 @@ export const getStaticPaths = async () => {
 }
 
 export default function Articles({ post }) {
+  const SEO = {
+    title: post.title,
+    description: post.excerpt,
+    url: `https://bowieseo.com/${post.slug}`,
+    canonical: `https://bowieseo.com/${post.slug}`,
+    type: 'article',
+    openGraph: {
+      type: 'article',
+      description: post.excerpt,
+      article: {
+        publishedTime: post.date,
+        authors: [`https://www.example.com/authors/@${post.author.name}`],
+      },
+      images: [
+        {
+          url: post.coverImage.url,
+          width: post.coverImage.width,
+          height: post.coverImage.height,
+          alt: post.title,
+        },
+      ],
+      locale: 'en_US',
+      url: `https://bowieseo.com/${post.slug}`,
+      site_name: 'Bowie SEO',
+    },
+  }
+
   return (
     <>
-      <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
-      <HeroBox backgroundHeight="40rem" heroText={post.title} />
-      <div className="container">
-        <RichText content={post.content.json} />
-      </div>
+      <ArticleJsonLd
+        url={`https://bowieseo.com/${post.slug}`}
+        title={post.title}
+        images={[post.coverImage.url]}
+        datePublished={post.date}
+        authorName={[post.author.name]}
+        authorImg={post.author.photo}
+        description={post.excerpt}
+      />
 
+      <NextSeo {...SEO} />
+      <Header buttontext="Contact me" buttonLink="/contact" />
+      <BlogHeroBox
+        backgroundHeight="45rem"
+        coverImage={post.coverImage.url}
+        heroText={post.title}
+        date={new Date(post.date).toLocaleDateString('en-us', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        })}
+        author={post.author.name}
+        shareLink={`https://bowieseo.com/${post.slug}`}
+      />
+      <Main>
+        <div className="container">
+          <RichText content={post.content.json} />
+        </div>
+      </Main>
       <Footer />
     </>
   )

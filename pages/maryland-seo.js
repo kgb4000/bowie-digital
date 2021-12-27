@@ -14,38 +14,45 @@ export default function MarylandSEO() {
   const [showModal, setShowModal] = useState(false)
   const SEO = {
     title: 'Maryland SEO',
-    titleTemplate: '%s | Get More Customers and Sales',
+    titleTemplate: '%s | Increase Your Web Traffic, Leads and Revenue',
     description:
-      "We're a Maryland SEO company helping small businesses rank higher on Google. Get more leads, more customers more sales, and make more money. Call (240) 266-0588 today!",
+      'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!',
     canonical: 'https://bowieseo.com/maryland-seo',
     openGraph: {
-      title: 'Maryland SEO | Get More Customers',
+      title: 'Maryland SEO | Increase Your Web Traffic, Leads and Revenue',
       description:
-        "We're a Maryland SEO company helping small businesses rank higher on Google. Get more leads, more customers more sales, and make more money. Call (240) 266-0588 today!",
+        'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!',
+      type: 'website',
     },
   }
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="45rem"
         heroText="Maryland SEO"
         subText="Professional Search Engine Optimization for Small Businesses in Maryland."
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:2402660588"
+        buttonText="Contact me"
+        buttonLink="/contact"
       />
+
       <Main>
-        <div className="content">
+        <section>
           <div className="container">
-            <h1>Grow Your Small Business with a Maryland SEO Company</h1>
+            <h1>Grow Your Business with a Maryland SEO Company</h1>
             <p>
               Bowie SEO is a Maryland SEO company located in Bowie Maryland.
             </p>
             <p>
-              As a Maryland SEO company, we offer search engine optimization to
-              small businesses in Maryland.
+              As a Maryland SEO company, we are proud to offer search engine
+              optimization to small businesses in Maryland.
             </p>
+            <img
+              src="/images/maryland-seo-company.jpg"
+              loading="lazy"
+              alt="Maryland SEO Company"
+            />
             <p>
               We offer these services because we want you and other Maryland
               businesses to:
@@ -64,11 +71,6 @@ export default function MarylandSEO() {
             <p>
               Maryland business owners can accomplish all of this with SEO
               services from <b>Bowie SEO</b>.
-            </p>
-            <p>
-              We help companies throughout Maryland increase website traffic,
-              reach more potential customers, and rank higher in Google. We do
-              this for you by using search engine optimization.
             </p>
             <p>But first, what is search engine optimization?</p>
             <h2>What is SEO?</h2>
@@ -98,7 +100,7 @@ export default function MarylandSEO() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Moz
+                MOZ
               </a>
               ).
             </p>
@@ -113,15 +115,15 @@ export default function MarylandSEO() {
             <p>Why?</p>
             <p>Because the first page of Google gets most of the clicks.</p>
             <p>
-              Websites on the first page get {''}
+              Websites on the first page get 71% to 92% of the clicks {''}(
               <a
                 href="https://moz.com/blog/google-organic-click-through-rates-in-2014"
                 target="_blank"
                 rel="noreferrer"
               >
-                71% to 92% of the clicks
+                MOZ
               </a>
-              .
+              ).
             </p>
             <p>That&apos;s most of the clicks.</p>
             <p>Websites on the second page get less than 6% of all clicks.</p>
@@ -364,8 +366,7 @@ export default function MarylandSEO() {
                 businesses.
               </li>
             </ul>
-            <Quotebox>Watch Video!</Quotebox>
-            <p>Imagine you&apos;re a pool builder.</p>
+            {/* <p>Imagine you&apos;re a pool builder.</p>
             <p>
               Instead of getting twenty calls a month to your business, you got
               one hundred and forty-five calls per month?
@@ -373,7 +374,7 @@ export default function MarylandSEO() {
             <p>What would that mean for your business?</p>
             <p>Would an increase in sales help your bottom line?</p>
             <p>Yes, it would. </p>
-            <p>That is what an SEO strategy can do for your business.</p>
+            <p>That is what an SEO strategy can do for your business.</p> */}
             <h2>
               31 Ways To Know If Your Business Needs Search Engine Optimization
             </h2>
@@ -1401,7 +1402,7 @@ export default function MarylandSEO() {
               and see how an SEO strategy can help your business.
             </p>
           </div>
-        </div>
+        </section>
         <Ready
           h2="Ready to Get More Traffic, Rank Higher in the Search Engines, and Make More Money For Your Business?"
           p="We look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."

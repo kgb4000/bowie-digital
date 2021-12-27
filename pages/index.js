@@ -9,33 +9,20 @@ import Button from '../components/button'
 import Ready from '../components/ready-section'
 import Footer from '../components/footer'
 
-import { NextSeo } from 'next-seo'
+import { DefaultSeo } from 'next-seo'
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false)
 
-  const SEO = {
-    title: 'Maryland Search Engine Optimization Services',
-    titleTemplate: '%s | Bowie SEO',
-    description:
-      'Bowie SEO is a search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 266-0588 today to get started!',
-    canonical: 'https://bowieseo.com',
-    openGraph: {
-      title: 'Maryland Search Engine Optimization Services',
-      description:
-        'Bowie SEO is a search engine optimization company in Maryland. We help small businesses rank higher and convert more leads into sales. Call (240) 266-0588 today to get started!',
-    },
-  }
   return (
     <>
-      <NextSeo {...SEO} />
-      <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
+      <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="45rem"
-        heroText="Small Business SEO ...Simplified"
-        subText="We Help Small Businesses in Maryland Make More Money With Search Engine Optimization"
-        buttonText="Free SEO Audit"
-        buttonLink="/free-seo-audit"
+        heroText="Business SEO ...Simplified"
+        subText="We Help Small Businesses in Maryland Increase Revenues With Search Engine Optimization"
+        buttonText="Contact me"
+        buttonLink="/contact"
       />
       <Main>
         <section className="no-marketing">
@@ -60,9 +47,8 @@ export default function Home() {
               organic search results.
             </p>
             <p className="subtext">
-              Not understanding digital marketing can can get expensive and cost
-              you more than it has to. Doing online marketing the wrong way will
-              result in:
+              Search marketing can can get expensive and cost you more than it
+              has to. Doing online marketing the wrong way will result in:
             </p>
             <NoSEO>
               <li>Overspending and wasting money on online advertizing.</li>
@@ -117,11 +103,8 @@ export default function Home() {
                 Attract your target audience with quality content that helps
                 your consumers, and give them the information they want.
               </li>
-              <li>
-                Get more 5 star reviews, build your brand, online reputation and
-                credibility in your community.
-              </li>
               <li>Spend less on social media ads and pay-per-click ads.</li>
+              <li>Increase leads, sales and revenue.</li>
             </HelpHow>
             <div className="btn">
               <Link href="/contact">
@@ -167,12 +150,12 @@ export default function Home() {
           <div className="container">
             <h2 className="title">Who is Bowie SEO?</h2>
             <p className="subtext">
-              Bowie SEO is a local SEO company in Maryland , serving small
-              businesses in Bowie and the surrounding areas.
+              Bowie SEO is a local SEO company in Maryland, serving small
+              businesses in Bowie and throughout the state.
             </p>
             <p className="subtext">
               We are located in Maryalnd so you'll always have an SEO company
-              near you. We will go out of our way to give your business the best
+              near you. We go out of our way to give your business the best SEO
               services and the attention it deserves!
             </p>
             <h3>All we do is SEO.</h3>
@@ -180,7 +163,7 @@ export default function Home() {
               We're here to help you achieve your desired results with{' '}
               <b>search engine optimization</b>. Whether you're looking to
               increase traffic to your website, improve your online presence, or
-              simply make more money. We can help.
+              simply increase. We can help.
             </p>
           </div>
           <div className="btn">
@@ -195,7 +178,7 @@ export default function Home() {
         <section>
           <div className="container">
             <h2 className="title">
-              How We Can Help You Can Fix Your Website So You Get Traffic
+              How We Can Help You Can Fix Your Website So You Get Traffic?
             </h2>
             <p className="subtext">
               Stop losing money because your website is not performing!
@@ -203,9 +186,9 @@ export default function Home() {
             <Plan>
               <li>
                 <div>
-                  <h3>Schedule A Call</h3>
+                  <h3>Call me</h3>
                   <p>
-                    Call us for your{' '}
+                    Call me for your{' '}
                     <Link href="/free-seo-audit">
                       <a>FREE SEO Audit</a>
                     </Link>
@@ -218,8 +201,8 @@ export default function Home() {
                 <div>
                   <h3>We Get A Plan Together</h3>
                   <p>
-                    After we analyze your website and look at your SEO report,
-                    we get a plan together to fix the issuses we find and give
+                    After I analyze your website and look at your SEO report, we
+                    both get a plan together to fix the issuses we find and give
                     you suggestions that will help you ranking higher.
                   </p>
                 </div>
@@ -229,14 +212,14 @@ export default function Home() {
                   <h3>Start Growing Your Business</h3>
                   <p>
                     We measure your success and keep improving your website to
-                    grow youer business and beat your competition.
+                    grow your business and rank higher than your competiton.
                   </p>
                 </div>
               </li>
             </Plan>
             <p>See how we can help you get more traffic to your website.</p>
             <div className="btn">
-              <Button>Book A 15 min Call &#8594;</Button>
+              <Button>Contact me &#8594;</Button>
             </div>
           </div>
         </section>
@@ -289,7 +272,7 @@ export default function Home() {
                   money.
                 </p>
                 <Link href="/maryland-seo">
-                  <a className="solution-link">Learn more &rsaquo;</a>
+                  <a className="solution-link">More About SEO &rsaquo;</a>
                 </Link>
               </div>
               <div className="solution-box">
@@ -301,7 +284,7 @@ export default function Home() {
                   above your competitors.
                 </p>
                 <Link href="/local-seo-maryland">
-                  <a className="solution-link">Learn more &rsaquo;</a>
+                  <a className="solution-link">More About Local SEO &rsaquo;</a>
                 </Link>
               </div>
               <div className="solution-box">
@@ -314,14 +297,14 @@ export default function Home() {
                   site better for search engines and consumers.
                 </p>
                 <Link href="/seo-audit">
-                  <a className="solution-link">Learn more &rsaquo;</a>
+                  <a className="solution-link">More about SEO Audit &rsaquo;</a>
                 </Link>
               </div>
             </Solutions>
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Book A Call &#8594;</Button>
+                  <Button>Contact me &#8594;</Button>
                 </a>
               </Link>
             </div>
@@ -360,8 +343,8 @@ export default function Home() {
           </div>
         </section>
         <Ready
-          h2="Ready To Get More Website Traffic and Make More Money For Your Business?"
-          p="We look foward to meeting with you and showing you how Bowie SEO can help your business get more traffic and make more money."
+          h2="Ready To Get More Website Traffic, More Leads, and Increase Revenue For Your Business?"
+          p="Fill out the form and let me show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!."
         />
       </Main>
       <Footer />
@@ -424,8 +407,10 @@ const Solutions = styled.div`
       display: inline-block;
       padding: 0.8rem;
       border: 1px solid #000;
-      width: 9rem;
+      max-width: 15rem;
       text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
 

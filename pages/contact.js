@@ -12,7 +12,7 @@ export default function Contact() {
   const SEO = {
     title: 'Contact | Bowie SEO',
     description:
-      'If you have any questions about Search engine optimization for your small business in Maryland, please contact us.',
+      "Contact me if you have any questions about search engine optimization for your small business, and let's see how we can help.",
     canonical: 'https://bowieseo.com/contact',
     openGraph: {
       type: 'website',
@@ -38,10 +38,10 @@ export default function Contact() {
       />
       <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
       <HeroBox
-        backgroundHeight="100vh"
+        backgroundHeight="30rem"
         heroText="Contact Me"
-        subText="I want to hear from you."
-        buttonText="(240) 266-0588"
+        subText="Let Me Help You Get More Traffic."
+        buttonText=" Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />
 
