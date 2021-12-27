@@ -161,6 +161,7 @@ export default function Footer() {
 }
 
 const FooterMain = styled.div`
+  margin-top: 4rem;
   p,
   li,
   .contact {

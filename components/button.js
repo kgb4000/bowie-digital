@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Button = styled.button`
   font-size: 1rem;
   border: 2px solid #d35400;
-  padding: 1.2rem 1.4rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   background-color: #d35400;
   color: #fff;
@@ -16,11 +16,6 @@ const Button = styled.button`
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
-
-  @media (min-width: 768px) {
-    font-size: 1.2rem;
-    padding: 1rem 1.8rem;
-  }
 `
 
 export default Button

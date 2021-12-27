@@ -72,7 +72,7 @@ export default function Articles({ post }) {
       <NextSeo {...SEO} />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <BlogHeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="60rem"
         coverImage={post.coverImage.url}
         heroText={post.title}
         date={new Date(post.date).toLocaleDateString('en-us', {

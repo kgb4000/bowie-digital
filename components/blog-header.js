@@ -21,7 +21,7 @@ export default function BlogHeroBox({
       <div className="content">
         <div>
           <h1>{heroText}</h1>
-          <img src={coverImage} />
+          <img src={coverImage} className="show" />
           <p>
             <span>{date}</span>, <span>by {author}</span>
           </p>
@@ -38,8 +38,9 @@ const Hero = styled.div`
   align-items: center;
   background-image: ${(props) => props.backgroundImage};
   background-size: cover;
-  height: ${(props) => props.backgroundHeight};
-
+  ${'' /* height: ${(props) => props.backgroundHeight}; */}
+  margin-top: 100px;
+  margin-bottom: 2rem;
   h1 {
     font-size: 1.8rem;
   }

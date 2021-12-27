@@ -5,6 +5,7 @@ import Main from '../../components/main'
 import styled from 'styled-components'
 import Footer from '../../components/footer'
 import { getPosts } from '../../lib/data'
+import { BlogJsonLd, NextSeo } from 'next-seo'
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -17,8 +18,29 @@ export const getStaticProps = async () => {
 }
 
 export default function Blog({ data }) {
+  const SEO = {
+    title: 'Blog',
+    description:
+      'This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization.',
+    type: 'website',
+    canonical: 'https://bowieseo.com/blog',
+    openGraph: {
+      title: 'Blog | Bowie SEO',
+      description:
+        'This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization.',
+      type: 'website',
+    },
+  }
   return (
     <>
+      <BlogJsonLd
+        url="https://bowieseo.com/blog"
+        title="Blog"
+        images={[]}
+        authorName="Kester Browne"
+        description="This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization."
+      />
+      <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <BlogHeroBox backgroundHeight="6rem" heroText="Advice" />
       <BlogMain>
