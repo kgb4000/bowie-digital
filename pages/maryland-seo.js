@@ -40,7 +40,7 @@ export default function MarylandSEO() {
       <Main>
         <section>
           <div className="container">
-            <h1>Grow Your Business with a Maryland SEO Company</h1>
+            <h2>Grow Your Business with a Maryland SEO Company</h2>
             <p>
               Bowie SEO is a Maryland SEO company located in Bowie Maryland.
             </p>

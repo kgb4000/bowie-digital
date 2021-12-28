@@ -28,17 +28,3 @@ export default {
     cardType: 'summary_large_image',
   },
 }
-
-// const SEO = {
-//   title: 'Bowie SEO Company',
-//   titleTemplate: '%s | Bowie SEO',
-//   type: 'website',
-//   description:
-//     'Bowie SEO is a SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Call us (240) 266-0588 today!',
-//   canonical: 'https://bowieseo.com',
-//   openGraph: {
-//     title: 'Maryland Search Engine Optimization Services',
-//     description:
-//       'Bowie SEO is a SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Call us (240) 266-0588 today!',
-//   },
-// }

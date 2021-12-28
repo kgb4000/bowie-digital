@@ -13,14 +13,15 @@ import Link from 'next/link'
 
 export default function About() {
   const SEO = {
-    title: 'About us',
-    titleTemplate: '%s | We Help You Get More Customers',
+    title: 'About Bowie SEO',
+    titleTemplate: '%s | We Help You Get More Leads and Customers',
     description:
-      'Want More Customers For Your Business? We Specialize in SEO Local SEO and get more customers to your website. Call us today.',
+      'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Call (240) 266-0588!',
+    canonical: 'https://bowieseo.com/about',
     openGraph: {
-      title: 'About us | We Help You Get More Customers',
+      title: 'About Bowie SEO | We Help You Get More Leads and Customers',
       description:
-        'Want More Customers For Your Local Business? We Specialize In Local SEO, Paid Ads, Web Design And Social Media Ads. Call Us Today.',
+        'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Call (240) 266-0588!',
     },
   }
   return (
@@ -194,7 +195,7 @@ export default function About() {
           </div>
         </section>
         <Ready
-          h2="Let Me Help You, Get More Traffic, Rank Higher in the Search Engines, and Increase Revenue For Your Business?"
+          h2="I Can Help You, Get More Traffic, Rank Higher in the Search Engines, Get More Leads, and Increase Revenue For Your Business?"
           p="I look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
         />
       </Main>

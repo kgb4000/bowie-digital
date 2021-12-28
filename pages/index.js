@@ -29,13 +29,13 @@ export default function Home() {
           <div className="container">
             <h2 className="title">
               If People Can't Find Your Website When They Search For Your
-              Products or Services, You're Loosing Money.
+              Products or Services, You're Losing Money.
             </h2>
             <p className="subtext">
               When consumers search for your product or service and your website
               doesn't come up in the search results, what are you doing?
             </p>
-            <p className="subtext">You're loosing money.</p>
+            <p className="subtext">You're losing money.</p>
             <p className="subtext">How?</p>
             <p className="subtext">
               Because when they don't find you, they find your competitors, and
@@ -343,7 +343,7 @@ export default function Home() {
           </div>
         </section>
         <Ready
-          h2="Ready To Get More Website Traffic, More Leads, and Increase Revenue For Your Business?"
+          h2="Stop Letting Your Competition Steal Your Customers. Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
           p="Fill out the form and let me show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!."
         />
       </Main>
@@ -407,7 +407,7 @@ const Solutions = styled.div`
       display: inline-block;
       padding: 0.8rem;
       border: 1px solid #000;
-      max-width: 15rem;
+      max-width: 16rem;
       text-align: center;
       text-transform: uppercase;
       font-weight: 700;

@@ -55,7 +55,7 @@ export default function Contact() {
             </p>
             <p>
               I am happy to answer any questions you have about my SEO services
-              and how it can help your business.
+              and how search engine optimization can help your business grow.
             </p>
             <p>You can reach me in the following ways: </p>
             <ul>
