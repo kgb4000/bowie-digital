@@ -10,7 +10,7 @@ export default function Footer() {
           type="LocalBusiness"
           name="Bowie SEO"
           description="Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!."
-          url="http://bowieseo.com"
+          url="https://bowieseo.com"
           telephone="+12402660588"
           address={{
             streetAddress: '4710 Silverbrook Way',
