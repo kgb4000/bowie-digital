@@ -12,12 +12,12 @@ export default function FreeAudit() {
     title: 'Free SEO Audit',
     titleTemplate: "%s | Figure Out Why You're Not Ranking Higher",
     description:
-      "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Call (240) 266-0588 today!",
+      "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Contact us today!",
     canonical: 'https://bowieseo.com/free-seo-audit',
     openGraph: {
       title: "Free SEO Audit | Identify Why You're Not Ranking Higher",
       description:
-        "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Call (240) 266-0588 today!",
+        "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Contact us today!",
     },
   }
 

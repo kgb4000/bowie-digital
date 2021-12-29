@@ -16,12 +16,12 @@ export default function MarylandSEO() {
     title: 'Maryland SEO',
     titleTemplate: '%s | Increase Your Web Traffic, Leads and Revenue',
     description:
-      'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!',
+      'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Contact us today!',
     canonical: 'https://bowieseo.com/maryland-seo',
     openGraph: {
       title: 'Maryland SEO | Increase Your Web Traffic, Leads and Revenue',
       description:
-        'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!',
+        'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Contact us today!',
       type: 'website',
     },
   }

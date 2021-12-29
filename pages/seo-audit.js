@@ -93,12 +93,12 @@ const SEOAudit = () => {
     title: 'SEO Audit',
     titleTemplate: '%s | Bowie SEO',
     description:
-      "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Call us (240) 266-0588!",
+      "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
     canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
       title: 'Free Website And SEO Audit',
       description:
-        'Get your Free Website And SEO Audit and see what you can do to get more traffic to your website. A $999 value. Click here to get started.',
+        "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
       type: 'website',
     },
   }

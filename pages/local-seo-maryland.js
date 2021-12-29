@@ -15,13 +15,13 @@ export default function LocalSEO() {
     title: 'Maryland Local SEO',
     titleTemplate: '%s | Get More Leads for You Local Business',
     description:
-      'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today (240)266-0588.',
+      'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
       title: 'Maryland Local SEO | Get More Leads for You Local Business',
       description:
-        'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today (240)266-0588.',
+        'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },

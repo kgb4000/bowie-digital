@@ -16,12 +16,12 @@ export default function About() {
     title: 'About Bowie SEO',
     titleTemplate: '%s | We Help You Get More Leads and Customers',
     description:
-      'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Call (240) 266-0588!',
+      'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact us today!',
     canonical: 'https://bowieseo.com/about',
     openGraph: {
       title: 'About Bowie SEO | We Help You Get More Leads and Customers',
       description:
-        'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Call (240) 266-0588!',
+        'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact us today!',
     },
   }
   return (
