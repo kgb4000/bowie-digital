@@ -44,7 +44,7 @@ export default function Footer() {
                 latitude: '39.013313',
                 longitude: '-76.776924',
               },
-              geoRadius: '5000',
+              geoRadius: '100000',
             },
           ]}
         />
