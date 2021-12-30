@@ -9,7 +9,7 @@ export default function Footer() {
         <LocalBusinessJsonLd
           type="LocalBusiness"
           name="Bowie SEO"
-          description="Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Call us today (240) 266-0588!."
+          description="Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Contact us today!"
           url="https://bowieseo.com"
           telephone="+12402660588"
           address={{
@@ -23,11 +23,7 @@ export default function Footer() {
             latitude: '39.013313',
             longitude: '-76.776924',
           }}
-          // images={[
-          //   'https://example.com/photos/1x1/photo.jpg',
-          //   'https://example.com/photos/4x3/photo.jpg',
-          //   'https://example.com/photos/16x9/photo.jpg',
-          // ]}
+          images={['https://bowieseo.com/images/bowie-seo-company.jpeg']}
           openingHours={[
             {
               opens: '09:00',
