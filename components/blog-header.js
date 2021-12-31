@@ -21,7 +21,7 @@ export default function BlogHeroBox({
       <div className="content">
         <div>
           <h1>{heroText}</h1>
-          <img src={coverImage} className="show" />
+          <img src={coverImage} alt={heroText} className="show" />
           <p>
             <span>{date}</span>, <span>by {author}</span>
           </p>
