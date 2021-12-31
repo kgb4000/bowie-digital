@@ -53,10 +53,11 @@ export default function Footer() {
           <div className="about-BDM">
             <h3>Bowie SEO</h3>
             <p>
-              Bowie SEO is an Maryland SEO company in specializing in SEO, Local
-              SEO, and doing SEO Audits. We help local businesses in Maryland
-              rank higher in the search engines to help get more website
-              traffic, more leads, more sales, and make more money.
+              Bowie SEO is a Maryland SEO company specializing in SEO and Local
+              SEO. We help local businesses in Maryland rank higher in the
+              search engines to help get more website traffic, more leads, more
+              sales, and increase revenue. <a href="tel:12402660588">Call</a>{' '}
+              today!
             </p>
           </div>
           <div className="menu">
@@ -157,6 +158,10 @@ export default function Footer() {
 }
 
 const FooterMain = styled.div`
+  ul {
+    margin: 0;
+  }
+
   p,
   li,
   .contact {

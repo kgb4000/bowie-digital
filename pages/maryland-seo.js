@@ -49,7 +49,7 @@ export default function MarylandSEO() {
               optimization to small businesses in Maryland.
             </p>
             <img
-              src="/images/maryland-seo-company.jpg"
+              src="/images/maryland-seo-company.webp"
               loading="lazy"
               alt="Maryland SEO Company"
             />

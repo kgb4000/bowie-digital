@@ -4,7 +4,6 @@ import {
   FacebookShareButton,
   TwitterShareButton,
 } from 'react-share'
-import { EmailIcon, FacebookIcon, TwitterIcon } from 'react-share'
 
 export const ShareBtn = ({ shareLink }) => {
   return (

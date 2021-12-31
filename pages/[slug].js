@@ -7,6 +7,7 @@ import Footer from '../components/footer'
 import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
+import Bio from '../components/author-bio'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -65,7 +66,7 @@ export default function Articles({ post }) {
         images={[post.coverImage.url]}
         datePublished={post.date}
         authorName={[post.author.name]}
-        authorImg={post.author.photo}
+        authorImg={post.author.photo.url}
         description={post.excerpt}
       />
 
@@ -86,6 +87,7 @@ export default function Articles({ post }) {
       <Main>
         <div className="container">
           <RichText content={post.content.json} />
+          <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
         </div>
       </Main>
       <Footer />
