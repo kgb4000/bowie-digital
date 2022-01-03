@@ -6,7 +6,6 @@ import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
-import Footer from '../components/footer'
 
 import { NextSeo } from 'next-seo'
 
@@ -30,7 +29,7 @@ export default function MarylandSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="35rem"
         heroText="Maryland SEO"
         subText="Professional Search Engine Optimization for Small Businesses in Maryland."
         buttonText="Contact me"
@@ -1412,7 +1411,6 @@ export default function MarylandSEO() {
           p="We look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
         />
       </Main>
-      <Footer />
     </>
   )
 }

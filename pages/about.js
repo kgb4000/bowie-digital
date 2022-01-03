@@ -3,7 +3,6 @@ import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
-import Footer from '../components/footer'
 import Ready from '../components/ready-section'
 import ReactPlayer from 'react-player/youtube'
 
@@ -29,7 +28,7 @@ export default function About() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk to Kes" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="40rem"
+        backgroundHeight="35rem"
         heroText="About Me"
         subText="Maryland SEO Expert"
         buttonText="Contact me"
@@ -50,7 +49,7 @@ export default function About() {
               helping business rank higher in the search engines.
             </p>
             <p>
-              I am located in Bowie, Maryland and I specialize in search engine
+              I live in Bowie, Maryland and I specialize in search engine
               optimization.
             </p>
             <p>
@@ -58,7 +57,10 @@ export default function About() {
               auditing and correcting harmful technical, on-page, and off-page
               issues on their website.
             </p>
-            <p>I not only find them, I can fix them.</p>
+            <p>
+              I not only find the issues stopping your site from ranking higher
+              and getting leads, I can fix the isuues.
+            </p>
             <p>
               I create an action plan for us to fix the problems that are
               stopping your website from performing better in the search
@@ -69,8 +71,12 @@ export default function About() {
               improvements in organic traffic for my clients.
             </p>
             <p>
-              If you want to outrank your competitors without overspending on
-              social media ads, then contact me today.
+              Most of all, the goal of this marketing channel is to make more
+              money for your business
+            </p>
+            <p>
+              If you want to outrank your competitors, get more leads, and make
+              more money in your business, then contact me today.
             </p>
             <div className="btn">
               <Link href="/contact">
@@ -141,7 +147,13 @@ export default function About() {
 
             <p>When you work with me and Bowie SEO, you get:</p>
             <ul>
-              <li>An SEO Audit.</li>
+              <li>
+                An{' '}
+                <Link href="/seo-audit">
+                  <a>SEO Audit</a>
+                </Link>
+                .
+              </li>
               <li>Real list of keyword you must target.</li>
               <li>Measurable results.</li>
               <li>No long-term contacts.</li>
@@ -204,7 +216,6 @@ export default function About() {
           p="I look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
         />
       </Main>
-      <Footer />
     </>
   )
 }

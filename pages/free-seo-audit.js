@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
-import Footer from '../components/footer'
 import Ready from '../components/ready-section'
 
 import { NextSeo } from 'next-seo'
@@ -26,7 +25,7 @@ export default function FreeAudit() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="40rem"
+        backgroundHeight="35rem"
         heroText="Free SEO Audit"
         subText="Find out what's holding your website back from ranking higher and
               getting more traffic."
@@ -57,7 +56,6 @@ export default function FreeAudit() {
           p="Fill out the form below to for your Free SEO Audit."
         />
       </Main>
-      <Footer />
     </>
   )
 }

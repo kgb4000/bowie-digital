@@ -3,7 +3,6 @@ import Header from '../components/header'
 import BlogHeroBox from '../components/blog-header'
 import Main from '../components/main'
 import styled from 'styled-components'
-import Footer from '../components/footer'
 import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
@@ -90,7 +89,6 @@ export default function Articles({ post }) {
           <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
         </div>
       </Main>
-      <Footer />
     </>
   )
 }

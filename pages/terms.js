@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Header from '../components/header'
-import Footer from '../components/footer'
 import { NextSeo } from 'next-seo'
 
 export default function Terms() {
@@ -328,7 +327,6 @@ export default function Terms() {
           </li>
         </ul>
       </TermsSection>
-      <Footer />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Header from '../components/header'
-import Footer from '../components/footer'
 import { NextSeo } from 'next-seo'
 
 export default function Policy() {
@@ -538,7 +537,6 @@ export default function Policy() {
           </li>
         </ul>
       </PolicySection>
-      <Footer />
     </>
   )
 }

@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="35rem"
         heroText="Business SEO ...Simplified"
         subText="We Help Small Businesses in Maryland Increase Revenues With Search Engine Optimization"
         buttonText="Contact me"
@@ -347,7 +347,6 @@ export default function Home() {
           p="Fill out the form and let me show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!."
         />
       </Main>
-      <Footer />
     </>
   )
 }

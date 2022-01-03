@@ -5,7 +5,6 @@ import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
-import Footer from '../components/footer'
 import Ready from '../components/ready-section'
 
 import { NextSeo } from 'next-seo'
@@ -280,7 +279,6 @@ export default function LocalSEO() {
           p="Fill out the form and let me show you how Local SEO can help your business."
         />
       </Main>
-      <Footer />
     </>
   )
 }

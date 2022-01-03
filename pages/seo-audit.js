@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
-import Footer from '../components/footer'
 import Ready from '../components/ready-section'
 import Button from '../components/button'
 import ReactPlayer from 'react-player/youtube'
@@ -351,7 +350,6 @@ const SEOAudit = () => {
           p="Fill out the form below to get your SEO Audit."
         />
       </Main>
-      <Footer />
     </>
   )
 }

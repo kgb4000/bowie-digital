@@ -3,6 +3,7 @@ import '../styles/globals.css'
 
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
+import Footer from '../components/footer'
 
 import TagManager from 'react-gtm-module'
 
@@ -15,6 +16,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

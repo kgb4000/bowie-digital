@@ -3,7 +3,6 @@ import Header from '../../components/header'
 import HeroBox from '../../components/herobox'
 import Main from '../../components/main'
 import styled from 'styled-components'
-import Footer from '../../components/footer'
 import { getPosts } from '../../lib/data'
 import { BlogJsonLd, NextSeo } from 'next-seo'
 
@@ -67,7 +66,6 @@ export default function Blog({ data }) {
           ))}
         </div>
       </BlogMain>
-      <Footer />
     </>
   )
 }

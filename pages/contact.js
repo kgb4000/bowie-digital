@@ -4,7 +4,6 @@ import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
-import Footer from '../components/footer'
 import { NextSeo } from 'next-seo'
 import ContactForm from '../components/contact-form'
 
@@ -75,7 +74,6 @@ export default function Contact() {
         </section>
         <ContactForm h2="Fill out the form and I will get back to you ASAP!" />
       </Main>
-      <Footer />
     </>
   )
 }
