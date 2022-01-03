@@ -30,7 +30,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="35rem"
         heroText="Bowie SEO Company"
         subText="We Get You More Leads, More Customers and Increase Revenue With Local SEO."
         buttonText="Contact me"

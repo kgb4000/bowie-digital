@@ -337,4 +337,5 @@ const TermsSection = styled.div`
   max-width: 760px;
   margin: 0 auto;
   margin-top: 100px;
+  padding: 0 1.2rem;
 `

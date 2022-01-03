@@ -108,7 +108,6 @@ const Head = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80%;
     margin: 0 auto;
   }
 
@@ -119,6 +118,10 @@ const Head = styled.header`
     color: inherit;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+  }
+
+  svg {
+    dispaly: flex;
   }
 
   nav {
