@@ -109,7 +109,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Book A Call &#8594;</Button>
+                  <Button>Contact me today!</Button>
                 </a>
               </Link>
             </div>
@@ -219,7 +219,7 @@ export default function Home() {
             </Plan>
             <p>See how we can help you get more traffic to your website.</p>
             <div className="btn">
-              <Button>Contact me &#8594;</Button>
+              <Button>Contact me today!</Button>
             </div>
           </div>
         </section>
@@ -304,7 +304,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me &#8594;</Button>
+                  <Button>Contact me today!</Button>
                 </a>
               </Link>
             </div>
@@ -343,7 +343,7 @@ export default function Home() {
           </div>
         </section>
         <Ready
-          h2="Stop Letting Your Competition Steal Your Customers. Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
+          h2="Get More Website Traffic, More Leads, and Increase Revenue with SEO."
           p="Fill out the form and let me show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!."
         />
       </Main>
@@ -407,7 +407,7 @@ const Solutions = styled.div`
       display: inline-block;
       padding: 0.8rem;
       border: 1px solid #000;
-      max-width: 16rem;
+      max-width: 20rem;
       text-align: center;
       text-transform: uppercase;
       font-weight: 700;
@@ -470,7 +470,7 @@ const Plan = styled.ol`
       display: inline-block;
       text-align: center;
       position: absolute;
-      top: 38px;
+      top: 3px;
     }
   }
 `
@@ -500,7 +500,7 @@ const NoSEO = styled.ol`
       text-align: center;
       left: 0px;
       position: absolute;
-      top: 3px;
+      top: -5px;
     }
   }
 `
@@ -530,7 +530,7 @@ const HelpHow = styled.ol`
       text-align: center;
       left: 0px;
       position: absolute;
-      top: 3px;
+      top: -3px;
       letter-spacing: 1px;
     }
   }

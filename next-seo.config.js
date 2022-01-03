@@ -1,17 +1,17 @@
 export default {
-  title: 'Bowie SEO Company',
+  title: 'Get More Leads and Customers for Your Business',
   titleTemplate: '%s | Bowie SEO',
   type: 'website',
   locale: 'en_US',
   description:
-    'Bowie SEO is an SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Call (240) 266-0588 today!',
+    'Bowie SEO is an SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Contact us today!',
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: 'Bowie SEO Company',
+    title: 'Get More Leads and Customers for Your Business',
     type: 'website',
     description:
-      'Bowie SEO is an SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Call (240) 266-0588 today!',
+      'Bowie SEO is an SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Contact us today!',
     images: [
       {
         url: 'https://bowieseo.com/public/images/bowie-seo-company.jpeg',

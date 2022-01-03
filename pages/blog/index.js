@@ -44,6 +44,9 @@ export default function Blog({ data }) {
       <Header buttontext="Talk To Me" buttonLink="/contact" />
       <BlogHeroBox backgroundHeight="6rem" heroText="Advice" />
       <BlogMain>
+        <div className="container">
+          <h1>Blog</h1>
+        </div>
         <div className="blog-container">
           {data.posts.map((post) => (
             <div key={post.slug}>
@@ -79,6 +82,9 @@ const BlogMain = styled(Main)`
     margin: 0 auto;
     padding: 0 1.2rem;
     margin-bottom: 4rem;
+  }
+  h1 {
+    text-align: center;
   }
   h2 {
     font-size: 1.6rem;

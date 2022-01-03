@@ -104,10 +104,12 @@ const Head = styled.header`
   z-index: 1000;
 
   .header-container {
-    padding: 0.8rem 1.4rem;
+    padding: 1rem 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   .logo {

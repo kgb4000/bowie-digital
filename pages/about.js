@@ -14,70 +14,33 @@ import Link from 'next/link'
 export default function About() {
   const SEO = {
     title: 'About Bowie SEO',
-    titleTemplate: '%s | We Help You Get More Leads and Customers',
+    titleTemplate: '%s | Maryland SEO Expert',
     description:
-      'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact us today!',
+      'Looking for a SEO Expert in Maryland? I specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     canonical: 'https://bowieseo.com/about',
     openGraph: {
-      title: 'About Bowie SEO | We Help You Get More Leads and Customers',
+      title: 'About Bowie SEO | Maryland SEO Expert',
       description:
-        'Want More Customers and Leads For Your Business? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact us today!',
+        'Looking for a SEO Expert in Maryland? I specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     },
   }
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Talk To Kes" buttonLink="/contact" />
+      <Header buttontext="Talk to Kes" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="40rem"
         heroText="About Me"
-        subText="All I Do is Search Engine Optimization for Small Businesses in Maryland"
+        subText="Maryland SEO Expert"
         buttonText="Contact me"
         buttonLink="/contact"
       />
       <Main>
         <section className="section">
           <div className="container">
-            {/* <div className="video-container">
-              <div className="player-wrapper">
-                <ReactPlayer
-                  className="react-player"
-                  url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-                  width="100%"
-                  height="100%"
-                />
-              </div>
-            </div> */}
-
-            <h2>My Vision</h2>
-            <p>
-              My vision is to help small businesses use search engine
-              optimization to make more money in their business.
-            </p>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
-            <h2>My Mission</h2>
-            <p>
-              My mission is to help one hundred small businesses in Maryland use
-              search engine optimization. I will do this by:
-            </p>
-            <ol>
-              <li>Teaching small businesses about SEO.</li>
-              <li>Showing them how to incorporate it into their marketing.</li>
-              <li>
-                Running successful SEO campaigns for small businesses in
-                Maryland.
-              </li>
-            </ol>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
             <h2>About me</h2>
-            <p>Hello, my name is Kes.</p>
-            <p>I am an SEO expert and the founder of Bowie SEO.</p>
+            <p>Hello, my name is Kester.</p>
+            <p>I am an SEO expert and the owner of Bowie SEO.</p>
             <p>
               If you were expecting a big SEO firm or agency, I'm sorry, it's
               just me.
@@ -95,7 +58,7 @@ export default function About() {
               auditing and correcting harmful technical, on-page, and off-page
               issues on their website.
             </p>
-            <p>I not only find them, I fix them.</p>
+            <p>I not only find them, I can fix them.</p>
             <p>
               I create an action plan for us to fix the problems that are
               stopping your website from performing better in the search
@@ -103,9 +66,11 @@ export default function About() {
             </p>
             <p>
               I pride myself on being able to deliver real results with tangible
-              improvements in organic traffic for my clients. If you want to
-              outrank your competitors without overspending on social media ads,
-              then contact me today.
+              improvements in organic traffic for my clients.
+            </p>
+            <p>
+              If you want to outrank your competitors without overspending on
+              social media ads, then contact me today.
             </p>
             <div className="btn">
               <Link href="/contact">
@@ -118,8 +83,47 @@ export default function About() {
         </section>
         <section className="section">
           <div className="container">
-            <h2>Why Work With Me and Bowie SEO</h2>
+            {/* <div className="video-container">
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player"
+                  url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            </div> */}
 
+            <h2>My Vision</h2>
+            <p>
+              My vision is to help small businesses in Maryland use search
+              engine optimization to make more money for their businesses.
+            </p>
+          </div>
+        </section>
+        <section className="section">
+          <div className="container">
+            <h2>My Mission</h2>
+            <p>
+              My mission is to help one hundred small businesses in Maryland use
+              search engine optimization. I will do this by:
+            </p>
+            <ol>
+              <li>Teaching small businesses about SEO.</li>
+              <li>
+                Showing them how to incorporate it into their digital marketing.
+              </li>
+              <li>
+                Running successful SEO campaigns for small businesses in
+                Maryland.
+              </li>
+              <li>Being an asset to my community.</li>
+            </ol>
+          </div>
+        </section>
+        <section className="section">
+          <div className="container">
+            <h2>Why Work With Me and Bowie SEO</h2>
             <p>
               We are a local business and an active part of the local business
               community. I want to help small business owners in our community
@@ -137,10 +141,10 @@ export default function About() {
 
             <p>When you work with me and Bowie SEO, you get:</p>
             <ul>
-              <li>An SEO Audit</li>
-              <li>Real keyword research</li>
-              <li>Measurable results</li>
-              <li>No monthly contacts.</li>
+              <li>An SEO Audit.</li>
+              <li>Real list of keyword you must target.</li>
+              <li>Measurable results.</li>
+              <li>No long-term contacts.</li>
               <li>Cancel anytime.</li>
               <li>
                 To work with a local Maryland SEO company doing business with
@@ -160,12 +164,11 @@ export default function About() {
               <li>An SEO company that really cares about your business.</li>
             </ul>
             <p>
-              We don't offer packages, because every business will need
-              different SEO services. We create a custom strategy for each
-              business we work work and save them money by not paying for
-              services they don't need.
+              We don't offer SEO packages because every business has different
+              needs. We therefore create a custom SEO strategy for your
+              business.
             </p>
-            <h2>Small Businesses We are Proud to Work With</h2>
+            <h2>Small Businesses I am Proud to Work With</h2>
             <ul>
               <li>Chiropractors</li>
               <li>Interior designers</li>
@@ -173,6 +176,7 @@ export default function About() {
               <li>Pain Management companies</li>
               <li>General Contractors</li>
               <li>Plumbers</li>
+              <li>Lawyers</li>
               <li>HVAC Contractors</li>
               <li>Pool Builders</li>
               <li>Roofers</li>
@@ -183,7 +187,8 @@ export default function About() {
             </ul>
             <p>
               If you have a small business in Maryland, and want to see how SEO
-              can help your business, fill out the form, or give us a call.
+              can help your business, fill out the form, or give me a call at{' '}
+              <a href="tel:1-240-266-0588">(240) 266-0588</a>.
             </p>
           </div>
           <div className="btn">

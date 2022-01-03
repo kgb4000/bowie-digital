@@ -648,6 +648,29 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
+            <h2>Cities We Provide Local SEO Services</h2>
+            <p>We provide Maryland SEO services in the following cities:</p>
+            <ul>
+              <li>Annapolis, MD</li>
+              <li>Baltimore, MD</li>
+              <li>
+                <Link href="/bowie-seo-company">
+                  <a>Bowie, MD</a>
+                </Link>
+              </li>
+              <li>Columbia, MD</li>
+              <li>Dundalk, MD</li>
+              <li>Ellicott, City MD</li>
+              <li>Frederick, MD</li>
+              <li>Gaithersburg, MD</li>
+              <li>Germantown, MD</li>
+              <li>Hagerstown, MD</li>
+              <li>Towson, MD</li>
+            </ul>
+            <p>
+              We are one of the best Maryland SEO companies offering search
+              engine optimization to Maryland small businesses.
+            </p>
 
             <h2>Why Work With Bowie SEO?</h2>
             <p>Bowie SEO is a local SEO company in Maryland.</p>

@@ -152,7 +152,21 @@ export default function Footer() {
           </div>
         </FooterMain>
       </footer>
-      <LastFooter>Bowie SEO &copy;{new Date().getFullYear()}</LastFooter>
+      <LastFooter>
+        Bowie SEO &copy;{new Date().getFullYear()}
+        <div className="policy-term">
+          <p className="policy">
+            <Link href="/terms">
+              <a>Terms of Service</a>
+            </Link>
+          </p>
+          <p className="policy">
+            <Link href="/privacy-policy">
+              <a>Privacy Policy</a>
+            </Link>
+          </p>
+        </div>
+      </LastFooter>
     </>
   )
 }
@@ -269,4 +283,13 @@ const LastFooter = styled.div`
   text-align: center;
   padding: 1.5rem 0;
   font-weight: 900;
+
+  .policy-term {
+    margin-top: 1rem;
+  }
+
+  .policy {
+    margin: 1rem 0;
+    font-size: 0.6rem;
+  }
 `

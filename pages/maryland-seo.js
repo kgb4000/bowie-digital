@@ -1312,10 +1312,14 @@ export default function MarylandSEO() {
             <ul>
               <li>Annapolis, MD</li>
               <li>Baltimore, MD</li>
-              <li>Bowie, MD</li>
+              <li>
+                <Link href="/bowie-seo-company">
+                  <a>Bowie, MD</a>
+                </Link>
+              </li>
               <li>Columbia, MD</li>
               <li>Dundalk, MD</li>
-              <li>Ellicott, City MD</li>
+              <li>Ellicott City, MD</li>
               <li>Frederick, MD</li>
               <li>Gaithersburg, MD</li>
               <li>Germantown, MD</li>
