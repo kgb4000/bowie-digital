@@ -34,16 +34,21 @@ export default function Dropdown() {
 
 const Ul = styled.ul`
   position: absolute;
-  margin-top: 1.3rem;
   margin-left: 0;
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 1rem;
   width: 160px;
   border-top: 5px solid #d35400;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+  top: 70px;
+  list-style-type: none;
+
+  li {
+    margin: 0;
+  }
 
   .dropdown-menu {
     position: absolute;

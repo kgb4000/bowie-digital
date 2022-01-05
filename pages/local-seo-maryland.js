@@ -274,10 +274,9 @@ export default function LocalSEO() {
               search engine optimization.
             </p>
             <p>
-              Your website can be penalized by the search engines without doing
-              search engine optimization, and your website may never show up in
-              the search results when people search for your products and
-              services.
+              Your website can be penalized by the search engines without you
+              even knowing, and your website may never show up in the search
+              results when people search for your products and services.
             </p>
 
             {/* <section className="article-section">
@@ -387,9 +386,9 @@ export default function LocalSEO() {
               </b>
             </p>
             <div className="btn">
-              <Link href="/contact">
+              <Link href="/free-seo-audit">
                 <a>
-                  <Button>Contact me &#8594;</Button>
+                  <Button>Get a Free SEO Audit &#8594;</Button>
                 </a>
               </Link>
             </div>

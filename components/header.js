@@ -120,10 +120,6 @@ const Head = styled.header`
     letter-spacing: 1px;
   }
 
-  svg {
-    dispaly: flex;
-  }
-
   nav {
     display: none;
 

@@ -46,16 +46,15 @@ img {
   margin: 0 auto;
 }
 
-.ready-container,
 .solution-container {
   max-width: 1500px;
-  padding: 0 2rem;
+  padding: 0 1.2rem;
   margin: 0 auto;
 }
 
 .ready-container {
   max-width: 1140px;
-  padding: 0 2rem;
+  padding: 0 1.2rem;
   margin: 0 auto;
 }
 

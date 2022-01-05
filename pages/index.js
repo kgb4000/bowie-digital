@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import ModalVideo from 'react-modal-video'
+import NavBar from '../components/navbar/navBar'
 import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
-import Footer from '../components/footer'
 
 import { DefaultSeo } from 'next-seo'
 
@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Header buttontext="Contact me" buttonLink="/contact" />
+      {/* <NavBar buttonLink="/contact" buttonText="Contact me" /> */}
       <HeroBox
         backgroundHeight="35rem"
         heroText="Business SEO ...Simplified"

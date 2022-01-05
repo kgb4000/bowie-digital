@@ -31,7 +31,7 @@ export default function MarylandSEO() {
       <HeroBox
         backgroundHeight="35rem"
         heroText="Maryland SEO"
-        subText="Professional Search Engine Optimization for Small Businesses in Maryland."
+        subText="Maryland Search Engine Optimization for Small Businesses."
         buttonText="Contact me"
         buttonLink="/contact"
       />
@@ -40,9 +40,7 @@ export default function MarylandSEO() {
         <section>
           <div className="container">
             <h2>Grow Your Business with a Maryland SEO Company</h2>
-            <p>
-              Bowie SEO is a Maryland SEO company located in Bowie Maryland.
-            </p>
+            <p>Bowie SEO is an SEO company located in Bowie Maryland.</p>
             <p>
               As a Maryland SEO company, we are proud to offer search engine
               optimization to small businesses in Maryland.
@@ -1418,7 +1416,7 @@ export default function MarylandSEO() {
 const Quotebox = styled.div`
   color: #fff;
   background-color: #20202a;
-  padding: 3rem;
+  padding: 2rem 1rem;
   margin: 2rem 0;
   font-size: 1.8rem;
   line-height: 1.2;

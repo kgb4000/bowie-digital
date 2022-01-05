@@ -40,6 +40,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@900&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="google-site-verification"
+            content="outFGrWvqT_oGbQbVv9XooWxpm8G6nZrI9WwNb56hIw"
+          />
         </Head>
         <body>
           <Main />

@@ -41,11 +41,9 @@ export default function Blog({ data }) {
       />
       <NextSeo {...SEO} />
       <Header buttontext="Talk To Me" buttonLink="/contact" />
-      <BlogHeroBox backgroundHeight="6rem" heroText="Advice" />
+      <BlogHeroBox backgroundHeight="8rem" heroText="Blog" />
       <BlogMain>
-        <div className="container">
-          <h1>Blog</h1>
-        </div>
+        <div className="container"></div>
         <div className="blog-container">
           {data.posts.map((post) => (
             <div key={post.slug}>

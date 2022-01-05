@@ -44,6 +44,7 @@ const Hero = styled.div`
   background-image: ${(props) => props.backgroundImage};
   background-size: cover;
   height: ${(props) => props.backgroundHeight};
+  margin-top: 100px;
 
   h1 {
     font-size: 2.2rem;
