@@ -8,7 +8,7 @@ export default function Policy() {
       <NextSeo
         title="Privacy Policy"
         description="This the privacy policy for Bowie SEO."
-        canonical="https://www.canonical.ie/"
+        canonical="https://bowieseo.com/privacy-policy"
         robotsProps={{
           noindex: true,
           nofollow: true,

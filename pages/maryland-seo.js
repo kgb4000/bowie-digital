@@ -12,10 +12,10 @@ import { NextSeo } from 'next-seo'
 export default function MarylandSEO() {
   const [showModal, setShowModal] = useState(false)
   const SEO = {
-    title: 'Maryland SEO',
-    titleTemplate: '%s | Increase Your Web Traffic, Leads and Revenue',
+    title: 'Maryland Search Engine Optimization',
+    titleTemplate: '%s | Bowie SEO',
     description:
-      'Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Contact us today!',
+      'Bowie SEO is a Maryland Search Engine Optimization company helping small businesses increase website traffic, leads, and revenue. Contact us today!',
     canonical: 'https://bowieseo.com/maryland-seo',
     openGraph: {
       title: 'Maryland SEO | Increase Your Web Traffic, Leads and Revenue',
@@ -51,7 +51,7 @@ export default function MarylandSEO() {
               alt="Maryland SEO Company"
             />
             <p>
-              We offer these services because we want you and other Maryland
+              We offer these services because we want you and other small
               businesses to:
             </p>
             <ul>

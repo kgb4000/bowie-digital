@@ -156,7 +156,7 @@ export default function Footer() {
         Bowie SEO &copy;{new Date().getFullYear()}
         <div className="policy-term">
           <p className="policy">
-            <Link href="/terms">
+            <Link href="/terms-of-service">
               <a>Terms of Service</a>
             </Link>
           </p>

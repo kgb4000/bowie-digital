@@ -166,6 +166,6 @@ const HeaderButton = styled(Button)`
   margin: 0;
 
   @media (min-width: 400px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `
