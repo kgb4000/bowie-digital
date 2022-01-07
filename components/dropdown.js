@@ -37,7 +37,7 @@ const Ul = styled.ul`
   margin-left: 0;
   background-color: #fff;
   padding: 1rem;
-  width: 160px;
+  width: 150px;
   border-top: 5px solid #d35400;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),

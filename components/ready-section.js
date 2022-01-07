@@ -41,7 +41,8 @@ export default function Contact({ h2, p }) {
       submitting: true,
     }))
 
-    const endpoint = ''
+    const endpoint =
+      'https://hb7gameo1c.execute-api.us-east-1.amazonaws.com/production'
 
     const body = JSON.stringify({
       name: inputs.name,

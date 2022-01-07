@@ -66,6 +66,16 @@ export default function Header({ buttontext, buttonLink }) {
 
         <nav className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav">
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
             <li
               className="nav-item"
               onMouseEnter={onMouseEnter}
@@ -104,7 +114,7 @@ const Head = styled.header`
   z-index: 1000;
 
   .header-container {
-    padding: 1rem 1.4rem;
+    padding: 0.5rem 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,14 +154,14 @@ const Head = styled.header`
       margin: 0;
       display: flex;
       justify-content: space-between;
-      width: 360px;
+      width: 500px;
       align-items: center;
 
     li {
       a.textnav {
       padding: 30px 10px;
       margin-bottom: 0;
-      font-weight: 700;
+      font-weight: 500;
     }
   }
 `
@@ -164,6 +174,11 @@ const HeaderButton = styled(Button)`
   text-transform: uppercase;
   font-size: 0.6rem;
   margin: 0;
+
+  &:hover {
+    background-color: white;
+    color: #d35400;
+  }
 
   @media (min-width: 400px) {
     font-size: 0.8rem;

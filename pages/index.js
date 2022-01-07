@@ -19,9 +19,9 @@ export default function Home() {
       <Header buttontext="Contact me" buttonLink="/contact" />
       {/* <NavBar buttonLink="/contact" buttonText="Contact me" /> */}
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="30rem"
         heroText="Business SEO ...Simplified"
-        subText="We Help Small Businesses in Maryland Increase Revenues With Search Engine Optimization"
+        subText="We Help Businesses in Maryland Get More Web Traffic With Search Engine Optimization"
         buttonText="Contact me"
         buttonLink="/contact"
       />
@@ -170,7 +170,7 @@ export default function Home() {
           <div className="btn">
             <Link href="/about">
               <a>
-                <Button>Learn More About Us</Button>
+                <Button>More About Me</Button>
               </a>
             </Link>
           </div>
@@ -220,7 +220,7 @@ export default function Home() {
             </Plan>
             <p>See how we can help you get more traffic to your website.</p>
             <div className="btn">
-              <Button>Contact me today!</Button>
+              <Button>Contact me today</Button>
             </div>
           </div>
         </section>

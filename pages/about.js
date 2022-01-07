@@ -28,7 +28,7 @@ export default function About() {
       <NextSeo {...SEO} />
       <Header buttontext="Talk to Kes" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="20rem"
         heroText="About Me"
         subText="Maryland SEO Expert"
         buttonText="Contact me"

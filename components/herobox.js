@@ -26,7 +26,7 @@ export default function HeroBox({
           {buttonText && (
             <Link href={buttonLink}>
               <a>
-                <Button>{buttonText} &#8594;</Button>
+                <Button>{buttonText}</Button>
               </a>
             </Link>
           )}
@@ -45,6 +45,7 @@ const Hero = styled.div`
   background-size: cover;
   height: ${(props) => props.backgroundHeight};
   margin-top: 100px;
+  margin-bottom: 4rem;
 
   h1 {
     font-size: 2.2rem;
