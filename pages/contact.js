@@ -9,7 +9,7 @@ import ContactForm from '../components/contact-form'
 
 export default function Contact() {
   const SEO = {
-    title: 'Contact | Bowie SEO',
+    title: 'Contact Me Today',
     description:
       "Contact me if you have any questions about search engine optimization for your small business, and let's see how we can help.",
     canonical: 'https://bowieseo.com/contact',

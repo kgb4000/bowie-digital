@@ -31,8 +31,8 @@ const BioSection = styled.div`
   margin: 0 auto;
   margin-top: 4rem;
   border-radius: 5px;
-  background: #d35400;
-  color: #fff;
+  background: #f6f9fc;
+  color: #101010;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -40,12 +40,12 @@ const BioSection = styled.div`
 
   img {
     width: 4rem;
-    border: 4px solid #fff;
+    border: 4px solid #d35400;
     border-radius: 50%;
   }
 
   p {
-    border-top: 2px solid #fff;
+    border-top: 2px solid #d35400;
     padding-top: 1rem;
   }
 `
