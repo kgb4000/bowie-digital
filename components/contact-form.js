@@ -42,7 +42,7 @@ export default function ContactForm({ h2, p }) {
     }))
 
     const endpoint =
-      'https://hqj4n50u1j.execute-api.us-east-1.amazonaws.com/production/bowieemail'
+      'https://j1cwqvc37d.execute-api.us-east-1.amazonaws.com/default/sendBowieContactEmail'
 
     const body = JSON.stringify({
       name: inputs.name,
@@ -168,4 +168,8 @@ const SubmitButton = styled(Button)`
   margin: 1rem 0;
   color: #fff;
   background: #d35400;
+
+  .success {
+    text-align: center;
+  }
 `

@@ -42,7 +42,7 @@ export default function Contact({ h2, p }) {
     }))
 
     const endpoint =
-      'https://hqj4n50u1j.execute-api.us-east-1.amazonaws.com/production/bowieemail'
+      'https://j1cwqvc37d.execute-api.us-east-1.amazonaws.com/default/sendBowieContactEmail'
 
     const body = JSON.stringify({
       name: inputs.name,
@@ -57,6 +57,7 @@ export default function Contact({ h2, p }) {
       method: 'POST',
       body,
     })
+
     const text = await res.text()
     handleResponse(res.status, text)
   }
@@ -154,9 +155,7 @@ export default function Contact({ h2, p }) {
                   <div className="error">Error: {status.info.msg}</div>
                 )}
                 {!status.info.error && status.info.msg && (
-                  <div className="success">
-                    Your message has been sent to Kester at Bowie SEO
-                  </div>
+                  <div className="success">We Got Your Message!</div>
                 )}
               </form>
             </Conversion>
@@ -190,6 +189,7 @@ const Conversion = styled.div`
 
     .success {
       max-width: 400px;
+      text-align: center;
     }
   }
 `

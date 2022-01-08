@@ -30,7 +30,7 @@ export default function MarylandSEO() {
       <Header buttontext="Contact me" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="30rem"
-        heroText="Maryland Search Engine Optimization"
+        heroText="Maryland SEO"
         subText="Maryland SEO for Small Businesses"
         buttonText="Contact me"
         buttonLink="/contact"
