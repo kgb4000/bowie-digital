@@ -42,7 +42,7 @@ export default function ContactForm({ h2, p }) {
     }))
 
     const endpoint =
-      'https://hqj4n50u1j.execute-api.us-east-1.amazonaws.com/production'
+      'https://hqj4n50u1j.execute-api.us-east-1.amazonaws.com/production/bowieemail'
 
     const body = JSON.stringify({
       name: inputs.name,
