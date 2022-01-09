@@ -42,7 +42,7 @@ export default function ContactForm({ h2, p }) {
     }))
 
     const endpoint =
-      'https://j1cwqvc37d.execute-api.us-east-1.amazonaws.com/default/sendBowieContactEmail'
+      'https://bmsqq562he.execute-api.us-east-1.amazonaws.com/prod/bowieseoemail'
 
     const body = JSON.stringify({
       name: inputs.name,
@@ -121,6 +121,7 @@ export default function ContactForm({ h2, p }) {
                 <input
                   id="phone"
                   type="text"
+                  maxLength="10"
                   onChange={handleOnChange}
                   required
                   value={inputs.phone}
@@ -131,6 +132,7 @@ export default function ContactForm({ h2, p }) {
                 <textarea
                   id="message"
                   type="text"
+                  maxLength="500"
                   onChange={handleOnChange}
                   required
                   value={inputs.message}
@@ -152,7 +154,7 @@ export default function ContactForm({ h2, p }) {
               )}
               {!status.info.error && status.info.msg && (
                 <div className="success">
-                  Your message has been sent to Kester at Bowie SEO
+                  Your message has been sent to Bowie SEO.
                 </div>
               )}
             </form>
@@ -168,8 +170,4 @@ const SubmitButton = styled(Button)`
   margin: 1rem 0;
   color: #fff;
   background: #d35400;
-
-  .success {
-    text-align: center;
-  }
 `

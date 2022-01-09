@@ -42,7 +42,7 @@ export default function Contact({ h2, p }) {
     }))
 
     const endpoint =
-      'https://j1cwqvc37d.execute-api.us-east-1.amazonaws.com/default/sendBowieContactEmail'
+      'https://bmsqq562he.execute-api.us-east-1.amazonaws.com/prod/bowieseoemail'
 
     const body = JSON.stringify({
       name: inputs.name,
