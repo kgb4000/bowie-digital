@@ -40,7 +40,7 @@ export default function Blog({ data }) {
         description="This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization."
       />
       <NextSeo {...SEO} />
-      <Header buttontext="Talk To Me" buttonLink="/contact" />
+      <Header buttontext="Contact me" buttonLink="/contact" />
       <BlogHeroBox backgroundHeight="8rem" heroText="Blog" />
       <BlogMain>
         <div className="container"></div>
@@ -69,7 +69,8 @@ export default function Blog({ data }) {
 }
 
 const BlogHeroBox = styled(HeroBox)`
-  margin-top: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
 `
 
 const BlogMain = styled(Main)`

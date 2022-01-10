@@ -35,7 +35,7 @@ export default function Contact() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Talk To Me" buttonLink="tel:1-240-266-0588" />
+      <Header buttontext="Calll me now!" buttonLink="tel:1-240-266-0588" />
       <HeroBox
         backgroundHeight="30rem"
         heroText="Contact Me"
