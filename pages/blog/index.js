@@ -52,7 +52,7 @@ export default function Blog({ data }) {
                 <div className="blog-info">
                   <Link href={`/${post.slug}`}>
                     <a>
-                      <h2>{post.title}</h2>
+                      <h2>{post.postTitle}</h2>
                     </a>
                   </Link>
                   <Link href={`/${post.slug}`}>

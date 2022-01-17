@@ -74,7 +74,7 @@ export default function Articles({ post }) {
       <BlogHeroBox
         backgroundHeight="60rem"
         coverImage={post.coverImage.url}
-        heroText={post.title}
+        heroText={post.postTitle}
         date={new Date(post.date).toLocaleDateString('en-us', {
           year: 'numeric',
           month: 'short',
