@@ -113,6 +113,10 @@ const Head = styled.header`
   width: 100%;
   z-index: 1000;
 
+  a {
+    text-decoration: none;
+  }
+
   .header-container {
     padding: 0.5rem 1.4rem;
     display: flex;

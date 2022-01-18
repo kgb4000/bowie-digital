@@ -11,16 +11,16 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Maryland Local SEO',
-    titleTemplate: '%s | Get More Leads for You Local Business',
+    title: 'Local SEO Services',
+    titleTemplate: '%s | Get Web Traffic and Leads for Your Business',
     description:
-      'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today!',
+      'We do Local SEO for small businesses in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Maryland Local SEO | Get More Leads for You Local Business',
+      title: 'Local SEO Services | Get Web Traffic and Leads for Your Business',
       description:
-        'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today!',
+        'We do Local SEO for small businesses in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -28,13 +28,13 @@ export default function LocalSEO() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
         backgroundHeight="35rem"
-        heroText="Local SEO for Maryland"
+        heroText="Local SEO Services"
         subText="Get more website traffic and make more money with Local Search Engine Optimization."
-        buttonText="Contact me"
-        buttonLink="/contact"
+        buttonText="Get a FREE SEO Audit"
+        buttonLink="/free-seo-audit"
       />
       <Main>
         <section className="article-section">

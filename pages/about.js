@@ -12,24 +12,24 @@ import Link from 'next/link'
 
 export default function About() {
   const SEO = {
-    title: 'About Bowie SEO',
-    titleTemplate: '%s | Maryland SEO Expert',
+    title: 'Bowie SEO',
+    titleTemplate: '%s | Maryland SEO Experts',
     description:
-      'Looking for a SEO Expert in Maryland? I specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+      'Looking for a SEO Expert in Maryland? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     canonical: 'https://bowieseo.com/about',
     openGraph: {
-      title: 'About Bowie SEO | Maryland SEO Expert',
+      title: 'Bowie SEO | Maryland SEO Experts',
       description:
-        'Looking for a SEO Expert in Maryland? I specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+        'Looking for a SEO Expert in Maryland? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     },
   }
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Talk to Kes" buttonLink="/contact" />
+      <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="20rem"
-        heroText="About Me"
+        heroText="About Us"
         subText="Maryland SEO Expert"
         buttonText="Contact me"
         buttonLink="/contact"
@@ -45,11 +45,11 @@ export default function About() {
               just me.
             </p>
             <p>
-              I'm the one actually doing all the hard work behind the scenes
-              helping business rank higher in the search engines.
+              I'm doing all the hard work behind the scenes helping businesses
+              rank higher in the search engines.
             </p>
             <p>
-              I live in Bowie, Maryland and I specialize in search engine
+              I live in Bowie, Maryland, specializing in search engine
               optimization.
             </p>
             <p>
@@ -58,25 +58,24 @@ export default function About() {
               issues on their website.
             </p>
             <p>
-              I not only find the issues stopping your site from ranking higher
-              and getting leads, I can fix the isuues.
+              I find the issues stopping your site from ranking higher and
+              getting leads, and I also fix the problems.
             </p>
             <p>
-              I create an action plan for us to fix the problems that are
-              stopping your website from performing better in the search
-              results.
+              I create an action plan to fix the problems that are stopping your
+              website from performing better in the search results.
             </p>
             <p>
-              I pride myself on being able to deliver real results with tangible
+              I pride myself on delivering actual results with tangible
               improvements in organic traffic for my clients.
             </p>
             <p>
-              Most of all, the goal of this marketing channel is to make more
-              money for your business
+              Most of all, the goal of SEO is to make more money for your
+              business.
             </p>
             <p>
-              If you want to outrank your competitors, get more leads, and make
-              more money in your business, then contact me today.
+              Contact me today if you want to outrank your competitors, get more
+              leads, and make more money in your business.
             </p>
             <div className="btn">
               <Link href="/contact">
@@ -103,7 +102,7 @@ export default function About() {
             <h2>My Vision</h2>
             <p>
               My vision is to help small businesses in Maryland use search
-              engine optimization to make more money for their businesses.
+              engine optimization to make more money for their companies.
             </p>
           </div>
         </section>
@@ -136,13 +135,13 @@ export default function About() {
               grow with search engine optimization.
             </p>
             <p>
-              We're not an out of town SEO agency or super large SEO company
+              We're not an out-of-town SEO agency or super large SEO company
               pretending to care about your business. Because when your business
               grows, the entire community grows, and that's want I want.
             </p>
             <p>
-              I believe in doing search engine optimization the right way, so
-              that I get our customers the best results.
+              I believe in doing search engine optimization the right way to get
+              our customers the best results.
             </p>
 
             <p>When you work with me and Bowie SEO, you get:</p>
@@ -154,30 +153,28 @@ export default function About() {
                 </Link>
                 .
               </li>
-              <li>Real list of keyword you must target.</li>
+              <li>An actual list of keywords you must target.</li>
               <li>Measurable results.</li>
               <li>No long-term contacts.</li>
-              <li>Cancel anytime.</li>
+              <li>Able to cancel anytime.</li>
               <li>
                 To work with a local Maryland SEO company doing business with
                 other local businesses, not an SEO company in another state.
               </li>
               <li>
-                Only White Hat SEO practices that won&apos;t get you website
-                banned.
+                Only White Hat SEO practices won't get your website banned.
               </li>
               <li>
                 A company that works with one business per industry in our area.
-                Example. If we work with a roofer in Bowie, we will not work
-                with another roofer in Bowie, or within 30 miles of your
-                teritory.
+                If we work with a roofer in Bowie, we will not work with another
+                roofer in Bowie or within 30 miles of your territory.
               </li>
               <li>Weekly updates and monthly reports.</li>
-              <li>An SEO company that really cares about your business.</li>
+              <li>An SEO company that cares about your business.</li>
             </ul>
             <p>
-              We don't offer SEO packages because every business has different
-              needs. We therefore create a custom SEO strategy for your
+              I don't offer SEO packages because every business has different
+              needs. We, therefore, create a custom SEO strategy for your
               business.
             </p>
             <h2>Small Businesses I am Proud to Work With</h2>
@@ -198,8 +195,8 @@ export default function About() {
               <li>and more</li>
             </ul>
             <p>
-              If you have a small business in Maryland, and want to see how SEO
-              can help your business, fill out the form, or give me a call at{' '}
+              If you have a small business in Maryland and want to see how SEO
+              can help your business, fill out the form or give me a call at{' '}
               <a href="tel:1-240-266-0588">(240) 266-0588</a>.
             </p>
           </div>
@@ -212,8 +209,8 @@ export default function About() {
           </div>
         </section>
         <Ready
-          h2="I Can Help You, Get More Traffic, Rank Higher in the Search Engines, Get More Leads, and Increase Revenue For Your Business?"
-          p="I look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
+          h2="Do You Want to, Get More Traffic, Rank Higher in the Search Engines, Get More Leads, and Increase Revenue For Your Business?"
+          p="Please fill out the form, and I'll show you how Bowie SEO can help your business get more web traffic, rank higher, get more leads, and make more money!"
         />
       </Main>
     </>

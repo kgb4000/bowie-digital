@@ -22,7 +22,7 @@ export default function HeroBox({
       <div className="content">
         <div>
           <h1>{heroText}</h1>
-          <p>{subText}</p>
+          {subText && <p>{subText}</p>}
           {buttonText && (
             <Link href={buttonLink}>
               <a>
@@ -52,7 +52,7 @@ const Hero = styled.div`
   }
 
   .content {
-    max-width: 1000px;
+    max-width: 1500px;
     text-align: center;
     padding: 0 1rem;
 

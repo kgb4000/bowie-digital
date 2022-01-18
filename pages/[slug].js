@@ -7,6 +7,7 @@ import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
 import Bio from '../components/author-bio'
+import { ShareBtn } from '../components/share-btn'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -29,7 +30,7 @@ export const getStaticPaths = async () => {
   }
 }
 
-export default function Articles({ post }) {
+export default function Articles({ post, shareLink }) {
   const SEO = {
     title: post.title,
     description: post.excerpt,
@@ -86,6 +87,7 @@ export default function Articles({ post }) {
       <Main>
         <div className="container">
           <RichText content={post.content.json} />
+          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
         </div>
       </Main>

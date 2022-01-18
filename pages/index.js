@@ -16,14 +16,14 @@ export default function Home() {
 
   return (
     <>
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       {/* <NavBar buttonLink="/contact" buttonText="Contact me" /> */}
       <HeroBox
-        backgroundHeight="30rem"
-        heroText="Business SEO ...Simplified"
-        subText="We Help Businesses in Maryland Get More Web Traffic With Search Engine Optimization"
-        buttonText="Contact me"
-        buttonLink="/contact"
+        backgroundHeight="35rem"
+        heroText="We Grow Your Website Traffic and Get You More Customers"
+        subText="We Help Businesses Get More Web Traffic With Search Engine Optimization"
+        buttonText="Get a FREE SEO Audit"
+        buttonLink="/free-seo-audit"
       />
       <Main>
         <section className="no-marketing">
@@ -33,47 +33,48 @@ export default function Home() {
               Products or Services, You're Losing Money.
             </h2>
             <p className="subtext">
-              When consumers search for your product or service and your website
-              doesn't come up in the search results, what are you doing?
+              What are you doing when consumers search for your product or
+              service and your website doesn't come up in the search results?
             </p>
             <p className="subtext">You're losing money.</p>
             <p className="subtext">How?</p>
             <p className="subtext">
-              Because when they don't find you, they find your competitors, and
-              they spend money with your competitors.
+              Because when they don't find you, they find your competitors and
+              spend money with your competitors.
             </p>
             <p className="subtext">
               If you're spending money on social media ads and online ads, you
-              may be wasting money if you website does not even come up in the
+              may be wasting money if your website does not even appear in the
               organic search results.
             </p>
             <p className="subtext">
-              Search marketing can can get expensive and cost you more than it
-              has to. Doing online marketing the wrong way will result in:
+              Search marketing can get expensive and cost you more than it has
+              to. Doing online marketing the wrong way will result in:
             </p>
             <NoSEO>
-              <li>Overspending and wasting money on online advertizing.</li>
+              <li>Overspending and wasting money on online advertising.</li>
               <li>
-                Low online visibility, low credability and not enough reviews.
+                Low online visibility, lacking credibility, and not enough
+                reviews.
               </li>
               <li>
                 No brand recognition because consumers can't see or find your
-                business when they search for your products or services.
+                business when searching for your products or services.
               </li>
               <li>
-                A website that doesn't get any traffic, doesn't convert, or
-                bring any business.
+                A website that doesn't get any traffic doesn't convert or bring
+                any business.
               </li>
               <li>
-                A stress filled work environment trying everything to get new
+                Stress-filled work environment trying everything to get new
                 leads and sales.
               </li>
-              <li>Eventually having to closing your business.</li>
+              <li>Eventually, having to close your business.</li>
             </NoSEO>
             <p className="subtext">
-              Don't let this happen trying online marketing yourself. Click the
-              button below to get your FREE SEO Audit and see what you need to
-              fix on your website so it can start getting traffic.
+              Don't let this happen by trying online marketing yourself. Click
+              the button below to get your FREE SEO Audit and see what you need
+              to fix on your website so it can start getting traffic.
             </p>
             <div className="btn">
               <Link href="/free-seo-audit">
@@ -91,18 +92,18 @@ export default function Home() {
             </h2>
             <p className="subtext">
               By starting a search engine optimization strategy, your website
-              can generate more traffic, more leads, and more sales for your
-              business for <b>FREE</b>.
+              can generate more traffic, leads, and sales for your business for{' '}
+              <b>FREE</b>.
             </p>
             <HelpHow>
               <li>Get more local traffic to your website.</li>
-              <li>Outrank your competitors in local search results</li>
+              <li>Outrank your competitors in local search results.</li>
               <li>
                 Increase your online visibility to get more leads and sales.
               </li>
               <li>
                 Attract your target audience with quality content that helps
-                your consumers, and give them the information they want.
+                your consumers and gives them the information they want.
               </li>
               <li>Spend less on social media ads and pay-per-click ads.</li>
               <li>Increase leads, sales and revenue.</li>
@@ -110,7 +111,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me today!</Button>
+                  <Button>Contact us today!</Button>
                 </a>
               </Link>
             </div>
@@ -133,7 +134,7 @@ export default function Home() {
               </p>
             </div>
             <p className="subtext">
-              You may have the best services in town, but you don't show up when
+              You may have the best services in town, but you don't appear when
               people search for you. How long are you going to stay in business?
               Get your FREE SEO Audit and see what you need to fix so it can
               start getting traffic.
@@ -155,22 +156,22 @@ export default function Home() {
               businesses in Bowie and throughout the state.
             </p>
             <p className="subtext">
-              We are located in Maryalnd so you'll always have an SEO company
-              near you. We go out of our way to give your business the best SEO
-              services and the attention it deserves!
+              We are in Maryland, so you'll always have an SEO company near you.
+              We go out of our way to give your business the best SEO services
+              and the attention it deserves!
             </p>
             <h3>All we do is SEO.</h3>
             <p className="subtext">
               We're here to help you achieve your desired results with{' '}
               <b>search engine optimization</b>. Whether you're looking to
               increase traffic to your website, improve your online presence, or
-              simply increase. We can help.
+              increase. We can help.
             </p>
           </div>
           <div className="btn">
             <Link href="/about">
               <a>
-                <Button>More About Me</Button>
+                <Button>More About Us</Button>
               </a>
             </Link>
           </div>
@@ -179,7 +180,7 @@ export default function Home() {
         <section>
           <div className="container">
             <h2 className="title">
-              How We Can Help You Can Fix Your Website So You Get Traffic?
+              How Can We Help You Fix Your Website, So You Get Traffic?
             </h2>
             <p className="subtext">
               Stop losing money because your website is not performing!
@@ -187,14 +188,14 @@ export default function Home() {
             <Plan>
               <li>
                 <div>
-                  <h3>Call me</h3>
+                  <h3>Call Today!</h3>
                   <p>
-                    Call me for your{' '}
+                    Call for your{' '}
                     <Link href="/free-seo-audit">
                       <a>FREE SEO Audit</a>
                     </Link>
                     , and see what your business is doing right and what you can
-                    improve to help your business rank higher.
+                    improve to help your business rank higher..
                   </p>
                 </div>
               </li>
@@ -202,9 +203,9 @@ export default function Home() {
                 <div>
                   <h3>We Get A Plan Together</h3>
                   <p>
-                    After I analyze your website and look at your SEO report, we
-                    both get a plan together to fix the issuses we find and give
-                    you suggestions that will help you ranking higher.
+                    After we analyze your website and look at your SEO report,
+                    we both plan together to fix the issues we find and give you
+                    suggestions that will help you rank higher.
                   </p>
                 </div>
               </li>
@@ -213,14 +214,16 @@ export default function Home() {
                   <h3>Start Growing Your Business</h3>
                   <p>
                     We measure your success and keep improving your website to
-                    grow your business and rank higher than your competiton.
+                    grow your business and rank higher than your competition.
                   </p>
                 </div>
               </li>
             </Plan>
-            <p>See how we can help you get more traffic to your website.</p>
+            <p>
+              Let's see how we can help you get more traffic to your website.
+            </p>
             <div className="btn">
-              <Button>Contact me today</Button>
+              <Button>Contact us today</Button>
             </div>
           </div>
         </section>
@@ -241,8 +244,8 @@ export default function Home() {
               </p>
             </div>
             <p className="subtext">
-              If people can't find your business when they search, what are you
-              doing? Get your FREE Website and SEO Audit and see what you need
+              What are you doing if people can't find your business when they
+              search? Get your FREE Website and SEO Audit and see what you need
               to fix on your website so it can start getting traffic.
             </p>
             <div className="btn">
@@ -258,19 +261,17 @@ export default function Home() {
           <div className="solution-container">
             <h2 className="title">Our SEO Services</h2>
             <p className="subtext">
-              Our SEO services are designed to to rank higher your business
-              higher in Google, resulting in more website traffic, more leads,
-              and more money.
+              Our SEO services will rank your website higher in Google,
+              resulting in more website traffic, leads, and money.
             </p>
             <Solutions>
               <div className="solution-box">
                 <h3>SEO</h3>
                 <p>
-                  SEO is laying down the foundation for your website and making
-                  it better for search engines and for users. When you have a
-                  solid foundation, your website will rank higher organically,
-                  and you will attract more leads, get more sales, and make more
-                  money.
+                  SEO lays down the foundation for your website and makes it
+                  better for search engines and users. When you have a solid
+                  foundation, your website will rank higher organically, and you
+                  will attract more leads, get more sales, and make more money.
                 </p>
                 <Link href="/maryland-seo">
                   <a className="solution-link">More About SEO &rsaquo;</a>
@@ -279,10 +280,10 @@ export default function Home() {
               <div className="solution-box">
                 <h3>Local SEO</h3>
                 <p>
-                  Local SEO is about your business being found when it counts.
-                  When local customers are looking for your services on desktop,
-                  mobile, and voice searches, you need to show up in the search
-                  above your competitors.
+                  Local SEO is about people finding your business when it
+                  counts. When local customers are looking for your services on
+                  desktop, mobile, and voice searches, you need to show up in
+                  the search above your competitors.
                 </p>
                 <Link href="/local-seo-maryland">
                   <a className="solution-link">More About Local SEO &rsaquo;</a>
@@ -292,10 +293,10 @@ export default function Home() {
                 <h3>SEO Audit</h3>
                 <p>
                   An SEO Audit will let you know what's stopping your website
-                  from ranking higher in the search engines. It will help you
-                  identify the elements that are holding your website back, and
-                  it will show you what elements you need to fix to make your
-                  site better for search engines and consumers.
+                  from ranking higher in the search engines. It will identify
+                  the elements that are holding your website back, and will show
+                  you what to fix to make your site better for search engines
+                  and consumers.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">More about SEO Audit &rsaquo;</a>
@@ -345,7 +346,7 @@ export default function Home() {
         </section>
         <Ready
           h2="Get More Website Traffic, More Leads, and Increase Revenue with SEO."
-          p="Fill out the form and let me show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!."
+          p="Please fill out the form, and we'll show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!"
         />
       </Main>
     </>
@@ -411,6 +412,7 @@ const Solutions = styled.div`
       text-align: center;
       text-transform: uppercase;
       font-weight: 700;
+      text-decoration: none;
     }
   }
 

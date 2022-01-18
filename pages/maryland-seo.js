@@ -27,13 +27,13 @@ export default function MarylandSEO() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
         backgroundHeight="30rem"
         heroText="Maryland SEO"
         subText="Maryland SEO for Small Businesses"
-        buttonText="Contact me"
-        buttonLink="/contact"
+        buttonText="Get a FREE SEO Audit"
+        buttonLink="/free-seo-audit"
       />
 
       <Main>

@@ -12,13 +12,6 @@ export default function Policy() {
         robotsProps={{
           noindex: true,
           nofollow: true,
-          nosnippet: true,
-          notranslate: true,
-          noimageindex: true,
-          noarchive: true,
-          maxSnippet: -1,
-          maxImagePreview: 'none',
-          maxVideoPreview: -1,
         }}
       />
       <Header buttontext="Contact me" buttonLink="/contact" />

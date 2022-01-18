@@ -46,7 +46,7 @@ const SocialContainer = styled.div`
 `
 
 const FacebooKBox = styled.div`
-  width: 100px;
+  width: 110px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@ const FacebooKBox = styled.div`
 `
 
 const TwitterBox = styled.div`
-  width: 100px;
+  width: 110px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -70,7 +70,7 @@ const TwitterBox = styled.div`
 `
 
 const EamilBox = styled.div`
-  width: 100px;
+  width: 110px;
   height: 50px;
   display: flex;
   justify-content: center;

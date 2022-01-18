@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { getPost, getPosts } from '../lib/data'
+import { ShareBtn } from './share-btn'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -12,7 +13,7 @@ export const getStaticProps = async ({ params }) => {
   }
 }
 
-export default function Bio({ authorImg, authorBio }) {
+export default function Bio({ authorImg, authorBio, shareLink }) {
   return (
     <>
       <BioSection>
@@ -29,7 +30,7 @@ const BioSection = styled.div`
   max-width: 700px;
   padding: 1rem 0;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
   border-radius: 5px;
   background: #f6f9fc;
   color: #101010;

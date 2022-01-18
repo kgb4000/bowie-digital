@@ -93,7 +93,7 @@ export default function Contact({ h2, p }) {
     <>
       <Main>
         <section>
-          <div className="ready-container">
+          <div className="container">
             <Conversion>
               <div className="ready-text">
                 <h2>{h2}</h2>
@@ -174,7 +174,8 @@ const SubmitButton = styled(Button)`
 `
 
 const Conversion = styled.div`
-  @media (min-width: 768px) {
+  ${
+    '' /* @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
 
@@ -191,5 +192,6 @@ const Conversion = styled.div`
       max-width: 400px;
       text-align: center;
     }
+  } */
   }
 `

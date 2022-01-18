@@ -9,12 +9,12 @@ import { NextSeo } from 'next-seo'
 export default function FreeAudit() {
   const SEO = {
     title: 'Free SEO Audit',
-    titleTemplate: "%s | Figure Out Why You're Not Ranking Higher",
+    titleTemplate: "%s | Let's Audit Your Website",
     description:
       "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Contact us today!",
     canonical: 'https://bowieseo.com/free-seo-audit',
     openGraph: {
-      title: "Free SEO Audit | Identify Why You're Not Ranking Higher",
+      title: "Free SEO Audit | Let's Audit Your Website",
       description:
         "Want to find out why your website is not ranking higher in the search engines? Get a Free SEO Audit and we'll tell you why. Contact us today!",
     },
@@ -23,7 +23,7 @@ export default function FreeAudit() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="35rem"
         heroText="Free SEO Audit"
@@ -38,22 +38,21 @@ export default function FreeAudit() {
           <div className="container">
             <h2>Bowie SEO FREE SEO Audit</h2>
             <p>
-              There are a host of reasons why your website is not getting any
-              traffic, and why you&apos;re not ranking higher in the search
-              engines.
+              There are many reasons why your website is not getting any traffic
+              and why you're not ranking higher in the search engines.
             </p>
             <p>An SEO audit can tell you why.</p>
 
             <p>
-              This Free audit will uncover the elements that are keeping your
-              website from ranking higher, and uncover the problems that you
-              must fix to get the results you want.
+              This Free audit will uncover the elements that keep your website
+              from ranking higher and find the problems you must fix to get the
+              results you want.
             </p>
           </div>
         </section>
         <Ready
-          h2="Ready to Find Out What is Holding Your Website Back Form Ranking Higher and Getting More Traffic?"
-          p="Fill out the form below to for your Free SEO Audit."
+          h2="Ready to Find Out What's Stopping Your Website From Ranking Higher And Getting More Traffic?"
+          p="Fill out the form below for your Free SEO Audit."
         />
       </Main>
     </>

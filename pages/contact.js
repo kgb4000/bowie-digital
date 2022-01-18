@@ -35,10 +35,10 @@ export default function Contact() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Calll me now!" buttonLink="tel:1-240-266-0588" />
+      <Header buttontext="Calll now!" buttonLink="tel:1-240-266-0588" />
       <HeroBox
         backgroundHeight="30rem"
-        heroText="Contact Me"
+        heroText="Contact"
         subText="Let Me Help You Get More Traffic."
         buttonText=" Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
@@ -77,10 +77,3 @@ export default function Contact() {
     </>
   )
 }
-
-const SubmitButton = styled(Button)`
-  width: 100%;
-  margin: 1rem 0;
-  color: #fff;
-  background: rgb(240, 78, 74);
-`

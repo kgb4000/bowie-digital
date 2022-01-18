@@ -42,7 +42,7 @@ const Hero = styled.div`
   margin-top: 100px;
   margin-bottom: 2rem;
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .content {

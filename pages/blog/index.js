@@ -40,10 +40,9 @@ export default function Blog({ data }) {
         description="This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization."
       />
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
-      <BlogHeroBox backgroundHeight="8rem" heroText="Blog" />
+      <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
+      <BlogHeroBox backgroundHeight="6rem" heroText="SEO Blog" />
       <BlogMain>
-        <div className="container"></div>
         <div className="blog-container">
           {data.posts.map((post) => (
             <div key={post.slug}>
@@ -84,13 +83,20 @@ const BlogMain = styled(Main)`
     text-align: center;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     color: #000;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 
   @media (min-width: 768px) {
+    h2 {
+    font-size: 1.6rem;
+    }
     .blog-posts {
       display: flex;
       margin-bottom: 4rem;
