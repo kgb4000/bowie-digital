@@ -5,9 +5,9 @@ const Button = styled.button`
   border: 2px solid #d35400;
   padding: 1rem 1.8rem;
   cursor: pointer;
-  background-color: #d35400;
+  background-color: #ff5200;
   color: #fff;
-  border-color: #d35400;
+  border-color: #ff5200;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -16,6 +16,11 @@ const Button = styled.button`
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
+
+  &:hover {
+    border-color: #d55e0f;
+    background-color: #d55e0f;
+  }
 `
 
 export default Button

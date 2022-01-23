@@ -31,7 +31,7 @@ export default function MarylandSEO() {
       <HeroBox
         backgroundHeight="30rem"
         heroText="Maryland SEO"
-        subText="Maryland SEO for Small Businesses"
+        subText="Maryland Search Engine Optimization for Small Businesses"
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
       />

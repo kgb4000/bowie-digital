@@ -1,6 +1,6 @@
 export default {
-  title: 'Get More Leads and Customers for Your Business',
-  titleTemplate: '%s | Bowie SEO',
+  title: 'Maryland SEO Company Bringing You More Website Traffic and Customers',
+  // titleTemplate: '%s | Bowie SEO',
   type: 'website',
   locale: 'en_US',
   description:
@@ -8,7 +8,8 @@ export default {
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: 'Get More Leads and Customers for Your Business',
+    title:
+      'Top Maryland SEO Company Bringing You More Leads and Customers | Bowie SEO',
     type: 'website',
     description:
       'Bowie SEO is an SEO company in Maryland. We help small businesses rank higher, get more web traffic and increase revenues. Contact us today!',

@@ -21,7 +21,7 @@ export default function Home() {
       <HeroBox
         backgroundHeight="35rem"
         heroText="We Grow Your Website Traffic and Get You More Customers"
-        subText="We Help Businesses Get More Web Traffic With Search Engine Optimization"
+        subText="Our Maryland SEO Company can get You More Web Traffic and More Leads for Your Business"
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
       />
@@ -29,53 +29,76 @@ export default function Home() {
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
-              If People Can't Find Your Website When They Search For Your
-              Products or Services, You're Losing Money.
+              Grow Your Business with a Maryland{' '}
+              <span className="highlight">SEO Company</span>
             </h2>
-            <p className="subtext">
-              What are you doing when consumers search for your product or
-              service and your website doesn't come up in the search results?
+            <p>
+              Bowie SEO is a Maryland SEO company located in Bowie, Maryland.
             </p>
-            <p className="subtext">You're losing money.</p>
-            <p className="subtext">How?</p>
-            <p className="subtext">
-              Because when they don't find you, they find your competitors and
-              spend money with your competitors.
+            <p>
+              We believe that search engine optimization (SEO) is the best
+              digital marketing channel to help you find your ideal customers
+              and help potential customers find local businesses.
             </p>
-            <p className="subtext">
-              If you're spending money on social media ads and online ads, you
-              may be wasting money if your website does not even appear in the
-              organic search results.
+            <p>
+              As SEO consultants, we are proud to offer Maryland SEO services to
+              all businesses in Maryland.
             </p>
-            <p className="subtext">
-              Search marketing can get expensive and cost you more than it has
-              to. Doing online marketing the wrong way will result in:
+            <p>
+              Search engine optimization also helps increase your website
+              traffic, increases your online presence, and helps you do more
+              business online.
             </p>
+            <p>
+              Maryland small business owners can get reach their target market
+              get more traffic reach to the top of the search engine results
+              with SEO services from Bowie SEO.
+            </p>
+            <p>But first.</p>
+            <h2 className="title">
+              What is <span className="highlight">SEO</span>?
+            </h2>
+            <p className="subTitle">Maryland Search Engine Optimization</p>
+            <p>
+              Search engine optimization (SEO) is the process of improving your
+              website for search engines and users.
+            </p>
+            <p>
+              Search algorithms look at many factors, including the words of
+              your query, relevance, and usability of pages, the expertise of
+              sources, and your location and settings.
+            </p>
+            <p>
+              Let's say you are looking to sell Maryland crabs online. You
+              finally get the website up and running, but no matter how many
+              times you visit the website yourself, it doesn't show in the top
+              ten results when someone searches for "Maryland Crabs" on Google.
+            </p>
+            <p>So who will find your site? </p>
+            <p>The answer is no one.</p>
+            <h3>
+              SEO is Therefore <span className="highlight">Essential</span> for
+              Small Business Because SEO:
+            </h3>
             <NoSEO>
-              <li>Overspending and wasting money on online advertising.</li>
               <li>
-                Low online visibility, lacking credibility, and not enough
-                reviews.
+                Can get you on the first page of Google, and the top of the
+                Google Map Pack.
               </li>
+              <li>Can bring you more website traffic</li>
+              <li>Improves your online marketing</li>
+              <li>Can help your conversion rate optimization</li>
+              <li>Bring more quality traffic</li>
+              <li>Increase your web presence</li>
+
+              <li>Help you outrank your competitors</li>
+              <li>Increase your search rankings</li>
+              <li>Help you seek better-targeted keywords</li>
               <li>
-                No brand recognition because consumers can't see or find your
-                business when searching for your products or services.
+                Help you write much more valuable content for your existing
+                customers
               </li>
-              <li>
-                A website that doesn't get any traffic doesn't convert or bring
-                any business.
-              </li>
-              <li>
-                Stress-filled work environment trying everything to get new
-                leads and sales.
-              </li>
-              <li>Eventually, having to close your business.</li>
             </NoSEO>
-            <p className="subtext">
-              Don't let this happen by trying online marketing yourself. Click
-              the button below to get your FREE SEO Audit and see what you need
-              to fix on your website so it can start getting traffic.
-            </p>
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
@@ -88,25 +111,31 @@ export default function Home() {
         <section className="help-section">
           <div className="container">
             <h2 className="title">
-              Search Engine Optimization Can 5X - 10X Your Business
+              Why Your Small Business Needs{' '}
+              <span className="highlight">Search Engine</span> Optimization
             </h2>
-            <p className="subtext">
-              By starting a search engine optimization strategy, your website
-              can generate more traffic, leads, and sales for your business for{' '}
-              <b>FREE</b>.
+            <p>
+              Apart from the above points, small businesses need search engine
+              optimization because search engines are constantly evolving.
             </p>
+            <p>
+              According to Moz, Google reported over 3,000 improvements to
+              search in 2018. This was more than eight times the amount in 2009.
+              (
+              <a
+                href="https://moz.com/blog/how-often-does-google-update-its-algorithm"
+                target="_blank"
+              >
+                Moz
+              </a>
+              )
+            </p>
+            <p>Significant Google search algorithm changes include:</p>
             <HelpHow>
-              <li>Get more local traffic to your website.</li>
-              <li>Outrank your competitors in local search results.</li>
-              <li>
-                Increase your online visibility to get more leads and sales.
-              </li>
-              <li>
-                Attract your target audience with quality content that helps
-                your consumers and gives them the information they want.
-              </li>
-              <li>Spend less on social media ads and pay-per-click ads.</li>
-              <li>Increase leads, sales and revenue.</li>
+              <li>Bert</li>
+              <li>Panda</li>
+              <li>Mobile First</li>
+              <li>Rank Brain</li>
             </HelpHow>
             <div className="btn">
               <Link href="/contact">
@@ -120,138 +149,86 @@ export default function Home() {
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
-              90.63% of Content Gets No Traffic From Google.
+              What Can Search Engine Optimization Do for{' '}
+              <span className="highlight">Maryland</span> Businesses?
             </h2>
-            <div className="btn">
-              <p>
-                <a
-                  href="https://ahrefs.com/blog/search-traffic-study/"
-                  no-follow="true"
-                  target="_blank"
-                >
-                  Ahrefs
-                </a>
-              </p>
-            </div>
-            <p className="subtext">
-              You may have the best services in town, but you don't appear when
-              people search for you. How long are you going to stay in business?
-              Get your FREE SEO Audit and see what you need to fix so it can
-              start getting traffic.
-            </p>
-            <div className="btn">
-              <Link href="/free-seo-audit">
-                <a>
-                  <Button>Free SEO Audit &#8594;</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
-        <section className="whoisbowie">
-          <div className="container">
-            <h2 className="title">Who is Bowie SEO?</h2>
-            <p className="subtext">
-              Bowie SEO is a local SEO company in Maryland, serving small
-              businesses in Bowie and throughout the state.
-            </p>
-            <p className="subtext">
-              We are in Maryland, so you'll always have an SEO company near you.
-              We go out of our way to give your business the best SEO services
-              and the attention it deserves!
-            </p>
-            <h3>All we do is SEO.</h3>
-            <p className="subtext">
-              We're here to help you achieve your desired results with{' '}
-              <b>search engine optimization</b>. Whether you're looking to
-              increase traffic to your website, improve your online presence, or
-              increase. We can help.
-            </p>
-          </div>
-          <div className="btn">
-            <Link href="/about">
-              <a>
-                <Button>More About Us</Button>
-              </a>
-            </Link>
-          </div>
-        </section>
-
-        <section>
-          <div className="container">
-            <h2 className="title">
-              How Can We Help You Fix Your Website, So You Get Traffic?
-            </h2>
-            <p className="subtext">
-              Stop losing money because your website is not performing!
-            </p>
-            <Plan>
-              <li>
-                <div>
-                  <h3>Call Today!</h3>
-                  <p>
-                    Call for your{' '}
-                    <Link href="/free-seo-audit">
-                      <a>FREE SEO Audit</a>
-                    </Link>
-                    , and see what your business is doing right and what you can
-                    improve to help your business rank higher..
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>We Get A Plan Together</h3>
-                  <p>
-                    After we analyze your website and look at your SEO report,
-                    we both plan together to fix the issues we find and give you
-                    suggestions that will help you rank higher.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>Start Growing Your Business</h3>
-                  <p>
-                    We measure your success and keep improving your website to
-                    grow your business and rank higher than your competition.
-                  </p>
-                </div>
-              </li>
-            </Plan>
+            <p className="subTitle">Why Should You Start an SEO Campaign</p>
             <p>
-              Let's see how we can help you get more traffic to your website.
+              There are several reasons you will want to start an SEO campaign.
             </p>
-            <div className="btn">
-              <Button>Contact us today</Button>
-            </div>
-          </div>
-        </section>
-        <section className="no-marketing">
-          <div className="container">
-            <h2 className="title">
-              4 in 5 consumers use search engines to find local information.
-            </h2>
-            <div className="btn">
-              <p>
-                <a
-                  href="https://www.thinkwithgoogle.com/marketing-strategies/search/how-advertisers-can-extend-their-relevance-with-search-download/"
-                  no-follow="true"
-                  target="_blank"
-                >
-                  Think With Google
-                </a>
-              </p>
-            </div>
-            <p className="subtext">
-              What are you doing if people can't find your business when they
-              search? Get your FREE Website and SEO Audit and see what you need
-              to fix on your website so it can start getting traffic.
+            <HelpHow>
+              <li>
+                46% of all Google searches are looking for local information.
+              </li>
+              <li>
+                4 in 5 consumers use search engines to find local information.
+              </li>
+              <li>
+                92% of searchers will pick businesses on the first page of local
+                search results.
+              </li>
+              <li>
+                72% of consumers that did a local search visited a store within
+                five miles.
+              </li>
+              <li>
+                88% of searches for local businesses on a mobile device either
+                call or see the business within 24 hours.
+              </li>
+              <li>
+                97% of people learn more about a local company online than
+                anywhere else.
+              </li>
+              <li>
+                61% of mobile searchers are more likely to contact a local
+                business if they have a mobile website.
+              </li>
+            </HelpHow>
+            <p>More reasons are:</p>
+            <h3>You Get More Website Traffic</h3>
+            <p>
+              Starting an SEO strategy is one of the best decisions you will
+              make for your business. Your business will move up in the search
+              engine rankings, and you will get more website traffic.{' '}
             </p>
+            <h3>Increase Your Online Visibility</h3>
+            <p>
+              Get Found and be seen by more people searching for your products
+              and services.
+            </p>
+            <h3>Rank Higher in the Search Engines</h3>
+            <p>
+              When you rank higher in the search engine results, your ideal
+              customers find your business, you build your web presence, and
+              more people will see and recognize your brand. Appearing higher in
+              the search results.
+            </p>
+            <h3>Reach Your Target Market</h3>
+            <p>
+              Potential customers find your business because you use search
+              engine optimization and perform keyword research to reach your
+              target audience.
+            </p>
+            <h3>Outrank Your Competitors</h3>
+            <p>
+              Search engine optimization makes your website better for search
+              engines and your customers. When you do SEO and your competitors
+              don't, your SEO efforts will create a more significant online
+              presence, rank higher in the search rankings, get more traffic,
+              and do more online business.{' '}
+            </p>
+            <h3>Spend Less Money on Digital Marketing</h3>
+            <p>
+              Search engine optimization can help you spend less money on Google
+              Ads and other search marketing tactics. When you do SEO and rank
+              higher in the organic search engine results, you will not have to
+              spend as much money on ads and social media marketing.
+            </p>
+
             <div className="btn">
-              <Link href="/free-seo-audit">
+              <Link href="/contact">
                 <a>
-                  <Button>Free SEO Audit &#8594;</Button>
+                  <Button>Contact us today</Button>
                 </a>
               </Link>
             </div>
@@ -260,9 +237,8 @@ export default function Home() {
         <section className="solution-section">
           <div className="solution-container">
             <h2 className="title">Our SEO Services</h2>
-            <p className="subtext">
-              Our SEO services will rank your website higher in Google,
-              resulting in more website traffic, leads, and money.
+            <p className="subTitle">
+              SEO Services from an SEO Company in Maryland
             </p>
             <Solutions>
               <div className="solution-box">
@@ -270,8 +246,9 @@ export default function Home() {
                 <p>
                   SEO lays down the foundation for your website and makes it
                   better for search engines and users. When you have a solid
-                  foundation, your website will rank higher organically, and you
-                  will attract more leads, get more sales, and make more money.
+                  foundation, your website will rank higher organically, and
+                  small business owners will be able to compete with more
+                  prominent brands.
                 </p>
                 <Link href="/maryland-seo">
                   <a className="solution-link">More About SEO &rsaquo;</a>
@@ -280,8 +257,8 @@ export default function Home() {
               <div className="solution-box">
                 <h3>Local SEO</h3>
                 <p>
-                  Local SEO is about people finding your business when it
-                  counts. When local customers are looking for your services on
+                  Local SEO is about your local business found by your ideal
+                  customers. When customers are looking for your services on
                   desktop, mobile, and voice searches, you need to show up in
                   the search above your competitors.
                 </p>
@@ -293,20 +270,65 @@ export default function Home() {
                 <h3>SEO Audit</h3>
                 <p>
                   An SEO Audit will let you know what's stopping your website
-                  from ranking higher in the search engines. It will identify
-                  the elements that are holding your website back, and will show
-                  you what to fix to make your site better for search engines
-                  and consumers.
+                  from ranking higher in the search engines. It will help you
+                  identify the elements that are holding your website back, and
+                  it will show you what parts you need to fix to make your site
+                  better for search engines and consumers.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">More about SEO Audit &rsaquo;</a>
+                </Link>
+              </div>
+              <div className="solution-box">
+                <h3>Link Building</h3>
+                <p>
+                  Getting backlinks from link building is one of the essential
+                  parts of an SEO strategy. It is also one of Google's primary
+                  ranking factors. We help get you quality backlinks that will
+                  boost your domain authority and help you get quality traffic
+                  from Google and other search engines.
+                </p>
+                <Link href="/seo-audit">
+                  <a className="solution-link">
+                    More about Link Building &rsaquo;
+                  </a>
+                </Link>
+              </div>
+              <div className="solution-box">
+                <h3>Keyword Research</h3>
+                <p>
+                  Keyword research is necessary to ensure that your content
+                  targets the right audience and reaches your potential
+                  customers. The aim is to use targeted keywords that your
+                  target audience or local customers will find helpful and want
+                  to share to increase organic traffic.
+                </p>
+                <Link href="/seo-audit">
+                  <a className="solution-link">
+                    More about Keyword Research &rsaquo;
+                  </a>
+                </Link>
+              </div>
+              <div className="solution-box">
+                <h3>Technical SEO</h3>
+                <p>
+                  If it can't index your website, you will not appear in the
+                  search results or rank in Google. As part of our technical
+                  analysis, we make sure that your website gets indexed on
+                  Google. We also make sure you're using Google tools like
+                  Google Analytics and Google Search Console.
+                </p>
+                <Link href="/seo-audit">
+                  <a className="solution-link">
+                    More about Technical SEO &rsaquo;
+                  </a>
                 </Link>
               </div>
             </Solutions>
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me today!</Button>
+                  <Button>Contact us today!</Button>
                 </a>
               </Link>
             </div>
@@ -344,8 +366,157 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="no-marketing">
+          <div className="container">
+            <h2 className="title">
+              Why Work With <span className="highlight">Bowie SEO</span>?
+            </h2>
+            <p>
+              A Maryland SEO Company providing the Best SEO Services for
+              Maryland Businesses
+            </p>
+            <p>
+              Bowie SEO is a digital marketing company specializing in SEO and
+              Local SEO for businesses in Maryland.
+            </p>
+            <p>
+              We are Maryland SEO experts that only focus on improving your SEO
+              rankings in the major search engines and ensuring that their SEO
+              efforts make them more money.
+            </p>
+            <p>We don't do search marketing.</p>
+            <p>All we do is SEO.</p>
+            <p>
+              We want Maryland small business owners to realize the benefits of
+              starting an SEO strategy and what it can do for their business.
+            </p>
+            <p>
+              We do whatever it takes to ensure our small business customers
+              understand and enjoy the benefits of Maryland SEO and reap all the
+              help it can provide.
+            </p>
+            <p>
+              As one of the top Maryland SEO companies, we go the extra mile to
+              make sure you increase your website traffic, expand your online
+              presence, target relevant keywords.
+            </p>
+            <p>
+              We are a small company but are Maryland SEO experts. We work
+              quickly, getting stuff done faster than larger digital marketing
+              companies.
+            </p>
+            <p>We offer our clients a 100% satisfaction guarantee.</p>
+            <p>
+              If you're not satisfied, we promise to do whatever it takes to
+              make it right.
+            </p>
+            <p>When you work with Bowie SEO, you get:</p>
+            <ul>
+              <li>
+                An SEO Audit to help discover what's holding your website back
+                from performing better in the search engines
+              </li>
+              <li>No monthly contacts.</li>
+              <li>
+                Advice on web development and web design to help make your
+                website convert better
+              </li>
+              <li>
+                A Maryland SEO company working with small businesses in
+                Maryland, not an SEO company from Miami or New York posing as a
+                Maryland businesses
+              </li>
+              <li>
+                An SEO-focused campaign that works on one business per industry
+                in our area.
+              </li>
+              <li>
+                Weekly and monthly updates to keep you informed about your SEO
+                campaign's progress.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section className="no-marketing">
+          <div className="container">
+            <h2 className="title">
+              <span className="highlight">FAQs</span> about SEO Services
+            </h2>
+            <h3>How much does Local SEO Cost?</h3>
+            <p>
+              Some SEO companies offer services starting as low as $199.00 a
+              month. Other companies market services starting at $249.00 a
+              month. Although these prices may seem like a deal, please be
+              aware. Cheap SEO prices usually mean affordable SEO services. Your
+              SEO campaign may take years to see any results for those prices.
+            </p>
+            <p>Some of these SEO companies are not even in Maryland.</p>
+            <p>Some cheap SEO companies are known to use Black Hat SEO.</p>
+            <p>
+              Black Hat SEO goes against the search engine's terms of service,
+              and although it can get you ranked, there is an excellent chance
+              that your website can get banned from search engines.
+            </p>
+            <h3>What is the Difference between SEO and Local SEO?</h3>
+            <p>
+              The main difference between SEO and Local SEO is that while SEO
+              focuses on optimizing a website for national or global search
+              results, Local SEO focuses on optimizing a website for local
+              search results.
+            </p>
+            <p>
+              SEO would be used more by big national brands like General
+              Electric, Amazon, Etsy, and Overstock. Businesses like
+              restaurants, mechanics, plumbers, dentists, and lawyers in your
+              local area are more likely to use Local SEO.
+            </p>
+            <p>Don't take that chance.</p>
+            <p>
+              As a professional Maryland SEO company and SEO experts, we offer
+              only White Hat SEO services according to your business needs.
+            </p>
+            <p>
+              We first perform an SEO Audit to determine what needs improving.
+              It may be anything from improving your title tags, adding
+              meta-descriptions, or fixing your page speed.
+            </p>
+            <p>
+              After we identify any problems and opportunities we find, we give
+              you our price to perform SEO.
+            </p>
+            <p>Remember.</p>
+            <p>
+              SEO is a long-term process that can take six to twelve months to
+              see results. If you're serious about your business and understand
+              the benefits of an SEO strategy, you know it's worth the
+              investment.
+            </p>
+            <h3>How Does SEO Work?</h3>
+            <h3>How Long Does Local SEO Take Before You See Results?</h3>
+            <p>
+              SEO services can take anywhere from three to six months before you
+              start seeing results in the local search rankings.
+            </p>
+            <p>How long it takes to see results depends on:</p>
+            <ul>
+              <li>The age of your website.</li>
+              <li>Your website strength and authority.</li>
+              <li>The amount of competition in your local area.</li>
+              <li>Your backlink profile.</li>
+              <li>Your competitor's backlink profile.</li>
+              <li>How many keywords you are ranking for</li>
+              <li>The amount of quality content on your website.</li>
+              <li>Your website traffic.</li>
+              <li>The strength of your Google Business page</li>
+              <li>
+                The number of online and positive reviews on your Google My
+                Business page
+              </li>
+            </ul>
+          </div>
+        </section>
         <Ready
-          h2="Get More Website Traffic, More Leads, and Increase Revenue with SEO."
+          h2="Rady to Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
           p="Please fill out the form, and we'll show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!"
         />
       </Main>
@@ -364,35 +535,30 @@ const Solutions = styled.div`
     margin-bottom: 2rem;
     background-color: #fff;
     box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 2.8px 2.2px rgba(255,82,0, 0.034),
+    0 6.7px 5.3px rgba(255,82,0, 0.048),
+    0 12.5px 10px rgba(255,82,0, 0.06),
+    0 22.3px 17.9px rgba(255,82,0, 0.072),
+    0 41.8px 33.4px rgba(255,82,0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
 
-    h3 {
-      font-size: 2rem;
-    }
-
     :hover {
       top: -10px;
 
         a {
           color: #fff;
-          border-color: #d35400;
-          background-color: #d35400;
+          border-color: #ff5200;
+          background-color: #ff5200;
       }
     }
   }
 
 
     h3 {
-      font-size: 1.5rem;
       margin-bottom: 1rem;
     }
 
@@ -407,12 +573,15 @@ const Solutions = styled.div`
     .solution-link {
       display: inline-block;
       padding: 0.8rem;
-      border: 1px solid #000;
+      border: 1px solid #ff5200;
+      border-radius: 10px;
       max-width: 20rem;
       text-align: center;
       text-transform: uppercase;
       font-weight: 700;
       text-decoration: none;
+      font-size: 15px;
+}
     }
   }
 
@@ -483,17 +652,16 @@ const NoSEO = styled.ol`
   counter-reset: li;
 
   li {
-    margin: 3rem 0;
-    padding-left: 4rem;
+    padding-left: 3rem;
     position: relative;
 
     ::before {
       counter-increment: li;
       content: counter(li) '';
-      color: #000;
+      color: #fff;
       font-size: 1rem;
       font-weight: 700;
-      background: #fff;
+      background: #ff5200;
       line-height: 45px;
       width: 45px;
       height: 45px;
@@ -502,7 +670,6 @@ const NoSEO = styled.ol`
       text-align: center;
       left: 0px;
       position: absolute;
-      top: -5px;
     }
   }
 `
@@ -513,8 +680,7 @@ const HelpHow = styled.ol`
   counter-reset: li;
 
   li {
-    margin: 3rem 0;
-    padding-left: 4rem;
+    padding-left: 3rem;
     position: relative;
 
     ::before {
@@ -533,7 +699,6 @@ const HelpHow = styled.ol`
       left: 0px;
       position: absolute;
       top: -3px;
-      letter-spacing: 1px;
     }
   }
 `

@@ -12,14 +12,13 @@ const Main = styled.div`
   }
 
   .no-marketing {
-    color: #fff;
-    background-color: #101010;
+    background-color: #fff;
     padding: 3rem 0;
     margin: 0 auto;
-  }
 
-  li {
-    margin-left: 1.2rem;
+    .highlight {
+      color: #ff5200;
+    }
   }
 `
 

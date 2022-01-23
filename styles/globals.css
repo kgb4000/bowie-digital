@@ -93,9 +93,7 @@ li {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1.3rem;
-  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
   letter-spacing: 1px;
 }
 
@@ -116,22 +114,28 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-h5 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 a {
+  color: #ff5200;
+  text-decoration: none;
+}
+
+a:hover {
   color: #d55e0f;
+  text-decoration: underline;
 }
 
 .address {

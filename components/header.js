@@ -171,9 +171,9 @@ const Head = styled.header`
 `
 
 const HeaderButton = styled(Button)`
-  background-color: #d35400;
+  background-color: #ff5200;
   color: #fff;
-  border-color: #d35400;
+  border-color: #ff5200;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   font-size: 0.6rem;
