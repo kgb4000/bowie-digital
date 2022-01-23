@@ -138,6 +138,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.subTitle {
+  font-weight: 900;
+}
+
 .address {
   padding: 2rem;
   margin: 1rem 0;

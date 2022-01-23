@@ -132,10 +132,41 @@ export default function Home() {
             </p>
             <p>Significant Google search algorithm changes include:</p>
             <HelpHow>
-              <li>Bert</li>
-              <li>Panda</li>
-              <li>Mobile First</li>
-              <li>Rank Brain</li>
+              <li>
+                <h3>Panda</h3>
+                <p>
+                  A search results algorithm which filtered out websites with
+                  thin, low quality content.{' '}
+                </p>
+              </li>
+              <li>
+                <h3>Mobile First Indexing</h3>
+                <p>
+                  Google will use the mobile version of the webpage for ranking
+                  and indexing purposes. (
+                  <a
+                    href="https://www.searchenginejournal.com/google-mobile-first-indexing/346170/#close"
+                    target="_blank"
+                  >
+                    Search Engine Journal
+                  </a>
+                  )
+                </p>
+              </li>
+              <li>
+                <h3>Rank Brain</h3>
+                <p>
+                  Google's algorithm that uses machine learning to determine the
+                  most relevant results to search engine queries. (
+                  <a
+                    href="https://moz.com/learn/seo/google-rankbrain"
+                    target="_blank"
+                  >
+                    Moz
+                  </a>
+                  )
+                </p>
+              </li>
             </HelpHow>
             <div className="btn">
               <Link href="/contact">
@@ -164,8 +195,21 @@ export default function Home() {
                 4 in 5 consumers use search engines to find local information.
               </li>
               <li>
-                92% of searchers will pick businesses on the first page of local
-                search results.
+                <a
+                  href="https://seoexpertbrad.com/local-seo-stats/"
+                  target="_blank"
+                >
+                  92%
+                </a>{' '}
+                of searchers will pick businesses on the first page of local
+                search results. (
+                <a
+                  href="https://seoexpertbrad.com/local-seo-stats/"
+                  target="_blank"
+                >
+                  SEO Expert Brad
+                </a>
+                )
               </li>
               <li>
                 72% of consumers that did a local search visited a store within
@@ -436,6 +480,13 @@ export default function Home() {
               </li>
             </ul>
           </div>
+          <div className="btn">
+            <Link href="/contact">
+              <a>
+                <Button>Contact us today!</Button>
+              </a>
+            </Link>
+          </div>
         </section>
         <section className="no-marketing">
           <div className="container">
@@ -481,7 +532,7 @@ export default function Home() {
               meta-descriptions, or fixing your page speed.
             </p>
             <p>
-              After we identify any problems and opportunities we find, we give
+              After identifying any problems and opportunities we find, we give
               you our price to perform SEO.
             </p>
             <p>Remember.</p>
@@ -491,7 +542,6 @@ export default function Home() {
               the benefits of an SEO strategy, you know it's worth the
               investment.
             </p>
-            <h3>How Does SEO Work?</h3>
             <h3>How Long Does Local SEO Take Before You See Results?</h3>
             <p>
               SEO services can take anywhere from three to six months before you
@@ -700,5 +750,9 @@ const HelpHow = styled.ol`
       position: absolute;
       top: -3px;
     }
+  }
+
+  h3 {
+    margin-bottom: 0;
   }
 `
