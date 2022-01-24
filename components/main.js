@@ -15,10 +15,6 @@ const Main = styled.div`
     background-color: #fff;
     padding: 3rem 0;
     margin: 0 auto;
-
-    .highlight {
-      color: #ff5200;
-    }
   }
 `
 

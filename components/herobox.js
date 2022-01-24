@@ -11,14 +11,18 @@ export default function HeroBox({
   buttonLink,
   headerImgText,
   headerImg,
+  altText,
+  backgroundPosition,
 }) {
   return (
     <Hero
       backgroundImage={backgroundImage}
+      backgroundPosition={backgroundPosition}
       backgroundHeight={backgroundHeight}
       headerImg={headerImg}
       headerImgText={headerImgText}
     >
+      <span role="img" aria-label={altText}></span>
       <div className="content">
         <div>
           <h1>{heroText}</h1>
@@ -41,20 +45,26 @@ const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: ${(props) => props.backgroundImage};
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.42),
+      rgba(255, 82, 0, 0.7)
+    ),
+    url(${(props) => props.backgroundImage});
   background-size: cover;
   height: ${(props) => props.backgroundHeight};
-  margin-top: 100px;
   margin-bottom: 4rem;
+  background-position: ${(props) => props.backgroundPosition};
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .content {
-    max-width: 1500px;
+    max-width: 90%;
     text-align: center;
     padding: 0 1rem;
+    color: #fff;
 
     p {
       max-width: 40rem;
@@ -64,13 +74,13 @@ const Hero = styled.div`
 
   @media (min-width: 768px) {
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
     p {
       font-size: 1.4rem;

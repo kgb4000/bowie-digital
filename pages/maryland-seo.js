@@ -29,7 +29,9 @@ export default function MarylandSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
-        backgroundHeight="30rem"
+        backgroundImage="/images/maryland-seo-company.webp"
+        backgroundHeight="70vh"
+        backgroundPosition="bottom"
         heroText="Maryland SEO"
         subText="Maryland Search Engine Optimization for Small Businesses"
         buttonText="Get a FREE SEO Audit"
@@ -39,7 +41,7 @@ export default function MarylandSEO() {
       <Main>
         <section>
           <div className="container">
-            <h2>Grow Your Business with a Maryland SEO Company</h2>
+            <h2>Grow Your Business with a Maryland SEO</h2>
             <p>Bowie SEO is an SEO company located in Bowie Maryland.</p>
             <p>
               As a Maryland SEO company, we are proud to offer search engine
@@ -225,22 +227,6 @@ export default function MarylandSEO() {
                   DuckDuckGo
                 </a>
               </li>
-            </ul>
-            <p>Other lesser known search engines include:</p>
-            <ul>
-              <li>Yandex</li>
-              <li>Start Page</li>
-              <li>
-                <a
-                  href="https://searchencrypt.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Search Encrypt
-                </a>
-              </li>
-              <li>OneSearch</li>
-              <li>GiveWater</li>
             </ul>
             <p>
               Although there are many search engines to choose from, Google is
@@ -1415,8 +1401,8 @@ export default function MarylandSEO() {
 
 const Quotebox = styled.div`
   color: #fff;
-  background-color: #20202a;
-  padding: 2rem 1rem;
+  background-color: #ff5200;
+  padding: 3rem 3rem;
   margin: 2rem 0;
   font-size: 1.8rem;
   line-height: 1.2;
@@ -1424,8 +1410,12 @@ const Quotebox = styled.div`
 
   p {
     text-align: center;
-    color: #fff;
     margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+
+  a {
+    color: #fff;
   }
 
   @media (min-width: 768px) {

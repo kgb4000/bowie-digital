@@ -169,5 +169,5 @@ const SubmitButton = styled(Button)`
   width: 100%;
   margin: 1rem 0;
   color: #fff;
-  background: #d35400;
+  background: #ff5200;
 `

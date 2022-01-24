@@ -31,6 +31,8 @@ export default function LocalSEO() {
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
         backgroundHeight="35rem"
+        backgroundImage="/images/baltimore-md.webp"
+        backgroundPosition="bottom center"
         heroText="Local SEO Services"
         subText="Get more website traffic and make more money with Local Search Engine Optimization."
         buttonText="Get a FREE SEO Audit"
@@ -43,7 +45,7 @@ export default function LocalSEO() {
             <p>Hello, we're Bowie SEO.</p>
             <p>
               Bowie SEO is a{' '}
-              <Link href="/maryland-seo">
+              <Link href="/">
                 <a>Maryland SEO company</a>
               </Link>{' '}
               in Bowie, Maryland.
@@ -579,7 +581,7 @@ export default function LocalSEO() {
             <Stats>
               <li>A Technical SEO Analysis</li>
               <li>A Competitor Analysis</li>
-              <li>A Google Business Profile audit</li>
+              <li>A Google My Business Profile audit</li>
               <li>On page SEO checks</li>
               <li>Off page SEO checks</li>
               <li>A Citation audit</li>

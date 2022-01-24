@@ -67,11 +67,6 @@ export default function Header({ buttontext, buttonLink }) {
         <nav className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav">
             <li>
-              <Link href="/about">
-                <a>About</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/blog">
                 <a>Blog</a>
               </Link>
@@ -114,7 +109,12 @@ const Head = styled.header`
   z-index: 1000;
 
   a {
+    color: #000;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: #ff5200
   }
 
   .header-container {
@@ -132,6 +132,10 @@ const Head = styled.header`
     color: inherit;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+  }
+
+  .logo:hover {
+    color: inherit;
   }
 
   nav {

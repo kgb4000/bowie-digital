@@ -26,6 +26,20 @@ img {
   margin: 1rem 0;
 }
 
+a {
+  color: #ff5200;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d55e0f;
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #ff5200;
+}
+
 .blog-image {
   text-align: center;
   margin: 2rem 0;
@@ -47,7 +61,7 @@ img {
 }
 
 .solution-container {
-  max-width: 1500px;
+  max-width: 1400px;
   padding: 0 1.2rem;
   margin: 0 auto;
 }
@@ -126,16 +140,6 @@ h4 {
 h5 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-}
-
-a {
-  color: #ff5200;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #d55e0f;
-  text-decoration: underline;
 }
 
 .subTitle {

@@ -41,7 +41,12 @@ export default function Blog({ data }) {
       />
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
-      <BlogHeroBox backgroundHeight="6rem" heroText="SEO Blog" />
+      <BlogHeroBox
+        backgroundHeight="16rem"
+        heroText="SEO Blog"
+        backgroundImage="/images/blog-header.webp"
+        backgroundPosition="top"
+      />
       <BlogMain>
         <div className="blog-container">
           {data.posts.map((post) => (

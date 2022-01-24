@@ -37,7 +37,9 @@ export default function Contact() {
       />
       <Header buttontext="Calll now!" buttonLink="tel:1-240-266-0588" />
       <HeroBox
-        backgroundHeight="30rem"
+        backgroundHeight="35rem"
+        backgroundImage="/images/contact-us.webp"
+        backgroundPosition="center left"
         heroText="Contact"
         subText="Let Me Help You Get More Traffic."
         buttonText=" Call (240) 266-0588"

@@ -19,7 +19,10 @@ export default function Home() {
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       {/* <NavBar buttonLink="/contact" buttonText="Contact me" /> */}
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="90vh"
+        backgroundPosition="center"
+        backgroundImage="/images/maryland-seo-company-hero.webp"
+        altText="Maryland SEO Company"
         heroText="We Grow Your Website Traffic and Get You More Customers"
         subText="Our Maryland SEO Company can get You More Web Traffic and More Leads for Your Business"
         buttonText="Get a FREE SEO Audit"
@@ -108,7 +111,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="help-section">
+        <section className="no-marketing">
           <div className="container">
             <h2 className="title">
               Why Your Small Business Needs{' '}
@@ -216,8 +219,14 @@ export default function Home() {
                 five miles.
               </li>
               <li>
-                88% of searches for local businesses on a mobile device either
-                call or see the business within 24 hours.
+                97% of people searched online to find local businesses. (
+                <a
+                  href="https://www.hubspot.com/marketing-statistics"
+                  target="_blank"
+                >
+                  HubSpot
+                </a>
+                )
               </li>
               <li>
                 97% of people learn more about a local company online than
@@ -229,7 +238,9 @@ export default function Home() {
               </li>
             </HelpHow>
             <p>More reasons are:</p>
-            <h3>You Get More Website Traffic</h3>
+            <h3>
+              You Get More <span className="highlight">Website Traffic</span>
+            </h3>
             <p>
               Starting an SEO strategy is one of the best decisions you will
               make for your business. Your business will move up in the search
@@ -240,7 +251,10 @@ export default function Home() {
               Get Found and be seen by more people searching for your products
               and services.
             </p>
-            <h3>Rank Higher in the Search Engines</h3>
+            <h3>
+              <span className="highlight">Rank Higher</span> in the Search
+              Engines
+            </h3>
             <p>
               When you rank higher in the search engine results, your ideal
               customers find your business, you build your web presence, and
@@ -253,7 +267,9 @@ export default function Home() {
               engine optimization and perform keyword research to reach your
               target audience.
             </p>
-            <h3>Outrank Your Competitors</h3>
+            <h3>
+              Outrank Your <span className="highlight">Competitors</span>
+            </h3>
             <p>
               Search engine optimization makes your website better for search
               engines and your customers. When you do SEO and your competitors
@@ -261,7 +277,10 @@ export default function Home() {
               presence, rank higher in the search rankings, get more traffic,
               and do more online business.{' '}
             </p>
-            <h3>Spend Less Money on Digital Marketing</h3>
+            <h3>
+              Spend <span className="highlight">Less Money</span> on Digital
+              Marketing
+            </h3>
             <p>
               Search engine optimization can help you spend less money on Google
               Ads and other search marketing tactics. When you do SEO and rank
@@ -396,7 +415,7 @@ export default function Home() {
               </p>
             </div>
             <p className="subtext">
-              When people searching for your service don't see your company,
+              When people searching for your services don't see your company,
               they go to your competitors. Get your FREE Website and SEO Audit
               and see what you need to fix on your website so it can start
               getting traffic.
@@ -404,7 +423,7 @@ export default function Home() {
             <div className="btn">
               <Link href="/free-seo-audit">
                 <a>
-                  <Button>Free SEO Audit &#8594;</Button>
+                  <Button>Get a Free SEO Audit</Button>
                 </a>
               </Link>
             </div>

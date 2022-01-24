@@ -30,9 +30,12 @@ const SEOAudit = () => {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="70vh"
+        backgroundImage="/images/seo-audit.webp"
         heroText="SEO Audit"
         subText="Discover What's Stopping You From Getting Web Traffic and How to Fix The Problems!"
+        buttonText=" Call (240) 266-0588"
+        buttonLink="tel:1-240-266-0588"
       />
       <Main>
         <section>
