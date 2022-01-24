@@ -13,7 +13,7 @@ const Main = styled.div`
 
   .no-marketing {
     background-color: #fff;
-    padding: 3rem 0;
+    padding: 2rem 0;
     margin: 0 auto;
   }
 `
