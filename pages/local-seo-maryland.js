@@ -12,7 +12,7 @@ import { NextSeo } from 'next-seo'
 export default function LocalSEO() {
   const SEO = {
     title: 'Local SEO Services',
-    titleTemplate: '%s | Get Web Traffic and Leads for Your Business',
+    titleTemplate: '%s | Increase Web Traffic and Leads',
     description:
       'We do Local SEO for small businesses in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
@@ -41,7 +41,7 @@ export default function LocalSEO() {
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>Bowie SEO</h2>
+            <h2>Local SEO Services from Bowie SEO</h2>
             <p>Hello, we're Bowie SEO.</p>
             <p>
               Bowie SEO is a{' '}
