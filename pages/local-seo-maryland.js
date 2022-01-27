@@ -30,7 +30,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="45rem"
         backgroundImage="/images/baltimore-md.webp"
         backgroundPosition="bottom center"
         heroText="Local SEO Services in Maryland"
