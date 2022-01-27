@@ -11,50 +11,62 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Bowie Local SEO Company',
+    title: 'SEO Services Company Bowie Maryland | Bowie SEO',
     description:
-      'We perform Local SEO for small businesses in Bowie. You get more customers, more web traffic, and increase revenue. Contact us today!',
-    type: 'website',
-    canonical: 'https://bowieseo.com/local-seo-maryland',
+      'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
+    canonical: 'https://bowieseo.com/seo-services-company-bowie-maryland',
     openGraph: {
-      title: 'Bowie Local SEO Company | Get More Leads for You Local Business',
+      title: 'SEO Services Company Bowie Maryland | Bowie SEO',
       description:
-        'We perform Local SEO for small businesses in Maryland. You get more customers, more web traffic, and increase revenue. Contact us today!',
-      type: 'website',
+        'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
     },
   }
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="35rem"
-        heroText="Bowie SEO Company"
-        subText="We Get You More Leads, More Customers and Increase Revenue With Local SEO."
-        buttonText="Contact me"
+        backgroundHeight="40rem"
+        heroText="SEO Services Company Bowie Maryland"
+        subText="We Get Customers to Find You When it Counts."
+        buttonText="Contact us"
         buttonLink="/contact"
       />
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>Bowie SEO</h2>
+            <h2>SEO Services Company - Bowie Maryland</h2>
             <p>
-              Looking for a{' '}
+              Are you looking for an SEO services company in Bowie, Maryland?
+            </p>
+            <p>Well, Bowie SEO has SEO services for your business.</p>
+            <p>
+              Bowie SEO is a{' '}
               <Link href="local-seo-maryland">
-                <a>local SEO </a>
+                <a>local SEO company</a>
               </Link>{' '}
-              company in Maryland?
-            </p>
-            <p>Bowie SEO is the company for you.</p>
-            <p>
-              Bowie SEO is a local SEO company providing SEO and local SEO
-              services to small businesses in Bowie and throughout Maryland.
+              in Bowie, Maryland, helping small business owners grow their
+              businesses by increasing traffic to their websites, getting more
+              leads, and increasing revenue.
             </p>
             <p>
-              We help our customers rank higher in the search engines, get more
-              leads, and make more money.
+              We are Maryland SEO experts that help our clients rank higher in
+              the search engines, increase their online visibility, and make
+              more money.
             </p>
+            <div className="not-happy-box">
+              <h4>
+                Not Getting Any Leads From Your Website? Want to Know Why?
+              </h4>
+              <div className="btn">
+                <Link href="/contact">
+                  <a>
+                    <Button>Contact us</Button>
+                  </a>
+                </Link>
+              </div>
+            </div>
             <h2>What is Local SEO?</h2>
             <p>
               Local SEO is the process of improving your website for search
@@ -65,7 +77,156 @@ export default function LocalSEO() {
               customers in Bowie and nearby towns, not customers in Dallas,
               Texas.
             </p>
-            <h2>What is the Difference Between Local SEO and SEO?</h2>
+            <h2>SEO Services</h2>
+            <p>
+              Our search engine optimization services help your business
+              increase website traffic and get more leads. These services
+              include:
+            </p>
+            <ul>
+              <li>
+                <h3>Local SEO</h3>
+                <p>
+                  Get found when customers in Bowie are searching for your
+                  products or services. When potential customers are searching,
+                  you want your website to appear at the top of Google map Pack
+                  and on the first page of the SERPs.
+                </p>
+              </li>
+              <li>
+                <h3>SEO Audit</h3>
+                <p>
+                  If your website is not appearing in the SERPs, or your page is
+                  not ranking or indexed, you may have a problem. An SEO Audit
+                  from Bowie SEO will identify any issues affecting your site's
+                  performance.
+                </p>
+              </li>
+              <li>
+                <h3>Keyword Research</h3>
+                <p>
+                  Do you know what keywords potential customers use to find
+                  products or services like yours? Keyword research will tell
+                  you. Doing keyword research will identify what words people
+                  are using so you can target the right keywords and show up in
+                  the search results.
+                </p>
+              </li>
+              <li>
+                <h3>Content Audit</h3>
+                <p>
+                  Search engines crawl your website and your content and search
+                  algorithms determine where your pages rank. We audit your
+                  content. We look at your content (and your competitor's) and
+                  optimize it for the search engines and your potential
+                  customers.
+                </p>
+              </li>
+              <li>
+                <h3>On-Page SEO</h3>
+                <p>
+                  We perform on-page SEO checks. We look at and optimize each
+                  page on your website and make it better. We check for
+                  everything including keyword canibalization, page speed,
+                  keyword palcement, search intent, etc.
+                </p>
+              </li>
+            </ul>
+            <div className="not-happy-box">
+              <h4>Do You Want More Website Traffic and More Leads?</h4>
+              <div className="btn">
+                <Link href="/contact">
+                  <a>
+                    <Button>Contact us</Button>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <h2>How Can Local SEO Help Your Business in Bowie?</h2>
+            <p>Local SEO can help your business because it can:</p>
+            <ul>
+              <li>Get your business more leads.</li>
+              <li>Increase your website traffic.</li>
+              <li>
+                Attract more customers looking for your product or service.
+              </li>
+              <li>Allow you to spend less money on social media ads.</li>
+              <li>Rank your website higher than your competitors.</li>
+              <li>Help build trust with new and existing customers.</li>
+              <li>Let potential customers find your business online.</li>
+              <li>Bring more customers for more sales and more revenue.</li>
+            </ul>
+            <p>
+              When your website shows up in the Google 3 Pack or on the first
+              page of Google, you will get more traffic to your website, and
+              more people will see your business.
+            </p>
+            <p>
+              You will get more clicks to your website, which will result in
+              more sales and more revenue for your business.
+            </p>
+            <div className="not-happy-box">
+              <h4>
+                Need Help With Keyword Research and Targeting the Right
+                Keywords?
+              </h4>
+              <div className="btn">
+                <Link href="/contact">
+                  <a>
+                    <Button>Contact us</Button>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <h2>15 Ways To Know If Your Business in Bowie Needs Local SEO?</h2>
+            <p>
+              If you have any of the following issues with your website or
+              digital marketing, you may need Local SEO.
+            </p>
+            <Stats>
+              <li>
+                When people search for your product or service, your website
+                doesn't appear in the search results.
+              </li>
+              <li>You're not ranking for any keywords.</li>
+              <li>Your competitors are ranking higher than you.</li>
+              <li>You don't get any leads from your website.</li>
+              <li>Your website is slow.</li>
+              <li>
+                You're trying digital marketing but really don't know what
+                you're doing.
+              </li>
+              <li>You don't have a Google Business Profile set up.</li>
+              <li>
+                You're spending money on digital marketing but not seeing
+                results.
+              </li>
+              <li>
+                Your website has no actual content for your potential customers.
+              </li>
+              <li>You don't have any backlinks.</li>
+              <li>You never set up citations.</li>
+              <li>Your website is not secure.</li>
+              <li>
+                You don't have Google Search Console or Google Analytics set up.
+              </li>
+              <li>You can't track anything on your site.</li>
+              <li>
+                You rely on Google ads and social media marketing for traffic
+                and customers.
+              </li>
+            </Stats>
+            <div className="not-happy-box">
+              <h4>Want to See Why Your Website is Not Ranking Higher?</h4>
+              <div className="btn">
+                <Link href="/free-seo-audit">
+                  <a>
+                    <Button>Get a Free SEO Audit &#8594;</Button>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            {/* <h2>What is the Difference Between Local SEO and SEO?</h2>
             <p>
               <b>SEO (search engine optimization)</b> is the process of
               improving your website for search engines and users.
@@ -97,83 +258,7 @@ export default function LocalSEO() {
             <p>
               It would be best if you had a Local SEO strategy for your business
               to show up in the local searches.
-            </p>
-            <h2>How Can Local SEO Help Your Business in Bowie?</h2>
-            <p>Local SEO can help your business because it can:</p>
-            <ul>
-              <li>Get your business more leads.</li>
-              <li>Increase your website traffic.</li>
-              <li>
-                Attract more customers looking for your product or service.
-              </li>
-              <li>Allow you to spend less money on social media ads.</li>
-              <li>Rank your website higher than your competitors.</li>
-              <li>Help build trust with new and existing customers.</li>
-              <li>Let potential customers find your business online.</li>
-              <li>Bring more customers for more sales and more revenue.</li>
-            </ul>
-            <p>
-              When your website shows up in the Google 3 Pack or on the first
-              page of Google, you will get more traffic to your website, and
-              more people will see your business.
-            </p>
-            <p>
-              You will get more clicks to your website, which will result in
-              more sales and more revenue for your business.
-            </p>
-            <div className="btn">
-              <Link href="/contact">
-                <a>
-                  <Button>Contact me &#8594;</Button>
-                </a>
-              </Link>
-            </div>
-            <h2>15 Ways To Know If Your Business Needs Local SEO?</h2>
-            <p>
-              If you have any of the following issues with your website or
-              digital marketing, you may need Local SEO.
-            </p>
-            <Stats>
-              <li>
-                When people search for your product or service, your website
-                doesn't appear in the search results.
-              </li>
-              <li>You're not ranking for any keywords.</li>
-              <li>Your competitors are ranking higher than you.</li>
-              <li>You don't get any leads from your website.</li>
-              <li>Your website is slow.</li>
-              <li>
-                You're trying digital marketing but really don't know what
-                you're doing.
-              </li>
-              <li>You don't have a Google Business Profile set up.</li>
-              <li>
-                You're spending money on digital marketing but not seeing
-                results.
-              </li>
-              <li>
-                Your website has no actual content for your potential customers.
-              </li>
-              <li>You don't have any backlinks.</li>
-              <li>You never set up citations.</li>
-              <li>Your website is not secure.</li>
-              <li>
-                You don't have Google Search Console, or Google Analytics set
-                up.
-              </li>
-              <li>You can't track anything on your site.</li>
-              <li>
-                You rely on Google ads and social media marketing for traffic
-                and customers.
-              </li>
-            </Stats>
-            <div className="btn">
-              <Link href="/contact">
-                <a>
-                  <Button>Get a Free SEO Audit &#8594;</Button>
-                </a>
-              </Link>
-            </div>
+            </p> */}
             <h2>How Does Local SEO Work?</h2>
             <p>
               Local SEO is the process of improving your website for the search
@@ -214,7 +299,7 @@ export default function LocalSEO() {
             </p>
             <p>
               Don't believe companies that try to sell you SEO services for
-              $500.00 an below.
+              $500.00 and below.
             </p>
             <p>SEO is a serious investment in your website.</p>
             <p>
@@ -239,8 +324,11 @@ export default function LocalSEO() {
             <p>Businesses in Bowie should work with us because:</p>
             <ul>
               <li>
-                We are part of the Bowie community and a memeber of the Bowie
-                Chamber of Commerce.
+                We are part of the Bowie community and a member of the{' '}
+                <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
+                  <a>Bowie Chamber of Commerce</a>
+                </Link>
+                .
               </li>
               <li>We can build your website presence.</li>
               <li>
@@ -265,18 +353,21 @@ export default function LocalSEO() {
               in touch with me and see how an SEO strategy can help your
               business.
             </p>
-            <div className="btn">
-              <Link href="/contact">
-                <a>
-                  <Button>Contact me &#8594;</Button>
-                </a>
-              </Link>
+            <div className="not-happy-box">
+              <h4>Want to Talk about an Starting an SEO Strategy?</h4>
+              <div className="btn">
+                <Link href="/contact">
+                  <a>
+                    <Button>Contact us</Button>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
         <Ready
-          h2="Do you have a business in Bowie and want to rank higher in the search engines, get more leads, more customers, and make more money?"
-          p="Fill out the form and let me show you how Local SEO can help your business."
+          h2="Do you have a business in Bowie? Want to rank higher in the search engines, get more leads, and bring in more money?"
+          p="Please fill out the form and see how our SEO services can help your business grow."
         />
       </Main>
     </>

@@ -61,18 +61,22 @@ const Hero = styled.div`
   }
 
   .content {
-    max-width: 90%;
+    max-width: 70%;
     text-align: center;
     padding: 0 1rem;
     color: #fff;
 
     p {
       max-width: 40rem;
-      margin: 2rem auto 3rem auto;
+      margin: 0 auto;
+      margin-bottom: 2rem;
     }
   }
 
   @media (min-width: 768px) {
+    .content {
+      width: 90%;
+    }
     h1 {
       font-size: 2.5rem;
     }

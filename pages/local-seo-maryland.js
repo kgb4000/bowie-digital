@@ -654,7 +654,7 @@ export default function LocalSEO() {
               <li>Annapolis, MD</li>
               <li>Baltimore, MD</li>
               <li>
-                <Link href="/bowie-seo-company">
+                <Link href="/seo-services-company-bowie-maryland">
                   <a>Bowie, MD</a>
                 </Link>
               </li>

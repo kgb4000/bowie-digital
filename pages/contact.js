@@ -40,8 +40,8 @@ export default function Contact() {
         backgroundHeight="35rem"
         backgroundImage="/images/contact-us.webp"
         backgroundPosition="center left"
-        heroText="Contact"
-        subText="Let Me Help You Get More Traffic."
+        heroText="Contact Us"
+        subText="Let Us Help You Get More Web Traffic and More Leads."
         buttonText=" Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />
@@ -50,7 +50,7 @@ export default function Contact() {
         <section className="contact">
           <div className="container">
             <p>
-              I am an <b>SEO specialist</b> living in Bowie Maryland.
+              I am an <b>SEO expert</b> in Bowie, Maryland.
             </p>
             <p>
               If you would like to get in touch with me and learn how search

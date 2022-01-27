@@ -40,6 +40,11 @@ a:hover {
   color: #ff5200;
 }
 
+ul,
+ol {
+  margin-left: 1.4rem;
+}
+
 .blog-image {
   text-align: center;
   margin: 2rem 0;
@@ -78,10 +83,16 @@ a:hover {
   margin: 0 auto;
 }
 
-ul,
-ol {
-  margin-left: 0.5rem;
-  padding: 0;
+.not-happy-box {
+  background-color: #dfe6e9;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+.not-happy-box h4 {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -266,7 +277,7 @@ footer {
   }
 
   section {
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
 
   .section {
