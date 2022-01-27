@@ -341,7 +341,7 @@ export default function LocalSEO() {
               </li>
               <li>We can help you make your website a real digital asset.</li>
               <li>We can help you rank higher than your competition.</li>
-              <li>We love working with Maryland businesses.</li>
+              <li>We love working with Bowie Maryland businesses.</li>
               <li>We are honest, and our work is transparent.</li>
               <li>
                 <b>All we do is SEO.</b>
@@ -354,7 +354,7 @@ export default function LocalSEO() {
               business.
             </p>
             <div className="not-happy-box">
-              <h4>Want to Talk about an Starting an SEO Strategy?</h4>
+              <h4>Want to Talk about an Starting a Local SEO Strategy?</h4>
               <div className="btn">
                 <Link href="/contact">
                   <a>

@@ -11,16 +11,16 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Local SEO Services',
-    titleTemplate: '%s | Increase Web Traffic and Leads',
+    title: 'Local SEO Services in Maryland',
+    titleTemplate: '%s | More Web Traffic and Leads',
     description:
-      'We do Local SEO for small businesses in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
+      'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Local SEO Services | Get Web Traffic and Leads for Your Business',
+      title: 'Local SEO Services in Maryland |Get More Web Traffic',
       description:
-        'We do Local SEO for small businesses in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
+        'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -33,7 +33,7 @@ export default function LocalSEO() {
         backgroundHeight="35rem"
         backgroundImage="/images/baltimore-md.webp"
         backgroundPosition="bottom center"
-        heroText="Local SEO Services"
+        heroText="Local SEO Services in Maryland"
         subText="Get more website traffic and make more money with Local Search Engine Optimization."
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
@@ -41,7 +41,7 @@ export default function LocalSEO() {
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>Local SEO Services from Bowie SEO</h2>
+            <h2>Local SEO Services in Maryland</h2>
             <p>Hello, we're Bowie SEO.</p>
             <p>
               Bowie SEO is a{' '}
@@ -51,8 +51,8 @@ export default function LocalSEO() {
               in Bowie, Maryland.
             </p>
             <p>
-              We focus on helping small businesses make more money with local
-              SEO in Maryland.
+              We focus on helping small businesses make more money by providing
+              local SEO services in Maryland.
             </p>
             <p>
               If you did not know, the best way for a local business in Maryland
@@ -734,7 +734,7 @@ export default function LocalSEO() {
         </section>
         <Ready
           h2="Ready to Get More Traffic, Rank Higher in the Search Engines, and Make More Money For Your Business?"
-          p="We look forward to meeting with you and showing you how Bowie SEO can help. Please fill out the form so that we can get started."
+          p="If you're looking for local SEO services in Maryland,Bowie SEO can help. Please fill out the form so that we can get started."
         />
       </Main>
     </>
