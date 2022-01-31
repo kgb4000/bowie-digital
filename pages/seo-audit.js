@@ -12,15 +12,16 @@ import { NextSeo } from 'next-seo'
 
 const SEOAudit = () => {
   const SEO = {
-    title: 'SEO Audit',
-    titleTemplate: '%s | Bowie SEO',
+    title:
+      "🏆  SEO Audit Services | See What's Stopping Your Website From Getting Traffic",
     description:
-      "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
+      "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
     canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
-      title: 'Free Website And SEO Audit',
+      title:
+        "🏆  SEO Audit Services | See What's Stopping Your Website From Getting Traffic",
       description:
-        "Get an SEO Audit and see what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
+        "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
       type: 'website',
     },
   }
@@ -30,20 +31,20 @@ const SEOAudit = () => {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="70vh"
+        backgroundHeight="36rem"
         backgroundImage="/images/seo-audit.webp"
-        heroText="SEO Audit"
-        subText="Discover What's Stopping You From Getting Web Traffic and How to Fix The Problems!"
+        heroText="SEO Audit Services"
+        subText="Discover What's Stopping Your Website From Getting Traffic and Fix it!"
         buttonText=" Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />
       <Main>
         <section>
           <div className="container">
-            <h2>Bowie SEO Audit</h2>
+            <h2>SEO Audit Services</h2>
+            <p>Bowie SEO provides SEO audit services in Maryland.</p>
             <p>
-              At Bowie SEO, we don't do a regular ordinary SEO audit. We do a
-              Bowie SEO Audit.
+              We don't do a regular ordinary SEO audit. We do a Bowie SEO Audit.
             </p>
             {/* <div className="player-wrapper">
               <ReactPlayer
@@ -55,14 +56,14 @@ const SEOAudit = () => {
             </div> */}
 
             <p>
-              With our Bowie SEO audit, we get down and inside your website with
-              our multi-point audit.
+              With our SEO audit, we get down and inside your website with our
+              multi-point audit.
             </p>
 
             <p>
-              We use our multi-point SEO audit to discover the problems and
-              issues that are holding your website from performing better in the
-              search engines.
+              We use our multi-point audit to discover the problems and issues
+              that are holding your website from performing better in the search
+              engines.
             </p>
 
             <p>

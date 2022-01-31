@@ -67,11 +67,13 @@ export default function Articles({ post, shareLink }) {
         datePublished={post.date}
         authorName={[post.author.name]}
         authorImg={post.author.photo.url}
+        publisherName={post.author.name}
+        publisherLogo="https://bowieseo.com/public/images/logo.jpg"
         description={post.excerpt}
       />
 
       <NextSeo {...SEO} />
-      <Header buttontext="Contact me" buttonLink="/contact" />
+      <Header buttontext="Contact us" buttonLink="/contact" />
       <BlogHeroBox
         backgroundHeight="60rem"
         coverImage={post.coverImage.url}

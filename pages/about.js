@@ -7,6 +7,7 @@ import Ready from '../components/ready-section'
 import ReactPlayer from 'react-player/youtube'
 
 import { NextSeo } from 'next-seo'
+import { WebPageJsonLd } from 'next-seo'
 
 import Link from 'next/link'
 
@@ -25,6 +26,15 @@ export default function About() {
   }
   return (
     <>
+      {/* <WebPageJsonLd
+        description="Looking for a SEO Expert in Maryland? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!"
+        id="https://bowieseo.com/about"
+        lastReviewed="2021-05-26T05:59:02.085Z"
+        reviewedBy={{
+          type: 'Kester',
+          name: 'Browne',
+        }}
+      /> */}
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
@@ -39,7 +49,7 @@ export default function About() {
           <div className="container">
             <h2>About me</h2>
             <p>Hello, my name is Kester.</p>
-            <p>I am an SEO expert and the owner of Bowie SEO.</p>
+            <p>I am an SEO expert and the Director of SEO at Bowie SEO.</p>
             <p>
               If you were expecting a big SEO firm or agency, I'm sorry, it's
               just me.
@@ -49,7 +59,7 @@ export default function About() {
               rank higher in the search engines.
             </p>
             <p>
-              I live in Bowie, Maryland, specializing in search engine
+              I live in Bowie, Maryland, and I specialize in search engine
               optimization.
             </p>
             <p>

@@ -60,7 +60,7 @@ ol {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 760px;
   padding: 0 1.4rem;
   margin: 0 auto;
 }
@@ -71,7 +71,7 @@ ol {
   margin: 0 auto;
 }
 
-.ready-container {
+.faq-container {
   max-width: 1140px;
   padding: 0 1.2rem;
   margin: 0 auto;
@@ -85,14 +85,15 @@ ol {
 
 .not-happy-box {
   background-color: #dfe6e9;
-  padding: 1rem;
+  padding: 2rem 2rem;
   border-radius: 10px;
   margin-bottom: 3rem;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
-.not-happy-box h4 {
-  text-align: center;
+
+.not-happy-box .btn {
+  margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -180,7 +181,7 @@ h5 {
 }
 
 section {
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 
 input {
@@ -218,6 +219,7 @@ table {
   width: 100%;
   border: 1px solid #ddd;
   margin-bottom: 2rem;
+  font-size: 0.6rem;
 }
 
 th {
@@ -229,7 +231,7 @@ th {
 th,
 td {
   text-align: left;
-  padding: 16px;
+  padding: 5px 1rem;
 }
 
 tr:nth-child(even) {

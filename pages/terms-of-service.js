@@ -7,7 +7,7 @@ export default function Terms() {
     <>
       <NextSeo
         title="Terms of Service"
-        description="This the terms of service for Bowie SEO."
+        description="This Bowie SEO's terms of services."
         canonical="https://bowieseo.com/terms-of-service"
         robotsProps={{
           noindex: true,

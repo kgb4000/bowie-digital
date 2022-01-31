@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 import { NextSeo, LocalBusinessJsonLd } from 'next-seo'
-
 export default function Footer() {
   return (
     <>
@@ -44,7 +43,6 @@ export default function Footer() {
                 latitude: '39.013313',
                 longitude: '-76.776924',
               },
-              geoRadius: '100000',
             },
           ]}
         />

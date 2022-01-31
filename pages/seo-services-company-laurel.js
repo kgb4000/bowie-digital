@@ -11,12 +11,12 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆  SEO Services Company Bowie Maryland | Bowie SEO',
+    title: '🏆  SEO Services Company Laurel Maryland | Bowie SEO',
     description:
       'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/seo-services-company-bowie-maryland',
     openGraph: {
-      title: '🏆  SEO Services Company Bowie Maryland | Bowie SEO',
+      title: '🏆  SEO Services Company Laurel Maryland | Bowie SEO',
       description:
         'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
@@ -28,18 +28,18 @@ export default function LocalSEO() {
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="45rem"
-        backgroundImage="/images/seo-services-company-bowie-maryland.webp"
-        heroText="SEO Services Company Bowie Maryland"
-        subText="We Get Customers to Find You When They Need You."
+        backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
+        heroText="SEO Services Company Laurel Maryland"
+        subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"
       />
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>SEO Services Company - Bowie Maryland</h2>
+            <h2>SEO Services Company - Laurel Maryland</h2>
             <p>
-              Are you looking for an SEO services company in Bowie, Maryland?
+              Are you looking for an SEO services company in Laurel, Maryland?
             </p>
             <p>Well, Bowie SEO has SEO services for your business.</p>
             <p>
@@ -74,8 +74,8 @@ export default function LocalSEO() {
               engines and users in your local area.
             </p>
             <p>
-              If you have a business in Bowie Marland, local SEO will target
-              customers in Bowie and nearby towns, not customers in Dallas,
+              If you have a business in Laurel Marland, local SEO will target
+              customers in Laurel and nearby towns, not customers in Houston,
               Texas.
             </p>
             <h2>SEO Services</h2>
@@ -88,7 +88,7 @@ export default function LocalSEO() {
               <li>
                 <h3>Local SEO</h3>
                 <p>
-                  Get found when customers in Bowie are searching for your
+                  Get found when customers in Laurel are searching for your
                   products or services. When potential customers are searching,
                   you want your website to appear at the top of Google map Pack
                   and on the first page of the SERPs.
@@ -143,7 +143,7 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            <h2>How Can Local SEO Help Your Business in Bowie?</h2>
+            <h2>How Can Local SEO Help Your Business in Laurel?</h2>
             <p>Local SEO can help your business because it can:</p>
             <ul>
               <li>Get your business more leads.</li>
@@ -179,7 +179,7 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            <h2>15 Ways To Know If Your Business in Bowie Needs Local SEO?</h2>
+            <h2>15 Ways To Know If Your Business in Laurel Needs Local SEO?</h2>
             <p>
               If you have any of the following issues with your website or
               digital marketing, you may need Local SEO.
@@ -322,10 +322,10 @@ export default function LocalSEO() {
               reason they rank higher in the search engines.
             </p>
             <h2>Why Choose Bowie SEO for your Local SEO?</h2>
-            <p>Businesses in Bowie should work with us because:</p>
+            <p>Businesses in Laurel should work with us because:</p>
             <ul>
               <li>
-                We are part of the Bowie community and a member of the{' '}
+                We are part of the Laurel community and a member of the{' '}
                 <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
                   <a>Bowie Chamber of Commerce</a>
                 </Link>
@@ -342,14 +342,14 @@ export default function LocalSEO() {
               </li>
               <li>We can help you make your website a real digital asset.</li>
               <li>We can help you rank higher than your competition.</li>
-              <li>We love working with Bowie Maryland businesses.</li>
+              <li>We love working with Maryland businesses.</li>
               <li>We are honest, and our work is transparent.</li>
               <li>
                 <b>All we do is SEO.</b>
               </li>
             </ul>
             <p>
-              If you have a business in Bowie and thinking about starting a
+              If you have a business in Laurel and thinking about starting a
               local SEO campaign or have questions about Local SEO, please get
               in touch with me and see how an SEO strategy can help your
               business.
@@ -367,7 +367,7 @@ export default function LocalSEO() {
           </div>
         </section>
         <Ready
-          h2="Do you have a business in Bowie? Want to rank higher in the search engines, get more leads, and bring in more money?"
+          h2="Do you have a business in Laurel? Want to rank higher in the search engines, get more leads, and bring in more money?"
           p="Please fill out the form and see how our SEO services can help your business grow."
         />
       </Main>

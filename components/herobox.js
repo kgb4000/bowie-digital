@@ -57,11 +57,12 @@ const Hero = styled.div`
   background-position: ${(props) => props.backgroundPosition};
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
   }
 
   .content {
-    max-width: 70%;
+    max-width: 90%;
     text-align: center;
     padding: 0 1rem;
     color: #fff;
@@ -75,10 +76,10 @@ const Hero = styled.div`
 
   @media (min-width: 768px) {
     .content {
-      width: 90%;
+      width: 80%;
     }
     h1 {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
     }
   }
 

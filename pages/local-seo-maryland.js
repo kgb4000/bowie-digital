@@ -11,14 +11,14 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Local SEO Services in Maryland',
+    title: '🏆  Local SEO Services in Maryland',
     titleTemplate: '%s | More Web Traffic and Leads',
     description:
       'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Local SEO Services in Maryland |Get More Web Traffic',
+      title: '🏆  Local SEO Services in Maryland |Get More Web Traffic',
       description:
         'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
@@ -34,7 +34,7 @@ export default function LocalSEO() {
         backgroundImage="/images/baltimore-md.webp"
         backgroundPosition="bottom center"
         heroText="Local SEO Services in Maryland"
-        subText="Get more website traffic and make more money with Local Search Engine Optimization."
+        subText="Get more website traffic with Local Search Engine Optimization."
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
       />
@@ -648,28 +648,39 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
-            <h2>Cities We Provide Local SEO Services</h2>
-            <p>We provide Maryland SEO services in the following cities:</p>
+            <h2>Cities We Offer Maryland SEO Services</h2>
+            <p>We provide our Maryland SEO services in the following cities:</p>
             <ul>
               <li>Annapolis, MD</li>
               <li>Baltimore, MD</li>
+              <li>Beltsville, MD</li>
               <li>
                 <Link href="/seo-services-company-bowie-maryland">
                   <a>Bowie, MD</a>
                 </Link>
               </li>
+              <li>Capitol Heights, MD</li>
               <li>Columbia, MD</li>
+              <li>Crofton</li>
+              <li>District Heights, MD</li>
               <li>Dundalk, MD</li>
-              <li>Ellicott, City MD</li>
+              <li>Fort Washington, MD</li>
               <li>Frederick, MD</li>
-              <li>Gaithersburg, MD</li>
-              <li>Germantown, MD</li>
-              <li>Hagerstown, MD</li>
-              <li>Towson, MD</li>
+              <li>Glenn Dale, MD</li>
+              <li>Hyattsville, MD</li>
+              <li>
+                <Link href="/seo-services-company-laurel">
+                  <a>Laurel, MD</a>
+                </Link>
+              </li>
+              <li>South Laurel, MD</li>
+              <li>Temple Hills, MD</li>
+              <li>Upper Marlboro, MD</li>
+              <li>Washington, DC</li>
             </ul>
             <p>
-              We are one of the best Maryland SEO companies offering search
-              engine optimization to Maryland small businesses.
+              We are one of the best Maryland SEO companies offering local
+              search engine optimization to Maryland small businesses.
             </p>
 
             <h2>Why Work With Bowie SEO?</h2>

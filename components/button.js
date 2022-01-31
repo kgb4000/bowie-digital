@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 const Button = styled.button`
-  font-size: 1rem;
+  font-size: 0.8rem;
   border: 2px solid #d35400;
-  padding: 0.8rem 1.4rem;
+  padding: 1rem 1.4rem;
   cursor: pointer;
   background-color: #ff5200;
   color: #fff;
@@ -20,6 +20,10 @@ const Button = styled.button`
   &:hover {
     border-color: #d55e0f;
     background-color: #d55e0f;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1rem;
   }
 `
 

@@ -18,37 +18,32 @@ export const getStaticProps = async () => {
 
 export default function Blog({ data }) {
   const SEO = {
-    title: 'Blog',
+    title: 'Learn how SEO can help your business | Blog | Bowie SEO',
     description:
-      'This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization.',
+      'This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization.',
     type: 'website',
     canonical: 'https://bowieseo.com/blog',
     openGraph: {
-      title: 'Blog | Bowie SEO',
+      title: 'Learn how SEO can help your business | Blog | Bowie SEO',
       description:
-        'This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization.',
+        'This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization.',
       type: 'website',
     },
   }
   return (
     <>
-      <BlogJsonLd
-        url="https://bowieseo.com/blog"
-        title="Blog"
-        images={[]}
-        authorName="Kester Browne"
-        description="This is the blog for Bowie SEO where you give customers free advice on improving their websites with search engine optimization."
-      />
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
-      <BlogHeroBox
-        backgroundHeight="16rem"
-        heroText="SEO Blog"
-        backgroundImage="/images/blog-header.webp"
-        backgroundPosition="top"
-      />
       <BlogMain>
         <div className="blog-container">
+          <h1>SEO Blog</h1>
+          <BlogJsonLd
+            url="https://bowieseo.com/blog"
+            title="Blog"
+            images={[]}
+            authorName="Kester Browne"
+            description="This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization."
+          />
           {data.posts.map((post) => (
             <div key={post.slug}>
               <div className="blog-posts">
@@ -72,12 +67,8 @@ export default function Blog({ data }) {
   )
 }
 
-const BlogHeroBox = styled(HeroBox)`
-  margin-top: 4rem;
-  margin-bottom: 0;
-`
-
 const BlogMain = styled(Main)`
+  margin-top: 5rem;
   .blog-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -87,6 +78,7 @@ const BlogMain = styled(Main)`
   h1 {
     text-align: center;
   }
+
   h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -100,14 +92,14 @@ const BlogMain = styled(Main)`
 
   @media (min-width: 768px) {
     h2 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     }
     .blog-posts {
       display: flex;
       margin-bottom: 4rem;
       align-items: center;
       img {
-        max-width: 30rem;
+        max-width: 25rem;
         margin-right: 5%;
       }
 
@@ -116,7 +108,7 @@ const BlogMain = styled(Main)`
       }
 
       img {
-        max-width: 45%;
+        max-width: 50%;
         margin: 0;
         margin-right: 5%;
       }
@@ -129,7 +121,7 @@ const BlogMain = styled(Main)`
       margin-bottom: 4rem;
       align-items: center;
       img {
-        max-width: 30rem;
+        max-width: 25rem;
         margin-right: 5%;
       }
 

@@ -9,16 +9,15 @@ import ContactForm from '../components/contact-form'
 
 export default function Contact() {
   const SEO = {
-    title: 'Contact Me Today',
+    title: 'Contact Us to Learn How SEO Can Help Grow Your Business.',
     description:
-      "Contact me if you have any questions about search engine optimization for your small business, and let's see how we can help.",
+      "Contact us if you have any questions about search engine optimization for your small business, and let's see how we can help your business GROW.",
     canonical: 'https://bowieseo.com/contact',
     openGraph: {
+      title: 'Contact Us to Learn How SEO Can Help Grow Your Business.',
+      description:
+        "Contact us if you have any questions about search engine optimization for your small business, and let's see how we can help your business GROW.",
       type: 'website',
-      locale: 'en_US',
-      url: 'https://bowieseo.com/contact',
-      site_name: 'Bowie SEO',
-      images: [],
     },
   }
   return (
@@ -37,11 +36,11 @@ export default function Contact() {
       />
       <Header buttontext="Calll now!" buttonLink="tel:1-240-266-0588" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="40rem"
         backgroundImage="/images/contact-us.webp"
         backgroundPosition="center left"
         heroText="Contact Us"
-        subText="Let Us Help You Get More Web Traffic and More Leads."
+        subText="Let Us Help You Get More Website Traffic."
         buttonText=" Call (240) 266-0588"
         buttonLink="tel:1-240-266-0588"
       />

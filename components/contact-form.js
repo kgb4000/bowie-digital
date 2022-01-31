@@ -145,7 +145,7 @@ export default function ContactForm({ h2, p }) {
               >
                 {!status.submitting
                   ? !status.submitted
-                    ? 'I want more Traffic!!!'
+                    ? 'Send Message'
                     : 'Got it!'
                   : 'Submitting...'}
               </SubmitButton>

@@ -8,6 +8,7 @@ import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
+import Accordion from '../components/accordion'
 
 import { DefaultSeo } from 'next-seo'
 
@@ -24,7 +25,7 @@ export default function Home() {
         backgroundImage="/images/maryland-seo-company-hero.webp"
         altText="Maryland SEO Company"
         heroText="We Grow Your Website Traffic"
-        subText="Our Maryland SEO Company can get You More Web Traffic and More Leads for Your Business"
+        subText="Our Maryland SEO Company can get You More Web Traffic and More Leads"
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
       />
@@ -58,10 +59,30 @@ export default function Home() {
               with SEO services from Bowie SEO.
             </p>
             <p>But first.</p>
+          </div>
+        </section>
+        <section className="solution-section">
+          <div className="container">
+            <h3>
+              If your business website isn't on the first page of Google, then
+              you're losing money.
+            </h3>
+            <h3>And your competitors are stealing your customers.</h3>
+            <h3>I can help you fix that.</h3>
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us to find out how!</Button>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </section>
+        <section className="no-marketing">
+          <div className="container">
             <h2 className="title">
               What is <span className="highlight">SEO</span>?
             </h2>
-            <p className="subTitle">Maryland Search Engine Optimization</p>
             <p>
               Search engine optimization (SEO) is the process of improving your
               website for search engines and users.
@@ -88,19 +109,12 @@ export default function Home() {
                 Can get you on the first page of Google, and the top of the
                 Google Map Pack.
               </li>
-              <li>Can bring you more website traffic</li>
-              <li>Improves your online marketing</li>
-              <li>Can help your conversion rate optimization</li>
-              <li>Bring more quality traffic</li>
-              <li>Increase your web presence</li>
-
-              <li>Help you outrank your competitors</li>
-              <li>Increase your search rankings</li>
-              <li>Help you seek better-targeted keywords</li>
-              <li>
-                Help you write much more valuable content for your existing
-                customers
-              </li>
+              <li>Increases your search rankings</li>
+              <li>Can bring you more website traffic and quality traffic</li>
+              <li>Can help your with conversion rate optimization</li>
+              <li>Increases your web presence</li>
+              <li>Helps you outrank your competitors</li>
+              <li>Helps you find better-targeted keywords</li>
             </NoSEO>
             <div className="btn">
               <Link href="/free-seo-audit">
@@ -111,6 +125,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section className="no-marketing">
           <div className="container">
             <h2 className="title">
@@ -134,7 +149,7 @@ export default function Home() {
               )
             </p>
             <p>Significant Google search algorithm changes include:</p>
-            <HelpHow>
+            <Why>
               <li>
                 <h3>Panda</h3>
                 <p>
@@ -170,7 +185,7 @@ export default function Home() {
                   )
                 </p>
               </li>
-            </HelpHow>
+            </Why>
             <div className="btn">
               <Link href="/contact">
                 <a>
@@ -300,18 +315,14 @@ export default function Home() {
         <section className="solution-section">
           <div className="solution-container">
             <h2 className="title">Our SEO Services</h2>
-            <p className="subTitle">
-              SEO Services from an SEO Company in Maryland
-            </p>
+            <p className="subTitle">Maryland SEO Company Services</p>
             <Solutions>
               <div className="solution-box">
                 <h3>SEO</h3>
                 <p>
                   SEO lays down the foundation for your website and makes it
-                  better for search engines and users. When you have a solid
-                  foundation, your website will rank higher organically, and
-                  small business owners will be able to compete with more
-                  prominent brands.
+                  better for search engines and users. Your website will rank
+                  higher see increases in web traffic and leads.
                 </p>
                 <Link href="/maryland-seo">
                   <a className="solution-link">More About SEO &rsaquo;</a>
@@ -321,9 +332,8 @@ export default function Home() {
                 <h3>Local SEO</h3>
                 <p>
                   Local SEO is about your local business found by your ideal
-                  customers. When customers are looking for your services on
-                  desktop, mobile, and voice searches, you need to show up in
-                  the search above your competitors.
+                  customers. When customers look for your services, you need to
+                  show up in the search above your competitors.
                 </p>
                 <Link href="/local-seo-maryland">
                   <a className="solution-link">More About Local SEO &rsaquo;</a>
@@ -332,11 +342,9 @@ export default function Home() {
               <div className="solution-box">
                 <h3>SEO Audit</h3>
                 <p>
-                  An SEO Audit will let you know what's stopping your website
-                  from ranking higher in the search engines. It will help you
-                  identify the elements that are holding your website back, and
-                  it will show you what parts you need to fix to make your site
-                  better for search engines and consumers.
+                  Discover what's stopping your site from ranking higher in the
+                  search engines. With an SEO audit, you will identify elements
+                  holding your website back and fix the issues.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">More about SEO Audit &rsaquo;</a>
@@ -345,11 +353,9 @@ export default function Home() {
               <div className="solution-box">
                 <h3>Link Building</h3>
                 <p>
-                  Getting backlinks from link building is one of the essential
-                  parts of an SEO strategy. It is also one of Google's primary
-                  ranking factors. We help get you quality backlinks that will
-                  boost your domain authority and help you get quality traffic
-                  from Google and other search engines.
+                  Build credibility and authority with backlinks. Get quality
+                  backlinks that will boost your domain authority and help you
+                  get quality traffic from Google and other search engines.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">
@@ -360,11 +366,9 @@ export default function Home() {
               <div className="solution-box">
                 <h3>Keyword Research</h3>
                 <p>
-                  Keyword research is necessary to ensure that your content
-                  targets the right audience and reaches your potential
-                  customers. The aim is to use targeted keywords that your
-                  target audience or local customers will find helpful and want
-                  to share to increase organic traffic.
+                  Find the keywords potential customers use to find your
+                  products and services. Keyword research is vital so that the
+                  content you create is what customers are searching for.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">
@@ -375,11 +379,9 @@ export default function Home() {
               <div className="solution-box">
                 <h3>Technical SEO</h3>
                 <p>
-                  If it can't index your website, you will not appear in the
-                  search results or rank in Google. As part of our technical
-                  analysis, we make sure that your website gets indexed on
-                  Google. We also make sure you're using Google tools like
-                  Google Analytics and Google Search Console.
+                  If search engines can't index your website, you will not
+                  appear in the search results. We ensure that your website is
+                  indexable and satisfies the search engine requirements.
                 </p>
                 <Link href="/seo-audit">
                   <a className="solution-link">
@@ -392,38 +394,6 @@ export default function Home() {
               <Link href="/contact">
                 <a>
                   <Button>Contact us today!</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </section>
-        <section className="no-marketing">
-          <div className="container">
-            <h2 className="title">
-              97% of people learn more about a local company online than
-              anywhere else.{' '}
-            </h2>
-            <div className="btn">
-              <p>
-                <a
-                  href="https://seotribunal.com/blog/stats-to-understand-seo/#local-seo-facts"
-                  target="_blank"
-                  no-follow="true"
-                >
-                  SEO Tribunal
-                </a>
-              </p>
-            </div>
-            <p className="subtext">
-              When people searching for your services don't see your company,
-              they go to your competitors. Get your FREE Website and SEO Audit
-              and see what you need to fix on your website so it can start
-              getting traffic.
-            </p>
-            <div className="btn">
-              <Link href="/free-seo-audit">
-                <a>
-                  <Button>Get a Free SEO Audit</Button>
                 </a>
               </Link>
             </div>
@@ -507,85 +477,14 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="no-marketing">
-          <div className="container">
-            <h2 className="title">
-              <span className="highlight">FAQs</span> about SEO Services
-            </h2>
-            <h3>How much does Local SEO Cost?</h3>
-            <p>
-              Some SEO companies offer services starting as low as $199.00 a
-              month. Other companies market services starting at $249.00 a
-              month. Although these prices may seem like a deal, please be
-              aware. Cheap SEO prices usually mean affordable SEO services. Your
-              SEO campaign may take years to see any results for those prices.
-            </p>
-            <p>Some of these SEO companies are not even in Maryland.</p>
-            <p>Some cheap SEO companies are known to use Black Hat SEO.</p>
-            <p>
-              Black Hat SEO goes against the search engine's terms of service,
-              and although it can get you ranked, there is an excellent chance
-              that your website can get banned from search engines.
-            </p>
-            <h3>What is the Difference between SEO and Local SEO?</h3>
-            <p>
-              The main difference between SEO and Local SEO is that while SEO
-              focuses on optimizing a website for national or global search
-              results, Local SEO focuses on optimizing a website for local
-              search results.
-            </p>
-            <p>
-              SEO would be used more by big national brands like General
-              Electric, Amazon, Etsy, and Overstock. Businesses like
-              restaurants, mechanics, plumbers, dentists, and lawyers in your
-              local area are more likely to use Local SEO.
-            </p>
-            <p>Don't take that chance.</p>
-            <p>
-              As a professional Maryland SEO company and SEO experts, we offer
-              only White Hat SEO services according to your business needs.
-            </p>
-            <p>
-              We first perform an SEO Audit to determine what needs improving.
-              It may be anything from improving your title tags, adding
-              meta-descriptions, or fixing your page speed.
-            </p>
-            <p>
-              After identifying any problems and opportunities we find, we give
-              you our price to perform SEO.
-            </p>
-            <p>Remember.</p>
-            <p>
-              SEO is a long-term process that can take six to twelve months to
-              see results. If you're serious about your business and understand
-              the benefits of an SEO strategy, you know it's worth the
-              investment.
-            </p>
-            <h3>How Long Does Local SEO Take Before You See Results?</h3>
-            <p>
-              SEO services can take anywhere from three to six months before you
-              start seeing results in the local search rankings.
-            </p>
-            <p>How long it takes to see results depends on:</p>
-            <ul>
-              <li>The age of your website.</li>
-              <li>Your website strength and authority.</li>
-              <li>The amount of competition in your local area.</li>
-              <li>Your backlink profile.</li>
-              <li>Your competitor's backlink profile.</li>
-              <li>How many keywords you are ranking for</li>
-              <li>The amount of quality content on your website.</li>
-              <li>Your website traffic.</li>
-              <li>The strength of your Google Business page</li>
-              <li>
-                The number of online and positive reviews on your Google My
-                Business page
-              </li>
-            </ul>
-          </div>
+        <section className="faq-container">
+          <h2 className="title">
+            FAQ<span className="highlight">s</span>
+          </h2>
+          <Accordion />
         </section>
         <Ready
-          h2="Rady to Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
+          h2="Ready to Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
           p="Please fill out the form, and we'll show you how Bowie SEO can help your business get more web traffic, more leads, and make more money!"
         />
       </Main>
@@ -601,15 +500,9 @@ const Solutions = styled.div`
     flex-direction: column;
     height: auto;
     padding: 4rem 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #fff;
-    box-shadow:
-    0 2.8px 2.2px rgba(255,82,0, 0.034),
-    0 6.7px 5.3px rgba(255,82,0, 0.048),
-    0 12.5px 10px rgba(255,82,0, 0.06),
-    0 22.3px 17.9px rgba(255,82,0, 0.072),
-    0 41.8px 33.4px rgba(255,82,0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+    box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
     border-radius: 5px;
     position: relative;
     top: 0;
@@ -654,16 +547,15 @@ const Solutions = styled.div`
     }
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 768px) {
 
     display: grid;
     max-width: 1500px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin: 0 auto;
 
     .solution-box {
-      margin: 4rem 0;
       justify-items: center;
       max-width: 100%;
       height: 600px;
@@ -672,7 +564,24 @@ const Solutions = styled.div`
         font-size: 1rem;
       }
     }
-    
+
+    @media (min-width: 1200px) {
+
+    display: grid;
+    max-width: 1500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 0 auto;
+
+    .solution-box {
+      justify-items: center;
+      max-width: 100%;
+      height: 600px;
+      
+      p {
+        font-size: 1rem;
+      }
+    }
 `
 
 const Plan = styled.ol`
@@ -730,7 +639,7 @@ const NoSEO = styled.ol`
       color: #fff;
       font-size: 1rem;
       font-weight: 700;
-      background: #ff5200;
+      background: #000;
       line-height: 45px;
       width: 45px;
       height: 45px;
@@ -773,5 +682,13 @@ const HelpHow = styled.ol`
 
   h3 {
     margin-bottom: 0;
+  }
+`
+
+const Why = styled(HelpHow)`
+  li {
+    ::before {
+      top: 10px;
+    }
   }
 `
