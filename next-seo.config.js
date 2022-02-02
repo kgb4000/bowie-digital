@@ -1,6 +1,5 @@
 export default {
   title: `🏆 Maryland SEO Company Helping Small Businesses Grow`,
-  // titleTemplate: '%s | Bowie SEO',
   type: 'website',
   locale: 'en_US',
   description:

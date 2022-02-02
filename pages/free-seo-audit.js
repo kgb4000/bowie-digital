@@ -50,9 +50,9 @@ export default function FreeAudit() {
               results you want.
             </p>
             <p>
-              This Free audit will get you started to ranking higher in the
-              search engines, attracting more customers, and growing your
-              business.
+              This Free audit will help you discover what you need to fix in
+              order to get your website ranking higher and infront of your ideal
+              customers.
             </p>
           </div>
         </section>

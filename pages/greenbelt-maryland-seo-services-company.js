@@ -11,14 +11,14 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆  SEO Services Company Laurel Maryland | Bowie SEO',
+    title: '🏆 Greenbelt Maryland SEO Services Company  | Bowie SEO',
     description:
-      'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/seo-services-company-bowie-maryland',
+      'We provide SEO services for business in Greenbelt Maryland. Our local SEO services will get your website to the top of the local search results.',
+    canonical: 'https://bowieseo.com/greenbelt-maryland-seo-services-company',
     openGraph: {
-      title: '🏆  SEO Services Company Laurel Maryland | Bowie SEO',
+      title: '🏆 Greenbelt Maryland SEO Services Company  | Bowie SEO',
       description:
-        'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
+        'We provide SEO services for business in Greenbelt Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
     },
   }
@@ -29,7 +29,7 @@ export default function LocalSEO() {
       <HeroBox
         backgroundHeight="45rem"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
-        heroText="SEO Services Company Laurel Maryland"
+        heroText="Greenbelt Maryland SEO Services Company"
         subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"
@@ -37,28 +37,26 @@ export default function LocalSEO() {
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>SEO Services Company - Laurel Maryland</h2>
-            <p>
-              Are you looking for an SEO services company in Laurel, Maryland?
-            </p>
-            <p>Well, Bowie SEO has SEO services for your business.</p>
+            <h2>Greenbelt Maryland SEO Services Company</h2>
+            <p>Does you business need SEO services in Greenbelt, Maryland?</p>
+            <p>Well, Bowie SEO has SEO services you need.</p>
             <p>
               Bowie SEO is a{' '}
               <Link href="local-seo-maryland">
                 <a>local SEO company</a>
               </Link>{' '}
               in Bowie, Maryland, helping small business owners grow their
-              businesses by increasing traffic to their websites, getting more
-              leads, and increasing revenue.
+              businesses by increasing website traffic, helping businesses
+              attract more leads, and increasing revenue.
             </p>
             <p>
-              We are Maryland SEO experts that help our clients rank higher in
-              the search engines, increase their online visibility, and make
-              more money.
+              We are Maryland SEO experts that help businesses in Greenbelt rank
+              higher in the search engines, increase their online visibility,
+              and make more money.
             </p>
             <div className="not-happy-box">
               <h4>
-                Not Getting Any Leads From Your Website? Want to Know Why?
+                Are You Getting Leads From Your Website? Want to Know Why?
               </h4>
               <div className="btn">
                 <Link href="/contact">
@@ -74,21 +72,21 @@ export default function LocalSEO() {
               engines and users in your local area.
             </p>
             <p>
-              If you have a business in Laurel Marland, local SEO will target
-              customers in Laurel and nearby towns, not customers in Houston,
-              Texas.
+              If you have a business in Greenbelt Maryland, local SEO improve
+              your website and make it better. It will help you choose better
+              keywords that you will use to target customers in Greenbelt and
+              nearby towns, and also rank higher in the search engines.
             </p>
-            <h2>SEO Services</h2>
+            <h2>Our Greenbelt SEO Services</h2>
             <p>
-              Our search engine optimization services help your business
-              increase website traffic and get more leads. These services
-              include:
+              Search engine optimization services helps your business increase
+              website traffic and get more leads. Our SEO services include:
             </p>
             <ul>
               <li>
                 <h3>Local SEO</h3>
                 <p>
-                  Get found when customers in Laurel are searching for your
+                  Get found when customers in Greenbelt are searching for your
                   products or services. When potential customers are searching,
                   you want your website to appear at the top of Google map Pack
                   and on the first page of the SERPs.
@@ -143,7 +141,7 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            <h2>How Can Local SEO Help Your Business in Laurel?</h2>
+            <h2>How Can Local SEO Help Your Business in Greenbelt?</h2>
             <p>Local SEO can help your business because it can:</p>
             <ul>
               <li>Get your business more leads.</li>
@@ -179,7 +177,9 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            <h2>15 Ways To Know If Your Business in Laurel Needs Local SEO?</h2>
+            <h2>
+              15 Ways To Know If Your Business in Greenbelt Needs Local SEO?
+            </h2>
             <p>
               If you have any of the following issues with your website or
               digital marketing, you may need Local SEO.
@@ -227,39 +227,6 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            {/* <h2>What is the Difference Between Local SEO and SEO?</h2>
-            <p>
-              <b>SEO (search engine optimization)</b> is the process of
-              improving your website for search engines and users.
-            </p>
-            <p>
-              Companies that use SEO are the companies that deliver goods and
-              services on a national or global level.
-            </p>
-            <p>
-              Think of companies like GE, Samsung, and Dell computers. They sell
-              and market their products to the whole country and the world, not
-              just a local area.
-            </p>
-            <p>
-              On the other hand, <b>local SEO</b> is geared towards local
-              businesses and local customers.
-            </p>
-            <p>For example.</p>
-            <p>
-              If you're a pool builder in Bowie, you want the search engines to
-              show your website when someone searches for "pool builder in
-              Bowie."
-            </p>
-            <p>
-              Another example is if you're an electrician in Bowie, you want the
-              search engines to show your website when someone searches for
-              "electrician in Bowie" or "electrician near me."
-            </p>
-            <p>
-              It would be best if you had a Local SEO strategy for your business
-              to show up in the local searches.
-            </p> */}
             <h2>How Does Local SEO Work?</h2>
             <p>
               Local SEO is the process of improving your website for the search
@@ -286,10 +253,8 @@ export default function LocalSEO() {
               <li>Participating in your local community.</li>
             </ol>
             <h2>What is the Cost Of Local SEO Services?</h2>
-            <p>
-              The cost of your local SEO services depends on different factors.
-              These factors include:
-            </p>
+            <p>Local SEO cost between $700.00 and $5000.00 per month.</p>
+            <p>The cost depends on different factors that include:</p>
             <ul>
               <li>The strength of your website.</li>
               <li>The competition in your area and industry.</li>
@@ -300,7 +265,7 @@ export default function LocalSEO() {
             </p>
             <p>
               Don't believe companies that try to sell you SEO services for
-              $500.00 and below.
+              $400.00 and below.
             </p>
             <p>SEO is a serious investment in your website.</p>
             <p>
@@ -322,10 +287,10 @@ export default function LocalSEO() {
               reason they rank higher in the search engines.
             </p>
             <h2>Why Choose Bowie SEO for your Local SEO?</h2>
-            <p>Businesses in Laurel should work with us because:</p>
+            <p>Businesses in Greenbelt should work with us because:</p>
             <ul>
               <li>
-                We are part of the Laurel community and a member of the{' '}
+                We are part of the Greenbelt community and a member of the{' '}
                 <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
                   <a>Bowie Chamber of Commerce</a>
                 </Link>
@@ -349,10 +314,9 @@ export default function LocalSEO() {
               </li>
             </ul>
             <p>
-              If you have a business in Laurel and thinking about starting a
-              local SEO campaign or have questions about Local SEO, please get
-              in touch with me and see how an SEO strategy can help your
-              business.
+              If you have a business in Greenbelt and want to grow your website
+              traffic and get more leads, please get in touch with us and see
+              how an SEO strategy can help your business.
             </p>
             <div className="not-happy-box">
               <h4>Want to Talk about an Starting a Local SEO Strategy?</h4>
@@ -367,7 +331,7 @@ export default function LocalSEO() {
           </div>
         </section>
         <Ready
-          h2="Do you have a business in Laurel? Want to rank higher in the search engines, get more leads, and bring in more money?"
+          h2="Do you have a business in Greenbelt? Want to rank higher in the search engines, get more leads, and bring in more money?"
           p="Please fill out the form and see how our SEO services can help your business grow."
         />
       </Main>

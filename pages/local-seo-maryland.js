@@ -11,10 +11,9 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆  Local SEO Services in Maryland',
-    titleTemplate: '%s | More Web Traffic and Leads',
+    title: '🏆  Local SEO Services in Maryland | Bowie SEO',
     description:
-      'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
+      'Need SEO services in Greenbelt Maryland? Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
@@ -667,13 +666,22 @@ export default function LocalSEO() {
               <li>Fort Washington, MD</li>
               <li>Frederick, MD</li>
               <li>Glenn Dale, MD</li>
+              <li>
+                <Link href="/greenbelt-maryland-seo-services-company">
+                  <a>Greenbelt, MD</a>
+                </Link>
+              </li>
               <li>Hyattsville, MD</li>
               <li>
-                <Link href="/seo-services-company-laurel">
+                <Link href="/laurel-maryland-seo-services-company">
                   <a>Laurel, MD</a>
                 </Link>
               </li>
-              <li>South Laurel, MD</li>
+              <li>
+                <Link href="/south-laurel-maryland-seo-services-company">
+                  <a>South Laurel, MD</a>
+                </Link>
+              </li>
               <li>Temple Hills, MD</li>
               <li>Upper Marlboro, MD</li>
               <li>Washington, DC</li>

@@ -1332,40 +1332,6 @@ export default function MarylandSEO() {
               <li>We work with one business per industry in our area.</li>
               <li>Weekly updates and monthly reports.</li>
             </ul>
-            <h2>Cities We Offer Maryland SEO Services</h2>
-            <p>We provide our Maryland SEO services in the following cities:</p>
-            <ul>
-              <li>Annapolis, MD</li>
-              <li>Baltimore, MD</li>
-              <li>Beltsville, MD</li>
-              <li>
-                <Link href="/seo-services-company-bowie-maryland">
-                  <a>Bowie, MD</a>
-                </Link>
-              </li>
-              <li>Capitol Heights, MD</li>
-              <li>Columbia, MD</li>
-              <li>Crofton</li>
-              <li>District Heights, MD</li>
-              <li>Dundalk, MD</li>
-              <li>Fort Washington, MD</li>
-              <li>Frederick, MD</li>
-              <li>Glenn Dale, MD</li>
-              <li>Hyattsville, MD</li>
-              <li>
-                <Link href="/seo-services-company-laurel">
-                  <a>Laurel, MD</a>
-                </Link>
-              </li>
-              <li>South Laurel, MD</li>
-              <li>Temple Hills, MD</li>
-              <li>Upper Marlboro, MD</li>
-              <li>Washington, DC</li>
-            </ul>
-            <p>
-              We are one of the best Maryland SEO companies offering search
-              engine optimization to Maryland small businesses.
-            </p>
             <h2>Conclusion</h2>
             <p>
               Bowie SEO is a Maryland SEO company helping small businesses in
