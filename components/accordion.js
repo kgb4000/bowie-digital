@@ -50,6 +50,9 @@ const AccordionSection = styled.div`
   flex-direction: column;
   position: relative;
   margin-bottom: 2rem;
+  h3 : {
+    font-size: 21px;
+  }
 `
 
 const Container = styled.div`
@@ -67,6 +70,7 @@ const Wrap = styled.div`
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 
   h3 {
+    font-size: 26px;
     margin: 0;
   }
 `

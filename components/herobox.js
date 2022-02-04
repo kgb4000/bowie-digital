@@ -53,7 +53,7 @@ const Hero = styled.div`
     url(${(props) => props.backgroundImage});
   background-size: cover;
   height: ${(props) => props.backgroundHeight};
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   background-position: ${(props) => props.backgroundPosition};
 
   h1 {
