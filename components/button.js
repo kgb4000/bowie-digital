@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Button = styled.div`
   font-size: 0.8rem;
   border: 2px solid #d35400;
   padding: 1rem 1.4rem;
@@ -16,6 +16,7 @@ const Button = styled.button`
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
+  display: inline-block;
 
   &:hover {
     border-color: #d55e0f;

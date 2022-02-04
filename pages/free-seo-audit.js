@@ -30,8 +30,8 @@ export default function FreeAudit() {
         heroText="Free SEO Audit"
         subText="Find out what's holding your website back from ranking higher and
               getting more traffic."
-        buttonText="Call (240) 266-0588"
-        buttonLink="tel:1-240-266-0588"
+        buttonText="Contact us"
+        buttonLink="/contact"
       />
 
       <Main>

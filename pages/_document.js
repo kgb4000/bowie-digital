@@ -33,10 +33,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap"
-            rel="stylesheet"
-          />
-          <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@900&display=swap"
             rel="stylesheet"
           />

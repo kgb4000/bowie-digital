@@ -12,8 +12,7 @@ import { NextSeo } from 'next-seo'
 export default function MarylandSEO() {
   const [showModal, setShowModal] = useState(false)
   const SEO = {
-    title: 'Maryland Search Engine Optimization',
-    titleTemplate: '%s | Bowie SEO',
+    title: 'Maryland SEO | Increase Your Web Traffic, Leads and Revenue',
     description:
       'Bowie SEO is a Maryland Search Engine Optimization company helping small businesses increase website traffic, leads, and revenue. Contact us today!',
     canonical: 'https://bowieseo.com/maryland-seo',
@@ -30,7 +29,7 @@ export default function MarylandSEO() {
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
         backgroundImage="/images/maryland-seo-company.webp"
-        backgroundHeight="70vh"
+        backgroundHeight="50rem"
         backgroundPosition="bottom"
         heroText="Maryland SEO"
         subText="Maryland Search Engine Optimization for Small Businesses"
@@ -41,8 +40,8 @@ export default function MarylandSEO() {
       <Main>
         <section>
           <div className="container">
-            <h2>Grow Your Business with a Maryland SEO</h2>
-            <p>Bowie SEO is an SEO company located in Bowie Maryland.</p>
+            <h2>Use Maryland SEO to Grow Your Small Business.</h2>
+            <p>Bowie SEO is an SEO company located in Bowie, Maryland.</p>
             <p>
               As a{' '}
               <Link href="/">
@@ -1284,7 +1283,7 @@ export default function MarylandSEO() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me &#8594;</Button>
+                  <Button>Contact us</Button>
                 </a>
               </Link>
             </div>

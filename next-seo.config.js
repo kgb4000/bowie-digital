@@ -2,6 +2,7 @@ export default {
   title: `🏆 Maryland SEO Company Helping Small Businesses Grow`,
   type: 'website',
   locale: 'en_US',
+  url: 'https://bowieseo.com',
   description:
     'Bowie SEO is an SEO company in Maryland. We help small businesses GROW by increasing web traffic and targeting the right customers. Contact us today!',
   canonical: 'https://bowieseo.com',

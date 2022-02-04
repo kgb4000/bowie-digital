@@ -34,7 +34,7 @@ export default function Contact() {
           maxVideoPreview: -1,
         }}
       />
-      <Header buttontext="Calll now!" buttonLink="tel:1-240-266-0588" />
+      <Header buttontext="Call now!" buttonLink="tel:1-240-266-0588" />
       <HeroBox
         backgroundHeight="40rem"
         backgroundImage="/images/contact-us.webp"

@@ -134,7 +134,6 @@ export default function Contact({ h2, p }) {
                   <label htmlFor="message">Message</label>
                   <textarea
                     id="message"
-                    type="text"
                     onChange={handleOnChange}
                     required
                     value={inputs.message}
@@ -171,6 +170,7 @@ const SubmitButton = styled(Button)`
   margin: 1rem 0;
   color: #fff;
   background: #ff5200;
+  text-align: center;
 `
 
 const Conversion = styled.div`

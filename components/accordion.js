@@ -28,7 +28,7 @@ const Accordion = () => {
         {data.map((item, index) => {
           return (
             <>
-              <Wrap onClick={() => toggle(index)} key={index}>
+              <Wrap key={index} onClick={() => toggle(index)}>
                 <h3>{item.question}</h3>
                 <span>{clicked === index ? '-' : '+'}</span>
               </Wrap>

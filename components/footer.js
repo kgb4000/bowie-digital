@@ -1,14 +1,45 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-import { NextSeo, LocalBusinessJsonLd } from 'next-seo'
+import {
+  NextSeo,
+  LocalBusinessJsonLd,
+  CorporateContactJsonLd,
+  LogoJsonLd,
+  SocialProfileJsonLd,
+} from 'next-seo'
 export default function Footer() {
   return (
     <>
       <footer>
+        <LogoJsonLd
+          logo="http://bowieseo.com/images/logo.jpg"
+          url="http://bowieseo.com"
+        />
+        <SocialProfileJsonLd
+          type="Organization"
+          name="Bowie SEO"
+          url="http://www.bowieseo.com"
+          sameAs={[
+            'https://www.facebook.com/bowieseo',
+            'https://linkedin.com/in/kester-browne',
+          ]}
+        />
+        <CorporateContactJsonLd
+          url="http://bowieseo.com"
+          logo="http://bowieseo.com/images/logo.jpg"
+          contactPoint={[
+            {
+              telephone: '+1-240-266-0588',
+              contactType: 'customer service',
+              areaServed: 'US',
+              availableLanguage: ['English'],
+            },
+          ]}
+        />
         <LocalBusinessJsonLd
           type="LocalBusiness"
           name="Bowie SEO"
-          description="Bowie SEO is a Maryland SEO company helping small businesses increase their website traffic, leads, and revenue. Contact us today!"
+          description="Bowie SEO is an SEO company in Maryland helping small businesses increase their website traffic, leads, and revenue with SEO. Contact us today!"
           url="https://bowieseo.com"
           telephone="+12402660588"
           address={{
@@ -37,25 +68,16 @@ export default function Footer() {
               ],
             },
           ]}
-          areaServed={[
-            {
-              geoMidpoint: {
-                latitude: '39.013313',
-                longitude: '-76.776924',
-              },
-            },
-          ]}
         />
         <NextSeo />
         <FooterMain>
           <div className="about-BDM">
             <h3>Bowie SEO</h3>
             <p>
-              Bowie SEO is a Maryland SEO company specializing in SEO and Local
-              SEO. We help local businesses in Maryland rank higher in the
-              search engines to help get more website traffic, more leads, more
-              sales, and increased revenue. <a href="tel:12402660588">Call</a>{' '}
-              today!
+              Bowie SEO is an SEO company in Maryland, specializing in SEO and
+              Local SEO. We help local businesses rank higher in the search
+              engines, get more website traffic, more leads, and more customers.{' '}
+              <a href="tel:12402660588">Call us today!</a>
             </p>
           </div>
           <div className="menu">

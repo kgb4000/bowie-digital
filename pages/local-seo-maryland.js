@@ -17,7 +17,7 @@ export default function LocalSEO() {
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: '🏆  Local SEO Services in Maryland |Get More Web Traffic',
+      title: '🏆 Local SEO Services in Maryland |Get More Web Traffic',
       description:
         'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
@@ -29,7 +29,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="50rem"
         backgroundImage="/images/baltimore-md.webp"
         backgroundPosition="bottom center"
         heroText="Local SEO Services in Maryland"
@@ -647,43 +647,110 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
-            <h2>Cities We Offer Maryland SEO Services</h2>
-            <p>We provide our Maryland SEO services in the following cities:</p>
+            <h2>Cities We Offer Local SEO Services</h2>
             <ul>
-              <li>Annapolis, MD</li>
-              <li>Baltimore, MD</li>
-              <li>Beltsville, MD</li>
               <li>
-                <Link href="/seo-services-company-bowie-maryland">
+                <Link href="/annapolis-junction-md-local-seo-services">
+                  <a>Annapolis Junction, MD</a>
+                </Link>
+              </li>
+              <li>Baltimore, MD</li>
+              <li>
+                <Link href="/beltsville-maryland-local-seo-services">
+                  <a>Beltsville, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/bowie-maryland-local-seo-services">
                   <a>Bowie, MD</a>
                 </Link>
               </li>
-              <li>Capitol Heights, MD</li>
-              <li>Columbia, MD</li>
+              <li>
+                <Link href="/calvert-county-maryland-local-seo-services">
+                  <a>Calvert County, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/capitol-heights-maryland-local-seo-services">
+                  <a>Capitol Heights, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/college-park-maryland-local-seo-services">
+                  <a>College Park, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/columbia-maryland-local-seo-services">
+                  <a>Columbia, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/cheverly-maryland-local-seo-services">
+                  <a>Cheverly, MD</a>
+                </Link>
+              </li>
+
               <li>Crofton</li>
               <li>District Heights, MD</li>
               <li>Dundalk, MD</li>
-              <li>Fort Washington, MD</li>
-              <li>Frederick, MD</li>
-              <li>Glenn Dale, MD</li>
               <li>
-                <Link href="/greenbelt-maryland-seo-services-company">
+                <Link href="/forestville-maryland-local-seo-services">
+                  <a>Forestville, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/fort-washington-maryland-local-seo-services">
+                  <a>Fort Washington, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/glenn-dale-maryland-local-seo-services">
+                  <a>Glenn Dale, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/greenbelt-maryland-local-seo-services">
                   <a>Greenbelt, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/howard-county-maryland-local-seo-services">
+                  <a>Howard County, MD</a>
                 </Link>
               </li>
               <li>Hyattsville, MD</li>
               <li>
-                <Link href="/laurel-maryland-seo-services-company">
+                <Link href="/laurel-maryland-local-seo-services">
                   <a>Laurel, MD</a>
                 </Link>
               </li>
               <li>
-                <Link href="/south-laurel-maryland-seo-services-company">
+                <Link href="/mitchelleville-maryland-local-seo-services">
+                  <a>Mitchellville, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/prince-georges-county-md-local-seo-services">
+                  <a>Prince George's County, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/temple-hills-maryland-local-seo-services">
+                  <a>Temple Hills, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/south-laurel-maryland-local-seo-services">
                   <a>South Laurel, MD</a>
                 </Link>
               </li>
               <li>Temple Hills, MD</li>
-              <li>Upper Marlboro, MD</li>
+              <li>
+                <Link href="/upper-marlboro-md-local-seo-services">
+                  <a>Upper Marlboro, MD</a>
+                </Link>
+              </li>
               <li>Washington, DC</li>
             </ul>
             <p>

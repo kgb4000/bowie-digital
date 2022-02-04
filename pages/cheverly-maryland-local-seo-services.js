@@ -6,20 +6,20 @@ import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
+import LocalCities from '../components/local-cities'
 
 import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 South Laurel Maryland SEO Services Company',
+    title: '🏆 Cheverly Maryland Local SEO Services',
     description:
-      'We provide SEO services for business in South Laurel Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical:
-      'https://bowieseo.com/south-laurel-maryland-seo-services-company',
+      'We provide SEO services for business in Cheverly, Maryland. Our local SEO services will get your website to the top of the local search results.',
+    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
     openGraph: {
-      title: '🏆 South Laurel Maryland SEO Services Company  | Bowie SEO',
+      title: '🏆 Cheverly Maryland Local SEO Services',
       description:
-        'We provide SEO services for business in South Laurel Maryland Maryland. Our local SEO services will get your website to the top of the local search results.',
+        'We provide SEO services for business in Cheverly, Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
     },
   }
@@ -28,9 +28,9 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="45rem"
+        backgroundHeight="50rem"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
-        heroText="South Laurel Maryland SEO Services Company"
+        heroText="Cheverly Maryland Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"
@@ -38,14 +38,14 @@ export default function LocalSEO() {
       <Main>
         <section className="article-section">
           <div className="container">
-            <h2>South Laurel Maryland SEO Services Company</h2>
+            <h2>Cheverly Maryland Local SEO Services</h2>
             <p>
-              Does you business need SEO services in South Laurel, Maryland?
+              Does you business need local SEO services in Cheverly, Maryland?
             </p>
             <p>Well, Bowie SEO has SEO services you need.</p>
             <p>
               Bowie SEO is a{' '}
-              <Link href="local-seo-maryland">
+              <Link href="/local-seo-maryland">
                 <a>local SEO company</a>
               </Link>{' '}
               in Bowie, Maryland, helping small business owners grow their
@@ -53,9 +53,9 @@ export default function LocalSEO() {
               attract more leads, and increasing revenue.
             </p>
             <p>
-              We are Maryland SEO experts that help businesses in South Laurel
-              rank higher in the search engines, increase their online
-              visibility, and make more money.
+              We are Maryland SEO experts that help businesses in Cheverly rank
+              higher in the search engines, increase their online visibility,
+              and make more money.
             </p>
             <div className="not-happy-box">
               <h4>
@@ -75,13 +75,12 @@ export default function LocalSEO() {
               engines and users in your local area.
             </p>
             <p>
-              If you have a business in South Laurel Maryland Maryland, local
-              SEO improve your website and make it better. It will help you
-              choose better keywords that you will use to target customers in
-              Greenbelt and nearby towns, and also rank higher in the search
-              engines.
+              If you have a business in Cheverly, Maryland, local SEO improve
+              your website and make it better. It will help you choose better
+              keywords that you will use to target customers in Greenbelt and
+              nearby towns, and also rank higher in the search engines.
             </p>
-            <h2>Our South Laurel SEO Services</h2>
+            <h2>Our Cheverly Local SEO Services</h2>
             <p>
               Search engine optimization services helps your business increase
               website traffic and get more leads. Our SEO services include:
@@ -90,10 +89,10 @@ export default function LocalSEO() {
               <li>
                 <h3>Local SEO</h3>
                 <p>
-                  Get found when customers in South Laurel are searching for
-                  your products or services. When potential customers are
-                  searching, you want your website to appear at the top of
-                  Google map Pack and on the first page of the SERPs.
+                  Get found when customers in Cheverly are searching for your
+                  products or services. When potential customers are searching,
+                  you want your website to appear at the top of Google map Pack
+                  and on the first page of the SERPs.
                 </p>
               </li>
               <li>
@@ -145,7 +144,7 @@ export default function LocalSEO() {
                 </Link>
               </div>
             </div>
-            <h2>How Can Local SEO Help Your Business in South Laurel?</h2>
+            <h2>How Can Local SEO Help Your Business in Cheverly?</h2>
             <p>Local SEO can help your business because it can:</p>
             <ul>
               <li>Get your business more leads.</li>
@@ -182,7 +181,7 @@ export default function LocalSEO() {
               </div>
             </div>
             <h2>
-              15 Ways To Know If Your Business in South Laurel Needs Local SEO?
+              15 Ways To Know If Your Business in Cheverly Needs Local SEO?
             </h2>
             <p>
               If you have any of the following issues with your website or
@@ -294,7 +293,7 @@ export default function LocalSEO() {
             <p>Businesses in Greenbelt should work with us because:</p>
             <ul>
               <li>
-                We are part of the South Laurel community and a member of the{' '}
+                We are part of the Glenn Dale community and a member of the{' '}
                 <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
                   <a>Bowie Chamber of Commerce</a>
                 </Link>
@@ -318,9 +317,9 @@ export default function LocalSEO() {
               </li>
             </ul>
             <p>
-              If you have a business in South Laurel and want to grow your
-              website traffic and get more leads, please get in touch with us
-              and see how an SEO strategy can help your business.
+              If you have a business in Cheverly and want to grow your website
+              traffic and get more leads, please get in touch with us and see
+              how a local SEO strategy can help your business.
             </p>
             <div className="not-happy-box">
               <h4>Want to Talk about an Starting a Local SEO Strategy?</h4>
@@ -335,9 +334,10 @@ export default function LocalSEO() {
           </div>
         </section>
         <Ready
-          h2="Do you have a business in South Laurel? Want to rank higher in the search engines, get more leads, and bring in more money?"
+          h2="Do you have a business in Cheverly? Want to rank higher in the search engines, get more leads, and bring in more money?"
           p="Please fill out the form and see how our SEO services can help your business grow."
         />
+        <LocalCities />
       </Main>
     </>
   )

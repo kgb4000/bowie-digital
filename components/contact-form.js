@@ -131,7 +131,6 @@ export default function ContactForm({ h2, p }) {
                 <label htmlFor="message">Message</label>
                 <textarea
                   id="message"
-                  type="text"
                   maxLength="500"
                   onChange={handleOnChange}
                   required
@@ -145,7 +144,7 @@ export default function ContactForm({ h2, p }) {
               >
                 {!status.submitting
                   ? !status.submitted
-                    ? 'Send Message'
+                    ? 'Send Message!'
                     : 'Got it!'
                   : 'Submitting...'}
               </SubmitButton>
@@ -170,4 +169,5 @@ const SubmitButton = styled(Button)`
   margin: 1rem 0;
   color: #fff;
   background: #ff5200;
+  text-align: center;
 `
