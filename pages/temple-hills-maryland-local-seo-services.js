@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Temple Hills Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Temple Hills, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/temple-hills-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Temple Hills Maryland Local SEO Services',
       description:

@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Annapolis Junction Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Annapolis Junction, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/annapolis-junction-md-local-seo-services',
     openGraph: {
       title: '🏆 Annapolis Junction Maryland Local SEO Services',
       description:

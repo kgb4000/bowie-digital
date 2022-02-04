@@ -15,7 +15,8 @@ export default function LocalSEO() {
     title: "🏆 Prince George's County MD Local SEO Services | Bowie SEO",
     description:
       "We provide SEO services for business in Prince George's County, Maryland. Our local SEO services will get your website to the top of the local search results.",
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical:
+      'https://bowieseo.com/prince-georges-county-md-local-seo-services',
     openGraph: {
       title: "🏆 Prince George's County MD Local SEO Services | Bowie SEO",
       description:

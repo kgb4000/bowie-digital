@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Howard County Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Howard County. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/howard-county-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Howard County Maryland Local SEO Services | Bowie SEO',
       description:

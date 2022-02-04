@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Bowie Maryland Local SEO Services | Bowie SEO',
     description:
       'Bowie SEO is an SEO company for Bowie Maryland small businesses. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/seo-services-company-bowie-maryland',
+    canonical: 'https://bowieseo.com/bowie-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Bowie Maryland Local SEO Services | Bowie SEO',
       description:

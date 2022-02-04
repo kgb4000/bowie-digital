@@ -15,7 +15,8 @@ export default function LocalSEO() {
     title: '🏆 Fort Washington Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Fort Washington, Maryland. Our local SEO services will get your website traffic and more leads.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical:
+      'https://bowieseo.com/fort-washington-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Fort Washington Maryland Local SEO Services',
       description:

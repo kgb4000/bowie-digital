@@ -15,7 +15,8 @@ export default function LocalSEO() {
     title: '🏆 Capitol Heights Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Capitol Heights. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical:
+      'https://bowieseo.com/capitol-heights-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Capitol Heights Maryland Local SEO Services | Bowie SEO',
       description:

@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Greenbelt Maryland Local SEO Company | Bowie SEO',
     description:
       'We provide SEO services for business in Greenbelt Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/greenbelt-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/greenbelt-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Greenbelt Maryland SEO Company | Bowie SEO',
       description:

@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Laurel Maryland Local SEO Services',
     description:
       'We are an SEO services company providing SEO for Laurel Maryland small businesses. Our local SEO services get you more website traffic and customers.',
-    canonical: 'https://bowieseo.com/laurel-maryland-seo-services-company',
+    canonical: 'https://bowieseo.com/laurel-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Laurel Maryland Local SEO Services| Bowie SEO',
       description:

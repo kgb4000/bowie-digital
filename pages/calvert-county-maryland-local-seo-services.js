@@ -15,7 +15,8 @@ export default function LocalSEO() {
     title: '🏆 Calvert County Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Calvert County. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical:
+      'https://bowieseo.com/calvert-county-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Calvert County Maryland Local SEO Services | Bowie SEO',
       description:

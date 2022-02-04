@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Edgewater Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Edgewater, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/edgewater-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Edgewater Maryland Local SEO Services',
       description:

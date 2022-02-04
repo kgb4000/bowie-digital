@@ -16,7 +16,7 @@ export default function LocalSEO() {
     description:
       'We provide SEO services for business in South Laurel Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical:
-      'https://bowieseo.com/south-laurel-maryland-local-seo-services-company',
+      'https://bowieseo.com/south-laurel-maryland-local-local-seo-services',
     openGraph: {
       title: '🏆 South Laurel Maryland Local SEO Services Company  | Bowie SEO',
       description:
