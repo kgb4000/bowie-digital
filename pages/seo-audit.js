@@ -13,13 +13,13 @@ import { NextSeo } from 'next-seo'
 const SEOAudit = () => {
   const SEO = {
     title:
-      "🏆  SEO Audit Services | See What's Stopping Your Website From Getting Traffic",
+      "🏆  SEO Audit Services | What's Stopping Your Website From Getting Traffic",
     description:
       "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
     canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
       title:
-        "🏆  SEO Audit Services | See What's Stopping Your Website From Getting Traffic",
+        "🏆  SEO Audit Services | What's Stopping Your Website From Getting Traffic",
       description:
         "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
       type: 'website',

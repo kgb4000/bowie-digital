@@ -7,8 +7,8 @@ const LocalCities = () => {
       <div className="container">
         <p>We also serve local businesses in:</p>{' '}
         <p>
-          <Link href="/">
-            <a>Annapolis</a>
+          <Link href="/annapolis-junction-md-local-seo-services">
+            <a>Annapolis Junction</a>
           </Link>
           ,{' '}
           <Link href="/beltsville-maryland-local-seo-services">
