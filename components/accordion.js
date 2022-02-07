@@ -76,7 +76,7 @@ const Wrap = styled.div`
 
 const DropDown = styled.div`
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 0;
   display: flex;
   cursor: pointer;
 `
