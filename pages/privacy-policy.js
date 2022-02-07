@@ -16,7 +16,7 @@ export default function Policy() {
       />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <PolicySection>
-        <h1>Privacy Policy</h1>
+        <h1>Privacy Policy | Bowie SEO</h1>
         <p>Last updated: December 31, 2021</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the

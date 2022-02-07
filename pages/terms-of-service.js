@@ -16,7 +16,7 @@ export default function Terms() {
       />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <TermsSection>
-        <h1>Terms and Conditions</h1>
+        <h1>Terms and Conditions | Bowie SEO</h1>
         <p>Last updated: December 31, 2021</p>
         <p>
           Please read these terms and conditions carefully before using Our
