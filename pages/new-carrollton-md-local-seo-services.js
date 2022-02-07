@@ -31,7 +31,7 @@ export default function LocalSEO() {
       <HeroBox
         backgroundHeight="50rem"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
-        heroText="New Carrollton Maryland Local SEO Services"
+        heroText="New Carrollton MD Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"

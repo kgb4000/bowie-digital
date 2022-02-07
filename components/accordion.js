@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import { data } from '../components/lib/data'
-import { FAQPageJsonLd } from 'next-seo'
 
 const Accordion = () => {
   console.log(data)
@@ -21,6 +20,7 @@ const Accordion = () => {
   }
   return (
     <AccordionSection
+      data={data}
       className={isActive ? 'active' : null}
       onClick={toggleClass}
     >

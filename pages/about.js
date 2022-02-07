@@ -13,15 +13,14 @@ import Link from 'next/link'
 
 export default function About() {
   const SEO = {
-    title: 'Bowie SEO',
-    titleTemplate: '%s | Maryland SEO Experts',
+    title: 'About Us',
     description:
-      'Looking for a SEO Expert in Maryland? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+      'We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     canonical: 'https://bowieseo.com/about',
     openGraph: {
-      title: 'Bowie SEO | Maryland SEO Experts',
+      title: 'About Us | Bowie SEO',
       description:
-        'Looking for a SEO Expert in Maryland? We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+        'We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
     },
   }
   return (
@@ -40,8 +39,8 @@ export default function About() {
       <HeroBox
         backgroundHeight="35rem"
         heroText="About Us"
-        subText="Maryland SEO Expert"
-        buttonText="Contact me"
+        subText="About Bowie SEO | Local SEO Company"
+        buttonText="Contact us"
         buttonLink="/contact"
       />
       <Main>
@@ -49,14 +48,21 @@ export default function About() {
           <div className="container">
             <h2>About me</h2>
             <p>Hello, my name is Kester.</p>
-            <p>I am an SEO expert and the Director of SEO at Bowie SEO.</p>
             <p>
-              If you were expecting a big SEO firm or agency, I'm sorry, it's
-              just me.
+              I am an{' '}
+              <Link href="/maryland-seo-expert">
+                <a>SEO expert</a>
+              </Link>{' '}
+              and the Director of SEO at Bowie SEO.
             </p>
             <p>
-              I'm doing all the hard work behind the scenes helping businesses
-              rank higher in the search engines.
+              If you were expecting a big SEO firm or agency, I'm sorry, it's
+              just a small team and I.
+            </p>
+            <p>
+              I'm doing all the hard work behind the scenes to help businesses
+              rank higher in the search engines and get more traffic
+              and customers.
             </p>
             <p>
               I live in Bowie, Maryland, and I specialize in search engine

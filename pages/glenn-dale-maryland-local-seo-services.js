@@ -15,7 +15,7 @@ export default function LocalSEO() {
     title: '🏆 Glenn Dale Maryland Local SEO Company',
     description:
       'We provide SEO services for business in Glenn Dale, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-company',
+    canonical: 'https://bowieseo.com/glenn-dale-maryland-local-seo-services',
     openGraph: {
       title: '🏆 Glenn Dale Maryland Local SEO Company | Bowie SEO',
       description:

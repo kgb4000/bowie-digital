@@ -9,6 +9,7 @@ import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
 import Accordion from '../components/accordion'
+import { data } from '../components/lib/data'
 
 import { DefaultSeo } from 'next-seo'
 
@@ -481,7 +482,7 @@ export default function Home() {
           <h2 className="title">
             FAQ<span className="highlight">s</span>
           </h2>
-          <Accordion />
+          <Accordion data={data} />
         </section>
         <Ready
           h2="Ready to Get More Website Traffic, More Leads, and Increase Revenue with SEO?"
