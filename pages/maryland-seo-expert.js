@@ -156,7 +156,7 @@ const SEOAudit = () => {
               to do your research and find out what sets them apart from other
               professionals in their industry.
             </p>
-            <h4>An SEO agency might be right for your business if:</h4>
+            <h4>An SEO professional might be right for your business if:</h4>
             <p>
               - You don't have staff or budget dedicated specifically toward
               marketing initiatives{' '}

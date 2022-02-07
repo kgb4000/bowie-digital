@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { data } from '../components/lib/data'
 
-const Accordion = () => {
-  console.log(data)
+const Accordion = ({ data }) => {
+  // console.log(data)
 
   const [clicked, setClicked] = useState(false)
   const [isActive, setActive] = useState('')
@@ -18,9 +17,9 @@ const Accordion = () => {
     }
     setClicked(index)
   }
+
   return (
     <AccordionSection
-      data={data}
       className={isActive ? 'active' : null}
       onClick={toggleClass}
     >
