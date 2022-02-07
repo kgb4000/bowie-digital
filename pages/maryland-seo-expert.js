@@ -7,6 +7,7 @@ import HeroBox from '../components/herobox'
 import Ready from '../components/ready-section'
 import Button from '../components/button'
 import ReactPlayer from 'react-player/youtube'
+import LocalCities from '../components/local-cities'
 import Accordion from '../components/accordion'
 import { expertData } from '../components/lib/expert-data'
 
@@ -16,12 +17,12 @@ const SEOAudit = () => {
   const SEO = {
     title: '🏆 Maryland SEO Expert | Bowie SEO',
     description:
-      'Want a Maryland SEo Expert to help increase website traffic, get you more customers and leads? Contact us today!',
+      'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
     openGraph: {
       title: '🏆 Maryland SEO Expert | Bowie SEO',
       description:
-        'Want a Maryland SEo Expert to help increase website traffic, get you more customers and leads? Contact us today!',
+        'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
       type: 'website',
     },
   }
@@ -236,6 +237,7 @@ const SEOAudit = () => {
           h2="Want a Maryland Expert To Help You Get More Traffic and More Leads?"
           p="Please fill out the form below and we'll contact you ASAP."
         />
+        <LocalCities />
       </Main>
     </>
   )

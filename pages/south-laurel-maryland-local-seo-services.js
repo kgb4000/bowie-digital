@@ -12,12 +12,12 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 South Laurel Maryland Local SEO Services Company',
+    title: '🏆 South Laurel Maryland Local SEO Services',
     description:
       'We provide SEO services for business in South Laurel Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/south-laurel-maryland-local-seo-services',
     openGraph: {
-      title: '🏆 South Laurel Maryland Local SEO Services Company  | Bowie SEO',
+      title: '🏆 South Laurel Maryland Local SEO Services',
       description:
         'We provide SEO services for business in South Laurel Maryland Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
@@ -30,7 +30,7 @@ export default function LocalSEO() {
       <HeroBox
         backgroundHeight="45rem"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
-        heroText="South Laurel Maryland Local SEO Services Company"
+        heroText="South Laurel Maryland Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"
