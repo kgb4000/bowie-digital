@@ -15,8 +15,7 @@ export default function LocalSEO() {
     title: '🏆 New Carrollton Maryland Local SEO Services',
     description:
       'We provide SEO services for business in New Carrollton, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical:
-      'https://bowieseo.com/new-carrollton-maryland-local-seo-services',
+    canonical: 'https://bowieseo.com/new-carrollton-md-local-seo-services',
     openGraph: {
       title: '🏆 New Carrollton Local SEO Services | Bowie SEO',
       description:
