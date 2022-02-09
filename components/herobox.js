@@ -62,8 +62,9 @@ const Hero = styled.div`
   }
 
   .content {
-    max-width: 98%;
+    max-width: 95%;
     text-align: center;
+    padding: 0 0.5rem;
     color: #fff;
 
     p {
