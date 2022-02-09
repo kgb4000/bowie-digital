@@ -6,6 +6,7 @@ import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Button from '../components/button'
 import Ready from '../components/ready-section'
+import LocalCites from '../components/local-cities'
 
 import { NextSeo } from 'next-seo'
 
@@ -29,7 +30,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/baltimore-md.webp"
         backgroundPosition="bottom center"
         heroText="Local SEO Services in Maryland"
@@ -647,7 +648,7 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
-            <h2>Cities We Offer Local SEO Services</h2>
+            {/* <h2>Cities We Offer Local SEO Services</h2>
             <ul>
               <li>
                 <Link href="/annapolis-junction-md-local-seo-services">
@@ -761,7 +762,7 @@ export default function LocalSEO() {
             <p>
               We are one of the best Maryland SEO companies offering local
               search engine optimization to Maryland small businesses.
-            </p>
+            </p> */}
 
             <h2>Why Work With Bowie SEO?</h2>
             <p>Bowie SEO is a local SEO company in Maryland.</p>
@@ -827,6 +828,7 @@ export default function LocalSEO() {
           h2="Ready to Get More Traffic, Rank Higher in the Search Engines, and Make More Money For Your Business?"
           p="If you're looking for local SEO services in Maryland,Bowie SEO can help. Please fill out the form so that we can get started."
         />
+        <LocalCites />
       </Main>
     </>
   )

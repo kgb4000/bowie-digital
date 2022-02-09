@@ -21,7 +21,7 @@ export default function Home() {
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       {/* <NavBar buttonLink="/contact" buttonText="Contact me" /> */}
       <HeroBox
-        backgroundHeight="90vh"
+        backgroundHeight="100vh"
         backgroundPosition="center"
         backgroundImage="/images/maryland-seo-company-hero.webp"
         altText="Maryland SEO Company"

@@ -32,7 +32,7 @@ const SEOAudit = () => {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="40rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/seo-audit.webp"
         heroText="Maryland SEO Expert"
         subText="Hire an SEO Expert and Get a ROI. "

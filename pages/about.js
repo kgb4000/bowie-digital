@@ -37,16 +37,16 @@ export default function About() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="100vh"
         heroText="About Us"
-        subText="About Bowie SEO | Local SEO Company"
+        subText="About Bowie SEO"
         buttonText="Contact us"
         buttonLink="/contact"
       />
       <Main>
         <section className="section">
           <div className="container">
-            <h2>About me</h2>
+            <h2>About Us</h2>
             <p>Hello, my name is Kester.</p>
             <p>
               I am an{' '}
@@ -61,8 +61,8 @@ export default function About() {
             </p>
             <p>
               I'm doing all the hard work behind the scenes to help businesses
-              rank higher in the search engines and get more traffic
-              and customers.
+              rank higher in the search engines and get more traffic and
+              customers.
             </p>
             <p>
               I live in Bowie, Maryland, and I specialize in search engine
@@ -100,10 +100,7 @@ export default function About() {
                 </a>
               </Link>
             </div>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
+
             {/* <div className="video-container">
               <div className="player-wrapper">
                 <ReactPlayer
@@ -120,10 +117,6 @@ export default function About() {
               My vision is to help small businesses in Maryland use search
               engine optimization to make more money for their companies.
             </p>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
             <h2>My Mission</h2>
             <p>
               My mission is to help one hundred small businesses in Maryland use
@@ -140,10 +133,6 @@ export default function About() {
               </li>
               <li>Being an asset to my community.</li>
             </ol>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container">
             <h2>Why Work With Me and Bowie SEO</h2>
             <p>
               We are a local business and an active part of the local business
@@ -215,13 +204,14 @@ export default function About() {
               can help your business, fill out the form or give me a call at{' '}
               <a href="tel:1-240-266-0588">(240) 266-0588</a>.
             </p>
-          </div>
-          <div className="btn">
-            <Link href="/contact">
-              <a>
-                <Button>Contatc me &#8594;</Button>
-              </a>
-            </Link>
+
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contatc me &#8594;</Button>
+                </a>
+              </Link>
+            </div>
           </div>
         </section>
         <Ready

@@ -12,12 +12,12 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 Mitchelleville Maryland Local SEO Services',
+    title: '🏆 Mitchellville Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Mitchelleville, Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/mitchellville-maryland-local-seo-services',
     openGraph: {
-      title: '🏆 Mitchelleville Maryland Local SEO Services',
+      title: '🏆 Mitchellville Maryland Local SEO Services',
       description:
         'We provide SEO services for business in Mitchelleville, Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
@@ -28,9 +28,9 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
-        heroText="Mitchelleville Maryland Local SEO Services"
+        heroText="Mitchelleville MD Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."
         buttonText="Contact us"
         buttonLink="/contact"

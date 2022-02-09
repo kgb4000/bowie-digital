@@ -29,7 +29,7 @@ export default function MarylandSEO() {
       <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
       <HeroBox
         backgroundImage="/images/maryland-seo-company.webp"
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundPosition="bottom"
         heroText="Maryland SEO"
         subText="Maryland Search Engine Optimization for Small Businesses"

@@ -28,7 +28,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
         heroText="Beltsville Maryland Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."

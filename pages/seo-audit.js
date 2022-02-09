@@ -31,7 +31,7 @@ const SEOAudit = () => {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="40rem"
         backgroundImage="/images/seo-audit.webp"
         heroText="SEO Audit Services"
         subText="Discover What's Stopping Your Website From Getting Traffic and Fix it!"
