@@ -12,12 +12,12 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 Forestville Maryland Local SEO Services',
+    title: 'Forestville Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Forestville, Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/forestville-maryland-local-seo-services',
     openGraph: {
-      title: '🏆 Forestville Maryland Local SEO Services',
+      title: 'Forestville Maryland Local SEO Services',
       description:
         'We provide SEO services for business in Forestville, Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
@@ -28,7 +28,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
         heroText="Forestville Maryland Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."

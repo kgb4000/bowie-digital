@@ -15,12 +15,12 @@ import { NextSeo } from 'next-seo'
 
 const SEOAudit = () => {
   const SEO = {
-    title: '🏆 Maryland SEO Expert | Bowie SEO',
+    title: 'Maryland SEO Expert | Bowie SEO',
     description:
       'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
     openGraph: {
-      title: '🏆 Maryland SEO Expert | Bowie SEO',
+      title: 'Maryland SEO Expert | Bowie SEO',
       description:
         'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
       type: 'website',

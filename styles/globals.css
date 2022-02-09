@@ -181,7 +181,13 @@ h5 {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
 }
 
 input {

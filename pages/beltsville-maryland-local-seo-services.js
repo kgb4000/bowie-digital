@@ -12,12 +12,12 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 Beltsville Local SEO Services | Bpwie SEO',
+    title: 'Beltsville Local SEO Services | Bpwie SEO',
     description:
       'We provide SEO services for business in Beltsville, Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/beltsville-maryland-local-seo-services',
     openGraph: {
-      title: '🏆 Beltsville Local SEO Services | Bowie SEO',
+      title: 'Beltsville Local SEO Services | Bowie SEO',
       description:
         'We provide SEO services for business in Beltsville, Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],

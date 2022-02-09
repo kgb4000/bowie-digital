@@ -57,7 +57,7 @@ const Hero = styled.div`
   background-position: ${(props) => props.backgroundPosition};
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     text-transform: uppercase;
   }
 

@@ -25,7 +25,7 @@ export default function FreeAudit() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="35rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/free-seo-audit.webp"
         heroText="Free SEO Audit"
         subText="Find out what's holding your website back from ranking higher and

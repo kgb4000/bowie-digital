@@ -12,13 +12,13 @@ import { NextSeo } from 'next-seo'
 
 export default function LocalSEO() {
   const SEO = {
-    title: '🏆 Fort Washington Maryland Local SEO Services',
+    title: 'Fort Washington Maryland Local SEO Services',
     description:
       'We provide SEO services for business in Fort Washington, Maryland. Our local SEO services will get your website traffic and more leads.',
     canonical:
       'https://bowieseo.com/fort-washington-maryland-local-seo-services',
     openGraph: {
-      title: '🏆 Fort Washington Maryland Local SEO Services',
+      title: 'Fort Washington Maryland Local SEO Services',
       description:
         'We provide SEO services for business in Fort Washington, Maryland. Our local SEO services will get your website traffic and more leads.',
       image: [{}],
@@ -29,7 +29,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
       <HeroBox
-        backgroundHeight="50rem"
+        backgroundHeight="100vh"
         backgroundImage="/images/seo-services-company-Laurel-maryland.webp"
         heroText="Fort Washington Maryland Local SEO Services"
         subText="We Get You More Website Traffic, Leads and Customers."
