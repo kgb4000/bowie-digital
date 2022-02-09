@@ -57,14 +57,13 @@ const Hero = styled.div`
   background-position: ${(props) => props.backgroundPosition};
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     text-transform: uppercase;
   }
 
   .content {
-    max-width: 90%;
+    max-width: 98%;
     text-align: center;
-    padding: 0 1rem;
     color: #fff;
 
     p {
