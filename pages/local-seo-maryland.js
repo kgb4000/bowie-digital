@@ -14,11 +14,11 @@ export default function LocalSEO() {
   const SEO = {
     title: 'Local SEO Services in Maryland | Bowie SEO',
     description:
-      'Need SEO services in Greenbelt Maryland? Get more customers, more web traffic, and increase revenue. Contact us today!',
+      'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Local SEO Services in Maryland |Get More Web Traffic',
+      title: 'Local SEO Services in Maryland | Bowie SEO',
       description:
         'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',

@@ -14,12 +14,12 @@ export default function LocalSEO() {
   const SEO = {
     title: 'Mitchellville Maryland Local SEO Services',
     description:
-      'We provide SEO services for business in Mitchelleville, Maryland. Our local SEO services will get your website to the top of the local search results.',
+      'We provide SEO services for business in Mitchellville, Maryland. Our local SEO services will get your website to the top of the local search results.',
     canonical: 'https://bowieseo.com/mitchellville-maryland-local-seo-services',
     openGraph: {
       title: 'Mitchellville Maryland Local SEO Services',
       description:
-        'We provide SEO services for business in Mitchelleville, Maryland. Our local SEO services will get your website to the top of the local search results.',
+        'We provide SEO services for business in Mitchellville, Maryland. Our local SEO services will get your website to the top of the local search results.',
       image: [{}],
     },
   }

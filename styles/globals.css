@@ -60,7 +60,7 @@ ol {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 960px;
   padding: 0 1.4rem;
   margin: 0 auto;
 }
@@ -244,6 +244,10 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+.video-container {
+  max-width: 100%;
+}
+
 footer {
   margin-top: 4rem;
 }
@@ -309,6 +313,7 @@ footer {
 .player-wrapper {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  margin-bottom: 2rem;
 }
 
 .react-player {

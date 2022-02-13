@@ -6,17 +6,15 @@ export default function Policy() {
   return (
     <>
       <NextSeo
-        title="Privacy Policy"
+        title="Privacy Policy | Bowie SEO"
         description="This the privacy policy for Bowie SEO."
         canonical="https://bowieseo.com/privacy-policy"
-        robotsProps={{
-          noindex: true,
-          nofollow: true,
-        }}
+        noindex={true}
+        nofollow={true}
       />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <PolicySection>
-        <h1>Privacy Policy | Bowie SEO</h1>
+        <h1>Privacy Policy</h1>
         <p>Last updated: December 31, 2021</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the

@@ -6,13 +6,11 @@ export default function Terms() {
   return (
     <>
       <NextSeo
-        title="Terms of Service"
+        title="Terms of Service | Bowie SEO"
         description="This Bowie SEO's terms of services."
         canonical="https://bowieseo.com/terms-of-service"
-        robotsProps={{
-          noindex: true,
-          nofollow: true,
-        }}
+        noindex={true}
+        nofollow={true}
       />
       <Header buttontext="Contact me" buttonLink="/contact" />
       <TermsSection>

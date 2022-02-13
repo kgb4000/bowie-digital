@@ -54,7 +54,6 @@ const SEOAudit = () => {
                 height="100%"
               />
             </div> */}
-
             <p>
               With our SEO audit, we get down and inside your website with our
               multi-point audit.

@@ -53,7 +53,23 @@ export default function Footer() {
             latitude: '39.013313',
             longitude: '-76.776924',
           }}
+          priceRange={{}}
           images={['https://bowieseo.com/images/bowie-seo-company.jpeg']}
+          review={[
+            {
+              author: 'Max Payne',
+              datePublished: '2006-05-04',
+              name: 'SEO Audit',
+              reviewBody:
+                'I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood.',
+              reviewRating: {
+                bestRating: '5',
+                worstRating: '1',
+                reviewAspect: 'Ambiance',
+                ratingValue: '4',
+              },
+            },
+          ]}
           openingHours={[
             {
               opens: '09:00',
