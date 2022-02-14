@@ -35,7 +35,7 @@ export default function LocalSEO() {
       <Main>
         <section>
           <div className="solution-container">
-            <h1>Parker Staging Mini SEO Audit</h1>
+            <h3>Parker Staging Mini SEO Audit</h3>
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
