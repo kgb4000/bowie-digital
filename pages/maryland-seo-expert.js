@@ -15,14 +15,14 @@ import { NextSeo } from 'next-seo'
 
 const SEOAudit = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Bowie SEO',
+    title: 'A Maryland SEO Expert That Gets You Results',
     description:
-      'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
+      'Need a Maryland SEO Expert to help increase website traffic, attract more potential customers and make your more money? Contact Bowie SEO today!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
     openGraph: {
-      title: 'Maryland SEO Expert | Bowie SEO',
+      title: 'A Maryland SEO Expert That Gets You Results',
       description:
-        'Want a Maryland SEO Expert to help increase website traffic, get you more customers and leads? Contact us today!',
+        'Need a Maryland SEO Expert to help increase website traffic, attract more potential customers and make your more money? Contact Bowie SEO today!',
       type: 'website',
     },
   }
@@ -30,13 +30,13 @@ const SEOAudit = () => {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Contact us" buttonLink="/contact" />
+      <Header buttontext="Hire an Expert" buttonLink="/contact" />
       <HeroBox
         backgroundHeight="100vh"
         backgroundImage="/images/seo-audit.webp"
         heroText="Maryland SEO Expert"
         subText="Hire an SEO Expert and Get a ROI. "
-        buttonText="Contact us"
+        buttonText="Hire an Expert"
         buttonLink="/contact"
       />
       <Main>
@@ -44,10 +44,17 @@ const SEOAudit = () => {
           <div className="container">
             <h2>Maryland SEO Expert</h2>
             <p>
-              Are you looking for SEO professionals that can help your business
-              rank higher in search engines?
+              Are you worrying about finding more customers for your business?
             </p>
-            <p>Bowie SEO can help.</p>
+            <p>
+              Do you want to boost your website traffic and attract more
+              potential customers?
+            </p>
+            <p>
+              Are you looking for a Maryland SEO expert that can help your
+              business rank higher in search engines?
+            </p>
+            <p>We can help.</p>
             {/* <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
@@ -57,18 +64,12 @@ const SEOAudit = () => {
               />
             </div> */}
             <p>
-              Bowie SEO is an{' '}
-              <Link href="/">
-                <a>SEO company in Maryland</a>
-              </Link>
-              , started by Kester, an SEO professional in Bowie, Maryland.
-            </p>
-            <p>
               Our company can help your business create an SEO strategy that
-              will make your website better, rank higher, reach your potential
-              customers, and help you increase sales.
+              will make your website better, rank higher, attract more potential
+              customers, and help increase your sales and revenue.
             </p>
-            <h2>What is Search Engine Optimization?</h2>
+            <p>But first.</p>
+            <h2>What is SEO?</h2>
             <p>
               Search engine optimization (SEO) is the process of improving your
               website for search engines and users.

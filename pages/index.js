@@ -26,7 +26,7 @@ export default function Home() {
         backgroundImage="/images/maryland-seo-company-hero.webp"
         altText="Maryland SEO Company"
         heroText="We Grow Your Website Traffic"
-        subText="Our Maryland SEO Company can get You More Web Traffic and More Leads"
+        subText="We can get You More Web Traffic and More Leads"
         buttonText="Get a FREE SEO Audit"
         buttonLink="/free-seo-audit"
       />
@@ -69,11 +69,11 @@ export default function Home() {
               you're losing money.
             </h3>
             <h3>And your competitors are stealing your customers.</h3>
-            <h3>I can help you fix that.</h3>
+            <h3>We can help you fix that.</h3>
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact us to find out how!</Button>
+                  <Button>Find out how!</Button>
                 </a>
               </Link>
             </div>
@@ -414,9 +414,12 @@ export default function Home() {
               Local SEO for businesses in Maryland.
             </p>
             <p>
-              We are Maryland SEO experts that only focus on improving your SEO
-              rankings in the major search engines and ensuring that their SEO
-              efforts make them more money.
+              We are{' '}
+              <Link href="/maryland-seo-expert">
+                <a>Maryland SEO experts</a>
+              </Link>{' '}
+              that only focus on improving your SEO rankings in the major search
+              engines and ensuring that their SEO efforts make them more money.
             </p>
             <p>We don't do search marketing.</p>
             <p>All we do is SEO.</p>

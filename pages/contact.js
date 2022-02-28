@@ -49,9 +49,6 @@ export default function Contact() {
         <section className="contact">
           <div className="container">
             <p>
-              I am an <b>SEO expert</b> in Bowie, Maryland.
-            </p>
-            <p>
               If you would like to get in touch with me and learn how search
               engine optimization can help your business, please feel free to
               reach out.

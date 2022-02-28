@@ -17,7 +17,7 @@ export default function Bio({ authorImg, authorBio, shareLink }) {
   return (
     <>
       <BioSection>
-        <div className="container">
+        <div className="solution-container">
           <img src={authorImg} />
           <p>{authorBio}</p>
         </div>
@@ -27,7 +27,7 @@ export default function Bio({ authorImg, authorBio, shareLink }) {
 }
 
 const BioSection = styled.div`
-  max-width: 700px;
+  max-width: 960px;
   padding: 1rem;
   margin: 0 auto;
   margin-top: 3rem;

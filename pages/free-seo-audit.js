@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Main from '../components/main'
 import HeroBox from '../components/herobox'
 import Ready from '../components/ready-section'
+import ReactPlayer from 'react-player/lazy'
 
 import { NextSeo } from 'next-seo'
 
@@ -54,7 +55,24 @@ export default function FreeAudit() {
               order to get your website ranking higher and infront of your ideal
               customers.
             </p>
+            <h3>
+              Check out this Free Mini SEO Audit we did for a home staging
+              company in Maryland.
+            </h3>
           </div>
+          <section>
+            <div className="container">
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player"
+                  url="https://youtu.be/cR27O8br7mM"
+                  width="100%"
+                  height="100%"
+                  controls="true"
+                />
+              </div>
+            </div>
+          </section>
         </section>
         <Ready
           h2="Find Out What's Stopping Your Website From Ranking Higher And Getting More Traffic."

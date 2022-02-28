@@ -40,6 +40,10 @@ export default function LocalSEO() {
           <div className="container">
             <h2>Bowie Maryland Local SEO Services</h2>
             <p>
+              Are you trying to figure out how to use your website to get more
+              customers to do business with you?
+            </p>
+            <p>
               Are you looking for an SEO services company in Bowie, Maryland?
             </p>
             <p>Well, Bowie SEO has SEO services for your business.</p>
@@ -79,7 +83,7 @@ export default function LocalSEO() {
               customers in Bowie and nearby towns, not customers in Dallas,
               Texas.
             </p>
-            <h2>SEO Services</h2>
+            <h2>What We Do to Get You More Customers</h2>
             <p>
               Our search engine optimization services help your business
               increase website traffic and get more leads. These services
@@ -129,8 +133,8 @@ export default function LocalSEO() {
                 <p>
                   We perform on-page SEO checks. We look at and optimize each
                   page on your website and make it better. We check for
-                  everything including keyword canibalization, page speed,
-                  keyword palcement, search intent, etc.
+                  everything including keyword cannibalization, page speed,
+                  keyword placement, search intent, etc.
                 </p>
               </li>
             </ul>

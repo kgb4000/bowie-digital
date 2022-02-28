@@ -7,14 +7,6 @@ const LocalCities = () => {
       <div className="container">
         <p>Cities we offer local SEO services in:</p>{' '}
         <p>
-          <Link href="/annapolis-junction-md-local-seo-services">
-            <a>Annapolis Junction</a>
-          </Link>
-          ,{' '}
-          <Link href="/beltsville-maryland-local-seo-services">
-            <a>Beltsville</a>
-          </Link>
-          ,{' '}
           <Link href="/bowie-maryland-local-seo-services">
             <a>Bowie</a>
           </Link>
@@ -87,10 +79,6 @@ const LocalCities = () => {
             <a>New Carrollton</a>
           </Link>
           ,{' '}
-          <Link href="/odenton-maryland-local-seo-services">
-            <a>Odenton</a>
-          </Link>
-          ,{' '}
           <Link href="/prince-georges-county-md-local-seo-services">
             <a>Prince George's County</a>
           </Link>
@@ -101,10 +89,6 @@ const LocalCities = () => {
           ,{' '}
           <Link href="/south-laurel-maryland-local-seo-services">
             <a>South Laurel</a>
-          </Link>
-          ,{' '}
-          <Link href="/seabrook-maryland-local-seo-services">
-            <a>Seabrook</a>
           </Link>
           ,{' '}
           <Link href="/upper-marlboro-md-local-seo-services">

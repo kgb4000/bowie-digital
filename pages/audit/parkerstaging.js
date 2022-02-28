@@ -42,6 +42,7 @@ export default function LocalSEO() {
                 url="https://youtu.be/cR27O8br7mM"
                 width="100%"
                 height="100%"
+                controls="true"
               />
             </div>
             <h2>More Questions?</h2>

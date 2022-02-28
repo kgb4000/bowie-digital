@@ -12,8 +12,7 @@ export const data = [
 
   {
     question: 'How Long Does SEO Take To Work?',
-    answer:
-      "Local SEO can take three to six months before you start seeing results. How long it takes for Local SEO to work will depend on different factors. Some of these factors include, the age of your website, the strength of your website, the amount of competition in your local area, tour backlink profile, your competitor's backlink profile, the amount of quality content on your website, and your website traffic. It also depends on the strength of your Google My Business page, and the number of reviews you have.",
+    answer: `Local SEO can take three to six months before you start seeing results. How long it takes for Local SEO to work will depend on different factors. Some of these factors include, the age of your website, the strength of your website, the amount of competition in your local area, tour backlink profile, your competitor's backlink profile, the amount of quality content on your website, and your website traffic. It also depends on the strength of your Google My Business page, and the number of reviews you have.`,
   },
   {
     question: 'Why Do I Need SEO For My Business?',

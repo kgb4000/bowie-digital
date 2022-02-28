@@ -77,11 +77,11 @@ export default function LocalSEO() {
               engines and users in your local area.
             </p>
             <p>
-              If you have a business in Prince George's County, Maryland, local
-              SEO improve your website and make it better. It will help you
-              choose better keywords that you will use to target customers in
-              Greenbelt and nearby towns, and also rank higher in the search
-              engines.
+              If you have a business in Prince George's County, Maryland, a
+              local SEO strategy can improve your website and make it better. It
+              will help you choose better keywords that you will use to target
+              customers in PG and other counties, and also rank higher in the
+              search engines.
             </p>
             <h2>Our Prince George's County Local SEO Services</h2>
             <p>
@@ -92,10 +92,10 @@ export default function LocalSEO() {
               <li>
                 <h3>Local SEO</h3>
                 <p>
-                  Get found when customers in South Laurel are searching for
-                  your products or services. When potential customers are
-                  searching, you want your website to appear at the top of
-                  Google map Pack and on the first page of the SERPs.
+                  Get found when customers in Prince George's county are
+                  searching for your products or services. When potential
+                  customers are searching, you want your website to appear at
+                  the top of Google map Pack and on the first page of the SERPs.
                 </p>
               </li>
               <li>
@@ -296,10 +296,10 @@ export default function LocalSEO() {
               reason they rank higher in the search engines.
             </p>
             <h2>Why Choose Bowie SEO for your Local SEO?</h2>
-            <p>Businesses in Greenbelt should work with us because:</p>
+            <p>Businesses in Prince George's should work with us because:</p>
             <ul>
               <li>
-                We are part of the Glenn Dale community and a member of the{' '}
+                We are part of the PG community and a member of the{' '}
                 <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
                   <a>Bowie Chamber of Commerce</a>
                 </Link>

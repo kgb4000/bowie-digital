@@ -13,14 +13,14 @@ import Link from 'next/link'
 
 export default function About() {
   const SEO = {
-    title: 'About Us',
+    title: 'About Us | Bowie SEO',
     description:
-      'We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+      'We specialize in SEO and Local SEO to get you more website traffic, leads and customers. Contact us today!',
     canonical: 'https://bowieseo.com/about',
     openGraph: {
       title: 'About Us | Bowie SEO',
       description:
-        'We specialize in SEO and Local SEO to get you more traffic, leads and customers. Contact me today!',
+        'We specialize in SEO and Local SEO to get you more website traffic, leads and customers. Contact us today!',
     },
   }
   return (
@@ -47,39 +47,35 @@ export default function About() {
         <section className="section">
           <div className="container">
             <h2>About Us</h2>
-            <p>Hello, my name is Kester.</p>
+            <p>We are Bowie SEO.</p>
             <p>
-              I am an{' '}
+              We are{' '}
               <Link href="/maryland-seo-expert">
-                <a>SEO expert</a>
+                <a>SEO experts</a>
               </Link>{' '}
-              and the Director of SEO at Bowie SEO.
+              from Bowie, Maryland.
             </p>
             <p>
-              If you were expecting a big SEO firm or agency, I'm sorry, it's
-              just a small team and I.
+              If you were expecting a big SEO firm or agency, we're sorry, we're
+              just a small team.
             </p>
             <p>
-              I'm doing all the hard work behind the scenes to help businesses
-              rank higher in the search engines and get more traffic and
-              customers.
+              We're doing all the hard work behind the scenes to help businesses
+              like yours rank higher, get more traffic, more customers, and make
+              more money.
             </p>
             <p>
-              I live in Bowie, Maryland, and I specialize in search engine
-              optimization.
-            </p>
-            <p>
-              I help Maryland businesses improve their organic rankings by
+              We help Maryland businesses improve their organic rankings by
               auditing and correcting harmful technical, on-page, and off-page
-              issues on their website.
+              SEO issues.
             </p>
             <p>
-              I find the issues stopping your site from ranking higher and
+              We find the issues stopping your site from ranking higher and
               getting leads, and I also fix the problems.
             </p>
             <p>
-              I create an action plan to fix the problems that are stopping your
-              website from performing better in the search results.
+              We create an action plan to fix the problems that are stopping
+              your website from performing better in the search results.
             </p>
             <p>
               I pride myself on delivering actual results with tangible
@@ -96,7 +92,7 @@ export default function About() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me &#8594;</Button>
+                  <Button>Contact us</Button>
                 </a>
               </Link>
             </div>
@@ -112,15 +108,15 @@ export default function About() {
               </div>
             </div> */}
 
-            <h2>My Vision</h2>
+            <h2>Our Vision</h2>
             <p>
-              My vision is to help small businesses in Maryland use search
+              Our vision is to help small businesses in Maryland use search
               engine optimization to make more money for their companies.
             </p>
-            <h2>My Mission</h2>
+            <h2>Our Mission</h2>
             <p>
-              My mission is to help one hundred small businesses in Maryland use
-              search engine optimization. I will do this by:
+              Our mission is to help one hundred small businesses in Maryland
+              use search engine optimization. I will do this by:
             </p>
             <ol>
               <li>Teaching small businesses about SEO.</li>
@@ -133,7 +129,7 @@ export default function About() {
               </li>
               <li>Being an asset to my community.</li>
             </ol>
-            <h2>Why Work With Me and Bowie SEO</h2>
+            <h2>Why Work With Bowie SEO</h2>
             <p>
               We are a local business and an active part of the local business
               community. I want to help small business owners in our community
@@ -149,7 +145,7 @@ export default function About() {
               our customers the best results.
             </p>
 
-            <p>When you work with me and Bowie SEO, you get:</p>
+            <p>When you work with me Bowie SEO, you get:</p>
             <ul>
               <li>
                 An{' '}
@@ -188,9 +184,17 @@ export default function About() {
               <li>Interior designers</li>
               <li>Construction companies</li>
               <li>Pain Management companies</li>
-              <li>General Contractors</li>
+              <li>
+                <Link href="/contractor-seo">
+                  <a>General Contractors</a>
+                </Link>
+              </li>
               <li>Plumbers</li>
-              <li>Lawyers</li>
+              <li>
+                <Link href="/low-competition-keywords-for-divorce-and-family-lawyers">
+                  <a>Lawyers</a>
+                </Link>
+              </li>
               <li>HVAC Contractors</li>
               <li>Pool Builders</li>
               <li>Roofers</li>
@@ -208,7 +212,7 @@ export default function About() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contatc me &#8594;</Button>
+                  <Button>Contact us</Button>
                 </a>
               </Link>
             </div>
@@ -216,7 +220,7 @@ export default function About() {
         </section>
         <Ready
           h2="Do You Want to, Get More Traffic, Rank Higher in the Search Engines, Get More Leads, and Increase Revenue For Your Business?"
-          p="Please fill out the form, and I'll show you how Bowie SEO can help your business get more web traffic, rank higher, get more leads, and make more money!"
+          p="Please fill out the form, and we'll show you how Bowie SEO can help your business get more web traffic, rank higher, get more leads, and make more money!"
         />
       </Main>
     </>

@@ -449,32 +449,34 @@ export default function LocalSEO() {
               <li>Local bloggers</li>
               <li>Other local businesses</li>
             </ul>
+            <p>Here in Bowie, Maryland, small businesses can join the:</p>
+            <ul>
+              <li>
+                {' '}
+                <a
+                  href="https://bowiechamber.org/"
+                  target="_blank"
+                  rel="noreffer"
+                >
+                  Bowie Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a href="https://pgcoc.org//" target="_blank" rel="noreffer">
+                  Prince George's Chamber of Commerce
+                </a>
+              </li>
+              <li>
+                {' '}
+                <a href="https://mdchamber.org/" target="_blank" rel="noreffer">
+                  Maryland Chamber of Commerce
+                </a>
+              </li>
+            </ul>
             <p>
-              Here in Bowie, Maryland, small businesses should join the{' '}
-              <a
-                href="https://bowiechamber.org/"
-                target="_blank"
-                rel="noreffer"
-              >
-                Maryland Chamber of Commerce
-              </a>
-              , the{' '}
-              <a
-                href="https://bowiechamber.org/"
-                target="_blank"
-                rel="noreffer"
-              >
-                Bowie Chamber of Commerce
-              </a>
-              , or the{' '}
-              <a href="https://pgcoc.org//" target="_blank" rel="noreffer">
-                Prince George's Chamber of Commerce
-              </a>
-              .
-            </p>
-            <p>
-              Other local area chamber of commerce organizations In Maryland
-              include:
+              Other local area chamber of commerce organizations in Maryland
+              include the:
             </p>
             <ul>
               <li>
