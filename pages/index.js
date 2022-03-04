@@ -255,20 +255,20 @@ export default function Home() {
             </HelpHow>
             <p>More reasons are:</p>
             <h3>
-              You Get More <span className="highlight">Website Traffic</span>
+              #8 You Get More <span className="highlight">Website Traffic</span>
             </h3>
             <p>
               Starting an SEO strategy is one of the best decisions you will
               make for your business. Your business will move up in the search
               engine rankings, and you will get more website traffic.{' '}
             </p>
-            <h3>Increase Your Online Visibility</h3>
+            <h3>#9 Increase Your Online Visibility</h3>
             <p>
               Get Found and be seen by more people searching for your products
               and services.
             </p>
             <h3>
-              <span className="highlight">Rank Higher</span> in the Search
+              #10 <span className="highlight">Rank Higher</span> in the Search
               Engines
             </h3>
             <p>
@@ -277,14 +277,14 @@ export default function Home() {
               more people will see and recognize your brand. Appearing higher in
               the search results.
             </p>
-            <h3>Reach Your Target Market</h3>
+            <h3>#11 Reach Your Target Market</h3>
             <p>
               Potential customers find your business because you use search
               engine optimization and perform keyword research to reach your
               target audience.
             </p>
             <h3>
-              Outrank Your <span className="highlight">Competitors</span>
+              #12 Outrank Your <span className="highlight">Competitors</span>
             </h3>
             <p>
               Search engine optimization makes your website better for search
@@ -294,7 +294,7 @@ export default function Home() {
               and do more online business.{' '}
             </p>
             <h3>
-              Spend <span className="highlight">Less Money</span> on Digital
+              #13 Spend <span className="highlight">Less Money</span> on Digital
               Marketing
             </h3>
             <p>

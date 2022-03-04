@@ -60,19 +60,17 @@ export default function FreeAudit() {
               company in Maryland.
             </h3>
           </div>
-          <section>
-            <div className="container">
-              <div className="player-wrapper">
-                <ReactPlayer
-                  className="react-player"
-                  url="https://youtu.be/cR27O8br7mM"
-                  width="100%"
-                  height="100%"
-                  controls="true"
-                />
-              </div>
+          <div className="container">
+            <div className="player-wrapper">
+              <ReactPlayer
+                className="react-player"
+                url="https://youtu.be/cR27O8br7mM"
+                width="100%"
+                height="100%"
+                controls={true}
+              />
             </div>
-          </section>
+          </div>
         </section>
         <Ready
           h2="Find Out What's Stopping Your Website From Ranking Higher And Getting More Traffic."

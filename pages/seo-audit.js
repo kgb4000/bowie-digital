@@ -74,7 +74,13 @@ const SEOAudit = () => {
               The goal is to help you get more leads, more customers, and make
               more money for your business.
             </p>
-
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us</Button>
+                </a>
+              </Link>
+            </div>
             <h2>What is an SEO Audit?</h2>
             <p>
               An SEO audit evaluates your entire website to see if it can appear
@@ -114,6 +120,13 @@ const SEOAudit = () => {
               website, it will not show you how to fix them.
             </p>
             <p>We can fix the issues with your website.</p>
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us</Button>
+                </a>
+              </Link>
+            </div>
             <h2>Benefits of an SEO Audit</h2>
             <ol>
               <li>
@@ -230,6 +243,13 @@ const SEOAudit = () => {
               <li>Schema markup</li>
               <li>Plus more</li>
             </ol>
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us</Button>
+                </a>
+              </Link>
+            </div>
             <h2>
               What Should You Do After You Get The Results From Your SEO Audit?
             </h2>
@@ -262,6 +282,13 @@ const SEOAudit = () => {
               We want your business to prosper, and an SEO specialist, I’ll do
               whatever we can do to help you be successful.
             </p>
+          </div>
+          <div className="btn">
+            <Link href="/contact">
+              <a>
+                <Button>Contact us</Button>
+              </a>
+            </Link>
           </div>
         </section>
         <Ready

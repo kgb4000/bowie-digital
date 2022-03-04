@@ -7,6 +7,10 @@ const LocalCities = () => {
       <div className="container">
         <p>Cities we offer local SEO services in:</p>{' '}
         <p>
+          <Link href="/annapolis-junction-md-local-seo-services">
+            <a>Annapolis Junction</a>
+          </Link>
+          ,{' '}
           <Link href="/bowie-maryland-local-seo-services">
             <a>Bowie</a>
           </Link>

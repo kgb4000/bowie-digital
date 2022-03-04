@@ -79,13 +79,12 @@ export default function LocalSEO() {
             </p>
             <p>But first, what is local SEO?</p>
             <div className="btn">
-              <Link href="/about">
+              <Link href="/contact">
                 <a>
-                  <Button>More about us</Button>
+                  <Button>Contact us</Button>
                 </a>
               </Link>
             </div>
-
             <h2>What is Local SEO?</h2>
             <p>
               Local SEO is the process of improving your website for users,
@@ -110,7 +109,6 @@ export default function LocalSEO() {
               show up in the search engine results when people search for
               products and services you offer.
             </p>
-
             <h2>What is the Difference Between Local SEO and SEO?</h2>
             <p>
               You've heard the terms SEO and Local SEO, but what is the
@@ -128,7 +126,13 @@ export default function LocalSEO() {
               restaurants, mechanics, plumbers, dentists, and lawyers in your
               local area are more likely to use Local SEO.
             </p>
-
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us</Button>
+                </a>
+              </Link>
+            </div>
             <h2>
               Why is Local Search Engine Optimization Important For Maryland
               Small Businesses?
@@ -650,6 +654,13 @@ export default function LocalSEO() {
               <li>The strength of your Google Business profile</li>
               <li>The number of reviews on your website</li>
             </ul>
+            <div className="btn">
+              <Link href="/contact">
+                <a>
+                  <Button>Contact us</Button>
+                </a>
+              </Link>
+            </div>
             {/* <h2>Cities We Offer Local SEO Services</h2>
             <ul>
               <li>
@@ -820,7 +831,7 @@ export default function LocalSEO() {
             <div className="btn">
               <Link href="/contact">
                 <a>
-                  <Button>Contact me &#8594;</Button>
+                  <Button>Contact us</Button>
                 </a>
               </Link>
             </div>
