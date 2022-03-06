@@ -63,14 +63,8 @@ export default function Header({ buttontext, buttonLink }) {
         <div className="menu-btn" onClick={handleClick}>
           {click ? noBar : Bar}
         </div>
-
         <nav className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav">
-            <li>
-              <Link href="/blog">
-                <a>Blog</a>
-              </Link>
-            </li>
             <li
               className="nav-item"
               onMouseEnter={onMouseEnter}
@@ -80,6 +74,16 @@ export default function Header({ buttontext, buttonLink }) {
                 <a className="textnav">Services</a>
               </Link>
               {dropdown && <Dropdown />}
+            </li>
+            <li>
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link href={buttonLink}>

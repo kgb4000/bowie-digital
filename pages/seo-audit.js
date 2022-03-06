@@ -12,14 +12,12 @@ import { NextSeo } from 'next-seo'
 
 const SEOAudit = () => {
   const SEO = {
-    title:
-      "SEO Audit Services | What's Stopping Your Website From Getting Traffic",
+    title: "SEO Audit | What's Stopping Your Website From Getting Traffic",
     description:
       "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
     canonical: 'https://bowieseo.com/seo-audit',
     openGraph: {
-      title:
-        "SEO Audit Services | What's Stopping Your Website From Getting Traffic",
+      title: "SEO Audit | What's Stopping Your Website From Getting Traffic",
       description:
         "Get SEO Audit services. See  what's stopping your website from getting traffic, generating leads, and bringing you more business. Contact us today!",
       type: 'website',
@@ -33,7 +31,7 @@ const SEOAudit = () => {
       <HeroBox
         backgroundHeight="100vh"
         backgroundImage="/images/seo-audit.webp"
-        heroText="SEO Audit Services"
+        heroText="SEO Audit"
         subText="Discover What's Stopping Your Website From Getting Traffic and Fix it!"
         buttonText="Contact us"
         buttonLink="/contact"
@@ -41,8 +39,8 @@ const SEOAudit = () => {
       <Main>
         <section>
           <div className="container">
-            <h2>SEO Audit Services</h2>
-            <p>Bowie SEO provides SEO audit services in Maryland.</p>
+            <h2>SEO Audit</h2>
+            <p>Bowie SEO provides SEO audit services to Maryland businesses.</p>
             <p>
               We don't do a regular ordinary SEO audit. We do a Bowie SEO Audit.
             </p>

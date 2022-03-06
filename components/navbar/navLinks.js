@@ -92,21 +92,6 @@ export default function NavLinks() {
             <a>Blog</a>
           </StyledLink>
         </LinkItem>
-        {/* <LinkItem className="nav-item">
-          <StyledLink href="/maryland-seo" className="nav-links">
-            <a>SEO</a>
-          </StyledLink>
-        </LinkItem>
-        <LinkItem>
-          <StyledLink href="#" className="nav-links">
-            <a>Local SEO</a>
-          </StyledLink>
-        </LinkItem>
-        <LinkItem>
-          <StyledLink href="#" className="nav-links">
-            <a>SEO Audit</a>
-          </StyledLink>
-        </LinkItem> */}
       </LinksWrapper>
     </NavLinksContainer>
   )
