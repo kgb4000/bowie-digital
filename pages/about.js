@@ -78,7 +78,7 @@ export default function About() {
               your website from performing better in the search results.
             </p>
             <p>
-              I pride myself on delivering actual results with tangible
+              We take pride pride in delivering actual results with tangible
               improvements in organic traffic for my clients.
             </p>
             <p>
@@ -86,7 +86,7 @@ export default function About() {
               business.
             </p>
             <p>
-              Contact me today if you want to outrank your competitors, get more
+              Contact us today if you want to outrank your competitors, get more
               leads, and make more money in your business.
             </p>
             <div className="btn">
@@ -141,8 +141,8 @@ export default function About() {
               grows, the entire community grows, and that's want I want.
             </p>
             <p>
-              I believe in doing search engine optimization the right way to get
-              our customers the best results.
+              We believe in doing search engine optimization the right way to
+              get our customers the best results.
             </p>
 
             <p>When you work with me Bowie SEO, you get:</p>
@@ -167,17 +167,12 @@ export default function About() {
               </li>
               <li>
                 A company that works with one business per industry in our area.
-                If we work with a roofer in Bowie, we will not work with another
-                roofer in Bowie or within 30 miles of your territory.
+                If we work with a lawyer in Bowie, we will not work with another
+                lawyer in Bowie or within 30 miles of your territory.
               </li>
               <li>Weekly updates and monthly reports.</li>
               <li>An SEO company that cares about your business.</li>
             </ul>
-            <p>
-              I don't offer SEO packages because every business has different
-              needs. We, therefore, create a custom SEO strategy for your
-              business.
-            </p>
             <h2>Small Businesses I am Proud to Work With</h2>
             <ul>
               <li>Chiropractors</li>
@@ -205,7 +200,7 @@ export default function About() {
             </ul>
             <p>
               If you have a small business in Maryland and want to see how SEO
-              can help your business, fill out the form or give me a call at{' '}
+              can help your business, fill out the form or give us a call at{' '}
               <a href="tel:1-240-266-0588">(240) 266-0588</a>.
             </p>
 

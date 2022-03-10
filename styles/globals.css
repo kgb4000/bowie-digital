@@ -26,6 +26,10 @@ img {
   margin: 1rem 0;
 }
 
+.thick {
+  text-decoration: solid underline #ff5200 4px;
+}
+
 a {
   color: #ff5200;
   text-decoration: none;
