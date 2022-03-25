@@ -17,6 +17,7 @@ const Button = styled.div`
     0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   display: inline-block;
+  white-space: nowrap;
 
   &:hover {
     border-color: #d55e0f;

@@ -8,6 +8,7 @@ import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
 import Bio from '../components/author-bio'
 import { ShareBtn } from '../components/share-btn'
+import Layout from '../components/layout'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -40,10 +41,10 @@ export default function Articles({ post, shareLink }) {
     openGraph: {
       type: 'article',
       description: post.excerpt,
-      article: {
-        publishedTime: post.date,
-        authors: [`https://www.example.com/authors/@${post.author.name}`],
-      },
+      // article: {
+      //   publishedTime: post.date,
+      //   authors: [`https://www.example.com/authors/@${post.author.name}`],
+      // },
       images: [
         {
           url: post.coverImage.url,
@@ -74,25 +75,30 @@ export default function Articles({ post, shareLink }) {
 
       <NextSeo {...SEO} />
       <Header buttontext="Contact us" buttonLink="/contact" />
-      <BlogHeroBox
-        backgroundHeight="60rem"
-        coverImage={post.coverImage.url}
-        heroText={post.postTitle}
-        date={new Date(post.date).toLocaleDateString('en-us', {
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-        })}
-        author={post.author.name}
-        shareLink={`https://bowieseo.com/${post.slug}`}
-      />
-      <Main>
-        <div className="container">
-          <RichText content={post.content.json} />
-          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
-          <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
-        </div>
-      </Main>
+      <Layout>
+        <BlogHeroBox
+          backgroundHeight="60rem"
+          coverImage={post.coverImage.url}
+          heroText={post.postTitle}
+          date={new Date(post.date).toLocaleDateString('en-us', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+          })}
+          author={post.author.name}
+          shareLink={`https://bowieseo.com/${post.slug}`}
+        />
+        <Main>
+          <div className="container">
+            <RichText content={post.content.json} />
+            <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+            <Bio
+              authorImg={post.author.photo.url}
+              authorBio={post.author.bio}
+            />
+          </div>
+        </Main>
+      </Layout>
     </>
   )
 }

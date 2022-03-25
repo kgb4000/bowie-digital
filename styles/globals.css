@@ -329,3 +329,14 @@ footer {
 footer {
   background: #101010;
 }
+
+.outreach-footer {
+  padding: 2rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.competitors {
+  margin: 2rem 0;
+}

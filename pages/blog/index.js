@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Header from '../../components/header'
-import HeroBox from '../../components/herobox'
 import Main from '../../components/main'
 import styled from 'styled-components'
 import { getPosts } from '../../lib/data'
 import { BlogJsonLd, NextSeo } from 'next-seo'
+import Layout from '../../components/layout'
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -33,36 +33,38 @@ export default function Blog({ data }) {
   return (
     <>
       <NextSeo {...SEO} />
-      <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
-      <BlogMain>
-        <div className="blog-container">
-          <h1>SEO Blog</h1>
-          <BlogJsonLd
-            url="https://bowieseo.com/blog"
-            title="Blog"
-            images={[]}
-            authorName="Kester Browne"
-            description="This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization."
-          />
-          {data.posts.map((post) => (
-            <div key={post.slug}>
-              <div className="blog-posts">
-                <img src={post.coverImage.url} alt={post.title} />
-                <div className="blog-info">
-                  <Link href={`/${post.slug}`}>
-                    <a>
-                      <h2>{post.postTitle}</h2>
-                    </a>
-                  </Link>
-                  <Link href={`/${post.slug}`}>
-                    <a>Read more</a>
-                  </Link>
+      <Layout>
+        <Header buttontext="Free SEO Audit" buttonLink="/free-seo-audit" />
+        <BlogMain>
+          <div className="blog-container">
+            <h1>SEO Blog</h1>
+            <BlogJsonLd
+              url="https://bowieseo.com/blog"
+              title="Blog"
+              images={[]}
+              authorName="Kester Browne"
+              description="This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization."
+            />
+            {data.posts.map((post) => (
+              <div key={post.slug}>
+                <div className="blog-posts">
+                  <img src={post.coverImage.url} alt={post.title} />
+                  <div className="blog-info">
+                    <Link href={`/${post.slug}`}>
+                      <a>
+                        <h2>{post.postTitle}</h2>
+                      </a>
+                    </Link>
+                    <Link href={`/${post.slug}`}>
+                      <a>Read more</a>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </BlogMain>
+            ))}
+          </div>
+        </BlogMain>
+      </Layout>
     </>
   )
 }

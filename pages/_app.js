@@ -16,7 +16,6 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
-      <Footer />
     </>
   )
 }
