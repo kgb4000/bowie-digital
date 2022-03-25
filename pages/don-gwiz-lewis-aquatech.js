@@ -9,10 +9,10 @@ import { NextSeo } from 'next-seo'
 
 export default function DonGwiz() {
   const SEO = {
-    title: 'Lewis Aquatech',
+    title: 'Lewis Aquatech Opportunities',
     description:
       'We provide SEO services for business in Annapolis Junction, Maryland. Our local SEO services will get your website to the top of the local search results.',
-    canonical: 'https://bowieseo.com/audit/parkerstaging',
+    canonical: 'https://bowieseo.com/don-gwiz-lewis-aquatech',
   }
   return (
     <>
