@@ -39,10 +39,14 @@ export default function DonGwiz() {
         <section>
           <div className="solution-container">
             <h3>Lewis Aquatech Opportunities</h3>
+            <p>
+              This video is set to private, only people with this link can see
+              the video.
+            </p>
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
-                url="https://youtu.be/cR27O8br7mM"
+                url="https://youtu.be/Uou26FwD5no"
                 width="100%"
                 height="100%"
                 controls="true"
